@@ -196,39 +196,53 @@ try:
     for t in T:
         for k in K:
             m.addConstr(quicksum(y[s, t, k] for s in S) + b[t, k] == quicksum(y[s, 1, k] for s in S) + b[1, k], "c7")
+    print "Added Constraint 7"
 
     # Add Constraint (8)
     for s in S:
         for t in T:
             for k in K:
-                newVar1 = m.addVar(name="newvar1")
-                m.addGenConstrAbs(newVar1, y[s, t, k] - y[s, t - 1, k])
-                m.addConstr(newVar <= gamma * x[s, t, k], "c8")
-                # m.addConstr(abs(y[s, t, k] - y[s, t - 1, k]) <= gamma * x[s, t, k], "c8")
+                #print "t: ", t
+                if t != 0:  # t-1 doesn't work if t=0
+                    newVar1 = m.addVar(name="newVar1")
+                    newVar2 = m.addVar(name="newVar2")
+                    #print "created newVar1 & newVar2"
+                    m.addConstr(newVar1 == y[s,t,k] - y[s,t,k]) #dummy variable 1
+                    m.addGenConstrAbs(newVar2, newVar1) #newVar2 == abs(newVar1)
+                    m.addConstr(newVar2 <= gamma * x[s, t, k], "c8")
+
+                    #m.addConstr(abs_(y[s, t, k] - y[s, t - 1, k]) <= gamma * x[s, t, k], "c8")
+    print "Added Constraint 8"
 
     # Add Constraint (9)
     for s in S:
         for t in T:
             for k in K:
-                newVar2 = m.addVar(name="newvar2")
-                newVar3 = m.addVar(name="newvar3")
-                m.addGenConstrAbs(newVar2, y[s, t, k] - y[s, t - 1, k])
-                m.addGenConstrAbs(newVar3, x[s, t, k] - x[s, t - 1, k])
+                newVar3 = m.addVar(name="newVar3")
+                newVar4 = m.addVar(name="newVar4")
+                newVar5 = m.addVar(name="newVar5")
+                newVar6 = m.addVar(name="newVar6")
+                m.addConstr(newVar3 == y[s, t, k] - y[s, t - 1, k])  # dummy variable 1
+                m.addConstr(newVar4 == x[s, t, k] - x[s, t - 1, k])  # dummy variable 2
+                m.addGenConstrAbs(newVar5, newVar3)  # newVar5 == abs(newVar3)
+                m.addGenConstrAbs(newVar6, newVar4)  # newVar6 == abs(newVar4)
 
-                m.addConstr(newVar2 + gamma * newVar3 <= gamma, "c9")
+
+                m.addConstr(newVar5 + gamma * newVar6 <= gamma, "c9")
+    print "Added Constraint 9"
 
     print "Added all constraints"
     # Optimize model
     m.optimize()
 
-    print "Optimized model"
+    #print "Optimized model"
 
     # WAY too many vars to print them all (from example code)
     # for v in m.getVars():
     #    print('%s %g' % (v.varName, v.x))
 
     # Print Objective Model
-    print('Obj: %g' % m.objVal)
+    #print('Obj: %g' % m.objVal)
 
 except GurobiError as e:
     print('Error code ' + str(e.errno) + ": " + str(e))
