@@ -12192,6136 +12192,5332 @@ Subject To
    - 13 x[UMass_Central_Residential_Area,47,2] + newVar2 <= 0
  R5038: - y[Amherst_Town_Hall,0,0] + newVar3 = 0
  R5039: - x[Amherst_Town_Hall,0,0] + newVar4 = 0
- c9[Amherst_Town_Hall,0,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,0,0]: newVar5 + 13 newVar6 <= 13
  R5041: - y[Amherst_Town_Hall,0,1] + newVar3 = 0
  R5042: - x[Amherst_Town_Hall,0,1] + newVar4 = 0
- c9[Amherst_Town_Hall,0,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,0,1]: newVar5 + 13 newVar6 <= 13
  R5044: - y[Amherst_Town_Hall,0,2] + newVar3 = 0
  R5045: - x[Amherst_Town_Hall,0,2] + newVar4 = 0
- c9[Amherst_Town_Hall,0,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,0,2]: newVar5 + 13 newVar6 <= 13
  R5047: y[Amherst_Town_Hall,0,0] - y[Amherst_Town_Hall,1,0] + newVar3 = 0
  R5048: x[Amherst_Town_Hall,0,0] - x[Amherst_Town_Hall,1,0] + newVar4 = 0
- c9[Amherst_Town_Hall,1,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,1,0]: newVar5 + 13 newVar6 <= 13
  R5050: y[Amherst_Town_Hall,0,1] - y[Amherst_Town_Hall,1,1] + newVar3 = 0
  R5051: x[Amherst_Town_Hall,0,1] - x[Amherst_Town_Hall,1,1] + newVar4 = 0
- c9[Amherst_Town_Hall,1,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,1,1]: newVar5 + 13 newVar6 <= 13
  R5053: y[Amherst_Town_Hall,0,2] - y[Amherst_Town_Hall,1,2] + newVar3 = 0
  R5054: x[Amherst_Town_Hall,0,2] - x[Amherst_Town_Hall,1,2] + newVar4 = 0
- c9[Amherst_Town_Hall,1,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,1,2]: newVar5 + 13 newVar6 <= 13
  R5056: y[Amherst_Town_Hall,1,0] - y[Amherst_Town_Hall,2,0] + newVar3 = 0
  R5057: x[Amherst_Town_Hall,1,0] - x[Amherst_Town_Hall,2,0] + newVar4 = 0
- c9[Amherst_Town_Hall,2,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,2,0]: newVar5 + 13 newVar6 <= 13
  R5059: y[Amherst_Town_Hall,1,1] - y[Amherst_Town_Hall,2,1] + newVar3 = 0
  R5060: x[Amherst_Town_Hall,1,1] - x[Amherst_Town_Hall,2,1] + newVar4 = 0
- c9[Amherst_Town_Hall,2,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,2,1]: newVar5 + 13 newVar6 <= 13
  R5062: y[Amherst_Town_Hall,1,2] - y[Amherst_Town_Hall,2,2] + newVar3 = 0
  R5063: x[Amherst_Town_Hall,1,2] - x[Amherst_Town_Hall,2,2] + newVar4 = 0
- c9[Amherst_Town_Hall,2,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,2,2]: newVar5 + 13 newVar6 <= 13
  R5065: y[Amherst_Town_Hall,2,0] - y[Amherst_Town_Hall,3,0] + newVar3 = 0
  R5066: x[Amherst_Town_Hall,2,0] - x[Amherst_Town_Hall,3,0] + newVar4 = 0
- c9[Amherst_Town_Hall,3,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,3,0]: newVar5 + 13 newVar6 <= 13
  R5068: y[Amherst_Town_Hall,2,1] - y[Amherst_Town_Hall,3,1] + newVar3 = 0
  R5069: x[Amherst_Town_Hall,2,1] - x[Amherst_Town_Hall,3,1] + newVar4 = 0
- c9[Amherst_Town_Hall,3,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,3,1]: newVar5 + 13 newVar6 <= 13
  R5071: y[Amherst_Town_Hall,2,2] - y[Amherst_Town_Hall,3,2] + newVar3 = 0
  R5072: x[Amherst_Town_Hall,2,2] - x[Amherst_Town_Hall,3,2] + newVar4 = 0
- c9[Amherst_Town_Hall,3,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,3,2]: newVar5 + 13 newVar6 <= 13
  R5074: y[Amherst_Town_Hall,3,0] - y[Amherst_Town_Hall,4,0] + newVar3 = 0
  R5075: x[Amherst_Town_Hall,3,0] - x[Amherst_Town_Hall,4,0] + newVar4 = 0
- c9[Amherst_Town_Hall,4,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,4,0]: newVar5 + 13 newVar6 <= 13
  R5077: y[Amherst_Town_Hall,3,1] - y[Amherst_Town_Hall,4,1] + newVar3 = 0
  R5078: x[Amherst_Town_Hall,3,1] - x[Amherst_Town_Hall,4,1] + newVar4 = 0
- c9[Amherst_Town_Hall,4,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,4,1]: newVar5 + 13 newVar6 <= 13
  R5080: y[Amherst_Town_Hall,3,2] - y[Amherst_Town_Hall,4,2] + newVar3 = 0
  R5081: x[Amherst_Town_Hall,3,2] - x[Amherst_Town_Hall,4,2] + newVar4 = 0
- c9[Amherst_Town_Hall,4,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,4,2]: newVar5 + 13 newVar6 <= 13
  R5083: y[Amherst_Town_Hall,4,0] - y[Amherst_Town_Hall,5,0] + newVar3 = 0
  R5084: x[Amherst_Town_Hall,4,0] - x[Amherst_Town_Hall,5,0] + newVar4 = 0
- c9[Amherst_Town_Hall,5,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,5,0]: newVar5 + 13 newVar6 <= 13
  R5086: y[Amherst_Town_Hall,4,1] - y[Amherst_Town_Hall,5,1] + newVar3 = 0
  R5087: x[Amherst_Town_Hall,4,1] - x[Amherst_Town_Hall,5,1] + newVar4 = 0
- c9[Amherst_Town_Hall,5,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,5,1]: newVar5 + 13 newVar6 <= 13
  R5089: y[Amherst_Town_Hall,4,2] - y[Amherst_Town_Hall,5,2] + newVar3 = 0
  R5090: x[Amherst_Town_Hall,4,2] - x[Amherst_Town_Hall,5,2] + newVar4 = 0
- c9[Amherst_Town_Hall,5,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,5,2]: newVar5 + 13 newVar6 <= 13
  R5092: y[Amherst_Town_Hall,5,0] - y[Amherst_Town_Hall,6,0] + newVar3 = 0
  R5093: x[Amherst_Town_Hall,5,0] - x[Amherst_Town_Hall,6,0] + newVar4 = 0
- c9[Amherst_Town_Hall,6,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,6,0]: newVar5 + 13 newVar6 <= 13
  R5095: y[Amherst_Town_Hall,5,1] - y[Amherst_Town_Hall,6,1] + newVar3 = 0
  R5096: x[Amherst_Town_Hall,5,1] - x[Amherst_Town_Hall,6,1] + newVar4 = 0
- c9[Amherst_Town_Hall,6,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,6,1]: newVar5 + 13 newVar6 <= 13
  R5098: y[Amherst_Town_Hall,5,2] - y[Amherst_Town_Hall,6,2] + newVar3 = 0
  R5099: x[Amherst_Town_Hall,5,2] - x[Amherst_Town_Hall,6,2] + newVar4 = 0
- c9[Amherst_Town_Hall,6,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,6,2]: newVar5 + 13 newVar6 <= 13
  R5101: y[Amherst_Town_Hall,6,0] - y[Amherst_Town_Hall,7,0] + newVar3 = 0
  R5102: x[Amherst_Town_Hall,6,0] - x[Amherst_Town_Hall,7,0] + newVar4 = 0
- c9[Amherst_Town_Hall,7,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,7,0]: newVar5 + 13 newVar6 <= 13
  R5104: y[Amherst_Town_Hall,6,1] - y[Amherst_Town_Hall,7,1] + newVar3 = 0
  R5105: x[Amherst_Town_Hall,6,1] - x[Amherst_Town_Hall,7,1] + newVar4 = 0
- c9[Amherst_Town_Hall,7,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,7,1]: newVar5 + 13 newVar6 <= 13
  R5107: y[Amherst_Town_Hall,6,2] - y[Amherst_Town_Hall,7,2] + newVar3 = 0
  R5108: x[Amherst_Town_Hall,6,2] - x[Amherst_Town_Hall,7,2] + newVar4 = 0
- c9[Amherst_Town_Hall,7,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,7,2]: newVar5 + 13 newVar6 <= 13
  R5110: y[Amherst_Town_Hall,7,0] - y[Amherst_Town_Hall,8,0] + newVar3 = 0
  R5111: x[Amherst_Town_Hall,7,0] - x[Amherst_Town_Hall,8,0] + newVar4 = 0
- c9[Amherst_Town_Hall,8,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,8,0]: newVar5 + 13 newVar6 <= 13
  R5113: y[Amherst_Town_Hall,7,1] - y[Amherst_Town_Hall,8,1] + newVar3 = 0
  R5114: x[Amherst_Town_Hall,7,1] - x[Amherst_Town_Hall,8,1] + newVar4 = 0
- c9[Amherst_Town_Hall,8,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,8,1]: newVar5 + 13 newVar6 <= 13
  R5116: y[Amherst_Town_Hall,7,2] - y[Amherst_Town_Hall,8,2] + newVar3 = 0
  R5117: x[Amherst_Town_Hall,7,2] - x[Amherst_Town_Hall,8,2] + newVar4 = 0
- c9[Amherst_Town_Hall,8,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,8,2]: newVar5 + 13 newVar6 <= 13
  R5119: y[Amherst_Town_Hall,8,0] - y[Amherst_Town_Hall,9,0] + newVar3 = 0
  R5120: x[Amherst_Town_Hall,8,0] - x[Amherst_Town_Hall,9,0] + newVar4 = 0
- c9[Amherst_Town_Hall,9,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,9,0]: newVar5 + 13 newVar6 <= 13
  R5122: y[Amherst_Town_Hall,8,1] - y[Amherst_Town_Hall,9,1] + newVar3 = 0
  R5123: x[Amherst_Town_Hall,8,1] - x[Amherst_Town_Hall,9,1] + newVar4 = 0
- c9[Amherst_Town_Hall,9,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,9,1]: newVar5 + 13 newVar6 <= 13
  R5125: y[Amherst_Town_Hall,8,2] - y[Amherst_Town_Hall,9,2] + newVar3 = 0
  R5126: x[Amherst_Town_Hall,8,2] - x[Amherst_Town_Hall,9,2] + newVar4 = 0
- c9[Amherst_Town_Hall,9,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,9,2]: newVar5 + 13 newVar6 <= 13
  R5128: y[Amherst_Town_Hall,9,0] - y[Amherst_Town_Hall,10,0] + newVar3 = 0
  R5129: x[Amherst_Town_Hall,9,0] - x[Amherst_Town_Hall,10,0] + newVar4 = 0
- c9[Amherst_Town_Hall,10,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,10,0]: newVar5 + 13 newVar6 <= 13
  R5131: y[Amherst_Town_Hall,9,1] - y[Amherst_Town_Hall,10,1] + newVar3 = 0
  R5132: x[Amherst_Town_Hall,9,1] - x[Amherst_Town_Hall,10,1] + newVar4 = 0
- c9[Amherst_Town_Hall,10,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,10,1]: newVar5 + 13 newVar6 <= 13
  R5134: y[Amherst_Town_Hall,9,2] - y[Amherst_Town_Hall,10,2] + newVar3 = 0
  R5135: x[Amherst_Town_Hall,9,2] - x[Amherst_Town_Hall,10,2] + newVar4 = 0
- c9[Amherst_Town_Hall,10,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,10,2]: newVar5 + 13 newVar6 <= 13
  R5137: y[Amherst_Town_Hall,10,0] - y[Amherst_Town_Hall,11,0] + newVar3
    = 0
  R5138: x[Amherst_Town_Hall,10,0] - x[Amherst_Town_Hall,11,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,11,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,11,0]: newVar5 + 13 newVar6 <= 13
  R5140: y[Amherst_Town_Hall,10,1] - y[Amherst_Town_Hall,11,1] + newVar3
    = 0
  R5141: x[Amherst_Town_Hall,10,1] - x[Amherst_Town_Hall,11,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,11,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,11,1]: newVar5 + 13 newVar6 <= 13
  R5143: y[Amherst_Town_Hall,10,2] - y[Amherst_Town_Hall,11,2] + newVar3
    = 0
  R5144: x[Amherst_Town_Hall,10,2] - x[Amherst_Town_Hall,11,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,11,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,11,2]: newVar5 + 13 newVar6 <= 13
  R5146: y[Amherst_Town_Hall,11,0] - y[Amherst_Town_Hall,12,0] + newVar3
    = 0
  R5147: x[Amherst_Town_Hall,11,0] - x[Amherst_Town_Hall,12,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,12,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,12,0]: newVar5 + 13 newVar6 <= 13
  R5149: y[Amherst_Town_Hall,11,1] - y[Amherst_Town_Hall,12,1] + newVar3
    = 0
  R5150: x[Amherst_Town_Hall,11,1] - x[Amherst_Town_Hall,12,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,12,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,12,1]: newVar5 + 13 newVar6 <= 13
  R5152: y[Amherst_Town_Hall,11,2] - y[Amherst_Town_Hall,12,2] + newVar3
    = 0
  R5153: x[Amherst_Town_Hall,11,2] - x[Amherst_Town_Hall,12,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,12,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,12,2]: newVar5 + 13 newVar6 <= 13
  R5155: y[Amherst_Town_Hall,12,0] - y[Amherst_Town_Hall,13,0] + newVar3
    = 0
  R5156: x[Amherst_Town_Hall,12,0] - x[Amherst_Town_Hall,13,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,13,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,13,0]: newVar5 + 13 newVar6 <= 13
  R5158: y[Amherst_Town_Hall,12,1] - y[Amherst_Town_Hall,13,1] + newVar3
    = 0
  R5159: x[Amherst_Town_Hall,12,1] - x[Amherst_Town_Hall,13,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,13,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,13,1]: newVar5 + 13 newVar6 <= 13
  R5161: y[Amherst_Town_Hall,12,2] - y[Amherst_Town_Hall,13,2] + newVar3
    = 0
  R5162: x[Amherst_Town_Hall,12,2] - x[Amherst_Town_Hall,13,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,13,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,13,2]: newVar5 + 13 newVar6 <= 13
  R5164: y[Amherst_Town_Hall,13,0] - y[Amherst_Town_Hall,14,0] + newVar3
    = 0
  R5165: x[Amherst_Town_Hall,13,0] - x[Amherst_Town_Hall,14,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,14,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,14,0]: newVar5 + 13 newVar6 <= 13
  R5167: y[Amherst_Town_Hall,13,1] - y[Amherst_Town_Hall,14,1] + newVar3
    = 0
  R5168: x[Amherst_Town_Hall,13,1] - x[Amherst_Town_Hall,14,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,14,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,14,1]: newVar5 + 13 newVar6 <= 13
  R5170: y[Amherst_Town_Hall,13,2] - y[Amherst_Town_Hall,14,2] + newVar3
    = 0
  R5171: x[Amherst_Town_Hall,13,2] - x[Amherst_Town_Hall,14,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,14,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,14,2]: newVar5 + 13 newVar6 <= 13
  R5173: y[Amherst_Town_Hall,14,0] - y[Amherst_Town_Hall,15,0] + newVar3
    = 0
  R5174: x[Amherst_Town_Hall,14,0] - x[Amherst_Town_Hall,15,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,15,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,15,0]: newVar5 + 13 newVar6 <= 13
  R5176: y[Amherst_Town_Hall,14,1] - y[Amherst_Town_Hall,15,1] + newVar3
    = 0
  R5177: x[Amherst_Town_Hall,14,1] - x[Amherst_Town_Hall,15,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,15,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,15,1]: newVar5 + 13 newVar6 <= 13
  R5179: y[Amherst_Town_Hall,14,2] - y[Amherst_Town_Hall,15,2] + newVar3
    = 0
  R5180: x[Amherst_Town_Hall,14,2] - x[Amherst_Town_Hall,15,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,15,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,15,2]: newVar5 + 13 newVar6 <= 13
  R5182: y[Amherst_Town_Hall,15,0] - y[Amherst_Town_Hall,16,0] + newVar3
    = 0
  R5183: x[Amherst_Town_Hall,15,0] - x[Amherst_Town_Hall,16,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,16,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,16,0]: newVar5 + 13 newVar6 <= 13
  R5185: y[Amherst_Town_Hall,15,1] - y[Amherst_Town_Hall,16,1] + newVar3
    = 0
  R5186: x[Amherst_Town_Hall,15,1] - x[Amherst_Town_Hall,16,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,16,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,16,1]: newVar5 + 13 newVar6 <= 13
  R5188: y[Amherst_Town_Hall,15,2] - y[Amherst_Town_Hall,16,2] + newVar3
    = 0
  R5189: x[Amherst_Town_Hall,15,2] - x[Amherst_Town_Hall,16,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,16,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,16,2]: newVar5 + 13 newVar6 <= 13
  R5191: y[Amherst_Town_Hall,16,0] - y[Amherst_Town_Hall,17,0] + newVar3
    = 0
  R5192: x[Amherst_Town_Hall,16,0] - x[Amherst_Town_Hall,17,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,17,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,17,0]: newVar5 + 13 newVar6 <= 13
  R5194: y[Amherst_Town_Hall,16,1] - y[Amherst_Town_Hall,17,1] + newVar3
    = 0
  R5195: x[Amherst_Town_Hall,16,1] - x[Amherst_Town_Hall,17,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,17,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,17,1]: newVar5 + 13 newVar6 <= 13
  R5197: y[Amherst_Town_Hall,16,2] - y[Amherst_Town_Hall,17,2] + newVar3
    = 0
  R5198: x[Amherst_Town_Hall,16,2] - x[Amherst_Town_Hall,17,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,17,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,17,2]: newVar5 + 13 newVar6 <= 13
  R5200: y[Amherst_Town_Hall,17,0] - y[Amherst_Town_Hall,18,0] + newVar3
    = 0
  R5201: x[Amherst_Town_Hall,17,0] - x[Amherst_Town_Hall,18,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,18,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,18,0]: newVar5 + 13 newVar6 <= 13
  R5203: y[Amherst_Town_Hall,17,1] - y[Amherst_Town_Hall,18,1] + newVar3
    = 0
  R5204: x[Amherst_Town_Hall,17,1] - x[Amherst_Town_Hall,18,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,18,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,18,1]: newVar5 + 13 newVar6 <= 13
  R5206: y[Amherst_Town_Hall,17,2] - y[Amherst_Town_Hall,18,2] + newVar3
    = 0
  R5207: x[Amherst_Town_Hall,17,2] - x[Amherst_Town_Hall,18,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,18,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,18,2]: newVar5 + 13 newVar6 <= 13
  R5209: y[Amherst_Town_Hall,18,0] - y[Amherst_Town_Hall,19,0] + newVar3
    = 0
  R5210: x[Amherst_Town_Hall,18,0] - x[Amherst_Town_Hall,19,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,19,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,19,0]: newVar5 + 13 newVar6 <= 13
  R5212: y[Amherst_Town_Hall,18,1] - y[Amherst_Town_Hall,19,1] + newVar3
    = 0
  R5213: x[Amherst_Town_Hall,18,1] - x[Amherst_Town_Hall,19,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,19,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,19,1]: newVar5 + 13 newVar6 <= 13
  R5215: y[Amherst_Town_Hall,18,2] - y[Amherst_Town_Hall,19,2] + newVar3
    = 0
  R5216: x[Amherst_Town_Hall,18,2] - x[Amherst_Town_Hall,19,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,19,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,19,2]: newVar5 + 13 newVar6 <= 13
  R5218: y[Amherst_Town_Hall,19,0] - y[Amherst_Town_Hall,20,0] + newVar3
    = 0
  R5219: x[Amherst_Town_Hall,19,0] - x[Amherst_Town_Hall,20,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,20,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,20,0]: newVar5 + 13 newVar6 <= 13
  R5221: y[Amherst_Town_Hall,19,1] - y[Amherst_Town_Hall,20,1] + newVar3
    = 0
  R5222: x[Amherst_Town_Hall,19,1] - x[Amherst_Town_Hall,20,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,20,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,20,1]: newVar5 + 13 newVar6 <= 13
  R5224: y[Amherst_Town_Hall,19,2] - y[Amherst_Town_Hall,20,2] + newVar3
    = 0
  R5225: x[Amherst_Town_Hall,19,2] - x[Amherst_Town_Hall,20,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,20,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,20,2]: newVar5 + 13 newVar6 <= 13
  R5227: y[Amherst_Town_Hall,20,0] - y[Amherst_Town_Hall,21,0] + newVar3
    = 0
  R5228: x[Amherst_Town_Hall,20,0] - x[Amherst_Town_Hall,21,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,21,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,21,0]: newVar5 + 13 newVar6 <= 13
  R5230: y[Amherst_Town_Hall,20,1] - y[Amherst_Town_Hall,21,1] + newVar3
    = 0
  R5231: x[Amherst_Town_Hall,20,1] - x[Amherst_Town_Hall,21,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,21,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,21,1]: newVar5 + 13 newVar6 <= 13
  R5233: y[Amherst_Town_Hall,20,2] - y[Amherst_Town_Hall,21,2] + newVar3
    = 0
  R5234: x[Amherst_Town_Hall,20,2] - x[Amherst_Town_Hall,21,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,21,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,21,2]: newVar5 + 13 newVar6 <= 13
  R5236: y[Amherst_Town_Hall,21,0] - y[Amherst_Town_Hall,22,0] + newVar3
    = 0
  R5237: x[Amherst_Town_Hall,21,0] - x[Amherst_Town_Hall,22,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,22,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,22,0]: newVar5 + 13 newVar6 <= 13
  R5239: y[Amherst_Town_Hall,21,1] - y[Amherst_Town_Hall,22,1] + newVar3
    = 0
  R5240: x[Amherst_Town_Hall,21,1] - x[Amherst_Town_Hall,22,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,22,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,22,1]: newVar5 + 13 newVar6 <= 13
  R5242: y[Amherst_Town_Hall,21,2] - y[Amherst_Town_Hall,22,2] + newVar3
    = 0
  R5243: x[Amherst_Town_Hall,21,2] - x[Amherst_Town_Hall,22,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,22,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,22,2]: newVar5 + 13 newVar6 <= 13
  R5245: y[Amherst_Town_Hall,22,0] - y[Amherst_Town_Hall,23,0] + newVar3
    = 0
  R5246: x[Amherst_Town_Hall,22,0] - x[Amherst_Town_Hall,23,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,23,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,23,0]: newVar5 + 13 newVar6 <= 13
  R5248: y[Amherst_Town_Hall,22,1] - y[Amherst_Town_Hall,23,1] + newVar3
    = 0
  R5249: x[Amherst_Town_Hall,22,1] - x[Amherst_Town_Hall,23,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,23,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,23,1]: newVar5 + 13 newVar6 <= 13
  R5251: y[Amherst_Town_Hall,22,2] - y[Amherst_Town_Hall,23,2] + newVar3
    = 0
  R5252: x[Amherst_Town_Hall,22,2] - x[Amherst_Town_Hall,23,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,23,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,23,2]: newVar5 + 13 newVar6 <= 13
  R5254: y[Amherst_Town_Hall,23,0] - y[Amherst_Town_Hall,24,0] + newVar3
    = 0
  R5255: x[Amherst_Town_Hall,23,0] - x[Amherst_Town_Hall,24,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,24,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,24,0]: newVar5 + 13 newVar6 <= 13
  R5257: y[Amherst_Town_Hall,23,1] - y[Amherst_Town_Hall,24,1] + newVar3
    = 0
  R5258: x[Amherst_Town_Hall,23,1] - x[Amherst_Town_Hall,24,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,24,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,24,1]: newVar5 + 13 newVar6 <= 13
  R5260: y[Amherst_Town_Hall,23,2] - y[Amherst_Town_Hall,24,2] + newVar3
    = 0
  R5261: x[Amherst_Town_Hall,23,2] - x[Amherst_Town_Hall,24,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,24,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,24,2]: newVar5 + 13 newVar6 <= 13
  R5263: y[Amherst_Town_Hall,24,0] - y[Amherst_Town_Hall,25,0] + newVar3
    = 0
  R5264: x[Amherst_Town_Hall,24,0] - x[Amherst_Town_Hall,25,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,25,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,25,0]: newVar5 + 13 newVar6 <= 13
  R5266: y[Amherst_Town_Hall,24,1] - y[Amherst_Town_Hall,25,1] + newVar3
    = 0
  R5267: x[Amherst_Town_Hall,24,1] - x[Amherst_Town_Hall,25,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,25,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,25,1]: newVar5 + 13 newVar6 <= 13
  R5269: y[Amherst_Town_Hall,24,2] - y[Amherst_Town_Hall,25,2] + newVar3
    = 0
  R5270: x[Amherst_Town_Hall,24,2] - x[Amherst_Town_Hall,25,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,25,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,25,2]: newVar5 + 13 newVar6 <= 13
  R5272: y[Amherst_Town_Hall,25,0] - y[Amherst_Town_Hall,26,0] + newVar3
    = 0
  R5273: x[Amherst_Town_Hall,25,0] - x[Amherst_Town_Hall,26,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,26,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,26,0]: newVar5 + 13 newVar6 <= 13
  R5275: y[Amherst_Town_Hall,25,1] - y[Amherst_Town_Hall,26,1] + newVar3
    = 0
  R5276: x[Amherst_Town_Hall,25,1] - x[Amherst_Town_Hall,26,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,26,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,26,1]: newVar5 + 13 newVar6 <= 13
  R5278: y[Amherst_Town_Hall,25,2] - y[Amherst_Town_Hall,26,2] + newVar3
    = 0
  R5279: x[Amherst_Town_Hall,25,2] - x[Amherst_Town_Hall,26,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,26,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,26,2]: newVar5 + 13 newVar6 <= 13
  R5281: y[Amherst_Town_Hall,26,0] - y[Amherst_Town_Hall,27,0] + newVar3
    = 0
  R5282: x[Amherst_Town_Hall,26,0] - x[Amherst_Town_Hall,27,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,27,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,27,0]: newVar5 + 13 newVar6 <= 13
  R5284: y[Amherst_Town_Hall,26,1] - y[Amherst_Town_Hall,27,1] + newVar3
    = 0
  R5285: x[Amherst_Town_Hall,26,1] - x[Amherst_Town_Hall,27,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,27,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,27,1]: newVar5 + 13 newVar6 <= 13
  R5287: y[Amherst_Town_Hall,26,2] - y[Amherst_Town_Hall,27,2] + newVar3
    = 0
  R5288: x[Amherst_Town_Hall,26,2] - x[Amherst_Town_Hall,27,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,27,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,27,2]: newVar5 + 13 newVar6 <= 13
  R5290: y[Amherst_Town_Hall,27,0] - y[Amherst_Town_Hall,28,0] + newVar3
    = 0
  R5291: x[Amherst_Town_Hall,27,0] - x[Amherst_Town_Hall,28,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,28,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,28,0]: newVar5 + 13 newVar6 <= 13
  R5293: y[Amherst_Town_Hall,27,1] - y[Amherst_Town_Hall,28,1] + newVar3
    = 0
  R5294: x[Amherst_Town_Hall,27,1] - x[Amherst_Town_Hall,28,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,28,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,28,1]: newVar5 + 13 newVar6 <= 13
  R5296: y[Amherst_Town_Hall,27,2] - y[Amherst_Town_Hall,28,2] + newVar3
    = 0
  R5297: x[Amherst_Town_Hall,27,2] - x[Amherst_Town_Hall,28,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,28,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,28,2]: newVar5 + 13 newVar6 <= 13
  R5299: y[Amherst_Town_Hall,28,0] - y[Amherst_Town_Hall,29,0] + newVar3
    = 0
  R5300: x[Amherst_Town_Hall,28,0] - x[Amherst_Town_Hall,29,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,29,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,29,0]: newVar5 + 13 newVar6 <= 13
  R5302: y[Amherst_Town_Hall,28,1] - y[Amherst_Town_Hall,29,1] + newVar3
    = 0
  R5303: x[Amherst_Town_Hall,28,1] - x[Amherst_Town_Hall,29,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,29,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,29,1]: newVar5 + 13 newVar6 <= 13
  R5305: y[Amherst_Town_Hall,28,2] - y[Amherst_Town_Hall,29,2] + newVar3
    = 0
  R5306: x[Amherst_Town_Hall,28,2] - x[Amherst_Town_Hall,29,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,29,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,29,2]: newVar5 + 13 newVar6 <= 13
  R5308: y[Amherst_Town_Hall,29,0] - y[Amherst_Town_Hall,30,0] + newVar3
    = 0
  R5309: x[Amherst_Town_Hall,29,0] - x[Amherst_Town_Hall,30,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,30,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,30,0]: newVar5 + 13 newVar6 <= 13
  R5311: y[Amherst_Town_Hall,29,1] - y[Amherst_Town_Hall,30,1] + newVar3
    = 0
  R5312: x[Amherst_Town_Hall,29,1] - x[Amherst_Town_Hall,30,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,30,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,30,1]: newVar5 + 13 newVar6 <= 13
  R5314: y[Amherst_Town_Hall,29,2] - y[Amherst_Town_Hall,30,2] + newVar3
    = 0
  R5315: x[Amherst_Town_Hall,29,2] - x[Amherst_Town_Hall,30,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,30,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,30,2]: newVar5 + 13 newVar6 <= 13
  R5317: y[Amherst_Town_Hall,30,0] - y[Amherst_Town_Hall,31,0] + newVar3
    = 0
  R5318: x[Amherst_Town_Hall,30,0] - x[Amherst_Town_Hall,31,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,31,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,31,0]: newVar5 + 13 newVar6 <= 13
  R5320: y[Amherst_Town_Hall,30,1] - y[Amherst_Town_Hall,31,1] + newVar3
    = 0
  R5321: x[Amherst_Town_Hall,30,1] - x[Amherst_Town_Hall,31,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,31,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,31,1]: newVar5 + 13 newVar6 <= 13
  R5323: y[Amherst_Town_Hall,30,2] - y[Amherst_Town_Hall,31,2] + newVar3
    = 0
  R5324: x[Amherst_Town_Hall,30,2] - x[Amherst_Town_Hall,31,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,31,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,31,2]: newVar5 + 13 newVar6 <= 13
  R5326: y[Amherst_Town_Hall,31,0] - y[Amherst_Town_Hall,32,0] + newVar3
    = 0
  R5327: x[Amherst_Town_Hall,31,0] - x[Amherst_Town_Hall,32,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,32,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,32,0]: newVar5 + 13 newVar6 <= 13
  R5329: y[Amherst_Town_Hall,31,1] - y[Amherst_Town_Hall,32,1] + newVar3
    = 0
  R5330: x[Amherst_Town_Hall,31,1] - x[Amherst_Town_Hall,32,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,32,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,32,1]: newVar5 + 13 newVar6 <= 13
  R5332: y[Amherst_Town_Hall,31,2] - y[Amherst_Town_Hall,32,2] + newVar3
    = 0
  R5333: x[Amherst_Town_Hall,31,2] - x[Amherst_Town_Hall,32,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,32,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,32,2]: newVar5 + 13 newVar6 <= 13
  R5335: y[Amherst_Town_Hall,32,0] - y[Amherst_Town_Hall,33,0] + newVar3
    = 0
  R5336: x[Amherst_Town_Hall,32,0] - x[Amherst_Town_Hall,33,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,33,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,33,0]: newVar5 + 13 newVar6 <= 13
  R5338: y[Amherst_Town_Hall,32,1] - y[Amherst_Town_Hall,33,1] + newVar3
    = 0
  R5339: x[Amherst_Town_Hall,32,1] - x[Amherst_Town_Hall,33,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,33,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,33,1]: newVar5 + 13 newVar6 <= 13
  R5341: y[Amherst_Town_Hall,32,2] - y[Amherst_Town_Hall,33,2] + newVar3
    = 0
  R5342: x[Amherst_Town_Hall,32,2] - x[Amherst_Town_Hall,33,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,33,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,33,2]: newVar5 + 13 newVar6 <= 13
  R5344: y[Amherst_Town_Hall,33,0] - y[Amherst_Town_Hall,34,0] + newVar3
    = 0
  R5345: x[Amherst_Town_Hall,33,0] - x[Amherst_Town_Hall,34,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,34,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,34,0]: newVar5 + 13 newVar6 <= 13
  R5347: y[Amherst_Town_Hall,33,1] - y[Amherst_Town_Hall,34,1] + newVar3
    = 0
  R5348: x[Amherst_Town_Hall,33,1] - x[Amherst_Town_Hall,34,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,34,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,34,1]: newVar5 + 13 newVar6 <= 13
  R5350: y[Amherst_Town_Hall,33,2] - y[Amherst_Town_Hall,34,2] + newVar3
    = 0
  R5351: x[Amherst_Town_Hall,33,2] - x[Amherst_Town_Hall,34,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,34,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,34,2]: newVar5 + 13 newVar6 <= 13
  R5353: y[Amherst_Town_Hall,34,0] - y[Amherst_Town_Hall,35,0] + newVar3
    = 0
  R5354: x[Amherst_Town_Hall,34,0] - x[Amherst_Town_Hall,35,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,35,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,35,0]: newVar5 + 13 newVar6 <= 13
  R5356: y[Amherst_Town_Hall,34,1] - y[Amherst_Town_Hall,35,1] + newVar3
    = 0
  R5357: x[Amherst_Town_Hall,34,1] - x[Amherst_Town_Hall,35,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,35,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,35,1]: newVar5 + 13 newVar6 <= 13
  R5359: y[Amherst_Town_Hall,34,2] - y[Amherst_Town_Hall,35,2] + newVar3
    = 0
  R5360: x[Amherst_Town_Hall,34,2] - x[Amherst_Town_Hall,35,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,35,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,35,2]: newVar5 + 13 newVar6 <= 13
  R5362: y[Amherst_Town_Hall,35,0] - y[Amherst_Town_Hall,36,0] + newVar3
    = 0
  R5363: x[Amherst_Town_Hall,35,0] - x[Amherst_Town_Hall,36,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,36,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,36,0]: newVar5 + 13 newVar6 <= 13
  R5365: y[Amherst_Town_Hall,35,1] - y[Amherst_Town_Hall,36,1] + newVar3
    = 0
  R5366: x[Amherst_Town_Hall,35,1] - x[Amherst_Town_Hall,36,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,36,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,36,1]: newVar5 + 13 newVar6 <= 13
  R5368: y[Amherst_Town_Hall,35,2] - y[Amherst_Town_Hall,36,2] + newVar3
    = 0
  R5369: x[Amherst_Town_Hall,35,2] - x[Amherst_Town_Hall,36,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,36,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,36,2]: newVar5 + 13 newVar6 <= 13
  R5371: y[Amherst_Town_Hall,36,0] - y[Amherst_Town_Hall,37,0] + newVar3
    = 0
  R5372: x[Amherst_Town_Hall,36,0] - x[Amherst_Town_Hall,37,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,37,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,37,0]: newVar5 + 13 newVar6 <= 13
  R5374: y[Amherst_Town_Hall,36,1] - y[Amherst_Town_Hall,37,1] + newVar3
    = 0
  R5375: x[Amherst_Town_Hall,36,1] - x[Amherst_Town_Hall,37,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,37,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,37,1]: newVar5 + 13 newVar6 <= 13
  R5377: y[Amherst_Town_Hall,36,2] - y[Amherst_Town_Hall,37,2] + newVar3
    = 0
  R5378: x[Amherst_Town_Hall,36,2] - x[Amherst_Town_Hall,37,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,37,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,37,2]: newVar5 + 13 newVar6 <= 13
  R5380: y[Amherst_Town_Hall,37,0] - y[Amherst_Town_Hall,38,0] + newVar3
    = 0
  R5381: x[Amherst_Town_Hall,37,0] - x[Amherst_Town_Hall,38,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,38,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,38,0]: newVar5 + 13 newVar6 <= 13
  R5383: y[Amherst_Town_Hall,37,1] - y[Amherst_Town_Hall,38,1] + newVar3
    = 0
  R5384: x[Amherst_Town_Hall,37,1] - x[Amherst_Town_Hall,38,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,38,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,38,1]: newVar5 + 13 newVar6 <= 13
  R5386: y[Amherst_Town_Hall,37,2] - y[Amherst_Town_Hall,38,2] + newVar3
    = 0
  R5387: x[Amherst_Town_Hall,37,2] - x[Amherst_Town_Hall,38,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,38,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,38,2]: newVar5 + 13 newVar6 <= 13
  R5389: y[Amherst_Town_Hall,38,0] - y[Amherst_Town_Hall,39,0] + newVar3
    = 0
  R5390: x[Amherst_Town_Hall,38,0] - x[Amherst_Town_Hall,39,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,39,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,39,0]: newVar5 + 13 newVar6 <= 13
  R5392: y[Amherst_Town_Hall,38,1] - y[Amherst_Town_Hall,39,1] + newVar3
    = 0
  R5393: x[Amherst_Town_Hall,38,1] - x[Amherst_Town_Hall,39,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,39,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,39,1]: newVar5 + 13 newVar6 <= 13
  R5395: y[Amherst_Town_Hall,38,2] - y[Amherst_Town_Hall,39,2] + newVar3
    = 0
  R5396: x[Amherst_Town_Hall,38,2] - x[Amherst_Town_Hall,39,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,39,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,39,2]: newVar5 + 13 newVar6 <= 13
  R5398: y[Amherst_Town_Hall,39,0] - y[Amherst_Town_Hall,40,0] + newVar3
    = 0
  R5399: x[Amherst_Town_Hall,39,0] - x[Amherst_Town_Hall,40,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,40,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,40,0]: newVar5 + 13 newVar6 <= 13
  R5401: y[Amherst_Town_Hall,39,1] - y[Amherst_Town_Hall,40,1] + newVar3
    = 0
  R5402: x[Amherst_Town_Hall,39,1] - x[Amherst_Town_Hall,40,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,40,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,40,1]: newVar5 + 13 newVar6 <= 13
  R5404: y[Amherst_Town_Hall,39,2] - y[Amherst_Town_Hall,40,2] + newVar3
    = 0
  R5405: x[Amherst_Town_Hall,39,2] - x[Amherst_Town_Hall,40,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,40,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,40,2]: newVar5 + 13 newVar6 <= 13
  R5407: y[Amherst_Town_Hall,40,0] - y[Amherst_Town_Hall,41,0] + newVar3
    = 0
  R5408: x[Amherst_Town_Hall,40,0] - x[Amherst_Town_Hall,41,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,41,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,41,0]: newVar5 + 13 newVar6 <= 13
  R5410: y[Amherst_Town_Hall,40,1] - y[Amherst_Town_Hall,41,1] + newVar3
    = 0
  R5411: x[Amherst_Town_Hall,40,1] - x[Amherst_Town_Hall,41,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,41,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,41,1]: newVar5 + 13 newVar6 <= 13
  R5413: y[Amherst_Town_Hall,40,2] - y[Amherst_Town_Hall,41,2] + newVar3
    = 0
  R5414: x[Amherst_Town_Hall,40,2] - x[Amherst_Town_Hall,41,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,41,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,41,2]: newVar5 + 13 newVar6 <= 13
  R5416: y[Amherst_Town_Hall,41,0] - y[Amherst_Town_Hall,42,0] + newVar3
    = 0
  R5417: x[Amherst_Town_Hall,41,0] - x[Amherst_Town_Hall,42,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,42,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,42,0]: newVar5 + 13 newVar6 <= 13
  R5419: y[Amherst_Town_Hall,41,1] - y[Amherst_Town_Hall,42,1] + newVar3
    = 0
  R5420: x[Amherst_Town_Hall,41,1] - x[Amherst_Town_Hall,42,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,42,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,42,1]: newVar5 + 13 newVar6 <= 13
  R5422: y[Amherst_Town_Hall,41,2] - y[Amherst_Town_Hall,42,2] + newVar3
    = 0
  R5423: x[Amherst_Town_Hall,41,2] - x[Amherst_Town_Hall,42,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,42,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,42,2]: newVar5 + 13 newVar6 <= 13
  R5425: y[Amherst_Town_Hall,42,0] - y[Amherst_Town_Hall,43,0] + newVar3
    = 0
  R5426: x[Amherst_Town_Hall,42,0] - x[Amherst_Town_Hall,43,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,43,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,43,0]: newVar5 + 13 newVar6 <= 13
  R5428: y[Amherst_Town_Hall,42,1] - y[Amherst_Town_Hall,43,1] + newVar3
    = 0
  R5429: x[Amherst_Town_Hall,42,1] - x[Amherst_Town_Hall,43,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,43,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,43,1]: newVar5 + 13 newVar6 <= 13
  R5431: y[Amherst_Town_Hall,42,2] - y[Amherst_Town_Hall,43,2] + newVar3
    = 0
  R5432: x[Amherst_Town_Hall,42,2] - x[Amherst_Town_Hall,43,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,43,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,43,2]: newVar5 + 13 newVar6 <= 13
  R5434: y[Amherst_Town_Hall,43,0] - y[Amherst_Town_Hall,44,0] + newVar3
    = 0
  R5435: x[Amherst_Town_Hall,43,0] - x[Amherst_Town_Hall,44,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,44,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,44,0]: newVar5 + 13 newVar6 <= 13
  R5437: y[Amherst_Town_Hall,43,1] - y[Amherst_Town_Hall,44,1] + newVar3
    = 0
  R5438: x[Amherst_Town_Hall,43,1] - x[Amherst_Town_Hall,44,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,44,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,44,1]: newVar5 + 13 newVar6 <= 13
  R5440: y[Amherst_Town_Hall,43,2] - y[Amherst_Town_Hall,44,2] + newVar3
    = 0
  R5441: x[Amherst_Town_Hall,43,2] - x[Amherst_Town_Hall,44,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,44,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,44,2]: newVar5 + 13 newVar6 <= 13
  R5443: y[Amherst_Town_Hall,44,0] - y[Amherst_Town_Hall,45,0] + newVar3
    = 0
  R5444: x[Amherst_Town_Hall,44,0] - x[Amherst_Town_Hall,45,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,45,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,45,0]: newVar5 + 13 newVar6 <= 13
  R5446: y[Amherst_Town_Hall,44,1] - y[Amherst_Town_Hall,45,1] + newVar3
    = 0
  R5447: x[Amherst_Town_Hall,44,1] - x[Amherst_Town_Hall,45,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,45,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,45,1]: newVar5 + 13 newVar6 <= 13
  R5449: y[Amherst_Town_Hall,44,2] - y[Amherst_Town_Hall,45,2] + newVar3
    = 0
  R5450: x[Amherst_Town_Hall,44,2] - x[Amherst_Town_Hall,45,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,45,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,45,2]: newVar5 + 13 newVar6 <= 13
  R5452: y[Amherst_Town_Hall,45,0] - y[Amherst_Town_Hall,46,0] + newVar3
    = 0
  R5453: x[Amherst_Town_Hall,45,0] - x[Amherst_Town_Hall,46,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,46,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,46,0]: newVar5 + 13 newVar6 <= 13
  R5455: y[Amherst_Town_Hall,45,1] - y[Amherst_Town_Hall,46,1] + newVar3
    = 0
  R5456: x[Amherst_Town_Hall,45,1] - x[Amherst_Town_Hall,46,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,46,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,46,1]: newVar5 + 13 newVar6 <= 13
  R5458: y[Amherst_Town_Hall,45,2] - y[Amherst_Town_Hall,46,2] + newVar3
    = 0
  R5459: x[Amherst_Town_Hall,45,2] - x[Amherst_Town_Hall,46,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,46,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,46,2]: newVar5 + 13 newVar6 <= 13
  R5461: y[Amherst_Town_Hall,46,0] - y[Amherst_Town_Hall,47,0] + newVar3
    = 0
  R5462: x[Amherst_Town_Hall,46,0] - x[Amherst_Town_Hall,47,0] + newVar4
    = 0
- c9[Amherst_Town_Hall,47,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,47,0]: newVar5 + 13 newVar6 <= 13
  R5464: y[Amherst_Town_Hall,46,1] - y[Amherst_Town_Hall,47,1] + newVar3
    = 0
  R5465: x[Amherst_Town_Hall,46,1] - x[Amherst_Town_Hall,47,1] + newVar4
    = 0
- c9[Amherst_Town_Hall,47,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,47,1]: newVar5 + 13 newVar6 <= 13
  R5467: y[Amherst_Town_Hall,46,2] - y[Amherst_Town_Hall,47,2] + newVar3
    = 0
  R5468: x[Amherst_Town_Hall,46,2] - x[Amherst_Town_Hall,47,2] + newVar4
    = 0
- c9[Amherst_Town_Hall,47,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[Amherst_Town_Hall,47,2]: newVar5 + 13 newVar6 <= 13
  R5470: - y[Kendrick_Park,0,0] + newVar3 = 0
  R5471: - x[Kendrick_Park,0,0] + newVar4 = 0
- c9[Kendrick_Park,0,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,0,0]: newVar5 + 13 newVar6 <= 13
  R5473: - y[Kendrick_Park,0,1] + newVar3 = 0
  R5474: - x[Kendrick_Park,0,1] + newVar4 = 0
- c9[Kendrick_Park,0,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,0,1]: newVar5 + 13 newVar6 <= 13
  R5476: - y[Kendrick_Park,0,2] + newVar3 = 0
  R5477: - x[Kendrick_Park,0,2] + newVar4 = 0
- c9[Kendrick_Park,0,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,0,2]: newVar5 + 13 newVar6 <= 13
  R5479: y[Kendrick_Park,0,0] - y[Kendrick_Park,1,0] + newVar3 = 0
  R5480: x[Kendrick_Park,0,0] - x[Kendrick_Park,1,0] + newVar4 = 0
- c9[Kendrick_Park,1,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,1,0]: newVar5 + 13 newVar6 <= 13
  R5482: y[Kendrick_Park,0,1] - y[Kendrick_Park,1,1] + newVar3 = 0
  R5483: x[Kendrick_Park,0,1] - x[Kendrick_Park,1,1] + newVar4 = 0
- c9[Kendrick_Park,1,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,1,1]: newVar5 + 13 newVar6 <= 13
  R5485: y[Kendrick_Park,0,2] - y[Kendrick_Park,1,2] + newVar3 = 0
  R5486: x[Kendrick_Park,0,2] - x[Kendrick_Park,1,2] + newVar4 = 0
- c9[Kendrick_Park,1,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,1,2]: newVar5 + 13 newVar6 <= 13
  R5488: y[Kendrick_Park,1,0] - y[Kendrick_Park,2,0] + newVar3 = 0
  R5489: x[Kendrick_Park,1,0] - x[Kendrick_Park,2,0] + newVar4 = 0
- c9[Kendrick_Park,2,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,2,0]: newVar5 + 13 newVar6 <= 13
  R5491: y[Kendrick_Park,1,1] - y[Kendrick_Park,2,1] + newVar3 = 0
  R5492: x[Kendrick_Park,1,1] - x[Kendrick_Park,2,1] + newVar4 = 0
- c9[Kendrick_Park,2,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,2,1]: newVar5 + 13 newVar6 <= 13
  R5494: y[Kendrick_Park,1,2] - y[Kendrick_Park,2,2] + newVar3 = 0
  R5495: x[Kendrick_Park,1,2] - x[Kendrick_Park,2,2] + newVar4 = 0
- c9[Kendrick_Park,2,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,2,2]: newVar5 + 13 newVar6 <= 13
  R5497: y[Kendrick_Park,2,0] - y[Kendrick_Park,3,0] + newVar3 = 0
  R5498: x[Kendrick_Park,2,0] - x[Kendrick_Park,3,0] + newVar4 = 0
- c9[Kendrick_Park,3,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,3,0]: newVar5 + 13 newVar6 <= 13
  R5500: y[Kendrick_Park,2,1] - y[Kendrick_Park,3,1] + newVar3 = 0
  R5501: x[Kendrick_Park,2,1] - x[Kendrick_Park,3,1] + newVar4 = 0
- c9[Kendrick_Park,3,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,3,1]: newVar5 + 13 newVar6 <= 13
  R5503: y[Kendrick_Park,2,2] - y[Kendrick_Park,3,2] + newVar3 = 0
  R5504: x[Kendrick_Park,2,2] - x[Kendrick_Park,3,2] + newVar4 = 0
- c9[Kendrick_Park,3,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,3,2]: newVar5 + 13 newVar6 <= 13
  R5506: y[Kendrick_Park,3,0] - y[Kendrick_Park,4,0] + newVar3 = 0
  R5507: x[Kendrick_Park,3,0] - x[Kendrick_Park,4,0] + newVar4 = 0
- c9[Kendrick_Park,4,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,4,0]: newVar5 + 13 newVar6 <= 13
  R5509: y[Kendrick_Park,3,1] - y[Kendrick_Park,4,1] + newVar3 = 0
  R5510: x[Kendrick_Park,3,1] - x[Kendrick_Park,4,1] + newVar4 = 0
- c9[Kendrick_Park,4,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,4,1]: newVar5 + 13 newVar6 <= 13
  R5512: y[Kendrick_Park,3,2] - y[Kendrick_Park,4,2] + newVar3 = 0
  R5513: x[Kendrick_Park,3,2] - x[Kendrick_Park,4,2] + newVar4 = 0
- c9[Kendrick_Park,4,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,4,2]: newVar5 + 13 newVar6 <= 13
  R5515: y[Kendrick_Park,4,0] - y[Kendrick_Park,5,0] + newVar3 = 0
  R5516: x[Kendrick_Park,4,0] - x[Kendrick_Park,5,0] + newVar4 = 0
- c9[Kendrick_Park,5,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,5,0]: newVar5 + 13 newVar6 <= 13
  R5518: y[Kendrick_Park,4,1] - y[Kendrick_Park,5,1] + newVar3 = 0
  R5519: x[Kendrick_Park,4,1] - x[Kendrick_Park,5,1] + newVar4 = 0
- c9[Kendrick_Park,5,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,5,1]: newVar5 + 13 newVar6 <= 13
  R5521: y[Kendrick_Park,4,2] - y[Kendrick_Park,5,2] + newVar3 = 0
  R5522: x[Kendrick_Park,4,2] - x[Kendrick_Park,5,2] + newVar4 = 0
- c9[Kendrick_Park,5,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,5,2]: newVar5 + 13 newVar6 <= 13
  R5524: y[Kendrick_Park,5,0] - y[Kendrick_Park,6,0] + newVar3 = 0
  R5525: x[Kendrick_Park,5,0] - x[Kendrick_Park,6,0] + newVar4 = 0
- c9[Kendrick_Park,6,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,6,0]: newVar5 + 13 newVar6 <= 13
  R5527: y[Kendrick_Park,5,1] - y[Kendrick_Park,6,1] + newVar3 = 0
  R5528: x[Kendrick_Park,5,1] - x[Kendrick_Park,6,1] + newVar4 = 0
- c9[Kendrick_Park,6,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,6,1]: newVar5 + 13 newVar6 <= 13
  R5530: y[Kendrick_Park,5,2] - y[Kendrick_Park,6,2] + newVar3 = 0
  R5531: x[Kendrick_Park,5,2] - x[Kendrick_Park,6,2] + newVar4 = 0
- c9[Kendrick_Park,6,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,6,2]: newVar5 + 13 newVar6 <= 13
  R5533: y[Kendrick_Park,6,0] - y[Kendrick_Park,7,0] + newVar3 = 0
  R5534: x[Kendrick_Park,6,0] - x[Kendrick_Park,7,0] + newVar4 = 0
- c9[Kendrick_Park,7,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,7,0]: newVar5 + 13 newVar6 <= 13
  R5536: y[Kendrick_Park,6,1] - y[Kendrick_Park,7,1] + newVar3 = 0
  R5537: x[Kendrick_Park,6,1] - x[Kendrick_Park,7,1] + newVar4 = 0
- c9[Kendrick_Park,7,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,7,1]: newVar5 + 13 newVar6 <= 13
  R5539: y[Kendrick_Park,6,2] - y[Kendrick_Park,7,2] + newVar3 = 0
  R5540: x[Kendrick_Park,6,2] - x[Kendrick_Park,7,2] + newVar4 = 0
- c9[Kendrick_Park,7,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,7,2]: newVar5 + 13 newVar6 <= 13
  R5542: y[Kendrick_Park,7,0] - y[Kendrick_Park,8,0] + newVar3 = 0
  R5543: x[Kendrick_Park,7,0] - x[Kendrick_Park,8,0] + newVar4 = 0
- c9[Kendrick_Park,8,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,8,0]: newVar5 + 13 newVar6 <= 13
  R5545: y[Kendrick_Park,7,1] - y[Kendrick_Park,8,1] + newVar3 = 0
  R5546: x[Kendrick_Park,7,1] - x[Kendrick_Park,8,1] + newVar4 = 0
- c9[Kendrick_Park,8,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,8,1]: newVar5 + 13 newVar6 <= 13
  R5548: y[Kendrick_Park,7,2] - y[Kendrick_Park,8,2] + newVar3 = 0
  R5549: x[Kendrick_Park,7,2] - x[Kendrick_Park,8,2] + newVar4 = 0
- c9[Kendrick_Park,8,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,8,2]: newVar5 + 13 newVar6 <= 13
  R5551: y[Kendrick_Park,8,0] - y[Kendrick_Park,9,0] + newVar3 = 0
  R5552: x[Kendrick_Park,8,0] - x[Kendrick_Park,9,0] + newVar4 = 0
- c9[Kendrick_Park,9,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,9,0]: newVar5 + 13 newVar6 <= 13
  R5554: y[Kendrick_Park,8,1] - y[Kendrick_Park,9,1] + newVar3 = 0
  R5555: x[Kendrick_Park,8,1] - x[Kendrick_Park,9,1] + newVar4 = 0
- c9[Kendrick_Park,9,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,9,1]: newVar5 + 13 newVar6 <= 13
  R5557: y[Kendrick_Park,8,2] - y[Kendrick_Park,9,2] + newVar3 = 0
  R5558: x[Kendrick_Park,8,2] - x[Kendrick_Park,9,2] + newVar4 = 0
- c9[Kendrick_Park,9,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,9,2]: newVar5 + 13 newVar6 <= 13
  R5560: y[Kendrick_Park,9,0] - y[Kendrick_Park,10,0] + newVar3 = 0
  R5561: x[Kendrick_Park,9,0] - x[Kendrick_Park,10,0] + newVar4 = 0
- c9[Kendrick_Park,10,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,10,0]: newVar5 + 13 newVar6 <= 13
  R5563: y[Kendrick_Park,9,1] - y[Kendrick_Park,10,1] + newVar3 = 0
  R5564: x[Kendrick_Park,9,1] - x[Kendrick_Park,10,1] + newVar4 = 0
- c9[Kendrick_Park,10,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,10,1]: newVar5 + 13 newVar6 <= 13
  R5566: y[Kendrick_Park,9,2] - y[Kendrick_Park,10,2] + newVar3 = 0
  R5567: x[Kendrick_Park,9,2] - x[Kendrick_Park,10,2] + newVar4 = 0
- c9[Kendrick_Park,10,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,10,2]: newVar5 + 13 newVar6 <= 13
  R5569: y[Kendrick_Park,10,0] - y[Kendrick_Park,11,0] + newVar3 = 0
  R5570: x[Kendrick_Park,10,0] - x[Kendrick_Park,11,0] + newVar4 = 0
- c9[Kendrick_Park,11,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,11,0]: newVar5 + 13 newVar6 <= 13
  R5572: y[Kendrick_Park,10,1] - y[Kendrick_Park,11,1] + newVar3 = 0
  R5573: x[Kendrick_Park,10,1] - x[Kendrick_Park,11,1] + newVar4 = 0
- c9[Kendrick_Park,11,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,11,1]: newVar5 + 13 newVar6 <= 13
  R5575: y[Kendrick_Park,10,2] - y[Kendrick_Park,11,2] + newVar3 = 0
  R5576: x[Kendrick_Park,10,2] - x[Kendrick_Park,11,2] + newVar4 = 0
- c9[Kendrick_Park,11,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,11,2]: newVar5 + 13 newVar6 <= 13
  R5578: y[Kendrick_Park,11,0] - y[Kendrick_Park,12,0] + newVar3 = 0
  R5579: x[Kendrick_Park,11,0] - x[Kendrick_Park,12,0] + newVar4 = 0
- c9[Kendrick_Park,12,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,12,0]: newVar5 + 13 newVar6 <= 13
  R5581: y[Kendrick_Park,11,1] - y[Kendrick_Park,12,1] + newVar3 = 0
  R5582: x[Kendrick_Park,11,1] - x[Kendrick_Park,12,1] + newVar4 = 0
- c9[Kendrick_Park,12,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,12,1]: newVar5 + 13 newVar6 <= 13
  R5584: y[Kendrick_Park,11,2] - y[Kendrick_Park,12,2] + newVar3 = 0
  R5585: x[Kendrick_Park,11,2] - x[Kendrick_Park,12,2] + newVar4 = 0
- c9[Kendrick_Park,12,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,12,2]: newVar5 + 13 newVar6 <= 13
  R5587: y[Kendrick_Park,12,0] - y[Kendrick_Park,13,0] + newVar3 = 0
  R5588: x[Kendrick_Park,12,0] - x[Kendrick_Park,13,0] + newVar4 = 0
- c9[Kendrick_Park,13,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,13,0]: newVar5 + 13 newVar6 <= 13
  R5590: y[Kendrick_Park,12,1] - y[Kendrick_Park,13,1] + newVar3 = 0
  R5591: x[Kendrick_Park,12,1] - x[Kendrick_Park,13,1] + newVar4 = 0
- c9[Kendrick_Park,13,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,13,1]: newVar5 + 13 newVar6 <= 13
  R5593: y[Kendrick_Park,12,2] - y[Kendrick_Park,13,2] + newVar3 = 0
  R5594: x[Kendrick_Park,12,2] - x[Kendrick_Park,13,2] + newVar4 = 0
- c9[Kendrick_Park,13,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,13,2]: newVar5 + 13 newVar6 <= 13
  R5596: y[Kendrick_Park,13,0] - y[Kendrick_Park,14,0] + newVar3 = 0
  R5597: x[Kendrick_Park,13,0] - x[Kendrick_Park,14,0] + newVar4 = 0
- c9[Kendrick_Park,14,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,14,0]: newVar5 + 13 newVar6 <= 13
  R5599: y[Kendrick_Park,13,1] - y[Kendrick_Park,14,1] + newVar3 = 0
  R5600: x[Kendrick_Park,13,1] - x[Kendrick_Park,14,1] + newVar4 = 0
- c9[Kendrick_Park,14,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,14,1]: newVar5 + 13 newVar6 <= 13
  R5602: y[Kendrick_Park,13,2] - y[Kendrick_Park,14,2] + newVar3 = 0
  R5603: x[Kendrick_Park,13,2] - x[Kendrick_Park,14,2] + newVar4 = 0
- c9[Kendrick_Park,14,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,14,2]: newVar5 + 13 newVar6 <= 13
  R5605: y[Kendrick_Park,14,0] - y[Kendrick_Park,15,0] + newVar3 = 0
  R5606: x[Kendrick_Park,14,0] - x[Kendrick_Park,15,0] + newVar4 = 0
- c9[Kendrick_Park,15,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,15,0]: newVar5 + 13 newVar6 <= 13
  R5608: y[Kendrick_Park,14,1] - y[Kendrick_Park,15,1] + newVar3 = 0
  R5609: x[Kendrick_Park,14,1] - x[Kendrick_Park,15,1] + newVar4 = 0
- c9[Kendrick_Park,15,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,15,1]: newVar5 + 13 newVar6 <= 13
  R5611: y[Kendrick_Park,14,2] - y[Kendrick_Park,15,2] + newVar3 = 0
  R5612: x[Kendrick_Park,14,2] - x[Kendrick_Park,15,2] + newVar4 = 0
- c9[Kendrick_Park,15,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,15,2]: newVar5 + 13 newVar6 <= 13
  R5614: y[Kendrick_Park,15,0] - y[Kendrick_Park,16,0] + newVar3 = 0
  R5615: x[Kendrick_Park,15,0] - x[Kendrick_Park,16,0] + newVar4 = 0
- c9[Kendrick_Park,16,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,16,0]: newVar5 + 13 newVar6 <= 13
  R5617: y[Kendrick_Park,15,1] - y[Kendrick_Park,16,1] + newVar3 = 0
  R5618: x[Kendrick_Park,15,1] - x[Kendrick_Park,16,1] + newVar4 = 0
- c9[Kendrick_Park,16,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,16,1]: newVar5 + 13 newVar6 <= 13
  R5620: y[Kendrick_Park,15,2] - y[Kendrick_Park,16,2] + newVar3 = 0
  R5621: x[Kendrick_Park,15,2] - x[Kendrick_Park,16,2] + newVar4 = 0
- c9[Kendrick_Park,16,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,16,2]: newVar5 + 13 newVar6 <= 13
  R5623: y[Kendrick_Park,16,0] - y[Kendrick_Park,17,0] + newVar3 = 0
  R5624: x[Kendrick_Park,16,0] - x[Kendrick_Park,17,0] + newVar4 = 0
- c9[Kendrick_Park,17,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,17,0]: newVar5 + 13 newVar6 <= 13
  R5626: y[Kendrick_Park,16,1] - y[Kendrick_Park,17,1] + newVar3 = 0
  R5627: x[Kendrick_Park,16,1] - x[Kendrick_Park,17,1] + newVar4 = 0
- c9[Kendrick_Park,17,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,17,1]: newVar5 + 13 newVar6 <= 13
  R5629: y[Kendrick_Park,16,2] - y[Kendrick_Park,17,2] + newVar3 = 0
  R5630: x[Kendrick_Park,16,2] - x[Kendrick_Park,17,2] + newVar4 = 0
- c9[Kendrick_Park,17,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,17,2]: newVar5 + 13 newVar6 <= 13
  R5632: y[Kendrick_Park,17,0] - y[Kendrick_Park,18,0] + newVar3 = 0
  R5633: x[Kendrick_Park,17,0] - x[Kendrick_Park,18,0] + newVar4 = 0
- c9[Kendrick_Park,18,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,18,0]: newVar5 + 13 newVar6 <= 13
  R5635: y[Kendrick_Park,17,1] - y[Kendrick_Park,18,1] + newVar3 = 0
  R5636: x[Kendrick_Park,17,1] - x[Kendrick_Park,18,1] + newVar4 = 0
- c9[Kendrick_Park,18,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,18,1]: newVar5 + 13 newVar6 <= 13
  R5638: y[Kendrick_Park,17,2] - y[Kendrick_Park,18,2] + newVar3 = 0
  R5639: x[Kendrick_Park,17,2] - x[Kendrick_Park,18,2] + newVar4 = 0
- c9[Kendrick_Park,18,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,18,2]: newVar5 + 13 newVar6 <= 13
  R5641: y[Kendrick_Park,18,0] - y[Kendrick_Park,19,0] + newVar3 = 0
  R5642: x[Kendrick_Park,18,0] - x[Kendrick_Park,19,0] + newVar4 = 0
- c9[Kendrick_Park,19,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,19,0]: newVar5 + 13 newVar6 <= 13
  R5644: y[Kendrick_Park,18,1] - y[Kendrick_Park,19,1] + newVar3 = 0
  R5645: x[Kendrick_Park,18,1] - x[Kendrick_Park,19,1] + newVar4 = 0
- c9[Kendrick_Park,19,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,19,1]: newVar5 + 13 newVar6 <= 13
  R5647: y[Kendrick_Park,18,2] - y[Kendrick_Park,19,2] + newVar3 = 0
  R5648: x[Kendrick_Park,18,2] - x[Kendrick_Park,19,2] + newVar4 = 0
- c9[Kendrick_Park,19,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,19,2]: newVar5 + 13 newVar6 <= 13
  R5650: y[Kendrick_Park,19,0] - y[Kendrick_Park,20,0] + newVar3 = 0
  R5651: x[Kendrick_Park,19,0] - x[Kendrick_Park,20,0] + newVar4 = 0
- c9[Kendrick_Park,20,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,20,0]: newVar5 + 13 newVar6 <= 13
  R5653: y[Kendrick_Park,19,1] - y[Kendrick_Park,20,1] + newVar3 = 0
  R5654: x[Kendrick_Park,19,1] - x[Kendrick_Park,20,1] + newVar4 = 0
- c9[Kendrick_Park,20,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,20,1]: newVar5 + 13 newVar6 <= 13
  R5656: y[Kendrick_Park,19,2] - y[Kendrick_Park,20,2] + newVar3 = 0
  R5657: x[Kendrick_Park,19,2] - x[Kendrick_Park,20,2] + newVar4 = 0
- c9[Kendrick_Park,20,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,20,2]: newVar5 + 13 newVar6 <= 13
  R5659: y[Kendrick_Park,20,0] - y[Kendrick_Park,21,0] + newVar3 = 0
  R5660: x[Kendrick_Park,20,0] - x[Kendrick_Park,21,0] + newVar4 = 0
- c9[Kendrick_Park,21,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,21,0]: newVar5 + 13 newVar6 <= 13
  R5662: y[Kendrick_Park,20,1] - y[Kendrick_Park,21,1] + newVar3 = 0
  R5663: x[Kendrick_Park,20,1] - x[Kendrick_Park,21,1] + newVar4 = 0
- c9[Kendrick_Park,21,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,21,1]: newVar5 + 13 newVar6 <= 13
  R5665: y[Kendrick_Park,20,2] - y[Kendrick_Park,21,2] + newVar3 = 0
  R5666: x[Kendrick_Park,20,2] - x[Kendrick_Park,21,2] + newVar4 = 0
- c9[Kendrick_Park,21,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,21,2]: newVar5 + 13 newVar6 <= 13
  R5668: y[Kendrick_Park,21,0] - y[Kendrick_Park,22,0] + newVar3 = 0
  R5669: x[Kendrick_Park,21,0] - x[Kendrick_Park,22,0] + newVar4 = 0
- c9[Kendrick_Park,22,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,22,0]: newVar5 + 13 newVar6 <= 13
  R5671: y[Kendrick_Park,21,1] - y[Kendrick_Park,22,1] + newVar3 = 0
  R5672: x[Kendrick_Park,21,1] - x[Kendrick_Park,22,1] + newVar4 = 0
- c9[Kendrick_Park,22,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,22,1]: newVar5 + 13 newVar6 <= 13
  R5674: y[Kendrick_Park,21,2] - y[Kendrick_Park,22,2] + newVar3 = 0
  R5675: x[Kendrick_Park,21,2] - x[Kendrick_Park,22,2] + newVar4 = 0
- c9[Kendrick_Park,22,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,22,2]: newVar5 + 13 newVar6 <= 13
  R5677: y[Kendrick_Park,22,0] - y[Kendrick_Park,23,0] + newVar3 = 0
  R5678: x[Kendrick_Park,22,0] - x[Kendrick_Park,23,0] + newVar4 = 0
- c9[Kendrick_Park,23,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,23,0]: newVar5 + 13 newVar6 <= 13
  R5680: y[Kendrick_Park,22,1] - y[Kendrick_Park,23,1] + newVar3 = 0
  R5681: x[Kendrick_Park,22,1] - x[Kendrick_Park,23,1] + newVar4 = 0
- c9[Kendrick_Park,23,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,23,1]: newVar5 + 13 newVar6 <= 13
  R5683: y[Kendrick_Park,22,2] - y[Kendrick_Park,23,2] + newVar3 = 0
  R5684: x[Kendrick_Park,22,2] - x[Kendrick_Park,23,2] + newVar4 = 0
- c9[Kendrick_Park,23,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,23,2]: newVar5 + 13 newVar6 <= 13
  R5686: y[Kendrick_Park,23,0] - y[Kendrick_Park,24,0] + newVar3 = 0
  R5687: x[Kendrick_Park,23,0] - x[Kendrick_Park,24,0] + newVar4 = 0
- c9[Kendrick_Park,24,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,24,0]: newVar5 + 13 newVar6 <= 13
  R5689: y[Kendrick_Park,23,1] - y[Kendrick_Park,24,1] + newVar3 = 0
  R5690: x[Kendrick_Park,23,1] - x[Kendrick_Park,24,1] + newVar4 = 0
- c9[Kendrick_Park,24,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,24,1]: newVar5 + 13 newVar6 <= 13
  R5692: y[Kendrick_Park,23,2] - y[Kendrick_Park,24,2] + newVar3 = 0
  R5693: x[Kendrick_Park,23,2] - x[Kendrick_Park,24,2] + newVar4 = 0
- c9[Kendrick_Park,24,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,24,2]: newVar5 + 13 newVar6 <= 13
  R5695: y[Kendrick_Park,24,0] - y[Kendrick_Park,25,0] + newVar3 = 0
  R5696: x[Kendrick_Park,24,0] - x[Kendrick_Park,25,0] + newVar4 = 0
- c9[Kendrick_Park,25,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,25,0]: newVar5 + 13 newVar6 <= 13
  R5698: y[Kendrick_Park,24,1] - y[Kendrick_Park,25,1] + newVar3 = 0
  R5699: x[Kendrick_Park,24,1] - x[Kendrick_Park,25,1] + newVar4 = 0
- c9[Kendrick_Park,25,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,25,1]: newVar5 + 13 newVar6 <= 13
  R5701: y[Kendrick_Park,24,2] - y[Kendrick_Park,25,2] + newVar3 = 0
  R5702: x[Kendrick_Park,24,2] - x[Kendrick_Park,25,2] + newVar4 = 0
- c9[Kendrick_Park,25,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,25,2]: newVar5 + 13 newVar6 <= 13
  R5704: y[Kendrick_Park,25,0] - y[Kendrick_Park,26,0] + newVar3 = 0
  R5705: x[Kendrick_Park,25,0] - x[Kendrick_Park,26,0] + newVar4 = 0
- c9[Kendrick_Park,26,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,26,0]: newVar5 + 13 newVar6 <= 13
  R5707: y[Kendrick_Park,25,1] - y[Kendrick_Park,26,1] + newVar3 = 0
  R5708: x[Kendrick_Park,25,1] - x[Kendrick_Park,26,1] + newVar4 = 0
- c9[Kendrick_Park,26,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,26,1]: newVar5 + 13 newVar6 <= 13
  R5710: y[Kendrick_Park,25,2] - y[Kendrick_Park,26,2] + newVar3 = 0
  R5711: x[Kendrick_Park,25,2] - x[Kendrick_Park,26,2] + newVar4 = 0
- c9[Kendrick_Park,26,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,26,2]: newVar5 + 13 newVar6 <= 13
  R5713: y[Kendrick_Park,26,0] - y[Kendrick_Park,27,0] + newVar3 = 0
  R5714: x[Kendrick_Park,26,0] - x[Kendrick_Park,27,0] + newVar4 = 0
- c9[Kendrick_Park,27,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,27,0]: newVar5 + 13 newVar6 <= 13
  R5716: y[Kendrick_Park,26,1] - y[Kendrick_Park,27,1] + newVar3 = 0
  R5717: x[Kendrick_Park,26,1] - x[Kendrick_Park,27,1] + newVar4 = 0
- c9[Kendrick_Park,27,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,27,1]: newVar5 + 13 newVar6 <= 13
  R5719: y[Kendrick_Park,26,2] - y[Kendrick_Park,27,2] + newVar3 = 0
  R5720: x[Kendrick_Park,26,2] - x[Kendrick_Park,27,2] + newVar4 = 0
- c9[Kendrick_Park,27,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,27,2]: newVar5 + 13 newVar6 <= 13
  R5722: y[Kendrick_Park,27,0] - y[Kendrick_Park,28,0] + newVar3 = 0
  R5723: x[Kendrick_Park,27,0] - x[Kendrick_Park,28,0] + newVar4 = 0
- c9[Kendrick_Park,28,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,28,0]: newVar5 + 13 newVar6 <= 13
  R5725: y[Kendrick_Park,27,1] - y[Kendrick_Park,28,1] + newVar3 = 0
  R5726: x[Kendrick_Park,27,1] - x[Kendrick_Park,28,1] + newVar4 = 0
- c9[Kendrick_Park,28,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,28,1]: newVar5 + 13 newVar6 <= 13
  R5728: y[Kendrick_Park,27,2] - y[Kendrick_Park,28,2] + newVar3 = 0
  R5729: x[Kendrick_Park,27,2] - x[Kendrick_Park,28,2] + newVar4 = 0
- c9[Kendrick_Park,28,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,28,2]: newVar5 + 13 newVar6 <= 13
  R5731: y[Kendrick_Park,28,0] - y[Kendrick_Park,29,0] + newVar3 = 0
  R5732: x[Kendrick_Park,28,0] - x[Kendrick_Park,29,0] + newVar4 = 0
- c9[Kendrick_Park,29,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,29,0]: newVar5 + 13 newVar6 <= 13
  R5734: y[Kendrick_Park,28,1] - y[Kendrick_Park,29,1] + newVar3 = 0
  R5735: x[Kendrick_Park,28,1] - x[Kendrick_Park,29,1] + newVar4 = 0
- c9[Kendrick_Park,29,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,29,1]: newVar5 + 13 newVar6 <= 13
  R5737: y[Kendrick_Park,28,2] - y[Kendrick_Park,29,2] + newVar3 = 0
  R5738: x[Kendrick_Park,28,2] - x[Kendrick_Park,29,2] + newVar4 = 0
- c9[Kendrick_Park,29,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,29,2]: newVar5 + 13 newVar6 <= 13
  R5740: y[Kendrick_Park,29,0] - y[Kendrick_Park,30,0] + newVar3 = 0
  R5741: x[Kendrick_Park,29,0] - x[Kendrick_Park,30,0] + newVar4 = 0
- c9[Kendrick_Park,30,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,30,0]: newVar5 + 13 newVar6 <= 13
  R5743: y[Kendrick_Park,29,1] - y[Kendrick_Park,30,1] + newVar3 = 0
  R5744: x[Kendrick_Park,29,1] - x[Kendrick_Park,30,1] + newVar4 = 0
- c9[Kendrick_Park,30,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,30,1]: newVar5 + 13 newVar6 <= 13
  R5746: y[Kendrick_Park,29,2] - y[Kendrick_Park,30,2] + newVar3 = 0
  R5747: x[Kendrick_Park,29,2] - x[Kendrick_Park,30,2] + newVar4 = 0
- c9[Kendrick_Park,30,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,30,2]: newVar5 + 13 newVar6 <= 13
  R5749: y[Kendrick_Park,30,0] - y[Kendrick_Park,31,0] + newVar3 = 0
  R5750: x[Kendrick_Park,30,0] - x[Kendrick_Park,31,0] + newVar4 = 0
- c9[Kendrick_Park,31,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,31,0]: newVar5 + 13 newVar6 <= 13
  R5752: y[Kendrick_Park,30,1] - y[Kendrick_Park,31,1] + newVar3 = 0
  R5753: x[Kendrick_Park,30,1] - x[Kendrick_Park,31,1] + newVar4 = 0
- c9[Kendrick_Park,31,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,31,1]: newVar5 + 13 newVar6 <= 13
  R5755: y[Kendrick_Park,30,2] - y[Kendrick_Park,31,2] + newVar3 = 0
  R5756: x[Kendrick_Park,30,2] - x[Kendrick_Park,31,2] + newVar4 = 0
- c9[Kendrick_Park,31,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,31,2]: newVar5 + 13 newVar6 <= 13
  R5758: y[Kendrick_Park,31,0] - y[Kendrick_Park,32,0] + newVar3 = 0
  R5759: x[Kendrick_Park,31,0] - x[Kendrick_Park,32,0] + newVar4 = 0
- c9[Kendrick_Park,32,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,32,0]: newVar5 + 13 newVar6 <= 13
  R5761: y[Kendrick_Park,31,1] - y[Kendrick_Park,32,1] + newVar3 = 0
  R5762: x[Kendrick_Park,31,1] - x[Kendrick_Park,32,1] + newVar4 = 0
- c9[Kendrick_Park,32,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,32,1]: newVar5 + 13 newVar6 <= 13
  R5764: y[Kendrick_Park,31,2] - y[Kendrick_Park,32,2] + newVar3 = 0
  R5765: x[Kendrick_Park,31,2] - x[Kendrick_Park,32,2] + newVar4 = 0
- c9[Kendrick_Park,32,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,32,2]: newVar5 + 13 newVar6 <= 13
  R5767: y[Kendrick_Park,32,0] - y[Kendrick_Park,33,0] + newVar3 = 0
  R5768: x[Kendrick_Park,32,0] - x[Kendrick_Park,33,0] + newVar4 = 0
- c9[Kendrick_Park,33,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,33,0]: newVar5 + 13 newVar6 <= 13
  R5770: y[Kendrick_Park,32,1] - y[Kendrick_Park,33,1] + newVar3 = 0
  R5771: x[Kendrick_Park,32,1] - x[Kendrick_Park,33,1] + newVar4 = 0
- c9[Kendrick_Park,33,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,33,1]: newVar5 + 13 newVar6 <= 13
  R5773: y[Kendrick_Park,32,2] - y[Kendrick_Park,33,2] + newVar3 = 0
  R5774: x[Kendrick_Park,32,2] - x[Kendrick_Park,33,2] + newVar4 = 0
- c9[Kendrick_Park,33,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,33,2]: newVar5 + 13 newVar6 <= 13
  R5776: y[Kendrick_Park,33,0] - y[Kendrick_Park,34,0] + newVar3 = 0
  R5777: x[Kendrick_Park,33,0] - x[Kendrick_Park,34,0] + newVar4 = 0
- c9[Kendrick_Park,34,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,34,0]: newVar5 + 13 newVar6 <= 13
  R5779: y[Kendrick_Park,33,1] - y[Kendrick_Park,34,1] + newVar3 = 0
  R5780: x[Kendrick_Park,33,1] - x[Kendrick_Park,34,1] + newVar4 = 0
- c9[Kendrick_Park,34,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,34,1]: newVar5 + 13 newVar6 <= 13
  R5782: y[Kendrick_Park,33,2] - y[Kendrick_Park,34,2] + newVar3 = 0
  R5783: x[Kendrick_Park,33,2] - x[Kendrick_Park,34,2] + newVar4 = 0
- c9[Kendrick_Park,34,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,34,2]: newVar5 + 13 newVar6 <= 13
  R5785: y[Kendrick_Park,34,0] - y[Kendrick_Park,35,0] + newVar3 = 0
  R5786: x[Kendrick_Park,34,0] - x[Kendrick_Park,35,0] + newVar4 = 0
- c9[Kendrick_Park,35,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,35,0]: newVar5 + 13 newVar6 <= 13
  R5788: y[Kendrick_Park,34,1] - y[Kendrick_Park,35,1] + newVar3 = 0
  R5789: x[Kendrick_Park,34,1] - x[Kendrick_Park,35,1] + newVar4 = 0
- c9[Kendrick_Park,35,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,35,1]: newVar5 + 13 newVar6 <= 13
  R5791: y[Kendrick_Park,34,2] - y[Kendrick_Park,35,2] + newVar3 = 0
  R5792: x[Kendrick_Park,34,2] - x[Kendrick_Park,35,2] + newVar4 = 0
- c9[Kendrick_Park,35,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,35,2]: newVar5 + 13 newVar6 <= 13
  R5794: y[Kendrick_Park,35,0] - y[Kendrick_Park,36,0] + newVar3 = 0
  R5795: x[Kendrick_Park,35,0] - x[Kendrick_Park,36,0] + newVar4 = 0
- c9[Kendrick_Park,36,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,36,0]: newVar5 + 13 newVar6 <= 13
  R5797: y[Kendrick_Park,35,1] - y[Kendrick_Park,36,1] + newVar3 = 0
  R5798: x[Kendrick_Park,35,1] - x[Kendrick_Park,36,1] + newVar4 = 0
- c9[Kendrick_Park,36,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,36,1]: newVar5 + 13 newVar6 <= 13
  R5800: y[Kendrick_Park,35,2] - y[Kendrick_Park,36,2] + newVar3 = 0
  R5801: x[Kendrick_Park,35,2] - x[Kendrick_Park,36,2] + newVar4 = 0
- c9[Kendrick_Park,36,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,36,2]: newVar5 + 13 newVar6 <= 13
  R5803: y[Kendrick_Park,36,0] - y[Kendrick_Park,37,0] + newVar3 = 0
  R5804: x[Kendrick_Park,36,0] - x[Kendrick_Park,37,0] + newVar4 = 0
- c9[Kendrick_Park,37,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,37,0]: newVar5 + 13 newVar6 <= 13
  R5806: y[Kendrick_Park,36,1] - y[Kendrick_Park,37,1] + newVar3 = 0
  R5807: x[Kendrick_Park,36,1] - x[Kendrick_Park,37,1] + newVar4 = 0
- c9[Kendrick_Park,37,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,37,1]: newVar5 + 13 newVar6 <= 13
  R5809: y[Kendrick_Park,36,2] - y[Kendrick_Park,37,2] + newVar3 = 0
  R5810: x[Kendrick_Park,36,2] - x[Kendrick_Park,37,2] + newVar4 = 0
- c9[Kendrick_Park,37,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,37,2]: newVar5 + 13 newVar6 <= 13
  R5812: y[Kendrick_Park,37,0] - y[Kendrick_Park,38,0] + newVar3 = 0
  R5813: x[Kendrick_Park,37,0] - x[Kendrick_Park,38,0] + newVar4 = 0
- c9[Kendrick_Park,38,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,38,0]: newVar5 + 13 newVar6 <= 13
  R5815: y[Kendrick_Park,37,1] - y[Kendrick_Park,38,1] + newVar3 = 0
  R5816: x[Kendrick_Park,37,1] - x[Kendrick_Park,38,1] + newVar4 = 0
- c9[Kendrick_Park,38,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,38,1]: newVar5 + 13 newVar6 <= 13
  R5818: y[Kendrick_Park,37,2] - y[Kendrick_Park,38,2] + newVar3 = 0
  R5819: x[Kendrick_Park,37,2] - x[Kendrick_Park,38,2] + newVar4 = 0
- c9[Kendrick_Park,38,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,38,2]: newVar5 + 13 newVar6 <= 13
  R5821: y[Kendrick_Park,38,0] - y[Kendrick_Park,39,0] + newVar3 = 0
  R5822: x[Kendrick_Park,38,0] - x[Kendrick_Park,39,0] + newVar4 = 0
- c9[Kendrick_Park,39,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,39,0]: newVar5 + 13 newVar6 <= 13
  R5824: y[Kendrick_Park,38,1] - y[Kendrick_Park,39,1] + newVar3 = 0
  R5825: x[Kendrick_Park,38,1] - x[Kendrick_Park,39,1] + newVar4 = 0
- c9[Kendrick_Park,39,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,39,1]: newVar5 + 13 newVar6 <= 13
  R5827: y[Kendrick_Park,38,2] - y[Kendrick_Park,39,2] + newVar3 = 0
  R5828: x[Kendrick_Park,38,2] - x[Kendrick_Park,39,2] + newVar4 = 0
- c9[Kendrick_Park,39,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,39,2]: newVar5 + 13 newVar6 <= 13
  R5830: y[Kendrick_Park,39,0] - y[Kendrick_Park,40,0] + newVar3 = 0
  R5831: x[Kendrick_Park,39,0] - x[Kendrick_Park,40,0] + newVar4 = 0
- c9[Kendrick_Park,40,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,40,0]: newVar5 + 13 newVar6 <= 13
  R5833: y[Kendrick_Park,39,1] - y[Kendrick_Park,40,1] + newVar3 = 0
  R5834: x[Kendrick_Park,39,1] - x[Kendrick_Park,40,1] + newVar4 = 0
- c9[Kendrick_Park,40,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,40,1]: newVar5 + 13 newVar6 <= 13
  R5836: y[Kendrick_Park,39,2] - y[Kendrick_Park,40,2] + newVar3 = 0
  R5837: x[Kendrick_Park,39,2] - x[Kendrick_Park,40,2] + newVar4 = 0
- c9[Kendrick_Park,40,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,40,2]: newVar5 + 13 newVar6 <= 13
  R5839: y[Kendrick_Park,40,0] - y[Kendrick_Park,41,0] + newVar3 = 0
  R5840: x[Kendrick_Park,40,0] - x[Kendrick_Park,41,0] + newVar4 = 0
- c9[Kendrick_Park,41,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,41,0]: newVar5 + 13 newVar6 <= 13
  R5842: y[Kendrick_Park,40,1] - y[Kendrick_Park,41,1] + newVar3 = 0
  R5843: x[Kendrick_Park,40,1] - x[Kendrick_Park,41,1] + newVar4 = 0
- c9[Kendrick_Park,41,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,41,1]: newVar5 + 13 newVar6 <= 13
  R5845: y[Kendrick_Park,40,2] - y[Kendrick_Park,41,2] + newVar3 = 0
  R5846: x[Kendrick_Park,40,2] - x[Kendrick_Park,41,2] + newVar4 = 0
- c9[Kendrick_Park,41,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,41,2]: newVar5 + 13 newVar6 <= 13
  R5848: y[Kendrick_Park,41,0] - y[Kendrick_Park,42,0] + newVar3 = 0
  R5849: x[Kendrick_Park,41,0] - x[Kendrick_Park,42,0] + newVar4 = 0
- c9[Kendrick_Park,42,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,42,0]: newVar5 + 13 newVar6 <= 13
  R5851: y[Kendrick_Park,41,1] - y[Kendrick_Park,42,1] + newVar3 = 0
  R5852: x[Kendrick_Park,41,1] - x[Kendrick_Park,42,1] + newVar4 = 0
- c9[Kendrick_Park,42,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,42,1]: newVar5 + 13 newVar6 <= 13
  R5854: y[Kendrick_Park,41,2] - y[Kendrick_Park,42,2] + newVar3 = 0
  R5855: x[Kendrick_Park,41,2] - x[Kendrick_Park,42,2] + newVar4 = 0
- c9[Kendrick_Park,42,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,42,2]: newVar5 + 13 newVar6 <= 13
  R5857: y[Kendrick_Park,42,0] - y[Kendrick_Park,43,0] + newVar3 = 0
  R5858: x[Kendrick_Park,42,0] - x[Kendrick_Park,43,0] + newVar4 = 0
- c9[Kendrick_Park,43,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,43,0]: newVar5 + 13 newVar6 <= 13
  R5860: y[Kendrick_Park,42,1] - y[Kendrick_Park,43,1] + newVar3 = 0
  R5861: x[Kendrick_Park,42,1] - x[Kendrick_Park,43,1] + newVar4 = 0
- c9[Kendrick_Park,43,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,43,1]: newVar5 + 13 newVar6 <= 13
  R5863: y[Kendrick_Park,42,2] - y[Kendrick_Park,43,2] + newVar3 = 0
  R5864: x[Kendrick_Park,42,2] - x[Kendrick_Park,43,2] + newVar4 = 0
- c9[Kendrick_Park,43,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,43,2]: newVar5 + 13 newVar6 <= 13
  R5866: y[Kendrick_Park,43,0] - y[Kendrick_Park,44,0] + newVar3 = 0
  R5867: x[Kendrick_Park,43,0] - x[Kendrick_Park,44,0] + newVar4 = 0
- c9[Kendrick_Park,44,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,44,0]: newVar5 + 13 newVar6 <= 13
  R5869: y[Kendrick_Park,43,1] - y[Kendrick_Park,44,1] + newVar3 = 0
  R5870: x[Kendrick_Park,43,1] - x[Kendrick_Park,44,1] + newVar4 = 0
- c9[Kendrick_Park,44,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,44,1]: newVar5 + 13 newVar6 <= 13
  R5872: y[Kendrick_Park,43,2] - y[Kendrick_Park,44,2] + newVar3 = 0
  R5873: x[Kendrick_Park,43,2] - x[Kendrick_Park,44,2] + newVar4 = 0
- c9[Kendrick_Park,44,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,44,2]: newVar5 + 13 newVar6 <= 13
  R5875: y[Kendrick_Park,44,0] - y[Kendrick_Park,45,0] + newVar3 = 0
  R5876: x[Kendrick_Park,44,0] - x[Kendrick_Park,45,0] + newVar4 = 0
- c9[Kendrick_Park,45,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,45,0]: newVar5 + 13 newVar6 <= 13
  R5878: y[Kendrick_Park,44,1] - y[Kendrick_Park,45,1] + newVar3 = 0
  R5879: x[Kendrick_Park,44,1] - x[Kendrick_Park,45,1] + newVar4 = 0
- c9[Kendrick_Park,45,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,45,1]: newVar5 + 13 newVar6 <= 13
  R5881: y[Kendrick_Park,44,2] - y[Kendrick_Park,45,2] + newVar3 = 0
  R5882: x[Kendrick_Park,44,2] - x[Kendrick_Park,45,2] + newVar4 = 0
- c9[Kendrick_Park,45,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,45,2]: newVar5 + 13 newVar6 <= 13
  R5884: y[Kendrick_Park,45,0] - y[Kendrick_Park,46,0] + newVar3 = 0
  R5885: x[Kendrick_Park,45,0] - x[Kendrick_Park,46,0] + newVar4 = 0
- c9[Kendrick_Park,46,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,46,0]: newVar5 + 13 newVar6 <= 13
  R5887: y[Kendrick_Park,45,1] - y[Kendrick_Park,46,1] + newVar3 = 0
  R5888: x[Kendrick_Park,45,1] - x[Kendrick_Park,46,1] + newVar4 = 0
- c9[Kendrick_Park,46,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,46,1]: newVar5 + 13 newVar6 <= 13
  R5890: y[Kendrick_Park,45,2] - y[Kendrick_Park,46,2] + newVar3 = 0
  R5891: x[Kendrick_Park,45,2] - x[Kendrick_Park,46,2] + newVar4 = 0
- c9[Kendrick_Park,46,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,46,2]: newVar5 + 13 newVar6 <= 13
  R5893: y[Kendrick_Park,46,0] - y[Kendrick_Park,47,0] + newVar3 = 0
  R5894: x[Kendrick_Park,46,0] - x[Kendrick_Park,47,0] + newVar4 = 0
- c9[Kendrick_Park,47,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,47,0]: newVar5 + 13 newVar6 <= 13
  R5896: y[Kendrick_Park,46,1] - y[Kendrick_Park,47,1] + newVar3 = 0
  R5897: x[Kendrick_Park,46,1] - x[Kendrick_Park,47,1] + newVar4 = 0
- c9[Kendrick_Park,47,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,47,1]: newVar5 + 13 newVar6 <= 13
  R5899: y[Kendrick_Park,46,2] - y[Kendrick_Park,47,2] + newVar3 = 0
  R5900: x[Kendrick_Park,46,2] - x[Kendrick_Park,47,2] + newVar4 = 0
- c9[Kendrick_Park,47,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[Kendrick_Park,47,2]: newVar5 + 13 newVar6 <= 13
  R5902: - y[North_Pleasant_Street,0,0] + newVar3 = 0
  R5903: - x[North_Pleasant_Street,0,0] + newVar4 = 0
- c9[North_Pleasant_Street,0,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,0,0]: newVar5 + 13 newVar6 <= 13
  R5905: - y[North_Pleasant_Street,0,1] + newVar3 = 0
  R5906: - x[North_Pleasant_Street,0,1] + newVar4 = 0
- c9[North_Pleasant_Street,0,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,0,1]: newVar5 + 13 newVar6 <= 13
  R5908: - y[North_Pleasant_Street,0,2] + newVar3 = 0
  R5909: - x[North_Pleasant_Street,0,2] + newVar4 = 0
- c9[North_Pleasant_Street,0,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,0,2]: newVar5 + 13 newVar6 <= 13
  R5911: y[North_Pleasant_Street,0,0] - y[North_Pleasant_Street,1,0]
    + newVar3 = 0
  R5912: x[North_Pleasant_Street,0,0] - x[North_Pleasant_Street,1,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,1,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,1,0]: newVar5 + 13 newVar6 <= 13
  R5914: y[North_Pleasant_Street,0,1] - y[North_Pleasant_Street,1,1]
    + newVar3 = 0
  R5915: x[North_Pleasant_Street,0,1] - x[North_Pleasant_Street,1,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,1,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,1,1]: newVar5 + 13 newVar6 <= 13
  R5917: y[North_Pleasant_Street,0,2] - y[North_Pleasant_Street,1,2]
    + newVar3 = 0
  R5918: x[North_Pleasant_Street,0,2] - x[North_Pleasant_Street,1,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,1,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,1,2]: newVar5 + 13 newVar6 <= 13
  R5920: y[North_Pleasant_Street,1,0] - y[North_Pleasant_Street,2,0]
    + newVar3 = 0
  R5921: x[North_Pleasant_Street,1,0] - x[North_Pleasant_Street,2,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,2,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,2,0]: newVar5 + 13 newVar6 <= 13
  R5923: y[North_Pleasant_Street,1,1] - y[North_Pleasant_Street,2,1]
    + newVar3 = 0
  R5924: x[North_Pleasant_Street,1,1] - x[North_Pleasant_Street,2,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,2,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,2,1]: newVar5 + 13 newVar6 <= 13
  R5926: y[North_Pleasant_Street,1,2] - y[North_Pleasant_Street,2,2]
    + newVar3 = 0
  R5927: x[North_Pleasant_Street,1,2] - x[North_Pleasant_Street,2,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,2,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,2,2]: newVar5 + 13 newVar6 <= 13
  R5929: y[North_Pleasant_Street,2,0] - y[North_Pleasant_Street,3,0]
    + newVar3 = 0
  R5930: x[North_Pleasant_Street,2,0] - x[North_Pleasant_Street,3,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,3,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,3,0]: newVar5 + 13 newVar6 <= 13
  R5932: y[North_Pleasant_Street,2,1] - y[North_Pleasant_Street,3,1]
    + newVar3 = 0
  R5933: x[North_Pleasant_Street,2,1] - x[North_Pleasant_Street,3,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,3,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,3,1]: newVar5 + 13 newVar6 <= 13
  R5935: y[North_Pleasant_Street,2,2] - y[North_Pleasant_Street,3,2]
    + newVar3 = 0
  R5936: x[North_Pleasant_Street,2,2] - x[North_Pleasant_Street,3,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,3,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,3,2]: newVar5 + 13 newVar6 <= 13
  R5938: y[North_Pleasant_Street,3,0] - y[North_Pleasant_Street,4,0]
    + newVar3 = 0
  R5939: x[North_Pleasant_Street,3,0] - x[North_Pleasant_Street,4,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,4,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,4,0]: newVar5 + 13 newVar6 <= 13
  R5941: y[North_Pleasant_Street,3,1] - y[North_Pleasant_Street,4,1]
    + newVar3 = 0
  R5942: x[North_Pleasant_Street,3,1] - x[North_Pleasant_Street,4,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,4,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,4,1]: newVar5 + 13 newVar6 <= 13
  R5944: y[North_Pleasant_Street,3,2] - y[North_Pleasant_Street,4,2]
    + newVar3 = 0
  R5945: x[North_Pleasant_Street,3,2] - x[North_Pleasant_Street,4,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,4,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,4,2]: newVar5 + 13 newVar6 <= 13
  R5947: y[North_Pleasant_Street,4,0] - y[North_Pleasant_Street,5,0]
    + newVar3 = 0
  R5948: x[North_Pleasant_Street,4,0] - x[North_Pleasant_Street,5,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,5,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,5,0]: newVar5 + 13 newVar6 <= 13
  R5950: y[North_Pleasant_Street,4,1] - y[North_Pleasant_Street,5,1]
    + newVar3 = 0
  R5951: x[North_Pleasant_Street,4,1] - x[North_Pleasant_Street,5,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,5,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,5,1]: newVar5 + 13 newVar6 <= 13
  R5953: y[North_Pleasant_Street,4,2] - y[North_Pleasant_Street,5,2]
    + newVar3 = 0
  R5954: x[North_Pleasant_Street,4,2] - x[North_Pleasant_Street,5,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,5,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,5,2]: newVar5 + 13 newVar6 <= 13
  R5956: y[North_Pleasant_Street,5,0] - y[North_Pleasant_Street,6,0]
    + newVar3 = 0
  R5957: x[North_Pleasant_Street,5,0] - x[North_Pleasant_Street,6,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,6,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,6,0]: newVar5 + 13 newVar6 <= 13
  R5959: y[North_Pleasant_Street,5,1] - y[North_Pleasant_Street,6,1]
    + newVar3 = 0
  R5960: x[North_Pleasant_Street,5,1] - x[North_Pleasant_Street,6,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,6,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,6,1]: newVar5 + 13 newVar6 <= 13
  R5962: y[North_Pleasant_Street,5,2] - y[North_Pleasant_Street,6,2]
    + newVar3 = 0
  R5963: x[North_Pleasant_Street,5,2] - x[North_Pleasant_Street,6,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,6,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,6,2]: newVar5 + 13 newVar6 <= 13
  R5965: y[North_Pleasant_Street,6,0] - y[North_Pleasant_Street,7,0]
    + newVar3 = 0
  R5966: x[North_Pleasant_Street,6,0] - x[North_Pleasant_Street,7,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,7,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,7,0]: newVar5 + 13 newVar6 <= 13
  R5968: y[North_Pleasant_Street,6,1] - y[North_Pleasant_Street,7,1]
    + newVar3 = 0
  R5969: x[North_Pleasant_Street,6,1] - x[North_Pleasant_Street,7,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,7,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,7,1]: newVar5 + 13 newVar6 <= 13
  R5971: y[North_Pleasant_Street,6,2] - y[North_Pleasant_Street,7,2]
    + newVar3 = 0
  R5972: x[North_Pleasant_Street,6,2] - x[North_Pleasant_Street,7,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,7,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,7,2]: newVar5 + 13 newVar6 <= 13
  R5974: y[North_Pleasant_Street,7,0] - y[North_Pleasant_Street,8,0]
    + newVar3 = 0
  R5975: x[North_Pleasant_Street,7,0] - x[North_Pleasant_Street,8,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,8,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,8,0]: newVar5 + 13 newVar6 <= 13
  R5977: y[North_Pleasant_Street,7,1] - y[North_Pleasant_Street,8,1]
    + newVar3 = 0
  R5978: x[North_Pleasant_Street,7,1] - x[North_Pleasant_Street,8,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,8,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,8,1]: newVar5 + 13 newVar6 <= 13
  R5980: y[North_Pleasant_Street,7,2] - y[North_Pleasant_Street,8,2]
    + newVar3 = 0
  R5981: x[North_Pleasant_Street,7,2] - x[North_Pleasant_Street,8,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,8,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,8,2]: newVar5 + 13 newVar6 <= 13
  R5983: y[North_Pleasant_Street,8,0] - y[North_Pleasant_Street,9,0]
    + newVar3 = 0
  R5984: x[North_Pleasant_Street,8,0] - x[North_Pleasant_Street,9,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,9,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,9,0]: newVar5 + 13 newVar6 <= 13
  R5986: y[North_Pleasant_Street,8,1] - y[North_Pleasant_Street,9,1]
    + newVar3 = 0
  R5987: x[North_Pleasant_Street,8,1] - x[North_Pleasant_Street,9,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,9,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,9,1]: newVar5 + 13 newVar6 <= 13
  R5989: y[North_Pleasant_Street,8,2] - y[North_Pleasant_Street,9,2]
    + newVar3 = 0
  R5990: x[North_Pleasant_Street,8,2] - x[North_Pleasant_Street,9,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,9,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,9,2]: newVar5 + 13 newVar6 <= 13
  R5992: y[North_Pleasant_Street,9,0] - y[North_Pleasant_Street,10,0]
    + newVar3 = 0
  R5993: x[North_Pleasant_Street,9,0] - x[North_Pleasant_Street,10,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,10,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,10,0]: newVar5 + 13 newVar6 <= 13
  R5995: y[North_Pleasant_Street,9,1] - y[North_Pleasant_Street,10,1]
    + newVar3 = 0
  R5996: x[North_Pleasant_Street,9,1] - x[North_Pleasant_Street,10,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,10,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,10,1]: newVar5 + 13 newVar6 <= 13
  R5998: y[North_Pleasant_Street,9,2] - y[North_Pleasant_Street,10,2]
    + newVar3 = 0
  R5999: x[North_Pleasant_Street,9,2] - x[North_Pleasant_Street,10,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,10,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,10,2]: newVar5 + 13 newVar6 <= 13
  R6001: y[North_Pleasant_Street,10,0] - y[North_Pleasant_Street,11,0]
    + newVar3 = 0
  R6002: x[North_Pleasant_Street,10,0] - x[North_Pleasant_Street,11,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,11,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,11,0]: newVar5 + 13 newVar6 <= 13
  R6004: y[North_Pleasant_Street,10,1] - y[North_Pleasant_Street,11,1]
    + newVar3 = 0
  R6005: x[North_Pleasant_Street,10,1] - x[North_Pleasant_Street,11,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,11,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,11,1]: newVar5 + 13 newVar6 <= 13
  R6007: y[North_Pleasant_Street,10,2] - y[North_Pleasant_Street,11,2]
    + newVar3 = 0
  R6008: x[North_Pleasant_Street,10,2] - x[North_Pleasant_Street,11,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,11,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,11,2]: newVar5 + 13 newVar6 <= 13
  R6010: y[North_Pleasant_Street,11,0] - y[North_Pleasant_Street,12,0]
    + newVar3 = 0
  R6011: x[North_Pleasant_Street,11,0] - x[North_Pleasant_Street,12,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,12,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,12,0]: newVar5 + 13 newVar6 <= 13
  R6013: y[North_Pleasant_Street,11,1] - y[North_Pleasant_Street,12,1]
    + newVar3 = 0
  R6014: x[North_Pleasant_Street,11,1] - x[North_Pleasant_Street,12,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,12,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,12,1]: newVar5 + 13 newVar6 <= 13
  R6016: y[North_Pleasant_Street,11,2] - y[North_Pleasant_Street,12,2]
    + newVar3 = 0
  R6017: x[North_Pleasant_Street,11,2] - x[North_Pleasant_Street,12,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,12,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,12,2]: newVar5 + 13 newVar6 <= 13
  R6019: y[North_Pleasant_Street,12,0] - y[North_Pleasant_Street,13,0]
    + newVar3 = 0
  R6020: x[North_Pleasant_Street,12,0] - x[North_Pleasant_Street,13,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,13,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,13,0]: newVar5 + 13 newVar6 <= 13
  R6022: y[North_Pleasant_Street,12,1] - y[North_Pleasant_Street,13,1]
    + newVar3 = 0
  R6023: x[North_Pleasant_Street,12,1] - x[North_Pleasant_Street,13,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,13,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,13,1]: newVar5 + 13 newVar6 <= 13
  R6025: y[North_Pleasant_Street,12,2] - y[North_Pleasant_Street,13,2]
    + newVar3 = 0
  R6026: x[North_Pleasant_Street,12,2] - x[North_Pleasant_Street,13,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,13,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,13,2]: newVar5 + 13 newVar6 <= 13
  R6028: y[North_Pleasant_Street,13,0] - y[North_Pleasant_Street,14,0]
    + newVar3 = 0
  R6029: x[North_Pleasant_Street,13,0] - x[North_Pleasant_Street,14,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,14,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,14,0]: newVar5 + 13 newVar6 <= 13
  R6031: y[North_Pleasant_Street,13,1] - y[North_Pleasant_Street,14,1]
    + newVar3 = 0
  R6032: x[North_Pleasant_Street,13,1] - x[North_Pleasant_Street,14,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,14,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,14,1]: newVar5 + 13 newVar6 <= 13
  R6034: y[North_Pleasant_Street,13,2] - y[North_Pleasant_Street,14,2]
    + newVar3 = 0
  R6035: x[North_Pleasant_Street,13,2] - x[North_Pleasant_Street,14,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,14,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,14,2]: newVar5 + 13 newVar6 <= 13
  R6037: y[North_Pleasant_Street,14,0] - y[North_Pleasant_Street,15,0]
    + newVar3 = 0
  R6038: x[North_Pleasant_Street,14,0] - x[North_Pleasant_Street,15,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,15,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,15,0]: newVar5 + 13 newVar6 <= 13
  R6040: y[North_Pleasant_Street,14,1] - y[North_Pleasant_Street,15,1]
    + newVar3 = 0
  R6041: x[North_Pleasant_Street,14,1] - x[North_Pleasant_Street,15,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,15,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,15,1]: newVar5 + 13 newVar6 <= 13
  R6043: y[North_Pleasant_Street,14,2] - y[North_Pleasant_Street,15,2]
    + newVar3 = 0
  R6044: x[North_Pleasant_Street,14,2] - x[North_Pleasant_Street,15,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,15,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,15,2]: newVar5 + 13 newVar6 <= 13
  R6046: y[North_Pleasant_Street,15,0] - y[North_Pleasant_Street,16,0]
    + newVar3 = 0
  R6047: x[North_Pleasant_Street,15,0] - x[North_Pleasant_Street,16,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,16,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,16,0]: newVar5 + 13 newVar6 <= 13
  R6049: y[North_Pleasant_Street,15,1] - y[North_Pleasant_Street,16,1]
    + newVar3 = 0
  R6050: x[North_Pleasant_Street,15,1] - x[North_Pleasant_Street,16,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,16,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,16,1]: newVar5 + 13 newVar6 <= 13
  R6052: y[North_Pleasant_Street,15,2] - y[North_Pleasant_Street,16,2]
    + newVar3 = 0
  R6053: x[North_Pleasant_Street,15,2] - x[North_Pleasant_Street,16,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,16,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,16,2]: newVar5 + 13 newVar6 <= 13
  R6055: y[North_Pleasant_Street,16,0] - y[North_Pleasant_Street,17,0]
    + newVar3 = 0
  R6056: x[North_Pleasant_Street,16,0] - x[North_Pleasant_Street,17,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,17,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,17,0]: newVar5 + 13 newVar6 <= 13
  R6058: y[North_Pleasant_Street,16,1] - y[North_Pleasant_Street,17,1]
    + newVar3 = 0
  R6059: x[North_Pleasant_Street,16,1] - x[North_Pleasant_Street,17,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,17,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,17,1]: newVar5 + 13 newVar6 <= 13
  R6061: y[North_Pleasant_Street,16,2] - y[North_Pleasant_Street,17,2]
    + newVar3 = 0
  R6062: x[North_Pleasant_Street,16,2] - x[North_Pleasant_Street,17,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,17,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,17,2]: newVar5 + 13 newVar6 <= 13
  R6064: y[North_Pleasant_Street,17,0] - y[North_Pleasant_Street,18,0]
    + newVar3 = 0
  R6065: x[North_Pleasant_Street,17,0] - x[North_Pleasant_Street,18,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,18,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,18,0]: newVar5 + 13 newVar6 <= 13
  R6067: y[North_Pleasant_Street,17,1] - y[North_Pleasant_Street,18,1]
    + newVar3 = 0
  R6068: x[North_Pleasant_Street,17,1] - x[North_Pleasant_Street,18,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,18,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,18,1]: newVar5 + 13 newVar6 <= 13
  R6070: y[North_Pleasant_Street,17,2] - y[North_Pleasant_Street,18,2]
    + newVar3 = 0
  R6071: x[North_Pleasant_Street,17,2] - x[North_Pleasant_Street,18,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,18,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,18,2]: newVar5 + 13 newVar6 <= 13
  R6073: y[North_Pleasant_Street,18,0] - y[North_Pleasant_Street,19,0]
    + newVar3 = 0
  R6074: x[North_Pleasant_Street,18,0] - x[North_Pleasant_Street,19,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,19,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,19,0]: newVar5 + 13 newVar6 <= 13
  R6076: y[North_Pleasant_Street,18,1] - y[North_Pleasant_Street,19,1]
    + newVar3 = 0
  R6077: x[North_Pleasant_Street,18,1] - x[North_Pleasant_Street,19,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,19,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,19,1]: newVar5 + 13 newVar6 <= 13
  R6079: y[North_Pleasant_Street,18,2] - y[North_Pleasant_Street,19,2]
    + newVar3 = 0
  R6080: x[North_Pleasant_Street,18,2] - x[North_Pleasant_Street,19,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,19,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,19,2]: newVar5 + 13 newVar6 <= 13
  R6082: y[North_Pleasant_Street,19,0] - y[North_Pleasant_Street,20,0]
    + newVar3 = 0
  R6083: x[North_Pleasant_Street,19,0] - x[North_Pleasant_Street,20,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,20,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,20,0]: newVar5 + 13 newVar6 <= 13
  R6085: y[North_Pleasant_Street,19,1] - y[North_Pleasant_Street,20,1]
    + newVar3 = 0
  R6086: x[North_Pleasant_Street,19,1] - x[North_Pleasant_Street,20,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,20,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,20,1]: newVar5 + 13 newVar6 <= 13
  R6088: y[North_Pleasant_Street,19,2] - y[North_Pleasant_Street,20,2]
    + newVar3 = 0
  R6089: x[North_Pleasant_Street,19,2] - x[North_Pleasant_Street,20,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,20,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,20,2]: newVar5 + 13 newVar6 <= 13
  R6091: y[North_Pleasant_Street,20,0] - y[North_Pleasant_Street,21,0]
    + newVar3 = 0
  R6092: x[North_Pleasant_Street,20,0] - x[North_Pleasant_Street,21,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,21,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,21,0]: newVar5 + 13 newVar6 <= 13
  R6094: y[North_Pleasant_Street,20,1] - y[North_Pleasant_Street,21,1]
    + newVar3 = 0
  R6095: x[North_Pleasant_Street,20,1] - x[North_Pleasant_Street,21,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,21,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,21,1]: newVar5 + 13 newVar6 <= 13
  R6097: y[North_Pleasant_Street,20,2] - y[North_Pleasant_Street,21,2]
    + newVar3 = 0
  R6098: x[North_Pleasant_Street,20,2] - x[North_Pleasant_Street,21,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,21,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,21,2]: newVar5 + 13 newVar6 <= 13
  R6100: y[North_Pleasant_Street,21,0] - y[North_Pleasant_Street,22,0]
    + newVar3 = 0
  R6101: x[North_Pleasant_Street,21,0] - x[North_Pleasant_Street,22,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,22,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,22,0]: newVar5 + 13 newVar6 <= 13
  R6103: y[North_Pleasant_Street,21,1] - y[North_Pleasant_Street,22,1]
    + newVar3 = 0
  R6104: x[North_Pleasant_Street,21,1] - x[North_Pleasant_Street,22,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,22,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,22,1]: newVar5 + 13 newVar6 <= 13
  R6106: y[North_Pleasant_Street,21,2] - y[North_Pleasant_Street,22,2]
    + newVar3 = 0
  R6107: x[North_Pleasant_Street,21,2] - x[North_Pleasant_Street,22,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,22,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,22,2]: newVar5 + 13 newVar6 <= 13
  R6109: y[North_Pleasant_Street,22,0] - y[North_Pleasant_Street,23,0]
    + newVar3 = 0
  R6110: x[North_Pleasant_Street,22,0] - x[North_Pleasant_Street,23,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,23,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,23,0]: newVar5 + 13 newVar6 <= 13
  R6112: y[North_Pleasant_Street,22,1] - y[North_Pleasant_Street,23,1]
    + newVar3 = 0
  R6113: x[North_Pleasant_Street,22,1] - x[North_Pleasant_Street,23,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,23,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,23,1]: newVar5 + 13 newVar6 <= 13
  R6115: y[North_Pleasant_Street,22,2] - y[North_Pleasant_Street,23,2]
    + newVar3 = 0
  R6116: x[North_Pleasant_Street,22,2] - x[North_Pleasant_Street,23,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,23,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,23,2]: newVar5 + 13 newVar6 <= 13
  R6118: y[North_Pleasant_Street,23,0] - y[North_Pleasant_Street,24,0]
    + newVar3 = 0
  R6119: x[North_Pleasant_Street,23,0] - x[North_Pleasant_Street,24,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,24,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,24,0]: newVar5 + 13 newVar6 <= 13
  R6121: y[North_Pleasant_Street,23,1] - y[North_Pleasant_Street,24,1]
    + newVar3 = 0
  R6122: x[North_Pleasant_Street,23,1] - x[North_Pleasant_Street,24,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,24,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,24,1]: newVar5 + 13 newVar6 <= 13
  R6124: y[North_Pleasant_Street,23,2] - y[North_Pleasant_Street,24,2]
    + newVar3 = 0
  R6125: x[North_Pleasant_Street,23,2] - x[North_Pleasant_Street,24,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,24,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,24,2]: newVar5 + 13 newVar6 <= 13
  R6127: y[North_Pleasant_Street,24,0] - y[North_Pleasant_Street,25,0]
    + newVar3 = 0
  R6128: x[North_Pleasant_Street,24,0] - x[North_Pleasant_Street,25,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,25,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,25,0]: newVar5 + 13 newVar6 <= 13
  R6130: y[North_Pleasant_Street,24,1] - y[North_Pleasant_Street,25,1]
    + newVar3 = 0
  R6131: x[North_Pleasant_Street,24,1] - x[North_Pleasant_Street,25,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,25,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,25,1]: newVar5 + 13 newVar6 <= 13
  R6133: y[North_Pleasant_Street,24,2] - y[North_Pleasant_Street,25,2]
    + newVar3 = 0
  R6134: x[North_Pleasant_Street,24,2] - x[North_Pleasant_Street,25,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,25,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,25,2]: newVar5 + 13 newVar6 <= 13
  R6136: y[North_Pleasant_Street,25,0] - y[North_Pleasant_Street,26,0]
    + newVar3 = 0
  R6137: x[North_Pleasant_Street,25,0] - x[North_Pleasant_Street,26,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,26,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,26,0]: newVar5 + 13 newVar6 <= 13
  R6139: y[North_Pleasant_Street,25,1] - y[North_Pleasant_Street,26,1]
    + newVar3 = 0
  R6140: x[North_Pleasant_Street,25,1] - x[North_Pleasant_Street,26,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,26,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,26,1]: newVar5 + 13 newVar6 <= 13
  R6142: y[North_Pleasant_Street,25,2] - y[North_Pleasant_Street,26,2]
    + newVar3 = 0
  R6143: x[North_Pleasant_Street,25,2] - x[North_Pleasant_Street,26,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,26,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,26,2]: newVar5 + 13 newVar6 <= 13
  R6145: y[North_Pleasant_Street,26,0] - y[North_Pleasant_Street,27,0]
    + newVar3 = 0
  R6146: x[North_Pleasant_Street,26,0] - x[North_Pleasant_Street,27,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,27,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,27,0]: newVar5 + 13 newVar6 <= 13
  R6148: y[North_Pleasant_Street,26,1] - y[North_Pleasant_Street,27,1]
    + newVar3 = 0
  R6149: x[North_Pleasant_Street,26,1] - x[North_Pleasant_Street,27,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,27,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,27,1]: newVar5 + 13 newVar6 <= 13
  R6151: y[North_Pleasant_Street,26,2] - y[North_Pleasant_Street,27,2]
    + newVar3 = 0
  R6152: x[North_Pleasant_Street,26,2] - x[North_Pleasant_Street,27,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,27,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,27,2]: newVar5 + 13 newVar6 <= 13
  R6154: y[North_Pleasant_Street,27,0] - y[North_Pleasant_Street,28,0]
    + newVar3 = 0
  R6155: x[North_Pleasant_Street,27,0] - x[North_Pleasant_Street,28,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,28,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,28,0]: newVar5 + 13 newVar6 <= 13
  R6157: y[North_Pleasant_Street,27,1] - y[North_Pleasant_Street,28,1]
    + newVar3 = 0
  R6158: x[North_Pleasant_Street,27,1] - x[North_Pleasant_Street,28,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,28,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,28,1]: newVar5 + 13 newVar6 <= 13
  R6160: y[North_Pleasant_Street,27,2] - y[North_Pleasant_Street,28,2]
    + newVar3 = 0
  R6161: x[North_Pleasant_Street,27,2] - x[North_Pleasant_Street,28,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,28,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,28,2]: newVar5 + 13 newVar6 <= 13
  R6163: y[North_Pleasant_Street,28,0] - y[North_Pleasant_Street,29,0]
    + newVar3 = 0
  R6164: x[North_Pleasant_Street,28,0] - x[North_Pleasant_Street,29,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,29,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,29,0]: newVar5 + 13 newVar6 <= 13
  R6166: y[North_Pleasant_Street,28,1] - y[North_Pleasant_Street,29,1]
    + newVar3 = 0
  R6167: x[North_Pleasant_Street,28,1] - x[North_Pleasant_Street,29,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,29,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,29,1]: newVar5 + 13 newVar6 <= 13
  R6169: y[North_Pleasant_Street,28,2] - y[North_Pleasant_Street,29,2]
    + newVar3 = 0
  R6170: x[North_Pleasant_Street,28,2] - x[North_Pleasant_Street,29,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,29,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,29,2]: newVar5 + 13 newVar6 <= 13
  R6172: y[North_Pleasant_Street,29,0] - y[North_Pleasant_Street,30,0]
    + newVar3 = 0
  R6173: x[North_Pleasant_Street,29,0] - x[North_Pleasant_Street,30,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,30,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,30,0]: newVar5 + 13 newVar6 <= 13
  R6175: y[North_Pleasant_Street,29,1] - y[North_Pleasant_Street,30,1]
    + newVar3 = 0
  R6176: x[North_Pleasant_Street,29,1] - x[North_Pleasant_Street,30,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,30,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,30,1]: newVar5 + 13 newVar6 <= 13
  R6178: y[North_Pleasant_Street,29,2] - y[North_Pleasant_Street,30,2]
    + newVar3 = 0
  R6179: x[North_Pleasant_Street,29,2] - x[North_Pleasant_Street,30,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,30,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,30,2]: newVar5 + 13 newVar6 <= 13
  R6181: y[North_Pleasant_Street,30,0] - y[North_Pleasant_Street,31,0]
    + newVar3 = 0
  R6182: x[North_Pleasant_Street,30,0] - x[North_Pleasant_Street,31,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,31,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,31,0]: newVar5 + 13 newVar6 <= 13
  R6184: y[North_Pleasant_Street,30,1] - y[North_Pleasant_Street,31,1]
    + newVar3 = 0
  R6185: x[North_Pleasant_Street,30,1] - x[North_Pleasant_Street,31,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,31,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,31,1]: newVar5 + 13 newVar6 <= 13
  R6187: y[North_Pleasant_Street,30,2] - y[North_Pleasant_Street,31,2]
    + newVar3 = 0
  R6188: x[North_Pleasant_Street,30,2] - x[North_Pleasant_Street,31,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,31,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,31,2]: newVar5 + 13 newVar6 <= 13
  R6190: y[North_Pleasant_Street,31,0] - y[North_Pleasant_Street,32,0]
    + newVar3 = 0
  R6191: x[North_Pleasant_Street,31,0] - x[North_Pleasant_Street,32,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,32,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,32,0]: newVar5 + 13 newVar6 <= 13
  R6193: y[North_Pleasant_Street,31,1] - y[North_Pleasant_Street,32,1]
    + newVar3 = 0
  R6194: x[North_Pleasant_Street,31,1] - x[North_Pleasant_Street,32,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,32,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,32,1]: newVar5 + 13 newVar6 <= 13
  R6196: y[North_Pleasant_Street,31,2] - y[North_Pleasant_Street,32,2]
    + newVar3 = 0
  R6197: x[North_Pleasant_Street,31,2] - x[North_Pleasant_Street,32,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,32,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,32,2]: newVar5 + 13 newVar6 <= 13
  R6199: y[North_Pleasant_Street,32,0] - y[North_Pleasant_Street,33,0]
    + newVar3 = 0
  R6200: x[North_Pleasant_Street,32,0] - x[North_Pleasant_Street,33,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,33,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,33,0]: newVar5 + 13 newVar6 <= 13
  R6202: y[North_Pleasant_Street,32,1] - y[North_Pleasant_Street,33,1]
    + newVar3 = 0
  R6203: x[North_Pleasant_Street,32,1] - x[North_Pleasant_Street,33,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,33,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,33,1]: newVar5 + 13 newVar6 <= 13
  R6205: y[North_Pleasant_Street,32,2] - y[North_Pleasant_Street,33,2]
    + newVar3 = 0
  R6206: x[North_Pleasant_Street,32,2] - x[North_Pleasant_Street,33,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,33,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,33,2]: newVar5 + 13 newVar6 <= 13
  R6208: y[North_Pleasant_Street,33,0] - y[North_Pleasant_Street,34,0]
    + newVar3 = 0
  R6209: x[North_Pleasant_Street,33,0] - x[North_Pleasant_Street,34,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,34,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,34,0]: newVar5 + 13 newVar6 <= 13
  R6211: y[North_Pleasant_Street,33,1] - y[North_Pleasant_Street,34,1]
    + newVar3 = 0
  R6212: x[North_Pleasant_Street,33,1] - x[North_Pleasant_Street,34,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,34,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,34,1]: newVar5 + 13 newVar6 <= 13
  R6214: y[North_Pleasant_Street,33,2] - y[North_Pleasant_Street,34,2]
    + newVar3 = 0
  R6215: x[North_Pleasant_Street,33,2] - x[North_Pleasant_Street,34,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,34,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,34,2]: newVar5 + 13 newVar6 <= 13
  R6217: y[North_Pleasant_Street,34,0] - y[North_Pleasant_Street,35,0]
    + newVar3 = 0
  R6218: x[North_Pleasant_Street,34,0] - x[North_Pleasant_Street,35,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,35,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,35,0]: newVar5 + 13 newVar6 <= 13
  R6220: y[North_Pleasant_Street,34,1] - y[North_Pleasant_Street,35,1]
    + newVar3 = 0
  R6221: x[North_Pleasant_Street,34,1] - x[North_Pleasant_Street,35,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,35,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,35,1]: newVar5 + 13 newVar6 <= 13
  R6223: y[North_Pleasant_Street,34,2] - y[North_Pleasant_Street,35,2]
    + newVar3 = 0
  R6224: x[North_Pleasant_Street,34,2] - x[North_Pleasant_Street,35,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,35,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,35,2]: newVar5 + 13 newVar6 <= 13
  R6226: y[North_Pleasant_Street,35,0] - y[North_Pleasant_Street,36,0]
    + newVar3 = 0
  R6227: x[North_Pleasant_Street,35,0] - x[North_Pleasant_Street,36,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,36,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,36,0]: newVar5 + 13 newVar6 <= 13
  R6229: y[North_Pleasant_Street,35,1] - y[North_Pleasant_Street,36,1]
    + newVar3 = 0
  R6230: x[North_Pleasant_Street,35,1] - x[North_Pleasant_Street,36,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,36,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,36,1]: newVar5 + 13 newVar6 <= 13
  R6232: y[North_Pleasant_Street,35,2] - y[North_Pleasant_Street,36,2]
    + newVar3 = 0
  R6233: x[North_Pleasant_Street,35,2] - x[North_Pleasant_Street,36,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,36,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,36,2]: newVar5 + 13 newVar6 <= 13
  R6235: y[North_Pleasant_Street,36,0] - y[North_Pleasant_Street,37,0]
    + newVar3 = 0
  R6236: x[North_Pleasant_Street,36,0] - x[North_Pleasant_Street,37,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,37,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,37,0]: newVar5 + 13 newVar6 <= 13
  R6238: y[North_Pleasant_Street,36,1] - y[North_Pleasant_Street,37,1]
    + newVar3 = 0
  R6239: x[North_Pleasant_Street,36,1] - x[North_Pleasant_Street,37,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,37,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,37,1]: newVar5 + 13 newVar6 <= 13
  R6241: y[North_Pleasant_Street,36,2] - y[North_Pleasant_Street,37,2]
    + newVar3 = 0
  R6242: x[North_Pleasant_Street,36,2] - x[North_Pleasant_Street,37,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,37,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,37,2]: newVar5 + 13 newVar6 <= 13
  R6244: y[North_Pleasant_Street,37,0] - y[North_Pleasant_Street,38,0]
    + newVar3 = 0
  R6245: x[North_Pleasant_Street,37,0] - x[North_Pleasant_Street,38,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,38,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,38,0]: newVar5 + 13 newVar6 <= 13
  R6247: y[North_Pleasant_Street,37,1] - y[North_Pleasant_Street,38,1]
    + newVar3 = 0
  R6248: x[North_Pleasant_Street,37,1] - x[North_Pleasant_Street,38,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,38,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,38,1]: newVar5 + 13 newVar6 <= 13
  R6250: y[North_Pleasant_Street,37,2] - y[North_Pleasant_Street,38,2]
    + newVar3 = 0
  R6251: x[North_Pleasant_Street,37,2] - x[North_Pleasant_Street,38,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,38,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,38,2]: newVar5 + 13 newVar6 <= 13
  R6253: y[North_Pleasant_Street,38,0] - y[North_Pleasant_Street,39,0]
    + newVar3 = 0
  R6254: x[North_Pleasant_Street,38,0] - x[North_Pleasant_Street,39,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,39,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,39,0]: newVar5 + 13 newVar6 <= 13
  R6256: y[North_Pleasant_Street,38,1] - y[North_Pleasant_Street,39,1]
    + newVar3 = 0
  R6257: x[North_Pleasant_Street,38,1] - x[North_Pleasant_Street,39,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,39,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,39,1]: newVar5 + 13 newVar6 <= 13
  R6259: y[North_Pleasant_Street,38,2] - y[North_Pleasant_Street,39,2]
    + newVar3 = 0
  R6260: x[North_Pleasant_Street,38,2] - x[North_Pleasant_Street,39,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,39,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,39,2]: newVar5 + 13 newVar6 <= 13
  R6262: y[North_Pleasant_Street,39,0] - y[North_Pleasant_Street,40,0]
    + newVar3 = 0
  R6263: x[North_Pleasant_Street,39,0] - x[North_Pleasant_Street,40,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,40,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,40,0]: newVar5 + 13 newVar6 <= 13
  R6265: y[North_Pleasant_Street,39,1] - y[North_Pleasant_Street,40,1]
    + newVar3 = 0
  R6266: x[North_Pleasant_Street,39,1] - x[North_Pleasant_Street,40,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,40,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,40,1]: newVar5 + 13 newVar6 <= 13
  R6268: y[North_Pleasant_Street,39,2] - y[North_Pleasant_Street,40,2]
    + newVar3 = 0
  R6269: x[North_Pleasant_Street,39,2] - x[North_Pleasant_Street,40,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,40,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,40,2]: newVar5 + 13 newVar6 <= 13
  R6271: y[North_Pleasant_Street,40,0] - y[North_Pleasant_Street,41,0]
    + newVar3 = 0
  R6272: x[North_Pleasant_Street,40,0] - x[North_Pleasant_Street,41,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,41,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,41,0]: newVar5 + 13 newVar6 <= 13
  R6274: y[North_Pleasant_Street,40,1] - y[North_Pleasant_Street,41,1]
    + newVar3 = 0
  R6275: x[North_Pleasant_Street,40,1] - x[North_Pleasant_Street,41,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,41,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,41,1]: newVar5 + 13 newVar6 <= 13
  R6277: y[North_Pleasant_Street,40,2] - y[North_Pleasant_Street,41,2]
    + newVar3 = 0
  R6278: x[North_Pleasant_Street,40,2] - x[North_Pleasant_Street,41,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,41,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,41,2]: newVar5 + 13 newVar6 <= 13
  R6280: y[North_Pleasant_Street,41,0] - y[North_Pleasant_Street,42,0]
    + newVar3 = 0
  R6281: x[North_Pleasant_Street,41,0] - x[North_Pleasant_Street,42,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,42,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,42,0]: newVar5 + 13 newVar6 <= 13
  R6283: y[North_Pleasant_Street,41,1] - y[North_Pleasant_Street,42,1]
    + newVar3 = 0
  R6284: x[North_Pleasant_Street,41,1] - x[North_Pleasant_Street,42,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,42,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,42,1]: newVar5 + 13 newVar6 <= 13
  R6286: y[North_Pleasant_Street,41,2] - y[North_Pleasant_Street,42,2]
    + newVar3 = 0
  R6287: x[North_Pleasant_Street,41,2] - x[North_Pleasant_Street,42,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,42,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,42,2]: newVar5 + 13 newVar6 <= 13
  R6289: y[North_Pleasant_Street,42,0] - y[North_Pleasant_Street,43,0]
    + newVar3 = 0
  R6290: x[North_Pleasant_Street,42,0] - x[North_Pleasant_Street,43,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,43,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,43,0]: newVar5 + 13 newVar6 <= 13
  R6292: y[North_Pleasant_Street,42,1] - y[North_Pleasant_Street,43,1]
    + newVar3 = 0
  R6293: x[North_Pleasant_Street,42,1] - x[North_Pleasant_Street,43,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,43,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,43,1]: newVar5 + 13 newVar6 <= 13
  R6295: y[North_Pleasant_Street,42,2] - y[North_Pleasant_Street,43,2]
    + newVar3 = 0
  R6296: x[North_Pleasant_Street,42,2] - x[North_Pleasant_Street,43,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,43,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,43,2]: newVar5 + 13 newVar6 <= 13
  R6298: y[North_Pleasant_Street,43,0] - y[North_Pleasant_Street,44,0]
    + newVar3 = 0
  R6299: x[North_Pleasant_Street,43,0] - x[North_Pleasant_Street,44,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,44,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,44,0]: newVar5 + 13 newVar6 <= 13
  R6301: y[North_Pleasant_Street,43,1] - y[North_Pleasant_Street,44,1]
    + newVar3 = 0
  R6302: x[North_Pleasant_Street,43,1] - x[North_Pleasant_Street,44,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,44,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,44,1]: newVar5 + 13 newVar6 <= 13
  R6304: y[North_Pleasant_Street,43,2] - y[North_Pleasant_Street,44,2]
    + newVar3 = 0
  R6305: x[North_Pleasant_Street,43,2] - x[North_Pleasant_Street,44,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,44,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,44,2]: newVar5 + 13 newVar6 <= 13
  R6307: y[North_Pleasant_Street,44,0] - y[North_Pleasant_Street,45,0]
    + newVar3 = 0
  R6308: x[North_Pleasant_Street,44,0] - x[North_Pleasant_Street,45,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,45,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,45,0]: newVar5 + 13 newVar6 <= 13
  R6310: y[North_Pleasant_Street,44,1] - y[North_Pleasant_Street,45,1]
    + newVar3 = 0
  R6311: x[North_Pleasant_Street,44,1] - x[North_Pleasant_Street,45,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,45,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,45,1]: newVar5 + 13 newVar6 <= 13
  R6313: y[North_Pleasant_Street,44,2] - y[North_Pleasant_Street,45,2]
    + newVar3 = 0
  R6314: x[North_Pleasant_Street,44,2] - x[North_Pleasant_Street,45,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,45,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,45,2]: newVar5 + 13 newVar6 <= 13
  R6316: y[North_Pleasant_Street,45,0] - y[North_Pleasant_Street,46,0]
    + newVar3 = 0
  R6317: x[North_Pleasant_Street,45,0] - x[North_Pleasant_Street,46,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,46,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,46,0]: newVar5 + 13 newVar6 <= 13
  R6319: y[North_Pleasant_Street,45,1] - y[North_Pleasant_Street,46,1]
    + newVar3 = 0
  R6320: x[North_Pleasant_Street,45,1] - x[North_Pleasant_Street,46,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,46,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,46,1]: newVar5 + 13 newVar6 <= 13
  R6322: y[North_Pleasant_Street,45,2] - y[North_Pleasant_Street,46,2]
    + newVar3 = 0
  R6323: x[North_Pleasant_Street,45,2] - x[North_Pleasant_Street,46,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,46,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,46,2]: newVar5 + 13 newVar6 <= 13
  R6325: y[North_Pleasant_Street,46,0] - y[North_Pleasant_Street,47,0]
    + newVar3 = 0
  R6326: x[North_Pleasant_Street,46,0] - x[North_Pleasant_Street,47,0]
    + newVar4 = 0
- c9[North_Pleasant_Street,47,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,47,0]: newVar5 + 13 newVar6 <= 13
  R6328: y[North_Pleasant_Street,46,1] - y[North_Pleasant_Street,47,1]
    + newVar3 = 0
  R6329: x[North_Pleasant_Street,46,1] - x[North_Pleasant_Street,47,1]
    + newVar4 = 0
- c9[North_Pleasant_Street,47,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,47,1]: newVar5 + 13 newVar6 <= 13
  R6331: y[North_Pleasant_Street,46,2] - y[North_Pleasant_Street,47,2]
    + newVar3 = 0
  R6332: x[North_Pleasant_Street,46,2] - x[North_Pleasant_Street,47,2]
    + newVar4 = 0
- c9[North_Pleasant_Street,47,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[North_Pleasant_Street,47,2]: newVar5 + 13 newVar6 <= 13
  R6334: - y[East_Hadley_Road,0,0] + newVar3 = 0
  R6335: - x[East_Hadley_Road,0,0] + newVar4 = 0
- c9[East_Hadley_Road,0,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,0,0]: newVar5 + 13 newVar6 <= 13
  R6337: - y[East_Hadley_Road,0,1] + newVar3 = 0
  R6338: - x[East_Hadley_Road,0,1] + newVar4 = 0
- c9[East_Hadley_Road,0,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,0,1]: newVar5 + 13 newVar6 <= 13
  R6340: - y[East_Hadley_Road,0,2] + newVar3 = 0
  R6341: - x[East_Hadley_Road,0,2] + newVar4 = 0
- c9[East_Hadley_Road,0,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,0,2]: newVar5 + 13 newVar6 <= 13
  R6343: y[East_Hadley_Road,0,0] - y[East_Hadley_Road,1,0] + newVar3 = 0
  R6344: x[East_Hadley_Road,0,0] - x[East_Hadley_Road,1,0] + newVar4 = 0
- c9[East_Hadley_Road,1,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,1,0]: newVar5 + 13 newVar6 <= 13
  R6346: y[East_Hadley_Road,0,1] - y[East_Hadley_Road,1,1] + newVar3 = 0
  R6347: x[East_Hadley_Road,0,1] - x[East_Hadley_Road,1,1] + newVar4 = 0
- c9[East_Hadley_Road,1,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,1,1]: newVar5 + 13 newVar6 <= 13
  R6349: y[East_Hadley_Road,0,2] - y[East_Hadley_Road,1,2] + newVar3 = 0
  R6350: x[East_Hadley_Road,0,2] - x[East_Hadley_Road,1,2] + newVar4 = 0
- c9[East_Hadley_Road,1,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,1,2]: newVar5 + 13 newVar6 <= 13
  R6352: y[East_Hadley_Road,1,0] - y[East_Hadley_Road,2,0] + newVar3 = 0
  R6353: x[East_Hadley_Road,1,0] - x[East_Hadley_Road,2,0] + newVar4 = 0
- c9[East_Hadley_Road,2,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,2,0]: newVar5 + 13 newVar6 <= 13
  R6355: y[East_Hadley_Road,1,1] - y[East_Hadley_Road,2,1] + newVar3 = 0
  R6356: x[East_Hadley_Road,1,1] - x[East_Hadley_Road,2,1] + newVar4 = 0
- c9[East_Hadley_Road,2,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,2,1]: newVar5 + 13 newVar6 <= 13
  R6358: y[East_Hadley_Road,1,2] - y[East_Hadley_Road,2,2] + newVar3 = 0
  R6359: x[East_Hadley_Road,1,2] - x[East_Hadley_Road,2,2] + newVar4 = 0
- c9[East_Hadley_Road,2,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,2,2]: newVar5 + 13 newVar6 <= 13
  R6361: y[East_Hadley_Road,2,0] - y[East_Hadley_Road,3,0] + newVar3 = 0
  R6362: x[East_Hadley_Road,2,0] - x[East_Hadley_Road,3,0] + newVar4 = 0
- c9[East_Hadley_Road,3,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,3,0]: newVar5 + 13 newVar6 <= 13
  R6364: y[East_Hadley_Road,2,1] - y[East_Hadley_Road,3,1] + newVar3 = 0
  R6365: x[East_Hadley_Road,2,1] - x[East_Hadley_Road,3,1] + newVar4 = 0
- c9[East_Hadley_Road,3,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,3,1]: newVar5 + 13 newVar6 <= 13
  R6367: y[East_Hadley_Road,2,2] - y[East_Hadley_Road,3,2] + newVar3 = 0
  R6368: x[East_Hadley_Road,2,2] - x[East_Hadley_Road,3,2] + newVar4 = 0
- c9[East_Hadley_Road,3,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,3,2]: newVar5 + 13 newVar6 <= 13
  R6370: y[East_Hadley_Road,3,0] - y[East_Hadley_Road,4,0] + newVar3 = 0
  R6371: x[East_Hadley_Road,3,0] - x[East_Hadley_Road,4,0] + newVar4 = 0
- c9[East_Hadley_Road,4,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,4,0]: newVar5 + 13 newVar6 <= 13
  R6373: y[East_Hadley_Road,3,1] - y[East_Hadley_Road,4,1] + newVar3 = 0
  R6374: x[East_Hadley_Road,3,1] - x[East_Hadley_Road,4,1] + newVar4 = 0
- c9[East_Hadley_Road,4,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,4,1]: newVar5 + 13 newVar6 <= 13
  R6376: y[East_Hadley_Road,3,2] - y[East_Hadley_Road,4,2] + newVar3 = 0
  R6377: x[East_Hadley_Road,3,2] - x[East_Hadley_Road,4,2] + newVar4 = 0
- c9[East_Hadley_Road,4,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,4,2]: newVar5 + 13 newVar6 <= 13
  R6379: y[East_Hadley_Road,4,0] - y[East_Hadley_Road,5,0] + newVar3 = 0
  R6380: x[East_Hadley_Road,4,0] - x[East_Hadley_Road,5,0] + newVar4 = 0
- c9[East_Hadley_Road,5,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,5,0]: newVar5 + 13 newVar6 <= 13
  R6382: y[East_Hadley_Road,4,1] - y[East_Hadley_Road,5,1] + newVar3 = 0
  R6383: x[East_Hadley_Road,4,1] - x[East_Hadley_Road,5,1] + newVar4 = 0
- c9[East_Hadley_Road,5,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,5,1]: newVar5 + 13 newVar6 <= 13
  R6385: y[East_Hadley_Road,4,2] - y[East_Hadley_Road,5,2] + newVar3 = 0
  R6386: x[East_Hadley_Road,4,2] - x[East_Hadley_Road,5,2] + newVar4 = 0
- c9[East_Hadley_Road,5,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,5,2]: newVar5 + 13 newVar6 <= 13
  R6388: y[East_Hadley_Road,5,0] - y[East_Hadley_Road,6,0] + newVar3 = 0
  R6389: x[East_Hadley_Road,5,0] - x[East_Hadley_Road,6,0] + newVar4 = 0
- c9[East_Hadley_Road,6,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,6,0]: newVar5 + 13 newVar6 <= 13
  R6391: y[East_Hadley_Road,5,1] - y[East_Hadley_Road,6,1] + newVar3 = 0
  R6392: x[East_Hadley_Road,5,1] - x[East_Hadley_Road,6,1] + newVar4 = 0
- c9[East_Hadley_Road,6,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,6,1]: newVar5 + 13 newVar6 <= 13
  R6394: y[East_Hadley_Road,5,2] - y[East_Hadley_Road,6,2] + newVar3 = 0
  R6395: x[East_Hadley_Road,5,2] - x[East_Hadley_Road,6,2] + newVar4 = 0
- c9[East_Hadley_Road,6,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,6,2]: newVar5 + 13 newVar6 <= 13
  R6397: y[East_Hadley_Road,6,0] - y[East_Hadley_Road,7,0] + newVar3 = 0
  R6398: x[East_Hadley_Road,6,0] - x[East_Hadley_Road,7,0] + newVar4 = 0
- c9[East_Hadley_Road,7,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,7,0]: newVar5 + 13 newVar6 <= 13
  R6400: y[East_Hadley_Road,6,1] - y[East_Hadley_Road,7,1] + newVar3 = 0
  R6401: x[East_Hadley_Road,6,1] - x[East_Hadley_Road,7,1] + newVar4 = 0
- c9[East_Hadley_Road,7,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,7,1]: newVar5 + 13 newVar6 <= 13
  R6403: y[East_Hadley_Road,6,2] - y[East_Hadley_Road,7,2] + newVar3 = 0
  R6404: x[East_Hadley_Road,6,2] - x[East_Hadley_Road,7,2] + newVar4 = 0
- c9[East_Hadley_Road,7,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,7,2]: newVar5 + 13 newVar6 <= 13
  R6406: y[East_Hadley_Road,7,0] - y[East_Hadley_Road,8,0] + newVar3 = 0
  R6407: x[East_Hadley_Road,7,0] - x[East_Hadley_Road,8,0] + newVar4 = 0
- c9[East_Hadley_Road,8,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,8,0]: newVar5 + 13 newVar6 <= 13
  R6409: y[East_Hadley_Road,7,1] - y[East_Hadley_Road,8,1] + newVar3 = 0
  R6410: x[East_Hadley_Road,7,1] - x[East_Hadley_Road,8,1] + newVar4 = 0
- c9[East_Hadley_Road,8,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,8,1]: newVar5 + 13 newVar6 <= 13
  R6412: y[East_Hadley_Road,7,2] - y[East_Hadley_Road,8,2] + newVar3 = 0
  R6413: x[East_Hadley_Road,7,2] - x[East_Hadley_Road,8,2] + newVar4 = 0
- c9[East_Hadley_Road,8,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,8,2]: newVar5 + 13 newVar6 <= 13
  R6415: y[East_Hadley_Road,8,0] - y[East_Hadley_Road,9,0] + newVar3 = 0
  R6416: x[East_Hadley_Road,8,0] - x[East_Hadley_Road,9,0] + newVar4 = 0
- c9[East_Hadley_Road,9,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,9,0]: newVar5 + 13 newVar6 <= 13
  R6418: y[East_Hadley_Road,8,1] - y[East_Hadley_Road,9,1] + newVar3 = 0
  R6419: x[East_Hadley_Road,8,1] - x[East_Hadley_Road,9,1] + newVar4 = 0
- c9[East_Hadley_Road,9,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,9,1]: newVar5 + 13 newVar6 <= 13
  R6421: y[East_Hadley_Road,8,2] - y[East_Hadley_Road,9,2] + newVar3 = 0
  R6422: x[East_Hadley_Road,8,2] - x[East_Hadley_Road,9,2] + newVar4 = 0
- c9[East_Hadley_Road,9,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[East_Hadley_Road,9,2]: newVar5 + 13 newVar6 <= 13
  R6424: y[East_Hadley_Road,9,0] - y[East_Hadley_Road,10,0] + newVar3 = 0
  R6425: x[East_Hadley_Road,9,0] - x[East_Hadley_Road,10,0] + newVar4 = 0
- c9[East_Hadley_Road,10,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,10,0]: newVar5 + 13 newVar6 <= 13
  R6427: y[East_Hadley_Road,9,1] - y[East_Hadley_Road,10,1] + newVar3 = 0
  R6428: x[East_Hadley_Road,9,1] - x[East_Hadley_Road,10,1] + newVar4 = 0
- c9[East_Hadley_Road,10,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,10,1]: newVar5 + 13 newVar6 <= 13
  R6430: y[East_Hadley_Road,9,2] - y[East_Hadley_Road,10,2] + newVar3 = 0
  R6431: x[East_Hadley_Road,9,2] - x[East_Hadley_Road,10,2] + newVar4 = 0
- c9[East_Hadley_Road,10,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,10,2]: newVar5 + 13 newVar6 <= 13
  R6433: y[East_Hadley_Road,10,0] - y[East_Hadley_Road,11,0] + newVar3 = 0
  R6434: x[East_Hadley_Road,10,0] - x[East_Hadley_Road,11,0] + newVar4 = 0
- c9[East_Hadley_Road,11,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,11,0]: newVar5 + 13 newVar6 <= 13
  R6436: y[East_Hadley_Road,10,1] - y[East_Hadley_Road,11,1] + newVar3 = 0
  R6437: x[East_Hadley_Road,10,1] - x[East_Hadley_Road,11,1] + newVar4 = 0
- c9[East_Hadley_Road,11,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,11,1]: newVar5 + 13 newVar6 <= 13
  R6439: y[East_Hadley_Road,10,2] - y[East_Hadley_Road,11,2] + newVar3 = 0
  R6440: x[East_Hadley_Road,10,2] - x[East_Hadley_Road,11,2] + newVar4 = 0
- c9[East_Hadley_Road,11,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,11,2]: newVar5 + 13 newVar6 <= 13
  R6442: y[East_Hadley_Road,11,0] - y[East_Hadley_Road,12,0] + newVar3 = 0
  R6443: x[East_Hadley_Road,11,0] - x[East_Hadley_Road,12,0] + newVar4 = 0
- c9[East_Hadley_Road,12,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,12,0]: newVar5 + 13 newVar6 <= 13
  R6445: y[East_Hadley_Road,11,1] - y[East_Hadley_Road,12,1] + newVar3 = 0
  R6446: x[East_Hadley_Road,11,1] - x[East_Hadley_Road,12,1] + newVar4 = 0
- c9[East_Hadley_Road,12,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,12,1]: newVar5 + 13 newVar6 <= 13
  R6448: y[East_Hadley_Road,11,2] - y[East_Hadley_Road,12,2] + newVar3 = 0
  R6449: x[East_Hadley_Road,11,2] - x[East_Hadley_Road,12,2] + newVar4 = 0
- c9[East_Hadley_Road,12,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,12,2]: newVar5 + 13 newVar6 <= 13
  R6451: y[East_Hadley_Road,12,0] - y[East_Hadley_Road,13,0] + newVar3 = 0
  R6452: x[East_Hadley_Road,12,0] - x[East_Hadley_Road,13,0] + newVar4 = 0
- c9[East_Hadley_Road,13,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,13,0]: newVar5 + 13 newVar6 <= 13
  R6454: y[East_Hadley_Road,12,1] - y[East_Hadley_Road,13,1] + newVar3 = 0
  R6455: x[East_Hadley_Road,12,1] - x[East_Hadley_Road,13,1] + newVar4 = 0
- c9[East_Hadley_Road,13,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,13,1]: newVar5 + 13 newVar6 <= 13
  R6457: y[East_Hadley_Road,12,2] - y[East_Hadley_Road,13,2] + newVar3 = 0
  R6458: x[East_Hadley_Road,12,2] - x[East_Hadley_Road,13,2] + newVar4 = 0
- c9[East_Hadley_Road,13,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,13,2]: newVar5 + 13 newVar6 <= 13
  R6460: y[East_Hadley_Road,13,0] - y[East_Hadley_Road,14,0] + newVar3 = 0
  R6461: x[East_Hadley_Road,13,0] - x[East_Hadley_Road,14,0] + newVar4 = 0
- c9[East_Hadley_Road,14,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,14,0]: newVar5 + 13 newVar6 <= 13
  R6463: y[East_Hadley_Road,13,1] - y[East_Hadley_Road,14,1] + newVar3 = 0
  R6464: x[East_Hadley_Road,13,1] - x[East_Hadley_Road,14,1] + newVar4 = 0
- c9[East_Hadley_Road,14,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,14,1]: newVar5 + 13 newVar6 <= 13
  R6466: y[East_Hadley_Road,13,2] - y[East_Hadley_Road,14,2] + newVar3 = 0
  R6467: x[East_Hadley_Road,13,2] - x[East_Hadley_Road,14,2] + newVar4 = 0
- c9[East_Hadley_Road,14,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,14,2]: newVar5 + 13 newVar6 <= 13
  R6469: y[East_Hadley_Road,14,0] - y[East_Hadley_Road,15,0] + newVar3 = 0
  R6470: x[East_Hadley_Road,14,0] - x[East_Hadley_Road,15,0] + newVar4 = 0
- c9[East_Hadley_Road,15,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,15,0]: newVar5 + 13 newVar6 <= 13
  R6472: y[East_Hadley_Road,14,1] - y[East_Hadley_Road,15,1] + newVar3 = 0
  R6473: x[East_Hadley_Road,14,1] - x[East_Hadley_Road,15,1] + newVar4 = 0
- c9[East_Hadley_Road,15,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,15,1]: newVar5 + 13 newVar6 <= 13
  R6475: y[East_Hadley_Road,14,2] - y[East_Hadley_Road,15,2] + newVar3 = 0
  R6476: x[East_Hadley_Road,14,2] - x[East_Hadley_Road,15,2] + newVar4 = 0
- c9[East_Hadley_Road,15,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,15,2]: newVar5 + 13 newVar6 <= 13
  R6478: y[East_Hadley_Road,15,0] - y[East_Hadley_Road,16,0] + newVar3 = 0
  R6479: x[East_Hadley_Road,15,0] - x[East_Hadley_Road,16,0] + newVar4 = 0
- c9[East_Hadley_Road,16,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,16,0]: newVar5 + 13 newVar6 <= 13
  R6481: y[East_Hadley_Road,15,1] - y[East_Hadley_Road,16,1] + newVar3 = 0
  R6482: x[East_Hadley_Road,15,1] - x[East_Hadley_Road,16,1] + newVar4 = 0
- c9[East_Hadley_Road,16,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,16,1]: newVar5 + 13 newVar6 <= 13
  R6484: y[East_Hadley_Road,15,2] - y[East_Hadley_Road,16,2] + newVar3 = 0
  R6485: x[East_Hadley_Road,15,2] - x[East_Hadley_Road,16,2] + newVar4 = 0
- c9[East_Hadley_Road,16,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,16,2]: newVar5 + 13 newVar6 <= 13
  R6487: y[East_Hadley_Road,16,0] - y[East_Hadley_Road,17,0] + newVar3 = 0
  R6488: x[East_Hadley_Road,16,0] - x[East_Hadley_Road,17,0] + newVar4 = 0
- c9[East_Hadley_Road,17,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,17,0]: newVar5 + 13 newVar6 <= 13
  R6490: y[East_Hadley_Road,16,1] - y[East_Hadley_Road,17,1] + newVar3 = 0
  R6491: x[East_Hadley_Road,16,1] - x[East_Hadley_Road,17,1] + newVar4 = 0
- c9[East_Hadley_Road,17,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,17,1]: newVar5 + 13 newVar6 <= 13
  R6493: y[East_Hadley_Road,16,2] - y[East_Hadley_Road,17,2] + newVar3 = 0
  R6494: x[East_Hadley_Road,16,2] - x[East_Hadley_Road,17,2] + newVar4 = 0
- c9[East_Hadley_Road,17,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,17,2]: newVar5 + 13 newVar6 <= 13
  R6496: y[East_Hadley_Road,17,0] - y[East_Hadley_Road,18,0] + newVar3 = 0
  R6497: x[East_Hadley_Road,17,0] - x[East_Hadley_Road,18,0] + newVar4 = 0
- c9[East_Hadley_Road,18,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,18,0]: newVar5 + 13 newVar6 <= 13
  R6499: y[East_Hadley_Road,17,1] - y[East_Hadley_Road,18,1] + newVar3 = 0
  R6500: x[East_Hadley_Road,17,1] - x[East_Hadley_Road,18,1] + newVar4 = 0
- c9[East_Hadley_Road,18,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,18,1]: newVar5 + 13 newVar6 <= 13
  R6502: y[East_Hadley_Road,17,2] - y[East_Hadley_Road,18,2] + newVar3 = 0
  R6503: x[East_Hadley_Road,17,2] - x[East_Hadley_Road,18,2] + newVar4 = 0
- c9[East_Hadley_Road,18,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,18,2]: newVar5 + 13 newVar6 <= 13
  R6505: y[East_Hadley_Road,18,0] - y[East_Hadley_Road,19,0] + newVar3 = 0
  R6506: x[East_Hadley_Road,18,0] - x[East_Hadley_Road,19,0] + newVar4 = 0
- c9[East_Hadley_Road,19,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,19,0]: newVar5 + 13 newVar6 <= 13
  R6508: y[East_Hadley_Road,18,1] - y[East_Hadley_Road,19,1] + newVar3 = 0
  R6509: x[East_Hadley_Road,18,1] - x[East_Hadley_Road,19,1] + newVar4 = 0
- c9[East_Hadley_Road,19,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,19,1]: newVar5 + 13 newVar6 <= 13
  R6511: y[East_Hadley_Road,18,2] - y[East_Hadley_Road,19,2] + newVar3 = 0
  R6512: x[East_Hadley_Road,18,2] - x[East_Hadley_Road,19,2] + newVar4 = 0
- c9[East_Hadley_Road,19,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,19,2]: newVar5 + 13 newVar6 <= 13
  R6514: y[East_Hadley_Road,19,0] - y[East_Hadley_Road,20,0] + newVar3 = 0
  R6515: x[East_Hadley_Road,19,0] - x[East_Hadley_Road,20,0] + newVar4 = 0
- c9[East_Hadley_Road,20,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,20,0]: newVar5 + 13 newVar6 <= 13
  R6517: y[East_Hadley_Road,19,1] - y[East_Hadley_Road,20,1] + newVar3 = 0
  R6518: x[East_Hadley_Road,19,1] - x[East_Hadley_Road,20,1] + newVar4 = 0
- c9[East_Hadley_Road,20,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,20,1]: newVar5 + 13 newVar6 <= 13
  R6520: y[East_Hadley_Road,19,2] - y[East_Hadley_Road,20,2] + newVar3 = 0
  R6521: x[East_Hadley_Road,19,2] - x[East_Hadley_Road,20,2] + newVar4 = 0
- c9[East_Hadley_Road,20,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,20,2]: newVar5 + 13 newVar6 <= 13
  R6523: y[East_Hadley_Road,20,0] - y[East_Hadley_Road,21,0] + newVar3 = 0
  R6524: x[East_Hadley_Road,20,0] - x[East_Hadley_Road,21,0] + newVar4 = 0
- c9[East_Hadley_Road,21,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,21,0]: newVar5 + 13 newVar6 <= 13
  R6526: y[East_Hadley_Road,20,1] - y[East_Hadley_Road,21,1] + newVar3 = 0
  R6527: x[East_Hadley_Road,20,1] - x[East_Hadley_Road,21,1] + newVar4 = 0
- c9[East_Hadley_Road,21,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,21,1]: newVar5 + 13 newVar6 <= 13
  R6529: y[East_Hadley_Road,20,2] - y[East_Hadley_Road,21,2] + newVar3 = 0
  R6530: x[East_Hadley_Road,20,2] - x[East_Hadley_Road,21,2] + newVar4 = 0
- c9[East_Hadley_Road,21,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,21,2]: newVar5 + 13 newVar6 <= 13
  R6532: y[East_Hadley_Road,21,0] - y[East_Hadley_Road,22,0] + newVar3 = 0
  R6533: x[East_Hadley_Road,21,0] - x[East_Hadley_Road,22,0] + newVar4 = 0
- c9[East_Hadley_Road,22,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,22,0]: newVar5 + 13 newVar6 <= 13
  R6535: y[East_Hadley_Road,21,1] - y[East_Hadley_Road,22,1] + newVar3 = 0
  R6536: x[East_Hadley_Road,21,1] - x[East_Hadley_Road,22,1] + newVar4 = 0
- c9[East_Hadley_Road,22,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,22,1]: newVar5 + 13 newVar6 <= 13
  R6538: y[East_Hadley_Road,21,2] - y[East_Hadley_Road,22,2] + newVar3 = 0
  R6539: x[East_Hadley_Road,21,2] - x[East_Hadley_Road,22,2] + newVar4 = 0
- c9[East_Hadley_Road,22,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,22,2]: newVar5 + 13 newVar6 <= 13
  R6541: y[East_Hadley_Road,22,0] - y[East_Hadley_Road,23,0] + newVar3 = 0
  R6542: x[East_Hadley_Road,22,0] - x[East_Hadley_Road,23,0] + newVar4 = 0
- c9[East_Hadley_Road,23,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,23,0]: newVar5 + 13 newVar6 <= 13
  R6544: y[East_Hadley_Road,22,1] - y[East_Hadley_Road,23,1] + newVar3 = 0
  R6545: x[East_Hadley_Road,22,1] - x[East_Hadley_Road,23,1] + newVar4 = 0
- c9[East_Hadley_Road,23,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,23,1]: newVar5 + 13 newVar6 <= 13
  R6547: y[East_Hadley_Road,22,2] - y[East_Hadley_Road,23,2] + newVar3 = 0
  R6548: x[East_Hadley_Road,22,2] - x[East_Hadley_Road,23,2] + newVar4 = 0
- c9[East_Hadley_Road,23,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,23,2]: newVar5 + 13 newVar6 <= 13
  R6550: y[East_Hadley_Road,23,0] - y[East_Hadley_Road,24,0] + newVar3 = 0
  R6551: x[East_Hadley_Road,23,0] - x[East_Hadley_Road,24,0] + newVar4 = 0
- c9[East_Hadley_Road,24,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,24,0]: newVar5 + 13 newVar6 <= 13
  R6553: y[East_Hadley_Road,23,1] - y[East_Hadley_Road,24,1] + newVar3 = 0
  R6554: x[East_Hadley_Road,23,1] - x[East_Hadley_Road,24,1] + newVar4 = 0
- c9[East_Hadley_Road,24,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,24,1]: newVar5 + 13 newVar6 <= 13
  R6556: y[East_Hadley_Road,23,2] - y[East_Hadley_Road,24,2] + newVar3 = 0
  R6557: x[East_Hadley_Road,23,2] - x[East_Hadley_Road,24,2] + newVar4 = 0
- c9[East_Hadley_Road,24,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,24,2]: newVar5 + 13 newVar6 <= 13
  R6559: y[East_Hadley_Road,24,0] - y[East_Hadley_Road,25,0] + newVar3 = 0
  R6560: x[East_Hadley_Road,24,0] - x[East_Hadley_Road,25,0] + newVar4 = 0
- c9[East_Hadley_Road,25,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,25,0]: newVar5 + 13 newVar6 <= 13
  R6562: y[East_Hadley_Road,24,1] - y[East_Hadley_Road,25,1] + newVar3 = 0
  R6563: x[East_Hadley_Road,24,1] - x[East_Hadley_Road,25,1] + newVar4 = 0
- c9[East_Hadley_Road,25,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,25,1]: newVar5 + 13 newVar6 <= 13
  R6565: y[East_Hadley_Road,24,2] - y[East_Hadley_Road,25,2] + newVar3 = 0
  R6566: x[East_Hadley_Road,24,2] - x[East_Hadley_Road,25,2] + newVar4 = 0
- c9[East_Hadley_Road,25,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,25,2]: newVar5 + 13 newVar6 <= 13
  R6568: y[East_Hadley_Road,25,0] - y[East_Hadley_Road,26,0] + newVar3 = 0
  R6569: x[East_Hadley_Road,25,0] - x[East_Hadley_Road,26,0] + newVar4 = 0
- c9[East_Hadley_Road,26,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,26,0]: newVar5 + 13 newVar6 <= 13
  R6571: y[East_Hadley_Road,25,1] - y[East_Hadley_Road,26,1] + newVar3 = 0
  R6572: x[East_Hadley_Road,25,1] - x[East_Hadley_Road,26,1] + newVar4 = 0
- c9[East_Hadley_Road,26,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,26,1]: newVar5 + 13 newVar6 <= 13
  R6574: y[East_Hadley_Road,25,2] - y[East_Hadley_Road,26,2] + newVar3 = 0
  R6575: x[East_Hadley_Road,25,2] - x[East_Hadley_Road,26,2] + newVar4 = 0
- c9[East_Hadley_Road,26,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,26,2]: newVar5 + 13 newVar6 <= 13
  R6577: y[East_Hadley_Road,26,0] - y[East_Hadley_Road,27,0] + newVar3 = 0
  R6578: x[East_Hadley_Road,26,0] - x[East_Hadley_Road,27,0] + newVar4 = 0
- c9[East_Hadley_Road,27,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,27,0]: newVar5 + 13 newVar6 <= 13
  R6580: y[East_Hadley_Road,26,1] - y[East_Hadley_Road,27,1] + newVar3 = 0
  R6581: x[East_Hadley_Road,26,1] - x[East_Hadley_Road,27,1] + newVar4 = 0
- c9[East_Hadley_Road,27,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,27,1]: newVar5 + 13 newVar6 <= 13
  R6583: y[East_Hadley_Road,26,2] - y[East_Hadley_Road,27,2] + newVar3 = 0
  R6584: x[East_Hadley_Road,26,2] - x[East_Hadley_Road,27,2] + newVar4 = 0
- c9[East_Hadley_Road,27,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,27,2]: newVar5 + 13 newVar6 <= 13
  R6586: y[East_Hadley_Road,27,0] - y[East_Hadley_Road,28,0] + newVar3 = 0
  R6587: x[East_Hadley_Road,27,0] - x[East_Hadley_Road,28,0] + newVar4 = 0
- c9[East_Hadley_Road,28,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,28,0]: newVar5 + 13 newVar6 <= 13
  R6589: y[East_Hadley_Road,27,1] - y[East_Hadley_Road,28,1] + newVar3 = 0
  R6590: x[East_Hadley_Road,27,1] - x[East_Hadley_Road,28,1] + newVar4 = 0
- c9[East_Hadley_Road,28,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,28,1]: newVar5 + 13 newVar6 <= 13
  R6592: y[East_Hadley_Road,27,2] - y[East_Hadley_Road,28,2] + newVar3 = 0
  R6593: x[East_Hadley_Road,27,2] - x[East_Hadley_Road,28,2] + newVar4 = 0
- c9[East_Hadley_Road,28,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,28,2]: newVar5 + 13 newVar6 <= 13
  R6595: y[East_Hadley_Road,28,0] - y[East_Hadley_Road,29,0] + newVar3 = 0
  R6596: x[East_Hadley_Road,28,0] - x[East_Hadley_Road,29,0] + newVar4 = 0
- c9[East_Hadley_Road,29,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,29,0]: newVar5 + 13 newVar6 <= 13
  R6598: y[East_Hadley_Road,28,1] - y[East_Hadley_Road,29,1] + newVar3 = 0
  R6599: x[East_Hadley_Road,28,1] - x[East_Hadley_Road,29,1] + newVar4 = 0
- c9[East_Hadley_Road,29,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,29,1]: newVar5 + 13 newVar6 <= 13
  R6601: y[East_Hadley_Road,28,2] - y[East_Hadley_Road,29,2] + newVar3 = 0
  R6602: x[East_Hadley_Road,28,2] - x[East_Hadley_Road,29,2] + newVar4 = 0
- c9[East_Hadley_Road,29,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,29,2]: newVar5 + 13 newVar6 <= 13
  R6604: y[East_Hadley_Road,29,0] - y[East_Hadley_Road,30,0] + newVar3 = 0
  R6605: x[East_Hadley_Road,29,0] - x[East_Hadley_Road,30,0] + newVar4 = 0
- c9[East_Hadley_Road,30,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,30,0]: newVar5 + 13 newVar6 <= 13
  R6607: y[East_Hadley_Road,29,1] - y[East_Hadley_Road,30,1] + newVar3 = 0
  R6608: x[East_Hadley_Road,29,1] - x[East_Hadley_Road,30,1] + newVar4 = 0
- c9[East_Hadley_Road,30,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,30,1]: newVar5 + 13 newVar6 <= 13
  R6610: y[East_Hadley_Road,29,2] - y[East_Hadley_Road,30,2] + newVar3 = 0
  R6611: x[East_Hadley_Road,29,2] - x[East_Hadley_Road,30,2] + newVar4 = 0
- c9[East_Hadley_Road,30,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,30,2]: newVar5 + 13 newVar6 <= 13
  R6613: y[East_Hadley_Road,30,0] - y[East_Hadley_Road,31,0] + newVar3 = 0
  R6614: x[East_Hadley_Road,30,0] - x[East_Hadley_Road,31,0] + newVar4 = 0
- c9[East_Hadley_Road,31,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,31,0]: newVar5 + 13 newVar6 <= 13
  R6616: y[East_Hadley_Road,30,1] - y[East_Hadley_Road,31,1] + newVar3 = 0
  R6617: x[East_Hadley_Road,30,1] - x[East_Hadley_Road,31,1] + newVar4 = 0
- c9[East_Hadley_Road,31,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,31,1]: newVar5 + 13 newVar6 <= 13
  R6619: y[East_Hadley_Road,30,2] - y[East_Hadley_Road,31,2] + newVar3 = 0
  R6620: x[East_Hadley_Road,30,2] - x[East_Hadley_Road,31,2] + newVar4 = 0
- c9[East_Hadley_Road,31,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,31,2]: newVar5 + 13 newVar6 <= 13
  R6622: y[East_Hadley_Road,31,0] - y[East_Hadley_Road,32,0] + newVar3 = 0
  R6623: x[East_Hadley_Road,31,0] - x[East_Hadley_Road,32,0] + newVar4 = 0
- c9[East_Hadley_Road,32,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,32,0]: newVar5 + 13 newVar6 <= 13
  R6625: y[East_Hadley_Road,31,1] - y[East_Hadley_Road,32,1] + newVar3 = 0
  R6626: x[East_Hadley_Road,31,1] - x[East_Hadley_Road,32,1] + newVar4 = 0
- c9[East_Hadley_Road,32,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,32,1]: newVar5 + 13 newVar6 <= 13
  R6628: y[East_Hadley_Road,31,2] - y[East_Hadley_Road,32,2] + newVar3 = 0
  R6629: x[East_Hadley_Road,31,2] - x[East_Hadley_Road,32,2] + newVar4 = 0
- c9[East_Hadley_Road,32,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,32,2]: newVar5 + 13 newVar6 <= 13
  R6631: y[East_Hadley_Road,32,0] - y[East_Hadley_Road,33,0] + newVar3 = 0
  R6632: x[East_Hadley_Road,32,0] - x[East_Hadley_Road,33,0] + newVar4 = 0
- c9[East_Hadley_Road,33,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,33,0]: newVar5 + 13 newVar6 <= 13
  R6634: y[East_Hadley_Road,32,1] - y[East_Hadley_Road,33,1] + newVar3 = 0
  R6635: x[East_Hadley_Road,32,1] - x[East_Hadley_Road,33,1] + newVar4 = 0
- c9[East_Hadley_Road,33,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,33,1]: newVar5 + 13 newVar6 <= 13
  R6637: y[East_Hadley_Road,32,2] - y[East_Hadley_Road,33,2] + newVar3 = 0
  R6638: x[East_Hadley_Road,32,2] - x[East_Hadley_Road,33,2] + newVar4 = 0
- c9[East_Hadley_Road,33,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,33,2]: newVar5 + 13 newVar6 <= 13
  R6640: y[East_Hadley_Road,33,0] - y[East_Hadley_Road,34,0] + newVar3 = 0
  R6641: x[East_Hadley_Road,33,0] - x[East_Hadley_Road,34,0] + newVar4 = 0
- c9[East_Hadley_Road,34,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,34,0]: newVar5 + 13 newVar6 <= 13
  R6643: y[East_Hadley_Road,33,1] - y[East_Hadley_Road,34,1] + newVar3 = 0
  R6644: x[East_Hadley_Road,33,1] - x[East_Hadley_Road,34,1] + newVar4 = 0
- c9[East_Hadley_Road,34,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,34,1]: newVar5 + 13 newVar6 <= 13
  R6646: y[East_Hadley_Road,33,2] - y[East_Hadley_Road,34,2] + newVar3 = 0
  R6647: x[East_Hadley_Road,33,2] - x[East_Hadley_Road,34,2] + newVar4 = 0
- c9[East_Hadley_Road,34,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,34,2]: newVar5 + 13 newVar6 <= 13
  R6649: y[East_Hadley_Road,34,0] - y[East_Hadley_Road,35,0] + newVar3 = 0
  R6650: x[East_Hadley_Road,34,0] - x[East_Hadley_Road,35,0] + newVar4 = 0
- c9[East_Hadley_Road,35,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,35,0]: newVar5 + 13 newVar6 <= 13
  R6652: y[East_Hadley_Road,34,1] - y[East_Hadley_Road,35,1] + newVar3 = 0
  R6653: x[East_Hadley_Road,34,1] - x[East_Hadley_Road,35,1] + newVar4 = 0
- c9[East_Hadley_Road,35,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,35,1]: newVar5 + 13 newVar6 <= 13
  R6655: y[East_Hadley_Road,34,2] - y[East_Hadley_Road,35,2] + newVar3 = 0
  R6656: x[East_Hadley_Road,34,2] - x[East_Hadley_Road,35,2] + newVar4 = 0
- c9[East_Hadley_Road,35,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,35,2]: newVar5 + 13 newVar6 <= 13
  R6658: y[East_Hadley_Road,35,0] - y[East_Hadley_Road,36,0] + newVar3 = 0
  R6659: x[East_Hadley_Road,35,0] - x[East_Hadley_Road,36,0] + newVar4 = 0
- c9[East_Hadley_Road,36,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,36,0]: newVar5 + 13 newVar6 <= 13
  R6661: y[East_Hadley_Road,35,1] - y[East_Hadley_Road,36,1] + newVar3 = 0
  R6662: x[East_Hadley_Road,35,1] - x[East_Hadley_Road,36,1] + newVar4 = 0
- c9[East_Hadley_Road,36,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,36,1]: newVar5 + 13 newVar6 <= 13
  R6664: y[East_Hadley_Road,35,2] - y[East_Hadley_Road,36,2] + newVar3 = 0
  R6665: x[East_Hadley_Road,35,2] - x[East_Hadley_Road,36,2] + newVar4 = 0
- c9[East_Hadley_Road,36,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,36,2]: newVar5 + 13 newVar6 <= 13
  R6667: y[East_Hadley_Road,36,0] - y[East_Hadley_Road,37,0] + newVar3 = 0
  R6668: x[East_Hadley_Road,36,0] - x[East_Hadley_Road,37,0] + newVar4 = 0
- c9[East_Hadley_Road,37,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,37,0]: newVar5 + 13 newVar6 <= 13
  R6670: y[East_Hadley_Road,36,1] - y[East_Hadley_Road,37,1] + newVar3 = 0
  R6671: x[East_Hadley_Road,36,1] - x[East_Hadley_Road,37,1] + newVar4 = 0
- c9[East_Hadley_Road,37,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,37,1]: newVar5 + 13 newVar6 <= 13
  R6673: y[East_Hadley_Road,36,2] - y[East_Hadley_Road,37,2] + newVar3 = 0
  R6674: x[East_Hadley_Road,36,2] - x[East_Hadley_Road,37,2] + newVar4 = 0
- c9[East_Hadley_Road,37,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,37,2]: newVar5 + 13 newVar6 <= 13
  R6676: y[East_Hadley_Road,37,0] - y[East_Hadley_Road,38,0] + newVar3 = 0
  R6677: x[East_Hadley_Road,37,0] - x[East_Hadley_Road,38,0] + newVar4 = 0
- c9[East_Hadley_Road,38,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,38,0]: newVar5 + 13 newVar6 <= 13
  R6679: y[East_Hadley_Road,37,1] - y[East_Hadley_Road,38,1] + newVar3 = 0
  R6680: x[East_Hadley_Road,37,1] - x[East_Hadley_Road,38,1] + newVar4 = 0
- c9[East_Hadley_Road,38,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,38,1]: newVar5 + 13 newVar6 <= 13
  R6682: y[East_Hadley_Road,37,2] - y[East_Hadley_Road,38,2] + newVar3 = 0
  R6683: x[East_Hadley_Road,37,2] - x[East_Hadley_Road,38,2] + newVar4 = 0
- c9[East_Hadley_Road,38,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,38,2]: newVar5 + 13 newVar6 <= 13
  R6685: y[East_Hadley_Road,38,0] - y[East_Hadley_Road,39,0] + newVar3 = 0
  R6686: x[East_Hadley_Road,38,0] - x[East_Hadley_Road,39,0] + newVar4 = 0
- c9[East_Hadley_Road,39,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,39,0]: newVar5 + 13 newVar6 <= 13
  R6688: y[East_Hadley_Road,38,1] - y[East_Hadley_Road,39,1] + newVar3 = 0
  R6689: x[East_Hadley_Road,38,1] - x[East_Hadley_Road,39,1] + newVar4 = 0
- c9[East_Hadley_Road,39,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,39,1]: newVar5 + 13 newVar6 <= 13
  R6691: y[East_Hadley_Road,38,2] - y[East_Hadley_Road,39,2] + newVar3 = 0
  R6692: x[East_Hadley_Road,38,2] - x[East_Hadley_Road,39,2] + newVar4 = 0
- c9[East_Hadley_Road,39,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,39,2]: newVar5 + 13 newVar6 <= 13
  R6694: y[East_Hadley_Road,39,0] - y[East_Hadley_Road,40,0] + newVar3 = 0
  R6695: x[East_Hadley_Road,39,0] - x[East_Hadley_Road,40,0] + newVar4 = 0
- c9[East_Hadley_Road,40,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,40,0]: newVar5 + 13 newVar6 <= 13
  R6697: y[East_Hadley_Road,39,1] - y[East_Hadley_Road,40,1] + newVar3 = 0
  R6698: x[East_Hadley_Road,39,1] - x[East_Hadley_Road,40,1] + newVar4 = 0
- c9[East_Hadley_Road,40,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,40,1]: newVar5 + 13 newVar6 <= 13
  R6700: y[East_Hadley_Road,39,2] - y[East_Hadley_Road,40,2] + newVar3 = 0
  R6701: x[East_Hadley_Road,39,2] - x[East_Hadley_Road,40,2] + newVar4 = 0
- c9[East_Hadley_Road,40,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,40,2]: newVar5 + 13 newVar6 <= 13
  R6703: y[East_Hadley_Road,40,0] - y[East_Hadley_Road,41,0] + newVar3 = 0
  R6704: x[East_Hadley_Road,40,0] - x[East_Hadley_Road,41,0] + newVar4 = 0
- c9[East_Hadley_Road,41,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,41,0]: newVar5 + 13 newVar6 <= 13
  R6706: y[East_Hadley_Road,40,1] - y[East_Hadley_Road,41,1] + newVar3 = 0
  R6707: x[East_Hadley_Road,40,1] - x[East_Hadley_Road,41,1] + newVar4 = 0
- c9[East_Hadley_Road,41,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,41,1]: newVar5 + 13 newVar6 <= 13
  R6709: y[East_Hadley_Road,40,2] - y[East_Hadley_Road,41,2] + newVar3 = 0
  R6710: x[East_Hadley_Road,40,2] - x[East_Hadley_Road,41,2] + newVar4 = 0
- c9[East_Hadley_Road,41,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,41,2]: newVar5 + 13 newVar6 <= 13
  R6712: y[East_Hadley_Road,41,0] - y[East_Hadley_Road,42,0] + newVar3 = 0
  R6713: x[East_Hadley_Road,41,0] - x[East_Hadley_Road,42,0] + newVar4 = 0
- c9[East_Hadley_Road,42,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,42,0]: newVar5 + 13 newVar6 <= 13
  R6715: y[East_Hadley_Road,41,1] - y[East_Hadley_Road,42,1] + newVar3 = 0
  R6716: x[East_Hadley_Road,41,1] - x[East_Hadley_Road,42,1] + newVar4 = 0
- c9[East_Hadley_Road,42,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,42,1]: newVar5 + 13 newVar6 <= 13
  R6718: y[East_Hadley_Road,41,2] - y[East_Hadley_Road,42,2] + newVar3 = 0
  R6719: x[East_Hadley_Road,41,2] - x[East_Hadley_Road,42,2] + newVar4 = 0
- c9[East_Hadley_Road,42,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,42,2]: newVar5 + 13 newVar6 <= 13
  R6721: y[East_Hadley_Road,42,0] - y[East_Hadley_Road,43,0] + newVar3 = 0
  R6722: x[East_Hadley_Road,42,0] - x[East_Hadley_Road,43,0] + newVar4 = 0
- c9[East_Hadley_Road,43,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,43,0]: newVar5 + 13 newVar6 <= 13
  R6724: y[East_Hadley_Road,42,1] - y[East_Hadley_Road,43,1] + newVar3 = 0
  R6725: x[East_Hadley_Road,42,1] - x[East_Hadley_Road,43,1] + newVar4 = 0
- c9[East_Hadley_Road,43,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,43,1]: newVar5 + 13 newVar6 <= 13
  R6727: y[East_Hadley_Road,42,2] - y[East_Hadley_Road,43,2] + newVar3 = 0
  R6728: x[East_Hadley_Road,42,2] - x[East_Hadley_Road,43,2] + newVar4 = 0
- c9[East_Hadley_Road,43,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,43,2]: newVar5 + 13 newVar6 <= 13
  R6730: y[East_Hadley_Road,43,0] - y[East_Hadley_Road,44,0] + newVar3 = 0
  R6731: x[East_Hadley_Road,43,0] - x[East_Hadley_Road,44,0] + newVar4 = 0
- c9[East_Hadley_Road,44,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,44,0]: newVar5 + 13 newVar6 <= 13
  R6733: y[East_Hadley_Road,43,1] - y[East_Hadley_Road,44,1] + newVar3 = 0
  R6734: x[East_Hadley_Road,43,1] - x[East_Hadley_Road,44,1] + newVar4 = 0
- c9[East_Hadley_Road,44,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,44,1]: newVar5 + 13 newVar6 <= 13
  R6736: y[East_Hadley_Road,43,2] - y[East_Hadley_Road,44,2] + newVar3 = 0
  R6737: x[East_Hadley_Road,43,2] - x[East_Hadley_Road,44,2] + newVar4 = 0
- c9[East_Hadley_Road,44,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,44,2]: newVar5 + 13 newVar6 <= 13
  R6739: y[East_Hadley_Road,44,0] - y[East_Hadley_Road,45,0] + newVar3 = 0
  R6740: x[East_Hadley_Road,44,0] - x[East_Hadley_Road,45,0] + newVar4 = 0
- c9[East_Hadley_Road,45,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,45,0]: newVar5 + 13 newVar6 <= 13
  R6742: y[East_Hadley_Road,44,1] - y[East_Hadley_Road,45,1] + newVar3 = 0
  R6743: x[East_Hadley_Road,44,1] - x[East_Hadley_Road,45,1] + newVar4 = 0
- c9[East_Hadley_Road,45,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,45,1]: newVar5 + 13 newVar6 <= 13
  R6745: y[East_Hadley_Road,44,2] - y[East_Hadley_Road,45,2] + newVar3 = 0
  R6746: x[East_Hadley_Road,44,2] - x[East_Hadley_Road,45,2] + newVar4 = 0
- c9[East_Hadley_Road,45,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,45,2]: newVar5 + 13 newVar6 <= 13
  R6748: y[East_Hadley_Road,45,0] - y[East_Hadley_Road,46,0] + newVar3 = 0
  R6749: x[East_Hadley_Road,45,0] - x[East_Hadley_Road,46,0] + newVar4 = 0
- c9[East_Hadley_Road,46,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,46,0]: newVar5 + 13 newVar6 <= 13
  R6751: y[East_Hadley_Road,45,1] - y[East_Hadley_Road,46,1] + newVar3 = 0
  R6752: x[East_Hadley_Road,45,1] - x[East_Hadley_Road,46,1] + newVar4 = 0
- c9[East_Hadley_Road,46,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,46,1]: newVar5 + 13 newVar6 <= 13
  R6754: y[East_Hadley_Road,45,2] - y[East_Hadley_Road,46,2] + newVar3 = 0
  R6755: x[East_Hadley_Road,45,2] - x[East_Hadley_Road,46,2] + newVar4 = 0
- c9[East_Hadley_Road,46,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,46,2]: newVar5 + 13 newVar6 <= 13
  R6757: y[East_Hadley_Road,46,0] - y[East_Hadley_Road,47,0] + newVar3 = 0
  R6758: x[East_Hadley_Road,46,0] - x[East_Hadley_Road,47,0] + newVar4 = 0
- c9[East_Hadley_Road,47,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,47,0]: newVar5 + 13 newVar6 <= 13
  R6760: y[East_Hadley_Road,46,1] - y[East_Hadley_Road,47,1] + newVar3 = 0
  R6761: x[East_Hadley_Road,46,1] - x[East_Hadley_Road,47,1] + newVar4 = 0
- c9[East_Hadley_Road,47,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,47,1]: newVar5 + 13 newVar6 <= 13
  R6763: y[East_Hadley_Road,46,2] - y[East_Hadley_Road,47,2] + newVar3 = 0
  R6764: x[East_Hadley_Road,46,2] - x[East_Hadley_Road,47,2] + newVar4 = 0
- c9[East_Hadley_Road,47,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[East_Hadley_Road,47,2]: newVar5 + 13 newVar6 <= 13
  R6766: - y[University_Drive,0,0] + newVar3 = 0
  R6767: - x[University_Drive,0,0] + newVar4 = 0
- c9[University_Drive,0,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,0,0]: newVar5 + 13 newVar6 <= 13
  R6769: - y[University_Drive,0,1] + newVar3 = 0
  R6770: - x[University_Drive,0,1] + newVar4 = 0
- c9[University_Drive,0,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,0,1]: newVar5 + 13 newVar6 <= 13
  R6772: - y[University_Drive,0,2] + newVar3 = 0
  R6773: - x[University_Drive,0,2] + newVar4 = 0
- c9[University_Drive,0,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,0,2]: newVar5 + 13 newVar6 <= 13
  R6775: y[University_Drive,0,0] - y[University_Drive,1,0] + newVar3 = 0
  R6776: x[University_Drive,0,0] - x[University_Drive,1,0] + newVar4 = 0
- c9[University_Drive,1,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,1,0]: newVar5 + 13 newVar6 <= 13
  R6778: y[University_Drive,0,1] - y[University_Drive,1,1] + newVar3 = 0
  R6779: x[University_Drive,0,1] - x[University_Drive,1,1] + newVar4 = 0
- c9[University_Drive,1,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,1,1]: newVar5 + 13 newVar6 <= 13
  R6781: y[University_Drive,0,2] - y[University_Drive,1,2] + newVar3 = 0
  R6782: x[University_Drive,0,2] - x[University_Drive,1,2] + newVar4 = 0
- c9[University_Drive,1,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,1,2]: newVar5 + 13 newVar6 <= 13
  R6784: y[University_Drive,1,0] - y[University_Drive,2,0] + newVar3 = 0
  R6785: x[University_Drive,1,0] - x[University_Drive,2,0] + newVar4 = 0
- c9[University_Drive,2,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,2,0]: newVar5 + 13 newVar6 <= 13
  R6787: y[University_Drive,1,1] - y[University_Drive,2,1] + newVar3 = 0
  R6788: x[University_Drive,1,1] - x[University_Drive,2,1] + newVar4 = 0
- c9[University_Drive,2,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,2,1]: newVar5 + 13 newVar6 <= 13
  R6790: y[University_Drive,1,2] - y[University_Drive,2,2] + newVar3 = 0
  R6791: x[University_Drive,1,2] - x[University_Drive,2,2] + newVar4 = 0
- c9[University_Drive,2,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,2,2]: newVar5 + 13 newVar6 <= 13
  R6793: y[University_Drive,2,0] - y[University_Drive,3,0] + newVar3 = 0
  R6794: x[University_Drive,2,0] - x[University_Drive,3,0] + newVar4 = 0
- c9[University_Drive,3,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,3,0]: newVar5 + 13 newVar6 <= 13
  R6796: y[University_Drive,2,1] - y[University_Drive,3,1] + newVar3 = 0
  R6797: x[University_Drive,2,1] - x[University_Drive,3,1] + newVar4 = 0
- c9[University_Drive,3,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,3,1]: newVar5 + 13 newVar6 <= 13
  R6799: y[University_Drive,2,2] - y[University_Drive,3,2] + newVar3 = 0
  R6800: x[University_Drive,2,2] - x[University_Drive,3,2] + newVar4 = 0
- c9[University_Drive,3,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,3,2]: newVar5 + 13 newVar6 <= 13
  R6802: y[University_Drive,3,0] - y[University_Drive,4,0] + newVar3 = 0
  R6803: x[University_Drive,3,0] - x[University_Drive,4,0] + newVar4 = 0
- c9[University_Drive,4,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,4,0]: newVar5 + 13 newVar6 <= 13
  R6805: y[University_Drive,3,1] - y[University_Drive,4,1] + newVar3 = 0
  R6806: x[University_Drive,3,1] - x[University_Drive,4,1] + newVar4 = 0
- c9[University_Drive,4,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,4,1]: newVar5 + 13 newVar6 <= 13
  R6808: y[University_Drive,3,2] - y[University_Drive,4,2] + newVar3 = 0
  R6809: x[University_Drive,3,2] - x[University_Drive,4,2] + newVar4 = 0
- c9[University_Drive,4,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,4,2]: newVar5 + 13 newVar6 <= 13
  R6811: y[University_Drive,4,0] - y[University_Drive,5,0] + newVar3 = 0
  R6812: x[University_Drive,4,0] - x[University_Drive,5,0] + newVar4 = 0
- c9[University_Drive,5,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,5,0]: newVar5 + 13 newVar6 <= 13
  R6814: y[University_Drive,4,1] - y[University_Drive,5,1] + newVar3 = 0
  R6815: x[University_Drive,4,1] - x[University_Drive,5,1] + newVar4 = 0
- c9[University_Drive,5,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,5,1]: newVar5 + 13 newVar6 <= 13
  R6817: y[University_Drive,4,2] - y[University_Drive,5,2] + newVar3 = 0
  R6818: x[University_Drive,4,2] - x[University_Drive,5,2] + newVar4 = 0
- c9[University_Drive,5,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,5,2]: newVar5 + 13 newVar6 <= 13
  R6820: y[University_Drive,5,0] - y[University_Drive,6,0] + newVar3 = 0
  R6821: x[University_Drive,5,0] - x[University_Drive,6,0] + newVar4 = 0
- c9[University_Drive,6,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,6,0]: newVar5 + 13 newVar6 <= 13
  R6823: y[University_Drive,5,1] - y[University_Drive,6,1] + newVar3 = 0
  R6824: x[University_Drive,5,1] - x[University_Drive,6,1] + newVar4 = 0
- c9[University_Drive,6,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,6,1]: newVar5 + 13 newVar6 <= 13
  R6826: y[University_Drive,5,2] - y[University_Drive,6,2] + newVar3 = 0
  R6827: x[University_Drive,5,2] - x[University_Drive,6,2] + newVar4 = 0
- c9[University_Drive,6,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,6,2]: newVar5 + 13 newVar6 <= 13
  R6829: y[University_Drive,6,0] - y[University_Drive,7,0] + newVar3 = 0
  R6830: x[University_Drive,6,0] - x[University_Drive,7,0] + newVar4 = 0
- c9[University_Drive,7,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,7,0]: newVar5 + 13 newVar6 <= 13
  R6832: y[University_Drive,6,1] - y[University_Drive,7,1] + newVar3 = 0
  R6833: x[University_Drive,6,1] - x[University_Drive,7,1] + newVar4 = 0
- c9[University_Drive,7,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,7,1]: newVar5 + 13 newVar6 <= 13
  R6835: y[University_Drive,6,2] - y[University_Drive,7,2] + newVar3 = 0
  R6836: x[University_Drive,6,2] - x[University_Drive,7,2] + newVar4 = 0
- c9[University_Drive,7,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,7,2]: newVar5 + 13 newVar6 <= 13
  R6838: y[University_Drive,7,0] - y[University_Drive,8,0] + newVar3 = 0
  R6839: x[University_Drive,7,0] - x[University_Drive,8,0] + newVar4 = 0
- c9[University_Drive,8,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,8,0]: newVar5 + 13 newVar6 <= 13
  R6841: y[University_Drive,7,1] - y[University_Drive,8,1] + newVar3 = 0
  R6842: x[University_Drive,7,1] - x[University_Drive,8,1] + newVar4 = 0
- c9[University_Drive,8,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,8,1]: newVar5 + 13 newVar6 <= 13
  R6844: y[University_Drive,7,2] - y[University_Drive,8,2] + newVar3 = 0
  R6845: x[University_Drive,7,2] - x[University_Drive,8,2] + newVar4 = 0
- c9[University_Drive,8,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,8,2]: newVar5 + 13 newVar6 <= 13
  R6847: y[University_Drive,8,0] - y[University_Drive,9,0] + newVar3 = 0
  R6848: x[University_Drive,8,0] - x[University_Drive,9,0] + newVar4 = 0
- c9[University_Drive,9,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,9,0]: newVar5 + 13 newVar6 <= 13
  R6850: y[University_Drive,8,1] - y[University_Drive,9,1] + newVar3 = 0
  R6851: x[University_Drive,8,1] - x[University_Drive,9,1] + newVar4 = 0
- c9[University_Drive,9,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,9,1]: newVar5 + 13 newVar6 <= 13
  R6853: y[University_Drive,8,2] - y[University_Drive,9,2] + newVar3 = 0
  R6854: x[University_Drive,8,2] - x[University_Drive,9,2] + newVar4 = 0
- c9[University_Drive,9,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[University_Drive,9,2]: newVar5 + 13 newVar6 <= 13
  R6856: y[University_Drive,9,0] - y[University_Drive,10,0] + newVar3 = 0
  R6857: x[University_Drive,9,0] - x[University_Drive,10,0] + newVar4 = 0
- c9[University_Drive,10,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,10,0]: newVar5 + 13 newVar6 <= 13
  R6859: y[University_Drive,9,1] - y[University_Drive,10,1] + newVar3 = 0
  R6860: x[University_Drive,9,1] - x[University_Drive,10,1] + newVar4 = 0
- c9[University_Drive,10,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,10,1]: newVar5 + 13 newVar6 <= 13
  R6862: y[University_Drive,9,2] - y[University_Drive,10,2] + newVar3 = 0
  R6863: x[University_Drive,9,2] - x[University_Drive,10,2] + newVar4 = 0
- c9[University_Drive,10,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,10,2]: newVar5 + 13 newVar6 <= 13
  R6865: y[University_Drive,10,0] - y[University_Drive,11,0] + newVar3 = 0
  R6866: x[University_Drive,10,0] - x[University_Drive,11,0] + newVar4 = 0
- c9[University_Drive,11,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,11,0]: newVar5 + 13 newVar6 <= 13
  R6868: y[University_Drive,10,1] - y[University_Drive,11,1] + newVar3 = 0
  R6869: x[University_Drive,10,1] - x[University_Drive,11,1] + newVar4 = 0
- c9[University_Drive,11,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,11,1]: newVar5 + 13 newVar6 <= 13
  R6871: y[University_Drive,10,2] - y[University_Drive,11,2] + newVar3 = 0
  R6872: x[University_Drive,10,2] - x[University_Drive,11,2] + newVar4 = 0
- c9[University_Drive,11,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,11,2]: newVar5 + 13 newVar6 <= 13
  R6874: y[University_Drive,11,0] - y[University_Drive,12,0] + newVar3 = 0
  R6875: x[University_Drive,11,0] - x[University_Drive,12,0] + newVar4 = 0
- c9[University_Drive,12,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,12,0]: newVar5 + 13 newVar6 <= 13
  R6877: y[University_Drive,11,1] - y[University_Drive,12,1] + newVar3 = 0
  R6878: x[University_Drive,11,1] - x[University_Drive,12,1] + newVar4 = 0
- c9[University_Drive,12,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,12,1]: newVar5 + 13 newVar6 <= 13
  R6880: y[University_Drive,11,2] - y[University_Drive,12,2] + newVar3 = 0
  R6881: x[University_Drive,11,2] - x[University_Drive,12,2] + newVar4 = 0
- c9[University_Drive,12,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,12,2]: newVar5 + 13 newVar6 <= 13
  R6883: y[University_Drive,12,0] - y[University_Drive,13,0] + newVar3 = 0
  R6884: x[University_Drive,12,0] - x[University_Drive,13,0] + newVar4 = 0
- c9[University_Drive,13,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,13,0]: newVar5 + 13 newVar6 <= 13
  R6886: y[University_Drive,12,1] - y[University_Drive,13,1] + newVar3 = 0
  R6887: x[University_Drive,12,1] - x[University_Drive,13,1] + newVar4 = 0
- c9[University_Drive,13,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,13,1]: newVar5 + 13 newVar6 <= 13
  R6889: y[University_Drive,12,2] - y[University_Drive,13,2] + newVar3 = 0
  R6890: x[University_Drive,12,2] - x[University_Drive,13,2] + newVar4 = 0
- c9[University_Drive,13,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,13,2]: newVar5 + 13 newVar6 <= 13
  R6892: y[University_Drive,13,0] - y[University_Drive,14,0] + newVar3 = 0
  R6893: x[University_Drive,13,0] - x[University_Drive,14,0] + newVar4 = 0
- c9[University_Drive,14,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,14,0]: newVar5 + 13 newVar6 <= 13
  R6895: y[University_Drive,13,1] - y[University_Drive,14,1] + newVar3 = 0
  R6896: x[University_Drive,13,1] - x[University_Drive,14,1] + newVar4 = 0
- c9[University_Drive,14,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,14,1]: newVar5 + 13 newVar6 <= 13
  R6898: y[University_Drive,13,2] - y[University_Drive,14,2] + newVar3 = 0
  R6899: x[University_Drive,13,2] - x[University_Drive,14,2] + newVar4 = 0
- c9[University_Drive,14,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,14,2]: newVar5 + 13 newVar6 <= 13
  R6901: y[University_Drive,14,0] - y[University_Drive,15,0] + newVar3 = 0
  R6902: x[University_Drive,14,0] - x[University_Drive,15,0] + newVar4 = 0
- c9[University_Drive,15,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,15,0]: newVar5 + 13 newVar6 <= 13
  R6904: y[University_Drive,14,1] - y[University_Drive,15,1] + newVar3 = 0
  R6905: x[University_Drive,14,1] - x[University_Drive,15,1] + newVar4 = 0
- c9[University_Drive,15,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,15,1]: newVar5 + 13 newVar6 <= 13
  R6907: y[University_Drive,14,2] - y[University_Drive,15,2] + newVar3 = 0
  R6908: x[University_Drive,14,2] - x[University_Drive,15,2] + newVar4 = 0
- c9[University_Drive,15,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,15,2]: newVar5 + 13 newVar6 <= 13
  R6910: y[University_Drive,15,0] - y[University_Drive,16,0] + newVar3 = 0
  R6911: x[University_Drive,15,0] - x[University_Drive,16,0] + newVar4 = 0
- c9[University_Drive,16,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,16,0]: newVar5 + 13 newVar6 <= 13
  R6913: y[University_Drive,15,1] - y[University_Drive,16,1] + newVar3 = 0
  R6914: x[University_Drive,15,1] - x[University_Drive,16,1] + newVar4 = 0
- c9[University_Drive,16,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,16,1]: newVar5 + 13 newVar6 <= 13
  R6916: y[University_Drive,15,2] - y[University_Drive,16,2] + newVar3 = 0
  R6917: x[University_Drive,15,2] - x[University_Drive,16,2] + newVar4 = 0
- c9[University_Drive,16,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,16,2]: newVar5 + 13 newVar6 <= 13
  R6919: y[University_Drive,16,0] - y[University_Drive,17,0] + newVar3 = 0
  R6920: x[University_Drive,16,0] - x[University_Drive,17,0] + newVar4 = 0
- c9[University_Drive,17,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,17,0]: newVar5 + 13 newVar6 <= 13
  R6922: y[University_Drive,16,1] - y[University_Drive,17,1] + newVar3 = 0
  R6923: x[University_Drive,16,1] - x[University_Drive,17,1] + newVar4 = 0
- c9[University_Drive,17,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,17,1]: newVar5 + 13 newVar6 <= 13
  R6925: y[University_Drive,16,2] - y[University_Drive,17,2] + newVar3 = 0
  R6926: x[University_Drive,16,2] - x[University_Drive,17,2] + newVar4 = 0
- c9[University_Drive,17,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,17,2]: newVar5 + 13 newVar6 <= 13
  R6928: y[University_Drive,17,0] - y[University_Drive,18,0] + newVar3 = 0
  R6929: x[University_Drive,17,0] - x[University_Drive,18,0] + newVar4 = 0
- c9[University_Drive,18,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,18,0]: newVar5 + 13 newVar6 <= 13
  R6931: y[University_Drive,17,1] - y[University_Drive,18,1] + newVar3 = 0
  R6932: x[University_Drive,17,1] - x[University_Drive,18,1] + newVar4 = 0
- c9[University_Drive,18,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,18,1]: newVar5 + 13 newVar6 <= 13
  R6934: y[University_Drive,17,2] - y[University_Drive,18,2] + newVar3 = 0
  R6935: x[University_Drive,17,2] - x[University_Drive,18,2] + newVar4 = 0
- c9[University_Drive,18,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,18,2]: newVar5 + 13 newVar6 <= 13
  R6937: y[University_Drive,18,0] - y[University_Drive,19,0] + newVar3 = 0
  R6938: x[University_Drive,18,0] - x[University_Drive,19,0] + newVar4 = 0
- c9[University_Drive,19,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,19,0]: newVar5 + 13 newVar6 <= 13
  R6940: y[University_Drive,18,1] - y[University_Drive,19,1] + newVar3 = 0
  R6941: x[University_Drive,18,1] - x[University_Drive,19,1] + newVar4 = 0
- c9[University_Drive,19,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,19,1]: newVar5 + 13 newVar6 <= 13
  R6943: y[University_Drive,18,2] - y[University_Drive,19,2] + newVar3 = 0
  R6944: x[University_Drive,18,2] - x[University_Drive,19,2] + newVar4 = 0
- c9[University_Drive,19,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,19,2]: newVar5 + 13 newVar6 <= 13
  R6946: y[University_Drive,19,0] - y[University_Drive,20,0] + newVar3 = 0
  R6947: x[University_Drive,19,0] - x[University_Drive,20,0] + newVar4 = 0
- c9[University_Drive,20,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,20,0]: newVar5 + 13 newVar6 <= 13
  R6949: y[University_Drive,19,1] - y[University_Drive,20,1] + newVar3 = 0
  R6950: x[University_Drive,19,1] - x[University_Drive,20,1] + newVar4 = 0
- c9[University_Drive,20,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,20,1]: newVar5 + 13 newVar6 <= 13
  R6952: y[University_Drive,19,2] - y[University_Drive,20,2] + newVar3 = 0
  R6953: x[University_Drive,19,2] - x[University_Drive,20,2] + newVar4 = 0
- c9[University_Drive,20,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,20,2]: newVar5 + 13 newVar6 <= 13
  R6955: y[University_Drive,20,0] - y[University_Drive,21,0] + newVar3 = 0
  R6956: x[University_Drive,20,0] - x[University_Drive,21,0] + newVar4 = 0
- c9[University_Drive,21,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,21,0]: newVar5 + 13 newVar6 <= 13
  R6958: y[University_Drive,20,1] - y[University_Drive,21,1] + newVar3 = 0
  R6959: x[University_Drive,20,1] - x[University_Drive,21,1] + newVar4 = 0
- c9[University_Drive,21,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,21,1]: newVar5 + 13 newVar6 <= 13
  R6961: y[University_Drive,20,2] - y[University_Drive,21,2] + newVar3 = 0
  R6962: x[University_Drive,20,2] - x[University_Drive,21,2] + newVar4 = 0
- c9[University_Drive,21,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,21,2]: newVar5 + 13 newVar6 <= 13
  R6964: y[University_Drive,21,0] - y[University_Drive,22,0] + newVar3 = 0
  R6965: x[University_Drive,21,0] - x[University_Drive,22,0] + newVar4 = 0
- c9[University_Drive,22,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,22,0]: newVar5 + 13 newVar6 <= 13
  R6967: y[University_Drive,21,1] - y[University_Drive,22,1] + newVar3 = 0
  R6968: x[University_Drive,21,1] - x[University_Drive,22,1] + newVar4 = 0
- c9[University_Drive,22,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,22,1]: newVar5 + 13 newVar6 <= 13
  R6970: y[University_Drive,21,2] - y[University_Drive,22,2] + newVar3 = 0
  R6971: x[University_Drive,21,2] - x[University_Drive,22,2] + newVar4 = 0
- c9[University_Drive,22,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,22,2]: newVar5 + 13 newVar6 <= 13
  R6973: y[University_Drive,22,0] - y[University_Drive,23,0] + newVar3 = 0
  R6974: x[University_Drive,22,0] - x[University_Drive,23,0] + newVar4 = 0
- c9[University_Drive,23,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,23,0]: newVar5 + 13 newVar6 <= 13
  R6976: y[University_Drive,22,1] - y[University_Drive,23,1] + newVar3 = 0
  R6977: x[University_Drive,22,1] - x[University_Drive,23,1] + newVar4 = 0
- c9[University_Drive,23,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,23,1]: newVar5 + 13 newVar6 <= 13
  R6979: y[University_Drive,22,2] - y[University_Drive,23,2] + newVar3 = 0
  R6980: x[University_Drive,22,2] - x[University_Drive,23,2] + newVar4 = 0
- c9[University_Drive,23,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,23,2]: newVar5 + 13 newVar6 <= 13
  R6982: y[University_Drive,23,0] - y[University_Drive,24,0] + newVar3 = 0
  R6983: x[University_Drive,23,0] - x[University_Drive,24,0] + newVar4 = 0
- c9[University_Drive,24,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,24,0]: newVar5 + 13 newVar6 <= 13
  R6985: y[University_Drive,23,1] - y[University_Drive,24,1] + newVar3 = 0
  R6986: x[University_Drive,23,1] - x[University_Drive,24,1] + newVar4 = 0
- c9[University_Drive,24,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,24,1]: newVar5 + 13 newVar6 <= 13
  R6988: y[University_Drive,23,2] - y[University_Drive,24,2] + newVar3 = 0
  R6989: x[University_Drive,23,2] - x[University_Drive,24,2] + newVar4 = 0
- c9[University_Drive,24,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,24,2]: newVar5 + 13 newVar6 <= 13
  R6991: y[University_Drive,24,0] - y[University_Drive,25,0] + newVar3 = 0
  R6992: x[University_Drive,24,0] - x[University_Drive,25,0] + newVar4 = 0
- c9[University_Drive,25,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,25,0]: newVar5 + 13 newVar6 <= 13
  R6994: y[University_Drive,24,1] - y[University_Drive,25,1] + newVar3 = 0
  R6995: x[University_Drive,24,1] - x[University_Drive,25,1] + newVar4 = 0
- c9[University_Drive,25,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,25,1]: newVar5 + 13 newVar6 <= 13
  R6997: y[University_Drive,24,2] - y[University_Drive,25,2] + newVar3 = 0
  R6998: x[University_Drive,24,2] - x[University_Drive,25,2] + newVar4 = 0
- c9[University_Drive,25,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,25,2]: newVar5 + 13 newVar6 <= 13
  R7000: y[University_Drive,25,0] - y[University_Drive,26,0] + newVar3 = 0
  R7001: x[University_Drive,25,0] - x[University_Drive,26,0] + newVar4 = 0
- c9[University_Drive,26,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,26,0]: newVar5 + 13 newVar6 <= 13
  R7003: y[University_Drive,25,1] - y[University_Drive,26,1] + newVar3 = 0
  R7004: x[University_Drive,25,1] - x[University_Drive,26,1] + newVar4 = 0
- c9[University_Drive,26,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,26,1]: newVar5 + 13 newVar6 <= 13
  R7006: y[University_Drive,25,2] - y[University_Drive,26,2] + newVar3 = 0
  R7007: x[University_Drive,25,2] - x[University_Drive,26,2] + newVar4 = 0
- c9[University_Drive,26,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,26,2]: newVar5 + 13 newVar6 <= 13
  R7009: y[University_Drive,26,0] - y[University_Drive,27,0] + newVar3 = 0
  R7010: x[University_Drive,26,0] - x[University_Drive,27,0] + newVar4 = 0
- c9[University_Drive,27,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,27,0]: newVar5 + 13 newVar6 <= 13
  R7012: y[University_Drive,26,1] - y[University_Drive,27,1] + newVar3 = 0
  R7013: x[University_Drive,26,1] - x[University_Drive,27,1] + newVar4 = 0
- c9[University_Drive,27,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,27,1]: newVar5 + 13 newVar6 <= 13
  R7015: y[University_Drive,26,2] - y[University_Drive,27,2] + newVar3 = 0
  R7016: x[University_Drive,26,2] - x[University_Drive,27,2] + newVar4 = 0
- c9[University_Drive,27,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,27,2]: newVar5 + 13 newVar6 <= 13
  R7018: y[University_Drive,27,0] - y[University_Drive,28,0] + newVar3 = 0
  R7019: x[University_Drive,27,0] - x[University_Drive,28,0] + newVar4 = 0
- c9[University_Drive,28,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,28,0]: newVar5 + 13 newVar6 <= 13
  R7021: y[University_Drive,27,1] - y[University_Drive,28,1] + newVar3 = 0
  R7022: x[University_Drive,27,1] - x[University_Drive,28,1] + newVar4 = 0
- c9[University_Drive,28,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,28,1]: newVar5 + 13 newVar6 <= 13
  R7024: y[University_Drive,27,2] - y[University_Drive,28,2] + newVar3 = 0
  R7025: x[University_Drive,27,2] - x[University_Drive,28,2] + newVar4 = 0
- c9[University_Drive,28,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,28,2]: newVar5 + 13 newVar6 <= 13
  R7027: y[University_Drive,28,0] - y[University_Drive,29,0] + newVar3 = 0
  R7028: x[University_Drive,28,0] - x[University_Drive,29,0] + newVar4 = 0
- c9[University_Drive,29,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,29,0]: newVar5 + 13 newVar6 <= 13
  R7030: y[University_Drive,28,1] - y[University_Drive,29,1] + newVar3 = 0
  R7031: x[University_Drive,28,1] - x[University_Drive,29,1] + newVar4 = 0
- c9[University_Drive,29,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,29,1]: newVar5 + 13 newVar6 <= 13
  R7033: y[University_Drive,28,2] - y[University_Drive,29,2] + newVar3 = 0
  R7034: x[University_Drive,28,2] - x[University_Drive,29,2] + newVar4 = 0
- c9[University_Drive,29,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,29,2]: newVar5 + 13 newVar6 <= 13
  R7036: y[University_Drive,29,0] - y[University_Drive,30,0] + newVar3 = 0
  R7037: x[University_Drive,29,0] - x[University_Drive,30,0] + newVar4 = 0
- c9[University_Drive,30,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,30,0]: newVar5 + 13 newVar6 <= 13
  R7039: y[University_Drive,29,1] - y[University_Drive,30,1] + newVar3 = 0
  R7040: x[University_Drive,29,1] - x[University_Drive,30,1] + newVar4 = 0
- c9[University_Drive,30,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,30,1]: newVar5 + 13 newVar6 <= 13
  R7042: y[University_Drive,29,2] - y[University_Drive,30,2] + newVar3 = 0
  R7043: x[University_Drive,29,2] - x[University_Drive,30,2] + newVar4 = 0
- c9[University_Drive,30,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,30,2]: newVar5 + 13 newVar6 <= 13
  R7045: y[University_Drive,30,0] - y[University_Drive,31,0] + newVar3 = 0
  R7046: x[University_Drive,30,0] - x[University_Drive,31,0] + newVar4 = 0
- c9[University_Drive,31,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,31,0]: newVar5 + 13 newVar6 <= 13
  R7048: y[University_Drive,30,1] - y[University_Drive,31,1] + newVar3 = 0
  R7049: x[University_Drive,30,1] - x[University_Drive,31,1] + newVar4 = 0
- c9[University_Drive,31,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,31,1]: newVar5 + 13 newVar6 <= 13
  R7051: y[University_Drive,30,2] - y[University_Drive,31,2] + newVar3 = 0
  R7052: x[University_Drive,30,2] - x[University_Drive,31,2] + newVar4 = 0
- c9[University_Drive,31,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,31,2]: newVar5 + 13 newVar6 <= 13
  R7054: y[University_Drive,31,0] - y[University_Drive,32,0] + newVar3 = 0
  R7055: x[University_Drive,31,0] - x[University_Drive,32,0] + newVar4 = 0
- c9[University_Drive,32,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,32,0]: newVar5 + 13 newVar6 <= 13
  R7057: y[University_Drive,31,1] - y[University_Drive,32,1] + newVar3 = 0
  R7058: x[University_Drive,31,1] - x[University_Drive,32,1] + newVar4 = 0
- c9[University_Drive,32,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,32,1]: newVar5 + 13 newVar6 <= 13
  R7060: y[University_Drive,31,2] - y[University_Drive,32,2] + newVar3 = 0
  R7061: x[University_Drive,31,2] - x[University_Drive,32,2] + newVar4 = 0
- c9[University_Drive,32,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,32,2]: newVar5 + 13 newVar6 <= 13
  R7063: y[University_Drive,32,0] - y[University_Drive,33,0] + newVar3 = 0
  R7064: x[University_Drive,32,0] - x[University_Drive,33,0] + newVar4 = 0
- c9[University_Drive,33,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,33,0]: newVar5 + 13 newVar6 <= 13
  R7066: y[University_Drive,32,1] - y[University_Drive,33,1] + newVar3 = 0
  R7067: x[University_Drive,32,1] - x[University_Drive,33,1] + newVar4 = 0
- c9[University_Drive,33,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,33,1]: newVar5 + 13 newVar6 <= 13
  R7069: y[University_Drive,32,2] - y[University_Drive,33,2] + newVar3 = 0
  R7070: x[University_Drive,32,2] - x[University_Drive,33,2] + newVar4 = 0
- c9[University_Drive,33,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,33,2]: newVar5 + 13 newVar6 <= 13
  R7072: y[University_Drive,33,0] - y[University_Drive,34,0] + newVar3 = 0
  R7073: x[University_Drive,33,0] - x[University_Drive,34,0] + newVar4 = 0
- c9[University_Drive,34,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,34,0]: newVar5 + 13 newVar6 <= 13
  R7075: y[University_Drive,33,1] - y[University_Drive,34,1] + newVar3 = 0
  R7076: x[University_Drive,33,1] - x[University_Drive,34,1] + newVar4 = 0
- c9[University_Drive,34,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,34,1]: newVar5 + 13 newVar6 <= 13
  R7078: y[University_Drive,33,2] - y[University_Drive,34,2] + newVar3 = 0
  R7079: x[University_Drive,33,2] - x[University_Drive,34,2] + newVar4 = 0
- c9[University_Drive,34,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,34,2]: newVar5 + 13 newVar6 <= 13
  R7081: y[University_Drive,34,0] - y[University_Drive,35,0] + newVar3 = 0
  R7082: x[University_Drive,34,0] - x[University_Drive,35,0] + newVar4 = 0
- c9[University_Drive,35,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,35,0]: newVar5 + 13 newVar6 <= 13
  R7084: y[University_Drive,34,1] - y[University_Drive,35,1] + newVar3 = 0
  R7085: x[University_Drive,34,1] - x[University_Drive,35,1] + newVar4 = 0
- c9[University_Drive,35,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,35,1]: newVar5 + 13 newVar6 <= 13
  R7087: y[University_Drive,34,2] - y[University_Drive,35,2] + newVar3 = 0
  R7088: x[University_Drive,34,2] - x[University_Drive,35,2] + newVar4 = 0
- c9[University_Drive,35,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,35,2]: newVar5 + 13 newVar6 <= 13
  R7090: y[University_Drive,35,0] - y[University_Drive,36,0] + newVar3 = 0
  R7091: x[University_Drive,35,0] - x[University_Drive,36,0] + newVar4 = 0
- c9[University_Drive,36,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,36,0]: newVar5 + 13 newVar6 <= 13
  R7093: y[University_Drive,35,1] - y[University_Drive,36,1] + newVar3 = 0
  R7094: x[University_Drive,35,1] - x[University_Drive,36,1] + newVar4 = 0
- c9[University_Drive,36,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,36,1]: newVar5 + 13 newVar6 <= 13
  R7096: y[University_Drive,35,2] - y[University_Drive,36,2] + newVar3 = 0
  R7097: x[University_Drive,35,2] - x[University_Drive,36,2] + newVar4 = 0
- c9[University_Drive,36,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,36,2]: newVar5 + 13 newVar6 <= 13
  R7099: y[University_Drive,36,0] - y[University_Drive,37,0] + newVar3 = 0
  R7100: x[University_Drive,36,0] - x[University_Drive,37,0] + newVar4 = 0
- c9[University_Drive,37,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,37,0]: newVar5 + 13 newVar6 <= 13
  R7102: y[University_Drive,36,1] - y[University_Drive,37,1] + newVar3 = 0
  R7103: x[University_Drive,36,1] - x[University_Drive,37,1] + newVar4 = 0
- c9[University_Drive,37,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,37,1]: newVar5 + 13 newVar6 <= 13
  R7105: y[University_Drive,36,2] - y[University_Drive,37,2] + newVar3 = 0
  R7106: x[University_Drive,36,2] - x[University_Drive,37,2] + newVar4 = 0
- c9[University_Drive,37,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,37,2]: newVar5 + 13 newVar6 <= 13
  R7108: y[University_Drive,37,0] - y[University_Drive,38,0] + newVar3 = 0
  R7109: x[University_Drive,37,0] - x[University_Drive,38,0] + newVar4 = 0
- c9[University_Drive,38,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,38,0]: newVar5 + 13 newVar6 <= 13
  R7111: y[University_Drive,37,1] - y[University_Drive,38,1] + newVar3 = 0
  R7112: x[University_Drive,37,1] - x[University_Drive,38,1] + newVar4 = 0
- c9[University_Drive,38,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,38,1]: newVar5 + 13 newVar6 <= 13
  R7114: y[University_Drive,37,2] - y[University_Drive,38,2] + newVar3 = 0
  R7115: x[University_Drive,37,2] - x[University_Drive,38,2] + newVar4 = 0
- c9[University_Drive,38,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,38,2]: newVar5 + 13 newVar6 <= 13
  R7117: y[University_Drive,38,0] - y[University_Drive,39,0] + newVar3 = 0
  R7118: x[University_Drive,38,0] - x[University_Drive,39,0] + newVar4 = 0
- c9[University_Drive,39,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,39,0]: newVar5 + 13 newVar6 <= 13
  R7120: y[University_Drive,38,1] - y[University_Drive,39,1] + newVar3 = 0
  R7121: x[University_Drive,38,1] - x[University_Drive,39,1] + newVar4 = 0
- c9[University_Drive,39,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,39,1]: newVar5 + 13 newVar6 <= 13
  R7123: y[University_Drive,38,2] - y[University_Drive,39,2] + newVar3 = 0
  R7124: x[University_Drive,38,2] - x[University_Drive,39,2] + newVar4 = 0
- c9[University_Drive,39,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,39,2]: newVar5 + 13 newVar6 <= 13
  R7126: y[University_Drive,39,0] - y[University_Drive,40,0] + newVar3 = 0
  R7127: x[University_Drive,39,0] - x[University_Drive,40,0] + newVar4 = 0
- c9[University_Drive,40,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,40,0]: newVar5 + 13 newVar6 <= 13
  R7129: y[University_Drive,39,1] - y[University_Drive,40,1] + newVar3 = 0
  R7130: x[University_Drive,39,1] - x[University_Drive,40,1] + newVar4 = 0
- c9[University_Drive,40,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,40,1]: newVar5 + 13 newVar6 <= 13
  R7132: y[University_Drive,39,2] - y[University_Drive,40,2] + newVar3 = 0
  R7133: x[University_Drive,39,2] - x[University_Drive,40,2] + newVar4 = 0
- c9[University_Drive,40,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,40,2]: newVar5 + 13 newVar6 <= 13
  R7135: y[University_Drive,40,0] - y[University_Drive,41,0] + newVar3 = 0
  R7136: x[University_Drive,40,0] - x[University_Drive,41,0] + newVar4 = 0
- c9[University_Drive,41,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,41,0]: newVar5 + 13 newVar6 <= 13
  R7138: y[University_Drive,40,1] - y[University_Drive,41,1] + newVar3 = 0
  R7139: x[University_Drive,40,1] - x[University_Drive,41,1] + newVar4 = 0
- c9[University_Drive,41,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,41,1]: newVar5 + 13 newVar6 <= 13
  R7141: y[University_Drive,40,2] - y[University_Drive,41,2] + newVar3 = 0
  R7142: x[University_Drive,40,2] - x[University_Drive,41,2] + newVar4 = 0
- c9[University_Drive,41,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,41,2]: newVar5 + 13 newVar6 <= 13
  R7144: y[University_Drive,41,0] - y[University_Drive,42,0] + newVar3 = 0
  R7145: x[University_Drive,41,0] - x[University_Drive,42,0] + newVar4 = 0
- c9[University_Drive,42,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,42,0]: newVar5 + 13 newVar6 <= 13
  R7147: y[University_Drive,41,1] - y[University_Drive,42,1] + newVar3 = 0
  R7148: x[University_Drive,41,1] - x[University_Drive,42,1] + newVar4 = 0
- c9[University_Drive,42,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,42,1]: newVar5 + 13 newVar6 <= 13
  R7150: y[University_Drive,41,2] - y[University_Drive,42,2] + newVar3 = 0
  R7151: x[University_Drive,41,2] - x[University_Drive,42,2] + newVar4 = 0
- c9[University_Drive,42,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,42,2]: newVar5 + 13 newVar6 <= 13
  R7153: y[University_Drive,42,0] - y[University_Drive,43,0] + newVar3 = 0
  R7154: x[University_Drive,42,0] - x[University_Drive,43,0] + newVar4 = 0
- c9[University_Drive,43,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,43,0]: newVar5 + 13 newVar6 <= 13
  R7156: y[University_Drive,42,1] - y[University_Drive,43,1] + newVar3 = 0
  R7157: x[University_Drive,42,1] - x[University_Drive,43,1] + newVar4 = 0
- c9[University_Drive,43,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,43,1]: newVar5 + 13 newVar6 <= 13
  R7159: y[University_Drive,42,2] - y[University_Drive,43,2] + newVar3 = 0
  R7160: x[University_Drive,42,2] - x[University_Drive,43,2] + newVar4 = 0
- c9[University_Drive,43,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,43,2]: newVar5 + 13 newVar6 <= 13
  R7162: y[University_Drive,43,0] - y[University_Drive,44,0] + newVar3 = 0
  R7163: x[University_Drive,43,0] - x[University_Drive,44,0] + newVar4 = 0
- c9[University_Drive,44,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,44,0]: newVar5 + 13 newVar6 <= 13
  R7165: y[University_Drive,43,1] - y[University_Drive,44,1] + newVar3 = 0
  R7166: x[University_Drive,43,1] - x[University_Drive,44,1] + newVar4 = 0
- c9[University_Drive,44,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,44,1]: newVar5 + 13 newVar6 <= 13
  R7168: y[University_Drive,43,2] - y[University_Drive,44,2] + newVar3 = 0
  R7169: x[University_Drive,43,2] - x[University_Drive,44,2] + newVar4 = 0
- c9[University_Drive,44,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,44,2]: newVar5 + 13 newVar6 <= 13
  R7171: y[University_Drive,44,0] - y[University_Drive,45,0] + newVar3 = 0
  R7172: x[University_Drive,44,0] - x[University_Drive,45,0] + newVar4 = 0
- c9[University_Drive,45,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,45,0]: newVar5 + 13 newVar6 <= 13
  R7174: y[University_Drive,44,1] - y[University_Drive,45,1] + newVar3 = 0
  R7175: x[University_Drive,44,1] - x[University_Drive,45,1] + newVar4 = 0
- c9[University_Drive,45,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,45,1]: newVar5 + 13 newVar6 <= 13
  R7177: y[University_Drive,44,2] - y[University_Drive,45,2] + newVar3 = 0
  R7178: x[University_Drive,44,2] - x[University_Drive,45,2] + newVar4 = 0
- c9[University_Drive,45,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,45,2]: newVar5 + 13 newVar6 <= 13
  R7180: y[University_Drive,45,0] - y[University_Drive,46,0] + newVar3 = 0
  R7181: x[University_Drive,45,0] - x[University_Drive,46,0] + newVar4 = 0
- c9[University_Drive,46,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,46,0]: newVar5 + 13 newVar6 <= 13
  R7183: y[University_Drive,45,1] - y[University_Drive,46,1] + newVar3 = 0
  R7184: x[University_Drive,45,1] - x[University_Drive,46,1] + newVar4 = 0
- c9[University_Drive,46,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,46,1]: newVar5 + 13 newVar6 <= 13
  R7186: y[University_Drive,45,2] - y[University_Drive,46,2] + newVar3 = 0
  R7187: x[University_Drive,45,2] - x[University_Drive,46,2] + newVar4 = 0
- c9[University_Drive,46,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,46,2]: newVar5 + 13 newVar6 <= 13
  R7189: y[University_Drive,46,0] - y[University_Drive,47,0] + newVar3 = 0
  R7190: x[University_Drive,46,0] - x[University_Drive,47,0] + newVar4 = 0
- c9[University_Drive,47,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,47,0]: newVar5 + 13 newVar6 <= 13
  R7192: y[University_Drive,46,1] - y[University_Drive,47,1] + newVar3 = 0
  R7193: x[University_Drive,46,1] - x[University_Drive,47,1] + newVar4 = 0
- c9[University_Drive,47,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,47,1]: newVar5 + 13 newVar6 <= 13
  R7195: y[University_Drive,46,2] - y[University_Drive,47,2] + newVar3 = 0
  R7196: x[University_Drive,46,2] - x[University_Drive,47,2] + newVar4 = 0
- c9[University_Drive,47,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[University_Drive,47,2]: newVar5 + 13 newVar6 <= 13
  R7198: - y[UMass_Haigis_Mall,0,0] + newVar3 = 0
  R7199: - x[UMass_Haigis_Mall,0,0] + newVar4 = 0
- c9[UMass_Haigis_Mall,0,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,0,0]: newVar5 + 13 newVar6 <= 13
  R7201: - y[UMass_Haigis_Mall,0,1] + newVar3 = 0
  R7202: - x[UMass_Haigis_Mall,0,1] + newVar4 = 0
- c9[UMass_Haigis_Mall,0,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,0,1]: newVar5 + 13 newVar6 <= 13
  R7204: - y[UMass_Haigis_Mall,0,2] + newVar3 = 0
  R7205: - x[UMass_Haigis_Mall,0,2] + newVar4 = 0
- c9[UMass_Haigis_Mall,0,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,0,2]: newVar5 + 13 newVar6 <= 13
  R7207: y[UMass_Haigis_Mall,0,0] - y[UMass_Haigis_Mall,1,0] + newVar3 = 0
  R7208: x[UMass_Haigis_Mall,0,0] - x[UMass_Haigis_Mall,1,0] + newVar4 = 0
- c9[UMass_Haigis_Mall,1,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,1,0]: newVar5 + 13 newVar6 <= 13
  R7210: y[UMass_Haigis_Mall,0,1] - y[UMass_Haigis_Mall,1,1] + newVar3 = 0
  R7211: x[UMass_Haigis_Mall,0,1] - x[UMass_Haigis_Mall,1,1] + newVar4 = 0
- c9[UMass_Haigis_Mall,1,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,1,1]: newVar5 + 13 newVar6 <= 13
  R7213: y[UMass_Haigis_Mall,0,2] - y[UMass_Haigis_Mall,1,2] + newVar3 = 0
  R7214: x[UMass_Haigis_Mall,0,2] - x[UMass_Haigis_Mall,1,2] + newVar4 = 0
- c9[UMass_Haigis_Mall,1,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,1,2]: newVar5 + 13 newVar6 <= 13
  R7216: y[UMass_Haigis_Mall,1,0] - y[UMass_Haigis_Mall,2,0] + newVar3 = 0
  R7217: x[UMass_Haigis_Mall,1,0] - x[UMass_Haigis_Mall,2,0] + newVar4 = 0
- c9[UMass_Haigis_Mall,2,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,2,0]: newVar5 + 13 newVar6 <= 13
  R7219: y[UMass_Haigis_Mall,1,1] - y[UMass_Haigis_Mall,2,1] + newVar3 = 0
  R7220: x[UMass_Haigis_Mall,1,1] - x[UMass_Haigis_Mall,2,1] + newVar4 = 0
- c9[UMass_Haigis_Mall,2,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,2,1]: newVar5 + 13 newVar6 <= 13
  R7222: y[UMass_Haigis_Mall,1,2] - y[UMass_Haigis_Mall,2,2] + newVar3 = 0
  R7223: x[UMass_Haigis_Mall,1,2] - x[UMass_Haigis_Mall,2,2] + newVar4 = 0
- c9[UMass_Haigis_Mall,2,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,2,2]: newVar5 + 13 newVar6 <= 13
  R7225: y[UMass_Haigis_Mall,2,0] - y[UMass_Haigis_Mall,3,0] + newVar3 = 0
  R7226: x[UMass_Haigis_Mall,2,0] - x[UMass_Haigis_Mall,3,0] + newVar4 = 0
- c9[UMass_Haigis_Mall,3,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,3,0]: newVar5 + 13 newVar6 <= 13
  R7228: y[UMass_Haigis_Mall,2,1] - y[UMass_Haigis_Mall,3,1] + newVar3 = 0
  R7229: x[UMass_Haigis_Mall,2,1] - x[UMass_Haigis_Mall,3,1] + newVar4 = 0
- c9[UMass_Haigis_Mall,3,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,3,1]: newVar5 + 13 newVar6 <= 13
  R7231: y[UMass_Haigis_Mall,2,2] - y[UMass_Haigis_Mall,3,2] + newVar3 = 0
  R7232: x[UMass_Haigis_Mall,2,2] - x[UMass_Haigis_Mall,3,2] + newVar4 = 0
- c9[UMass_Haigis_Mall,3,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,3,2]: newVar5 + 13 newVar6 <= 13
  R7234: y[UMass_Haigis_Mall,3,0] - y[UMass_Haigis_Mall,4,0] + newVar3 = 0
  R7235: x[UMass_Haigis_Mall,3,0] - x[UMass_Haigis_Mall,4,0] + newVar4 = 0
- c9[UMass_Haigis_Mall,4,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,4,0]: newVar5 + 13 newVar6 <= 13
  R7237: y[UMass_Haigis_Mall,3,1] - y[UMass_Haigis_Mall,4,1] + newVar3 = 0
  R7238: x[UMass_Haigis_Mall,3,1] - x[UMass_Haigis_Mall,4,1] + newVar4 = 0
- c9[UMass_Haigis_Mall,4,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,4,1]: newVar5 + 13 newVar6 <= 13
  R7240: y[UMass_Haigis_Mall,3,2] - y[UMass_Haigis_Mall,4,2] + newVar3 = 0
  R7241: x[UMass_Haigis_Mall,3,2] - x[UMass_Haigis_Mall,4,2] + newVar4 = 0
- c9[UMass_Haigis_Mall,4,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,4,2]: newVar5 + 13 newVar6 <= 13
  R7243: y[UMass_Haigis_Mall,4,0] - y[UMass_Haigis_Mall,5,0] + newVar3 = 0
  R7244: x[UMass_Haigis_Mall,4,0] - x[UMass_Haigis_Mall,5,0] + newVar4 = 0
- c9[UMass_Haigis_Mall,5,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,5,0]: newVar5 + 13 newVar6 <= 13
  R7246: y[UMass_Haigis_Mall,4,1] - y[UMass_Haigis_Mall,5,1] + newVar3 = 0
  R7247: x[UMass_Haigis_Mall,4,1] - x[UMass_Haigis_Mall,5,1] + newVar4 = 0
- c9[UMass_Haigis_Mall,5,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,5,1]: newVar5 + 13 newVar6 <= 13
  R7249: y[UMass_Haigis_Mall,4,2] - y[UMass_Haigis_Mall,5,2] + newVar3 = 0
  R7250: x[UMass_Haigis_Mall,4,2] - x[UMass_Haigis_Mall,5,2] + newVar4 = 0
- c9[UMass_Haigis_Mall,5,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,5,2]: newVar5 + 13 newVar6 <= 13
  R7252: y[UMass_Haigis_Mall,5,0] - y[UMass_Haigis_Mall,6,0] + newVar3 = 0
  R7253: x[UMass_Haigis_Mall,5,0] - x[UMass_Haigis_Mall,6,0] + newVar4 = 0
- c9[UMass_Haigis_Mall,6,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,6,0]: newVar5 + 13 newVar6 <= 13
  R7255: y[UMass_Haigis_Mall,5,1] - y[UMass_Haigis_Mall,6,1] + newVar3 = 0
  R7256: x[UMass_Haigis_Mall,5,1] - x[UMass_Haigis_Mall,6,1] + newVar4 = 0
- c9[UMass_Haigis_Mall,6,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,6,1]: newVar5 + 13 newVar6 <= 13
  R7258: y[UMass_Haigis_Mall,5,2] - y[UMass_Haigis_Mall,6,2] + newVar3 = 0
  R7259: x[UMass_Haigis_Mall,5,2] - x[UMass_Haigis_Mall,6,2] + newVar4 = 0
- c9[UMass_Haigis_Mall,6,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,6,2]: newVar5 + 13 newVar6 <= 13
  R7261: y[UMass_Haigis_Mall,6,0] - y[UMass_Haigis_Mall,7,0] + newVar3 = 0
  R7262: x[UMass_Haigis_Mall,6,0] - x[UMass_Haigis_Mall,7,0] + newVar4 = 0
- c9[UMass_Haigis_Mall,7,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,7,0]: newVar5 + 13 newVar6 <= 13
  R7264: y[UMass_Haigis_Mall,6,1] - y[UMass_Haigis_Mall,7,1] + newVar3 = 0
  R7265: x[UMass_Haigis_Mall,6,1] - x[UMass_Haigis_Mall,7,1] + newVar4 = 0
- c9[UMass_Haigis_Mall,7,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,7,1]: newVar5 + 13 newVar6 <= 13
  R7267: y[UMass_Haigis_Mall,6,2] - y[UMass_Haigis_Mall,7,2] + newVar3 = 0
  R7268: x[UMass_Haigis_Mall,6,2] - x[UMass_Haigis_Mall,7,2] + newVar4 = 0
- c9[UMass_Haigis_Mall,7,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,7,2]: newVar5 + 13 newVar6 <= 13
  R7270: y[UMass_Haigis_Mall,7,0] - y[UMass_Haigis_Mall,8,0] + newVar3 = 0
  R7271: x[UMass_Haigis_Mall,7,0] - x[UMass_Haigis_Mall,8,0] + newVar4 = 0
- c9[UMass_Haigis_Mall,8,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,8,0]: newVar5 + 13 newVar6 <= 13
  R7273: y[UMass_Haigis_Mall,7,1] - y[UMass_Haigis_Mall,8,1] + newVar3 = 0
  R7274: x[UMass_Haigis_Mall,7,1] - x[UMass_Haigis_Mall,8,1] + newVar4 = 0
- c9[UMass_Haigis_Mall,8,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,8,1]: newVar5 + 13 newVar6 <= 13
  R7276: y[UMass_Haigis_Mall,7,2] - y[UMass_Haigis_Mall,8,2] + newVar3 = 0
  R7277: x[UMass_Haigis_Mall,7,2] - x[UMass_Haigis_Mall,8,2] + newVar4 = 0
- c9[UMass_Haigis_Mall,8,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,8,2]: newVar5 + 13 newVar6 <= 13
  R7279: y[UMass_Haigis_Mall,8,0] - y[UMass_Haigis_Mall,9,0] + newVar3 = 0
  R7280: x[UMass_Haigis_Mall,8,0] - x[UMass_Haigis_Mall,9,0] + newVar4 = 0
- c9[UMass_Haigis_Mall,9,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,9,0]: newVar5 + 13 newVar6 <= 13
  R7282: y[UMass_Haigis_Mall,8,1] - y[UMass_Haigis_Mall,9,1] + newVar3 = 0
  R7283: x[UMass_Haigis_Mall,8,1] - x[UMass_Haigis_Mall,9,1] + newVar4 = 0
- c9[UMass_Haigis_Mall,9,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,9,1]: newVar5 + 13 newVar6 <= 13
  R7285: y[UMass_Haigis_Mall,8,2] - y[UMass_Haigis_Mall,9,2] + newVar3 = 0
  R7286: x[UMass_Haigis_Mall,8,2] - x[UMass_Haigis_Mall,9,2] + newVar4 = 0
- c9[UMass_Haigis_Mall,9,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,9,2]: newVar5 + 13 newVar6 <= 13
  R7288: y[UMass_Haigis_Mall,9,0] - y[UMass_Haigis_Mall,10,0] + newVar3 = 0
  R7289: x[UMass_Haigis_Mall,9,0] - x[UMass_Haigis_Mall,10,0] + newVar4 = 0
- c9[UMass_Haigis_Mall,10,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,10,0]: newVar5 + 13 newVar6 <= 13
  R7291: y[UMass_Haigis_Mall,9,1] - y[UMass_Haigis_Mall,10,1] + newVar3 = 0
  R7292: x[UMass_Haigis_Mall,9,1] - x[UMass_Haigis_Mall,10,1] + newVar4 = 0
- c9[UMass_Haigis_Mall,10,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,10,1]: newVar5 + 13 newVar6 <= 13
  R7294: y[UMass_Haigis_Mall,9,2] - y[UMass_Haigis_Mall,10,2] + newVar3 = 0
  R7295: x[UMass_Haigis_Mall,9,2] - x[UMass_Haigis_Mall,10,2] + newVar4 = 0
- c9[UMass_Haigis_Mall,10,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,10,2]: newVar5 + 13 newVar6 <= 13
  R7297: y[UMass_Haigis_Mall,10,0] - y[UMass_Haigis_Mall,11,0] + newVar3
    = 0
  R7298: x[UMass_Haigis_Mall,10,0] - x[UMass_Haigis_Mall,11,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,11,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,11,0]: newVar5 + 13 newVar6 <= 13
  R7300: y[UMass_Haigis_Mall,10,1] - y[UMass_Haigis_Mall,11,1] + newVar3
    = 0
  R7301: x[UMass_Haigis_Mall,10,1] - x[UMass_Haigis_Mall,11,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,11,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,11,1]: newVar5 + 13 newVar6 <= 13
  R7303: y[UMass_Haigis_Mall,10,2] - y[UMass_Haigis_Mall,11,2] + newVar3
    = 0
  R7304: x[UMass_Haigis_Mall,10,2] - x[UMass_Haigis_Mall,11,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,11,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,11,2]: newVar5 + 13 newVar6 <= 13
  R7306: y[UMass_Haigis_Mall,11,0] - y[UMass_Haigis_Mall,12,0] + newVar3
    = 0
  R7307: x[UMass_Haigis_Mall,11,0] - x[UMass_Haigis_Mall,12,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,12,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,12,0]: newVar5 + 13 newVar6 <= 13
  R7309: y[UMass_Haigis_Mall,11,1] - y[UMass_Haigis_Mall,12,1] + newVar3
    = 0
  R7310: x[UMass_Haigis_Mall,11,1] - x[UMass_Haigis_Mall,12,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,12,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,12,1]: newVar5 + 13 newVar6 <= 13
  R7312: y[UMass_Haigis_Mall,11,2] - y[UMass_Haigis_Mall,12,2] + newVar3
    = 0
  R7313: x[UMass_Haigis_Mall,11,2] - x[UMass_Haigis_Mall,12,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,12,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,12,2]: newVar5 + 13 newVar6 <= 13
  R7315: y[UMass_Haigis_Mall,12,0] - y[UMass_Haigis_Mall,13,0] + newVar3
    = 0
  R7316: x[UMass_Haigis_Mall,12,0] - x[UMass_Haigis_Mall,13,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,13,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,13,0]: newVar5 + 13 newVar6 <= 13
  R7318: y[UMass_Haigis_Mall,12,1] - y[UMass_Haigis_Mall,13,1] + newVar3
    = 0
  R7319: x[UMass_Haigis_Mall,12,1] - x[UMass_Haigis_Mall,13,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,13,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,13,1]: newVar5 + 13 newVar6 <= 13
  R7321: y[UMass_Haigis_Mall,12,2] - y[UMass_Haigis_Mall,13,2] + newVar3
    = 0
  R7322: x[UMass_Haigis_Mall,12,2] - x[UMass_Haigis_Mall,13,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,13,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,13,2]: newVar5 + 13 newVar6 <= 13
  R7324: y[UMass_Haigis_Mall,13,0] - y[UMass_Haigis_Mall,14,0] + newVar3
    = 0
  R7325: x[UMass_Haigis_Mall,13,0] - x[UMass_Haigis_Mall,14,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,14,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,14,0]: newVar5 + 13 newVar6 <= 13
  R7327: y[UMass_Haigis_Mall,13,1] - y[UMass_Haigis_Mall,14,1] + newVar3
    = 0
  R7328: x[UMass_Haigis_Mall,13,1] - x[UMass_Haigis_Mall,14,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,14,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,14,1]: newVar5 + 13 newVar6 <= 13
  R7330: y[UMass_Haigis_Mall,13,2] - y[UMass_Haigis_Mall,14,2] + newVar3
    = 0
  R7331: x[UMass_Haigis_Mall,13,2] - x[UMass_Haigis_Mall,14,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,14,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,14,2]: newVar5 + 13 newVar6 <= 13
  R7333: y[UMass_Haigis_Mall,14,0] - y[UMass_Haigis_Mall,15,0] + newVar3
    = 0
  R7334: x[UMass_Haigis_Mall,14,0] - x[UMass_Haigis_Mall,15,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,15,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,15,0]: newVar5 + 13 newVar6 <= 13
  R7336: y[UMass_Haigis_Mall,14,1] - y[UMass_Haigis_Mall,15,1] + newVar3
    = 0
  R7337: x[UMass_Haigis_Mall,14,1] - x[UMass_Haigis_Mall,15,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,15,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,15,1]: newVar5 + 13 newVar6 <= 13
  R7339: y[UMass_Haigis_Mall,14,2] - y[UMass_Haigis_Mall,15,2] + newVar3
    = 0
  R7340: x[UMass_Haigis_Mall,14,2] - x[UMass_Haigis_Mall,15,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,15,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,15,2]: newVar5 + 13 newVar6 <= 13
  R7342: y[UMass_Haigis_Mall,15,0] - y[UMass_Haigis_Mall,16,0] + newVar3
    = 0
  R7343: x[UMass_Haigis_Mall,15,0] - x[UMass_Haigis_Mall,16,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,16,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,16,0]: newVar5 + 13 newVar6 <= 13
  R7345: y[UMass_Haigis_Mall,15,1] - y[UMass_Haigis_Mall,16,1] + newVar3
    = 0
  R7346: x[UMass_Haigis_Mall,15,1] - x[UMass_Haigis_Mall,16,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,16,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,16,1]: newVar5 + 13 newVar6 <= 13
  R7348: y[UMass_Haigis_Mall,15,2] - y[UMass_Haigis_Mall,16,2] + newVar3
    = 0
  R7349: x[UMass_Haigis_Mall,15,2] - x[UMass_Haigis_Mall,16,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,16,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,16,2]: newVar5 + 13 newVar6 <= 13
  R7351: y[UMass_Haigis_Mall,16,0] - y[UMass_Haigis_Mall,17,0] + newVar3
    = 0
  R7352: x[UMass_Haigis_Mall,16,0] - x[UMass_Haigis_Mall,17,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,17,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,17,0]: newVar5 + 13 newVar6 <= 13
  R7354: y[UMass_Haigis_Mall,16,1] - y[UMass_Haigis_Mall,17,1] + newVar3
    = 0
  R7355: x[UMass_Haigis_Mall,16,1] - x[UMass_Haigis_Mall,17,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,17,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,17,1]: newVar5 + 13 newVar6 <= 13
  R7357: y[UMass_Haigis_Mall,16,2] - y[UMass_Haigis_Mall,17,2] + newVar3
    = 0
  R7358: x[UMass_Haigis_Mall,16,2] - x[UMass_Haigis_Mall,17,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,17,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,17,2]: newVar5 + 13 newVar6 <= 13
  R7360: y[UMass_Haigis_Mall,17,0] - y[UMass_Haigis_Mall,18,0] + newVar3
    = 0
  R7361: x[UMass_Haigis_Mall,17,0] - x[UMass_Haigis_Mall,18,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,18,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,18,0]: newVar5 + 13 newVar6 <= 13
  R7363: y[UMass_Haigis_Mall,17,1] - y[UMass_Haigis_Mall,18,1] + newVar3
    = 0
  R7364: x[UMass_Haigis_Mall,17,1] - x[UMass_Haigis_Mall,18,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,18,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,18,1]: newVar5 + 13 newVar6 <= 13
  R7366: y[UMass_Haigis_Mall,17,2] - y[UMass_Haigis_Mall,18,2] + newVar3
    = 0
  R7367: x[UMass_Haigis_Mall,17,2] - x[UMass_Haigis_Mall,18,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,18,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,18,2]: newVar5 + 13 newVar6 <= 13
  R7369: y[UMass_Haigis_Mall,18,0] - y[UMass_Haigis_Mall,19,0] + newVar3
    = 0
  R7370: x[UMass_Haigis_Mall,18,0] - x[UMass_Haigis_Mall,19,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,19,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,19,0]: newVar5 + 13 newVar6 <= 13
  R7372: y[UMass_Haigis_Mall,18,1] - y[UMass_Haigis_Mall,19,1] + newVar3
    = 0
  R7373: x[UMass_Haigis_Mall,18,1] - x[UMass_Haigis_Mall,19,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,19,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,19,1]: newVar5 + 13 newVar6 <= 13
  R7375: y[UMass_Haigis_Mall,18,2] - y[UMass_Haigis_Mall,19,2] + newVar3
    = 0
  R7376: x[UMass_Haigis_Mall,18,2] - x[UMass_Haigis_Mall,19,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,19,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,19,2]: newVar5 + 13 newVar6 <= 13
  R7378: y[UMass_Haigis_Mall,19,0] - y[UMass_Haigis_Mall,20,0] + newVar3
    = 0
  R7379: x[UMass_Haigis_Mall,19,0] - x[UMass_Haigis_Mall,20,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,20,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,20,0]: newVar5 + 13 newVar6 <= 13
  R7381: y[UMass_Haigis_Mall,19,1] - y[UMass_Haigis_Mall,20,1] + newVar3
    = 0
  R7382: x[UMass_Haigis_Mall,19,1] - x[UMass_Haigis_Mall,20,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,20,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,20,1]: newVar5 + 13 newVar6 <= 13
  R7384: y[UMass_Haigis_Mall,19,2] - y[UMass_Haigis_Mall,20,2] + newVar3
    = 0
  R7385: x[UMass_Haigis_Mall,19,2] - x[UMass_Haigis_Mall,20,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,20,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,20,2]: newVar5 + 13 newVar6 <= 13
  R7387: y[UMass_Haigis_Mall,20,0] - y[UMass_Haigis_Mall,21,0] + newVar3
    = 0
  R7388: x[UMass_Haigis_Mall,20,0] - x[UMass_Haigis_Mall,21,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,21,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,21,0]: newVar5 + 13 newVar6 <= 13
  R7390: y[UMass_Haigis_Mall,20,1] - y[UMass_Haigis_Mall,21,1] + newVar3
    = 0
  R7391: x[UMass_Haigis_Mall,20,1] - x[UMass_Haigis_Mall,21,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,21,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,21,1]: newVar5 + 13 newVar6 <= 13
  R7393: y[UMass_Haigis_Mall,20,2] - y[UMass_Haigis_Mall,21,2] + newVar3
    = 0
  R7394: x[UMass_Haigis_Mall,20,2] - x[UMass_Haigis_Mall,21,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,21,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,21,2]: newVar5 + 13 newVar6 <= 13
  R7396: y[UMass_Haigis_Mall,21,0] - y[UMass_Haigis_Mall,22,0] + newVar3
    = 0
  R7397: x[UMass_Haigis_Mall,21,0] - x[UMass_Haigis_Mall,22,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,22,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,22,0]: newVar5 + 13 newVar6 <= 13
  R7399: y[UMass_Haigis_Mall,21,1] - y[UMass_Haigis_Mall,22,1] + newVar3
    = 0
  R7400: x[UMass_Haigis_Mall,21,1] - x[UMass_Haigis_Mall,22,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,22,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,22,1]: newVar5 + 13 newVar6 <= 13
  R7402: y[UMass_Haigis_Mall,21,2] - y[UMass_Haigis_Mall,22,2] + newVar3
    = 0
  R7403: x[UMass_Haigis_Mall,21,2] - x[UMass_Haigis_Mall,22,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,22,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,22,2]: newVar5 + 13 newVar6 <= 13
  R7405: y[UMass_Haigis_Mall,22,0] - y[UMass_Haigis_Mall,23,0] + newVar3
    = 0
  R7406: x[UMass_Haigis_Mall,22,0] - x[UMass_Haigis_Mall,23,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,23,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,23,0]: newVar5 + 13 newVar6 <= 13
  R7408: y[UMass_Haigis_Mall,22,1] - y[UMass_Haigis_Mall,23,1] + newVar3
    = 0
  R7409: x[UMass_Haigis_Mall,22,1] - x[UMass_Haigis_Mall,23,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,23,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,23,1]: newVar5 + 13 newVar6 <= 13
  R7411: y[UMass_Haigis_Mall,22,2] - y[UMass_Haigis_Mall,23,2] + newVar3
    = 0
  R7412: x[UMass_Haigis_Mall,22,2] - x[UMass_Haigis_Mall,23,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,23,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,23,2]: newVar5 + 13 newVar6 <= 13
  R7414: y[UMass_Haigis_Mall,23,0] - y[UMass_Haigis_Mall,24,0] + newVar3
    = 0
  R7415: x[UMass_Haigis_Mall,23,0] - x[UMass_Haigis_Mall,24,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,24,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,24,0]: newVar5 + 13 newVar6 <= 13
  R7417: y[UMass_Haigis_Mall,23,1] - y[UMass_Haigis_Mall,24,1] + newVar3
    = 0
  R7418: x[UMass_Haigis_Mall,23,1] - x[UMass_Haigis_Mall,24,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,24,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,24,1]: newVar5 + 13 newVar6 <= 13
  R7420: y[UMass_Haigis_Mall,23,2] - y[UMass_Haigis_Mall,24,2] + newVar3
    = 0
  R7421: x[UMass_Haigis_Mall,23,2] - x[UMass_Haigis_Mall,24,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,24,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,24,2]: newVar5 + 13 newVar6 <= 13
  R7423: y[UMass_Haigis_Mall,24,0] - y[UMass_Haigis_Mall,25,0] + newVar3
    = 0
  R7424: x[UMass_Haigis_Mall,24,0] - x[UMass_Haigis_Mall,25,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,25,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,25,0]: newVar5 + 13 newVar6 <= 13
  R7426: y[UMass_Haigis_Mall,24,1] - y[UMass_Haigis_Mall,25,1] + newVar3
    = 0
  R7427: x[UMass_Haigis_Mall,24,1] - x[UMass_Haigis_Mall,25,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,25,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,25,1]: newVar5 + 13 newVar6 <= 13
  R7429: y[UMass_Haigis_Mall,24,2] - y[UMass_Haigis_Mall,25,2] + newVar3
    = 0
  R7430: x[UMass_Haigis_Mall,24,2] - x[UMass_Haigis_Mall,25,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,25,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,25,2]: newVar5 + 13 newVar6 <= 13
  R7432: y[UMass_Haigis_Mall,25,0] - y[UMass_Haigis_Mall,26,0] + newVar3
    = 0
  R7433: x[UMass_Haigis_Mall,25,0] - x[UMass_Haigis_Mall,26,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,26,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,26,0]: newVar5 + 13 newVar6 <= 13
  R7435: y[UMass_Haigis_Mall,25,1] - y[UMass_Haigis_Mall,26,1] + newVar3
    = 0
  R7436: x[UMass_Haigis_Mall,25,1] - x[UMass_Haigis_Mall,26,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,26,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,26,1]: newVar5 + 13 newVar6 <= 13
  R7438: y[UMass_Haigis_Mall,25,2] - y[UMass_Haigis_Mall,26,2] + newVar3
    = 0
  R7439: x[UMass_Haigis_Mall,25,2] - x[UMass_Haigis_Mall,26,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,26,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,26,2]: newVar5 + 13 newVar6 <= 13
  R7441: y[UMass_Haigis_Mall,26,0] - y[UMass_Haigis_Mall,27,0] + newVar3
    = 0
  R7442: x[UMass_Haigis_Mall,26,0] - x[UMass_Haigis_Mall,27,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,27,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,27,0]: newVar5 + 13 newVar6 <= 13
  R7444: y[UMass_Haigis_Mall,26,1] - y[UMass_Haigis_Mall,27,1] + newVar3
    = 0
  R7445: x[UMass_Haigis_Mall,26,1] - x[UMass_Haigis_Mall,27,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,27,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,27,1]: newVar5 + 13 newVar6 <= 13
  R7447: y[UMass_Haigis_Mall,26,2] - y[UMass_Haigis_Mall,27,2] + newVar3
    = 0
  R7448: x[UMass_Haigis_Mall,26,2] - x[UMass_Haigis_Mall,27,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,27,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,27,2]: newVar5 + 13 newVar6 <= 13
  R7450: y[UMass_Haigis_Mall,27,0] - y[UMass_Haigis_Mall,28,0] + newVar3
    = 0
  R7451: x[UMass_Haigis_Mall,27,0] - x[UMass_Haigis_Mall,28,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,28,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,28,0]: newVar5 + 13 newVar6 <= 13
  R7453: y[UMass_Haigis_Mall,27,1] - y[UMass_Haigis_Mall,28,1] + newVar3
    = 0
  R7454: x[UMass_Haigis_Mall,27,1] - x[UMass_Haigis_Mall,28,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,28,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,28,1]: newVar5 + 13 newVar6 <= 13
  R7456: y[UMass_Haigis_Mall,27,2] - y[UMass_Haigis_Mall,28,2] + newVar3
    = 0
  R7457: x[UMass_Haigis_Mall,27,2] - x[UMass_Haigis_Mall,28,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,28,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,28,2]: newVar5 + 13 newVar6 <= 13
  R7459: y[UMass_Haigis_Mall,28,0] - y[UMass_Haigis_Mall,29,0] + newVar3
    = 0
  R7460: x[UMass_Haigis_Mall,28,0] - x[UMass_Haigis_Mall,29,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,29,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,29,0]: newVar5 + 13 newVar6 <= 13
  R7462: y[UMass_Haigis_Mall,28,1] - y[UMass_Haigis_Mall,29,1] + newVar3
    = 0
  R7463: x[UMass_Haigis_Mall,28,1] - x[UMass_Haigis_Mall,29,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,29,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,29,1]: newVar5 + 13 newVar6 <= 13
  R7465: y[UMass_Haigis_Mall,28,2] - y[UMass_Haigis_Mall,29,2] + newVar3
    = 0
  R7466: x[UMass_Haigis_Mall,28,2] - x[UMass_Haigis_Mall,29,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,29,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,29,2]: newVar5 + 13 newVar6 <= 13
  R7468: y[UMass_Haigis_Mall,29,0] - y[UMass_Haigis_Mall,30,0] + newVar3
    = 0
  R7469: x[UMass_Haigis_Mall,29,0] - x[UMass_Haigis_Mall,30,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,30,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,30,0]: newVar5 + 13 newVar6 <= 13
  R7471: y[UMass_Haigis_Mall,29,1] - y[UMass_Haigis_Mall,30,1] + newVar3
    = 0
  R7472: x[UMass_Haigis_Mall,29,1] - x[UMass_Haigis_Mall,30,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,30,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,30,1]: newVar5 + 13 newVar6 <= 13
  R7474: y[UMass_Haigis_Mall,29,2] - y[UMass_Haigis_Mall,30,2] + newVar3
    = 0
  R7475: x[UMass_Haigis_Mall,29,2] - x[UMass_Haigis_Mall,30,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,30,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,30,2]: newVar5 + 13 newVar6 <= 13
  R7477: y[UMass_Haigis_Mall,30,0] - y[UMass_Haigis_Mall,31,0] + newVar3
    = 0
  R7478: x[UMass_Haigis_Mall,30,0] - x[UMass_Haigis_Mall,31,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,31,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,31,0]: newVar5 + 13 newVar6 <= 13
  R7480: y[UMass_Haigis_Mall,30,1] - y[UMass_Haigis_Mall,31,1] + newVar3
    = 0
  R7481: x[UMass_Haigis_Mall,30,1] - x[UMass_Haigis_Mall,31,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,31,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,31,1]: newVar5 + 13 newVar6 <= 13
  R7483: y[UMass_Haigis_Mall,30,2] - y[UMass_Haigis_Mall,31,2] + newVar3
    = 0
  R7484: x[UMass_Haigis_Mall,30,2] - x[UMass_Haigis_Mall,31,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,31,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,31,2]: newVar5 + 13 newVar6 <= 13
  R7486: y[UMass_Haigis_Mall,31,0] - y[UMass_Haigis_Mall,32,0] + newVar3
    = 0
  R7487: x[UMass_Haigis_Mall,31,0] - x[UMass_Haigis_Mall,32,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,32,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,32,0]: newVar5 + 13 newVar6 <= 13
  R7489: y[UMass_Haigis_Mall,31,1] - y[UMass_Haigis_Mall,32,1] + newVar3
    = 0
  R7490: x[UMass_Haigis_Mall,31,1] - x[UMass_Haigis_Mall,32,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,32,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,32,1]: newVar5 + 13 newVar6 <= 13
  R7492: y[UMass_Haigis_Mall,31,2] - y[UMass_Haigis_Mall,32,2] + newVar3
    = 0
  R7493: x[UMass_Haigis_Mall,31,2] - x[UMass_Haigis_Mall,32,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,32,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,32,2]: newVar5 + 13 newVar6 <= 13
  R7495: y[UMass_Haigis_Mall,32,0] - y[UMass_Haigis_Mall,33,0] + newVar3
    = 0
  R7496: x[UMass_Haigis_Mall,32,0] - x[UMass_Haigis_Mall,33,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,33,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,33,0]: newVar5 + 13 newVar6 <= 13
  R7498: y[UMass_Haigis_Mall,32,1] - y[UMass_Haigis_Mall,33,1] + newVar3
    = 0
  R7499: x[UMass_Haigis_Mall,32,1] - x[UMass_Haigis_Mall,33,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,33,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,33,1]: newVar5 + 13 newVar6 <= 13
  R7501: y[UMass_Haigis_Mall,32,2] - y[UMass_Haigis_Mall,33,2] + newVar3
    = 0
  R7502: x[UMass_Haigis_Mall,32,2] - x[UMass_Haigis_Mall,33,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,33,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,33,2]: newVar5 + 13 newVar6 <= 13
  R7504: y[UMass_Haigis_Mall,33,0] - y[UMass_Haigis_Mall,34,0] + newVar3
    = 0
  R7505: x[UMass_Haigis_Mall,33,0] - x[UMass_Haigis_Mall,34,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,34,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,34,0]: newVar5 + 13 newVar6 <= 13
  R7507: y[UMass_Haigis_Mall,33,1] - y[UMass_Haigis_Mall,34,1] + newVar3
    = 0
  R7508: x[UMass_Haigis_Mall,33,1] - x[UMass_Haigis_Mall,34,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,34,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,34,1]: newVar5 + 13 newVar6 <= 13
  R7510: y[UMass_Haigis_Mall,33,2] - y[UMass_Haigis_Mall,34,2] + newVar3
    = 0
  R7511: x[UMass_Haigis_Mall,33,2] - x[UMass_Haigis_Mall,34,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,34,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,34,2]: newVar5 + 13 newVar6 <= 13
  R7513: y[UMass_Haigis_Mall,34,0] - y[UMass_Haigis_Mall,35,0] + newVar3
    = 0
  R7514: x[UMass_Haigis_Mall,34,0] - x[UMass_Haigis_Mall,35,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,35,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,35,0]: newVar5 + 13 newVar6 <= 13
  R7516: y[UMass_Haigis_Mall,34,1] - y[UMass_Haigis_Mall,35,1] + newVar3
    = 0
  R7517: x[UMass_Haigis_Mall,34,1] - x[UMass_Haigis_Mall,35,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,35,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,35,1]: newVar5 + 13 newVar6 <= 13
  R7519: y[UMass_Haigis_Mall,34,2] - y[UMass_Haigis_Mall,35,2] + newVar3
    = 0
  R7520: x[UMass_Haigis_Mall,34,2] - x[UMass_Haigis_Mall,35,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,35,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,35,2]: newVar5 + 13 newVar6 <= 13
  R7522: y[UMass_Haigis_Mall,35,0] - y[UMass_Haigis_Mall,36,0] + newVar3
    = 0
  R7523: x[UMass_Haigis_Mall,35,0] - x[UMass_Haigis_Mall,36,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,36,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,36,0]: newVar5 + 13 newVar6 <= 13
  R7525: y[UMass_Haigis_Mall,35,1] - y[UMass_Haigis_Mall,36,1] + newVar3
    = 0
  R7526: x[UMass_Haigis_Mall,35,1] - x[UMass_Haigis_Mall,36,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,36,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,36,1]: newVar5 + 13 newVar6 <= 13
  R7528: y[UMass_Haigis_Mall,35,2] - y[UMass_Haigis_Mall,36,2] + newVar3
    = 0
  R7529: x[UMass_Haigis_Mall,35,2] - x[UMass_Haigis_Mall,36,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,36,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,36,2]: newVar5 + 13 newVar6 <= 13
  R7531: y[UMass_Haigis_Mall,36,0] - y[UMass_Haigis_Mall,37,0] + newVar3
    = 0
  R7532: x[UMass_Haigis_Mall,36,0] - x[UMass_Haigis_Mall,37,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,37,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,37,0]: newVar5 + 13 newVar6 <= 13
  R7534: y[UMass_Haigis_Mall,36,1] - y[UMass_Haigis_Mall,37,1] + newVar3
    = 0
  R7535: x[UMass_Haigis_Mall,36,1] - x[UMass_Haigis_Mall,37,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,37,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,37,1]: newVar5 + 13 newVar6 <= 13
  R7537: y[UMass_Haigis_Mall,36,2] - y[UMass_Haigis_Mall,37,2] + newVar3
    = 0
  R7538: x[UMass_Haigis_Mall,36,2] - x[UMass_Haigis_Mall,37,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,37,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,37,2]: newVar5 + 13 newVar6 <= 13
  R7540: y[UMass_Haigis_Mall,37,0] - y[UMass_Haigis_Mall,38,0] + newVar3
    = 0
  R7541: x[UMass_Haigis_Mall,37,0] - x[UMass_Haigis_Mall,38,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,38,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,38,0]: newVar5 + 13 newVar6 <= 13
  R7543: y[UMass_Haigis_Mall,37,1] - y[UMass_Haigis_Mall,38,1] + newVar3
    = 0
  R7544: x[UMass_Haigis_Mall,37,1] - x[UMass_Haigis_Mall,38,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,38,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,38,1]: newVar5 + 13 newVar6 <= 13
  R7546: y[UMass_Haigis_Mall,37,2] - y[UMass_Haigis_Mall,38,2] + newVar3
    = 0
  R7547: x[UMass_Haigis_Mall,37,2] - x[UMass_Haigis_Mall,38,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,38,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,38,2]: newVar5 + 13 newVar6 <= 13
  R7549: y[UMass_Haigis_Mall,38,0] - y[UMass_Haigis_Mall,39,0] + newVar3
    = 0
  R7550: x[UMass_Haigis_Mall,38,0] - x[UMass_Haigis_Mall,39,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,39,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,39,0]: newVar5 + 13 newVar6 <= 13
  R7552: y[UMass_Haigis_Mall,38,1] - y[UMass_Haigis_Mall,39,1] + newVar3
    = 0
  R7553: x[UMass_Haigis_Mall,38,1] - x[UMass_Haigis_Mall,39,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,39,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,39,1]: newVar5 + 13 newVar6 <= 13
  R7555: y[UMass_Haigis_Mall,38,2] - y[UMass_Haigis_Mall,39,2] + newVar3
    = 0
  R7556: x[UMass_Haigis_Mall,38,2] - x[UMass_Haigis_Mall,39,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,39,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,39,2]: newVar5 + 13 newVar6 <= 13
  R7558: y[UMass_Haigis_Mall,39,0] - y[UMass_Haigis_Mall,40,0] + newVar3
    = 0
  R7559: x[UMass_Haigis_Mall,39,0] - x[UMass_Haigis_Mall,40,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,40,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,40,0]: newVar5 + 13 newVar6 <= 13
  R7561: y[UMass_Haigis_Mall,39,1] - y[UMass_Haigis_Mall,40,1] + newVar3
    = 0
  R7562: x[UMass_Haigis_Mall,39,1] - x[UMass_Haigis_Mall,40,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,40,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,40,1]: newVar5 + 13 newVar6 <= 13
  R7564: y[UMass_Haigis_Mall,39,2] - y[UMass_Haigis_Mall,40,2] + newVar3
    = 0
  R7565: x[UMass_Haigis_Mall,39,2] - x[UMass_Haigis_Mall,40,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,40,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,40,2]: newVar5 + 13 newVar6 <= 13
  R7567: y[UMass_Haigis_Mall,40,0] - y[UMass_Haigis_Mall,41,0] + newVar3
    = 0
  R7568: x[UMass_Haigis_Mall,40,0] - x[UMass_Haigis_Mall,41,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,41,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,41,0]: newVar5 + 13 newVar6 <= 13
  R7570: y[UMass_Haigis_Mall,40,1] - y[UMass_Haigis_Mall,41,1] + newVar3
    = 0
  R7571: x[UMass_Haigis_Mall,40,1] - x[UMass_Haigis_Mall,41,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,41,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,41,1]: newVar5 + 13 newVar6 <= 13
  R7573: y[UMass_Haigis_Mall,40,2] - y[UMass_Haigis_Mall,41,2] + newVar3
    = 0
  R7574: x[UMass_Haigis_Mall,40,2] - x[UMass_Haigis_Mall,41,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,41,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,41,2]: newVar5 + 13 newVar6 <= 13
  R7576: y[UMass_Haigis_Mall,41,0] - y[UMass_Haigis_Mall,42,0] + newVar3
    = 0
  R7577: x[UMass_Haigis_Mall,41,0] - x[UMass_Haigis_Mall,42,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,42,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,42,0]: newVar5 + 13 newVar6 <= 13
  R7579: y[UMass_Haigis_Mall,41,1] - y[UMass_Haigis_Mall,42,1] + newVar3
    = 0
  R7580: x[UMass_Haigis_Mall,41,1] - x[UMass_Haigis_Mall,42,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,42,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,42,1]: newVar5 + 13 newVar6 <= 13
  R7582: y[UMass_Haigis_Mall,41,2] - y[UMass_Haigis_Mall,42,2] + newVar3
    = 0
  R7583: x[UMass_Haigis_Mall,41,2] - x[UMass_Haigis_Mall,42,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,42,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,42,2]: newVar5 + 13 newVar6 <= 13
  R7585: y[UMass_Haigis_Mall,42,0] - y[UMass_Haigis_Mall,43,0] + newVar3
    = 0
  R7586: x[UMass_Haigis_Mall,42,0] - x[UMass_Haigis_Mall,43,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,43,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,43,0]: newVar5 + 13 newVar6 <= 13
  R7588: y[UMass_Haigis_Mall,42,1] - y[UMass_Haigis_Mall,43,1] + newVar3
    = 0
  R7589: x[UMass_Haigis_Mall,42,1] - x[UMass_Haigis_Mall,43,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,43,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,43,1]: newVar5 + 13 newVar6 <= 13
  R7591: y[UMass_Haigis_Mall,42,2] - y[UMass_Haigis_Mall,43,2] + newVar3
    = 0
  R7592: x[UMass_Haigis_Mall,42,2] - x[UMass_Haigis_Mall,43,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,43,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,43,2]: newVar5 + 13 newVar6 <= 13
  R7594: y[UMass_Haigis_Mall,43,0] - y[UMass_Haigis_Mall,44,0] + newVar3
    = 0
  R7595: x[UMass_Haigis_Mall,43,0] - x[UMass_Haigis_Mall,44,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,44,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,44,0]: newVar5 + 13 newVar6 <= 13
  R7597: y[UMass_Haigis_Mall,43,1] - y[UMass_Haigis_Mall,44,1] + newVar3
    = 0
  R7598: x[UMass_Haigis_Mall,43,1] - x[UMass_Haigis_Mall,44,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,44,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,44,1]: newVar5 + 13 newVar6 <= 13
  R7600: y[UMass_Haigis_Mall,43,2] - y[UMass_Haigis_Mall,44,2] + newVar3
    = 0
  R7601: x[UMass_Haigis_Mall,43,2] - x[UMass_Haigis_Mall,44,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,44,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,44,2]: newVar5 + 13 newVar6 <= 13
  R7603: y[UMass_Haigis_Mall,44,0] - y[UMass_Haigis_Mall,45,0] + newVar3
    = 0
  R7604: x[UMass_Haigis_Mall,44,0] - x[UMass_Haigis_Mall,45,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,45,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,45,0]: newVar5 + 13 newVar6 <= 13
  R7606: y[UMass_Haigis_Mall,44,1] - y[UMass_Haigis_Mall,45,1] + newVar3
    = 0
  R7607: x[UMass_Haigis_Mall,44,1] - x[UMass_Haigis_Mall,45,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,45,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,45,1]: newVar5 + 13 newVar6 <= 13
  R7609: y[UMass_Haigis_Mall,44,2] - y[UMass_Haigis_Mall,45,2] + newVar3
    = 0
  R7610: x[UMass_Haigis_Mall,44,2] - x[UMass_Haigis_Mall,45,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,45,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,45,2]: newVar5 + 13 newVar6 <= 13
  R7612: y[UMass_Haigis_Mall,45,0] - y[UMass_Haigis_Mall,46,0] + newVar3
    = 0
  R7613: x[UMass_Haigis_Mall,45,0] - x[UMass_Haigis_Mall,46,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,46,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,46,0]: newVar5 + 13 newVar6 <= 13
  R7615: y[UMass_Haigis_Mall,45,1] - y[UMass_Haigis_Mall,46,1] + newVar3
    = 0
  R7616: x[UMass_Haigis_Mall,45,1] - x[UMass_Haigis_Mall,46,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,46,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,46,1]: newVar5 + 13 newVar6 <= 13
  R7618: y[UMass_Haigis_Mall,45,2] - y[UMass_Haigis_Mall,46,2] + newVar3
    = 0
  R7619: x[UMass_Haigis_Mall,45,2] - x[UMass_Haigis_Mall,46,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,46,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,46,2]: newVar5 + 13 newVar6 <= 13
  R7621: y[UMass_Haigis_Mall,46,0] - y[UMass_Haigis_Mall,47,0] + newVar3
    = 0
  R7622: x[UMass_Haigis_Mall,46,0] - x[UMass_Haigis_Mall,47,0] + newVar4
    = 0
- c9[UMass_Haigis_Mall,47,0]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,47,0]: newVar5 + 13 newVar6 <= 13
  R7624: y[UMass_Haigis_Mall,46,1] - y[UMass_Haigis_Mall,47,1] + newVar3
    = 0
  R7625: x[UMass_Haigis_Mall,46,1] - x[UMass_Haigis_Mall,47,1] + newVar4
    = 0
- c9[UMass_Haigis_Mall,47,1]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,47,1]: newVar5 + 13 newVar6 <= 13
  R7627: y[UMass_Haigis_Mall,46,2] - y[UMass_Haigis_Mall,47,2] + newVar3
    = 0
  R7628: x[UMass_Haigis_Mall,46,2] - x[UMass_Haigis_Mall,47,2] + newVar4
    = 0
- c9[UMass_Haigis_Mall,47,2]: - slack_variable_1 + newVar5 + 13 newVar6
-   <= 13
+ c9[UMass_Haigis_Mall,47,2]: newVar5 + 13 newVar6 <= 13
  R7630: - y[UMass_Southwest,0,0] + newVar3 = 0
  R7631: - x[UMass_Southwest,0,0] + newVar4 = 0
- c9[UMass_Southwest,0,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,0,0]: newVar5 + 13 newVar6 <= 13
  R7633: - y[UMass_Southwest,0,1] + newVar3 = 0
  R7634: - x[UMass_Southwest,0,1] + newVar4 = 0
- c9[UMass_Southwest,0,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,0,1]: newVar5 + 13 newVar6 <= 13
  R7636: - y[UMass_Southwest,0,2] + newVar3 = 0
  R7637: - x[UMass_Southwest,0,2] + newVar4 = 0
- c9[UMass_Southwest,0,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,0,2]: newVar5 + 13 newVar6 <= 13
  R7639: y[UMass_Southwest,0,0] - y[UMass_Southwest,1,0] + newVar3 = 0
  R7640: x[UMass_Southwest,0,0] - x[UMass_Southwest,1,0] + newVar4 = 0
- c9[UMass_Southwest,1,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,1,0]: newVar5 + 13 newVar6 <= 13
  R7642: y[UMass_Southwest,0,1] - y[UMass_Southwest,1,1] + newVar3 = 0
  R7643: x[UMass_Southwest,0,1] - x[UMass_Southwest,1,1] + newVar4 = 0
- c9[UMass_Southwest,1,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,1,1]: newVar5 + 13 newVar6 <= 13
  R7645: y[UMass_Southwest,0,2] - y[UMass_Southwest,1,2] + newVar3 = 0
  R7646: x[UMass_Southwest,0,2] - x[UMass_Southwest,1,2] + newVar4 = 0
- c9[UMass_Southwest,1,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,1,2]: newVar5 + 13 newVar6 <= 13
  R7648: y[UMass_Southwest,1,0] - y[UMass_Southwest,2,0] + newVar3 = 0
  R7649: x[UMass_Southwest,1,0] - x[UMass_Southwest,2,0] + newVar4 = 0
- c9[UMass_Southwest,2,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,2,0]: newVar5 + 13 newVar6 <= 13
  R7651: y[UMass_Southwest,1,1] - y[UMass_Southwest,2,1] + newVar3 = 0
  R7652: x[UMass_Southwest,1,1] - x[UMass_Southwest,2,1] + newVar4 = 0
- c9[UMass_Southwest,2,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,2,1]: newVar5 + 13 newVar6 <= 13
  R7654: y[UMass_Southwest,1,2] - y[UMass_Southwest,2,2] + newVar3 = 0
  R7655: x[UMass_Southwest,1,2] - x[UMass_Southwest,2,2] + newVar4 = 0
- c9[UMass_Southwest,2,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,2,2]: newVar5 + 13 newVar6 <= 13
  R7657: y[UMass_Southwest,2,0] - y[UMass_Southwest,3,0] + newVar3 = 0
  R7658: x[UMass_Southwest,2,0] - x[UMass_Southwest,3,0] + newVar4 = 0
- c9[UMass_Southwest,3,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,3,0]: newVar5 + 13 newVar6 <= 13
  R7660: y[UMass_Southwest,2,1] - y[UMass_Southwest,3,1] + newVar3 = 0
  R7661: x[UMass_Southwest,2,1] - x[UMass_Southwest,3,1] + newVar4 = 0
- c9[UMass_Southwest,3,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,3,1]: newVar5 + 13 newVar6 <= 13
  R7663: y[UMass_Southwest,2,2] - y[UMass_Southwest,3,2] + newVar3 = 0
  R7664: x[UMass_Southwest,2,2] - x[UMass_Southwest,3,2] + newVar4 = 0
- c9[UMass_Southwest,3,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,3,2]: newVar5 + 13 newVar6 <= 13
  R7666: y[UMass_Southwest,3,0] - y[UMass_Southwest,4,0] + newVar3 = 0
  R7667: x[UMass_Southwest,3,0] - x[UMass_Southwest,4,0] + newVar4 = 0
- c9[UMass_Southwest,4,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,4,0]: newVar5 + 13 newVar6 <= 13
  R7669: y[UMass_Southwest,3,1] - y[UMass_Southwest,4,1] + newVar3 = 0
  R7670: x[UMass_Southwest,3,1] - x[UMass_Southwest,4,1] + newVar4 = 0
- c9[UMass_Southwest,4,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,4,1]: newVar5 + 13 newVar6 <= 13
  R7672: y[UMass_Southwest,3,2] - y[UMass_Southwest,4,2] + newVar3 = 0
  R7673: x[UMass_Southwest,3,2] - x[UMass_Southwest,4,2] + newVar4 = 0
- c9[UMass_Southwest,4,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,4,2]: newVar5 + 13 newVar6 <= 13
  R7675: y[UMass_Southwest,4,0] - y[UMass_Southwest,5,0] + newVar3 = 0
  R7676: x[UMass_Southwest,4,0] - x[UMass_Southwest,5,0] + newVar4 = 0
- c9[UMass_Southwest,5,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,5,0]: newVar5 + 13 newVar6 <= 13
  R7678: y[UMass_Southwest,4,1] - y[UMass_Southwest,5,1] + newVar3 = 0
  R7679: x[UMass_Southwest,4,1] - x[UMass_Southwest,5,1] + newVar4 = 0
- c9[UMass_Southwest,5,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,5,1]: newVar5 + 13 newVar6 <= 13
  R7681: y[UMass_Southwest,4,2] - y[UMass_Southwest,5,2] + newVar3 = 0
  R7682: x[UMass_Southwest,4,2] - x[UMass_Southwest,5,2] + newVar4 = 0
- c9[UMass_Southwest,5,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,5,2]: newVar5 + 13 newVar6 <= 13
  R7684: y[UMass_Southwest,5,0] - y[UMass_Southwest,6,0] + newVar3 = 0
  R7685: x[UMass_Southwest,5,0] - x[UMass_Southwest,6,0] + newVar4 = 0
- c9[UMass_Southwest,6,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,6,0]: newVar5 + 13 newVar6 <= 13
  R7687: y[UMass_Southwest,5,1] - y[UMass_Southwest,6,1] + newVar3 = 0
  R7688: x[UMass_Southwest,5,1] - x[UMass_Southwest,6,1] + newVar4 = 0
- c9[UMass_Southwest,6,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,6,1]: newVar5 + 13 newVar6 <= 13
  R7690: y[UMass_Southwest,5,2] - y[UMass_Southwest,6,2] + newVar3 = 0
  R7691: x[UMass_Southwest,5,2] - x[UMass_Southwest,6,2] + newVar4 = 0
- c9[UMass_Southwest,6,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,6,2]: newVar5 + 13 newVar6 <= 13
  R7693: y[UMass_Southwest,6,0] - y[UMass_Southwest,7,0] + newVar3 = 0
  R7694: x[UMass_Southwest,6,0] - x[UMass_Southwest,7,0] + newVar4 = 0
- c9[UMass_Southwest,7,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,7,0]: newVar5 + 13 newVar6 <= 13
  R7696: y[UMass_Southwest,6,1] - y[UMass_Southwest,7,1] + newVar3 = 0
  R7697: x[UMass_Southwest,6,1] - x[UMass_Southwest,7,1] + newVar4 = 0
- c9[UMass_Southwest,7,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,7,1]: newVar5 + 13 newVar6 <= 13
  R7699: y[UMass_Southwest,6,2] - y[UMass_Southwest,7,2] + newVar3 = 0
  R7700: x[UMass_Southwest,6,2] - x[UMass_Southwest,7,2] + newVar4 = 0
- c9[UMass_Southwest,7,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,7,2]: newVar5 + 13 newVar6 <= 13
  R7702: y[UMass_Southwest,7,0] - y[UMass_Southwest,8,0] + newVar3 = 0
  R7703: x[UMass_Southwest,7,0] - x[UMass_Southwest,8,0] + newVar4 = 0
- c9[UMass_Southwest,8,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,8,0]: newVar5 + 13 newVar6 <= 13
  R7705: y[UMass_Southwest,7,1] - y[UMass_Southwest,8,1] + newVar3 = 0
  R7706: x[UMass_Southwest,7,1] - x[UMass_Southwest,8,1] + newVar4 = 0
- c9[UMass_Southwest,8,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,8,1]: newVar5 + 13 newVar6 <= 13
  R7708: y[UMass_Southwest,7,2] - y[UMass_Southwest,8,2] + newVar3 = 0
  R7709: x[UMass_Southwest,7,2] - x[UMass_Southwest,8,2] + newVar4 = 0
- c9[UMass_Southwest,8,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,8,2]: newVar5 + 13 newVar6 <= 13
  R7711: y[UMass_Southwest,8,0] - y[UMass_Southwest,9,0] + newVar3 = 0
  R7712: x[UMass_Southwest,8,0] - x[UMass_Southwest,9,0] + newVar4 = 0
- c9[UMass_Southwest,9,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,9,0]: newVar5 + 13 newVar6 <= 13
  R7714: y[UMass_Southwest,8,1] - y[UMass_Southwest,9,1] + newVar3 = 0
  R7715: x[UMass_Southwest,8,1] - x[UMass_Southwest,9,1] + newVar4 = 0
- c9[UMass_Southwest,9,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,9,1]: newVar5 + 13 newVar6 <= 13
  R7717: y[UMass_Southwest,8,2] - y[UMass_Southwest,9,2] + newVar3 = 0
  R7718: x[UMass_Southwest,8,2] - x[UMass_Southwest,9,2] + newVar4 = 0
- c9[UMass_Southwest,9,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,9,2]: newVar5 + 13 newVar6 <= 13
  R7720: y[UMass_Southwest,9,0] - y[UMass_Southwest,10,0] + newVar3 = 0
  R7721: x[UMass_Southwest,9,0] - x[UMass_Southwest,10,0] + newVar4 = 0
- c9[UMass_Southwest,10,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,10,0]: newVar5 + 13 newVar6 <= 13
  R7723: y[UMass_Southwest,9,1] - y[UMass_Southwest,10,1] + newVar3 = 0
  R7724: x[UMass_Southwest,9,1] - x[UMass_Southwest,10,1] + newVar4 = 0
- c9[UMass_Southwest,10,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,10,1]: newVar5 + 13 newVar6 <= 13
  R7726: y[UMass_Southwest,9,2] - y[UMass_Southwest,10,2] + newVar3 = 0
  R7727: x[UMass_Southwest,9,2] - x[UMass_Southwest,10,2] + newVar4 = 0
- c9[UMass_Southwest,10,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,10,2]: newVar5 + 13 newVar6 <= 13
  R7729: y[UMass_Southwest,10,0] - y[UMass_Southwest,11,0] + newVar3 = 0
  R7730: x[UMass_Southwest,10,0] - x[UMass_Southwest,11,0] + newVar4 = 0
- c9[UMass_Southwest,11,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,11,0]: newVar5 + 13 newVar6 <= 13
  R7732: y[UMass_Southwest,10,1] - y[UMass_Southwest,11,1] + newVar3 = 0
  R7733: x[UMass_Southwest,10,1] - x[UMass_Southwest,11,1] + newVar4 = 0
- c9[UMass_Southwest,11,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,11,1]: newVar5 + 13 newVar6 <= 13
  R7735: y[UMass_Southwest,10,2] - y[UMass_Southwest,11,2] + newVar3 = 0
  R7736: x[UMass_Southwest,10,2] - x[UMass_Southwest,11,2] + newVar4 = 0
- c9[UMass_Southwest,11,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,11,2]: newVar5 + 13 newVar6 <= 13
  R7738: y[UMass_Southwest,11,0] - y[UMass_Southwest,12,0] + newVar3 = 0
  R7739: x[UMass_Southwest,11,0] - x[UMass_Southwest,12,0] + newVar4 = 0
- c9[UMass_Southwest,12,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,12,0]: newVar5 + 13 newVar6 <= 13
  R7741: y[UMass_Southwest,11,1] - y[UMass_Southwest,12,1] + newVar3 = 0
  R7742: x[UMass_Southwest,11,1] - x[UMass_Southwest,12,1] + newVar4 = 0
- c9[UMass_Southwest,12,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,12,1]: newVar5 + 13 newVar6 <= 13
  R7744: y[UMass_Southwest,11,2] - y[UMass_Southwest,12,2] + newVar3 = 0
  R7745: x[UMass_Southwest,11,2] - x[UMass_Southwest,12,2] + newVar4 = 0
- c9[UMass_Southwest,12,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,12,2]: newVar5 + 13 newVar6 <= 13
  R7747: y[UMass_Southwest,12,0] - y[UMass_Southwest,13,0] + newVar3 = 0
  R7748: x[UMass_Southwest,12,0] - x[UMass_Southwest,13,0] + newVar4 = 0
- c9[UMass_Southwest,13,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,13,0]: newVar5 + 13 newVar6 <= 13
  R7750: y[UMass_Southwest,12,1] - y[UMass_Southwest,13,1] + newVar3 = 0
  R7751: x[UMass_Southwest,12,1] - x[UMass_Southwest,13,1] + newVar4 = 0
- c9[UMass_Southwest,13,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,13,1]: newVar5 + 13 newVar6 <= 13
  R7753: y[UMass_Southwest,12,2] - y[UMass_Southwest,13,2] + newVar3 = 0
  R7754: x[UMass_Southwest,12,2] - x[UMass_Southwest,13,2] + newVar4 = 0
- c9[UMass_Southwest,13,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,13,2]: newVar5 + 13 newVar6 <= 13
  R7756: y[UMass_Southwest,13,0] - y[UMass_Southwest,14,0] + newVar3 = 0
  R7757: x[UMass_Southwest,13,0] - x[UMass_Southwest,14,0] + newVar4 = 0
- c9[UMass_Southwest,14,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,14,0]: newVar5 + 13 newVar6 <= 13
  R7759: y[UMass_Southwest,13,1] - y[UMass_Southwest,14,1] + newVar3 = 0
  R7760: x[UMass_Southwest,13,1] - x[UMass_Southwest,14,1] + newVar4 = 0
- c9[UMass_Southwest,14,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,14,1]: newVar5 + 13 newVar6 <= 13
  R7762: y[UMass_Southwest,13,2] - y[UMass_Southwest,14,2] + newVar3 = 0
  R7763: x[UMass_Southwest,13,2] - x[UMass_Southwest,14,2] + newVar4 = 0
- c9[UMass_Southwest,14,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,14,2]: newVar5 + 13 newVar6 <= 13
  R7765: y[UMass_Southwest,14,0] - y[UMass_Southwest,15,0] + newVar3 = 0
  R7766: x[UMass_Southwest,14,0] - x[UMass_Southwest,15,0] + newVar4 = 0
- c9[UMass_Southwest,15,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,15,0]: newVar5 + 13 newVar6 <= 13
  R7768: y[UMass_Southwest,14,1] - y[UMass_Southwest,15,1] + newVar3 = 0
  R7769: x[UMass_Southwest,14,1] - x[UMass_Southwest,15,1] + newVar4 = 0
- c9[UMass_Southwest,15,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,15,1]: newVar5 + 13 newVar6 <= 13
  R7771: y[UMass_Southwest,14,2] - y[UMass_Southwest,15,2] + newVar3 = 0
  R7772: x[UMass_Southwest,14,2] - x[UMass_Southwest,15,2] + newVar4 = 0
- c9[UMass_Southwest,15,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,15,2]: newVar5 + 13 newVar6 <= 13
  R7774: y[UMass_Southwest,15,0] - y[UMass_Southwest,16,0] + newVar3 = 0
  R7775: x[UMass_Southwest,15,0] - x[UMass_Southwest,16,0] + newVar4 = 0
- c9[UMass_Southwest,16,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,16,0]: newVar5 + 13 newVar6 <= 13
  R7777: y[UMass_Southwest,15,1] - y[UMass_Southwest,16,1] + newVar3 = 0
  R7778: x[UMass_Southwest,15,1] - x[UMass_Southwest,16,1] + newVar4 = 0
- c9[UMass_Southwest,16,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,16,1]: newVar5 + 13 newVar6 <= 13
  R7780: y[UMass_Southwest,15,2] - y[UMass_Southwest,16,2] + newVar3 = 0
  R7781: x[UMass_Southwest,15,2] - x[UMass_Southwest,16,2] + newVar4 = 0
- c9[UMass_Southwest,16,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,16,2]: newVar5 + 13 newVar6 <= 13
  R7783: y[UMass_Southwest,16,0] - y[UMass_Southwest,17,0] + newVar3 = 0
  R7784: x[UMass_Southwest,16,0] - x[UMass_Southwest,17,0] + newVar4 = 0
- c9[UMass_Southwest,17,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,17,0]: newVar5 + 13 newVar6 <= 13
  R7786: y[UMass_Southwest,16,1] - y[UMass_Southwest,17,1] + newVar3 = 0
  R7787: x[UMass_Southwest,16,1] - x[UMass_Southwest,17,1] + newVar4 = 0
- c9[UMass_Southwest,17,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,17,1]: newVar5 + 13 newVar6 <= 13
  R7789: y[UMass_Southwest,16,2] - y[UMass_Southwest,17,2] + newVar3 = 0
  R7790: x[UMass_Southwest,16,2] - x[UMass_Southwest,17,2] + newVar4 = 0
- c9[UMass_Southwest,17,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,17,2]: newVar5 + 13 newVar6 <= 13
  R7792: y[UMass_Southwest,17,0] - y[UMass_Southwest,18,0] + newVar3 = 0
  R7793: x[UMass_Southwest,17,0] - x[UMass_Southwest,18,0] + newVar4 = 0
- c9[UMass_Southwest,18,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,18,0]: newVar5 + 13 newVar6 <= 13
  R7795: y[UMass_Southwest,17,1] - y[UMass_Southwest,18,1] + newVar3 = 0
  R7796: x[UMass_Southwest,17,1] - x[UMass_Southwest,18,1] + newVar4 = 0
- c9[UMass_Southwest,18,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,18,1]: newVar5 + 13 newVar6 <= 13
  R7798: y[UMass_Southwest,17,2] - y[UMass_Southwest,18,2] + newVar3 = 0
  R7799: x[UMass_Southwest,17,2] - x[UMass_Southwest,18,2] + newVar4 = 0
- c9[UMass_Southwest,18,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,18,2]: newVar5 + 13 newVar6 <= 13
  R7801: y[UMass_Southwest,18,0] - y[UMass_Southwest,19,0] + newVar3 = 0
  R7802: x[UMass_Southwest,18,0] - x[UMass_Southwest,19,0] + newVar4 = 0
- c9[UMass_Southwest,19,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,19,0]: newVar5 + 13 newVar6 <= 13
  R7804: y[UMass_Southwest,18,1] - y[UMass_Southwest,19,1] + newVar3 = 0
  R7805: x[UMass_Southwest,18,1] - x[UMass_Southwest,19,1] + newVar4 = 0
- c9[UMass_Southwest,19,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,19,1]: newVar5 + 13 newVar6 <= 13
  R7807: y[UMass_Southwest,18,2] - y[UMass_Southwest,19,2] + newVar3 = 0
  R7808: x[UMass_Southwest,18,2] - x[UMass_Southwest,19,2] + newVar4 = 0
- c9[UMass_Southwest,19,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,19,2]: newVar5 + 13 newVar6 <= 13
  R7810: y[UMass_Southwest,19,0] - y[UMass_Southwest,20,0] + newVar3 = 0
  R7811: x[UMass_Southwest,19,0] - x[UMass_Southwest,20,0] + newVar4 = 0
- c9[UMass_Southwest,20,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,20,0]: newVar5 + 13 newVar6 <= 13
  R7813: y[UMass_Southwest,19,1] - y[UMass_Southwest,20,1] + newVar3 = 0
  R7814: x[UMass_Southwest,19,1] - x[UMass_Southwest,20,1] + newVar4 = 0
- c9[UMass_Southwest,20,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,20,1]: newVar5 + 13 newVar6 <= 13
  R7816: y[UMass_Southwest,19,2] - y[UMass_Southwest,20,2] + newVar3 = 0
  R7817: x[UMass_Southwest,19,2] - x[UMass_Southwest,20,2] + newVar4 = 0
- c9[UMass_Southwest,20,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,20,2]: newVar5 + 13 newVar6 <= 13
  R7819: y[UMass_Southwest,20,0] - y[UMass_Southwest,21,0] + newVar3 = 0
  R7820: x[UMass_Southwest,20,0] - x[UMass_Southwest,21,0] + newVar4 = 0
- c9[UMass_Southwest,21,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,21,0]: newVar5 + 13 newVar6 <= 13
  R7822: y[UMass_Southwest,20,1] - y[UMass_Southwest,21,1] + newVar3 = 0
  R7823: x[UMass_Southwest,20,1] - x[UMass_Southwest,21,1] + newVar4 = 0
- c9[UMass_Southwest,21,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,21,1]: newVar5 + 13 newVar6 <= 13
  R7825: y[UMass_Southwest,20,2] - y[UMass_Southwest,21,2] + newVar3 = 0
  R7826: x[UMass_Southwest,20,2] - x[UMass_Southwest,21,2] + newVar4 = 0
- c9[UMass_Southwest,21,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,21,2]: newVar5 + 13 newVar6 <= 13
  R7828: y[UMass_Southwest,21,0] - y[UMass_Southwest,22,0] + newVar3 = 0
  R7829: x[UMass_Southwest,21,0] - x[UMass_Southwest,22,0] + newVar4 = 0
- c9[UMass_Southwest,22,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,22,0]: newVar5 + 13 newVar6 <= 13
  R7831: y[UMass_Southwest,21,1] - y[UMass_Southwest,22,1] + newVar3 = 0
  R7832: x[UMass_Southwest,21,1] - x[UMass_Southwest,22,1] + newVar4 = 0
- c9[UMass_Southwest,22,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,22,1]: newVar5 + 13 newVar6 <= 13
  R7834: y[UMass_Southwest,21,2] - y[UMass_Southwest,22,2] + newVar3 = 0
  R7835: x[UMass_Southwest,21,2] - x[UMass_Southwest,22,2] + newVar4 = 0
- c9[UMass_Southwest,22,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,22,2]: newVar5 + 13 newVar6 <= 13
  R7837: y[UMass_Southwest,22,0] - y[UMass_Southwest,23,0] + newVar3 = 0
  R7838: x[UMass_Southwest,22,0] - x[UMass_Southwest,23,0] + newVar4 = 0
- c9[UMass_Southwest,23,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,23,0]: newVar5 + 13 newVar6 <= 13
  R7840: y[UMass_Southwest,22,1] - y[UMass_Southwest,23,1] + newVar3 = 0
  R7841: x[UMass_Southwest,22,1] - x[UMass_Southwest,23,1] + newVar4 = 0
- c9[UMass_Southwest,23,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,23,1]: newVar5 + 13 newVar6 <= 13
  R7843: y[UMass_Southwest,22,2] - y[UMass_Southwest,23,2] + newVar3 = 0
  R7844: x[UMass_Southwest,22,2] - x[UMass_Southwest,23,2] + newVar4 = 0
- c9[UMass_Southwest,23,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,23,2]: newVar5 + 13 newVar6 <= 13
  R7846: y[UMass_Southwest,23,0] - y[UMass_Southwest,24,0] + newVar3 = 0
  R7847: x[UMass_Southwest,23,0] - x[UMass_Southwest,24,0] + newVar4 = 0
- c9[UMass_Southwest,24,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,24,0]: newVar5 + 13 newVar6 <= 13
  R7849: y[UMass_Southwest,23,1] - y[UMass_Southwest,24,1] + newVar3 = 0
  R7850: x[UMass_Southwest,23,1] - x[UMass_Southwest,24,1] + newVar4 = 0
- c9[UMass_Southwest,24,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,24,1]: newVar5 + 13 newVar6 <= 13
  R7852: y[UMass_Southwest,23,2] - y[UMass_Southwest,24,2] + newVar3 = 0
  R7853: x[UMass_Southwest,23,2] - x[UMass_Southwest,24,2] + newVar4 = 0
- c9[UMass_Southwest,24,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,24,2]: newVar5 + 13 newVar6 <= 13
  R7855: y[UMass_Southwest,24,0] - y[UMass_Southwest,25,0] + newVar3 = 0
  R7856: x[UMass_Southwest,24,0] - x[UMass_Southwest,25,0] + newVar4 = 0
- c9[UMass_Southwest,25,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,25,0]: newVar5 + 13 newVar6 <= 13
  R7858: y[UMass_Southwest,24,1] - y[UMass_Southwest,25,1] + newVar3 = 0
  R7859: x[UMass_Southwest,24,1] - x[UMass_Southwest,25,1] + newVar4 = 0
- c9[UMass_Southwest,25,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,25,1]: newVar5 + 13 newVar6 <= 13
  R7861: y[UMass_Southwest,24,2] - y[UMass_Southwest,25,2] + newVar3 = 0
  R7862: x[UMass_Southwest,24,2] - x[UMass_Southwest,25,2] + newVar4 = 0
- c9[UMass_Southwest,25,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,25,2]: newVar5 + 13 newVar6 <= 13
  R7864: y[UMass_Southwest,25,0] - y[UMass_Southwest,26,0] + newVar3 = 0
  R7865: x[UMass_Southwest,25,0] - x[UMass_Southwest,26,0] + newVar4 = 0
- c9[UMass_Southwest,26,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,26,0]: newVar5 + 13 newVar6 <= 13
  R7867: y[UMass_Southwest,25,1] - y[UMass_Southwest,26,1] + newVar3 = 0
  R7868: x[UMass_Southwest,25,1] - x[UMass_Southwest,26,1] + newVar4 = 0
- c9[UMass_Southwest,26,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,26,1]: newVar5 + 13 newVar6 <= 13
  R7870: y[UMass_Southwest,25,2] - y[UMass_Southwest,26,2] + newVar3 = 0
  R7871: x[UMass_Southwest,25,2] - x[UMass_Southwest,26,2] + newVar4 = 0
- c9[UMass_Southwest,26,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,26,2]: newVar5 + 13 newVar6 <= 13
  R7873: y[UMass_Southwest,26,0] - y[UMass_Southwest,27,0] + newVar3 = 0
  R7874: x[UMass_Southwest,26,0] - x[UMass_Southwest,27,0] + newVar4 = 0
- c9[UMass_Southwest,27,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,27,0]: newVar5 + 13 newVar6 <= 13
  R7876: y[UMass_Southwest,26,1] - y[UMass_Southwest,27,1] + newVar3 = 0
  R7877: x[UMass_Southwest,26,1] - x[UMass_Southwest,27,1] + newVar4 = 0
- c9[UMass_Southwest,27,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,27,1]: newVar5 + 13 newVar6 <= 13
  R7879: y[UMass_Southwest,26,2] - y[UMass_Southwest,27,2] + newVar3 = 0
  R7880: x[UMass_Southwest,26,2] - x[UMass_Southwest,27,2] + newVar4 = 0
- c9[UMass_Southwest,27,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,27,2]: newVar5 + 13 newVar6 <= 13
  R7882: y[UMass_Southwest,27,0] - y[UMass_Southwest,28,0] + newVar3 = 0
  R7883: x[UMass_Southwest,27,0] - x[UMass_Southwest,28,0] + newVar4 = 0
- c9[UMass_Southwest,28,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,28,0]: newVar5 + 13 newVar6 <= 13
  R7885: y[UMass_Southwest,27,1] - y[UMass_Southwest,28,1] + newVar3 = 0
  R7886: x[UMass_Southwest,27,1] - x[UMass_Southwest,28,1] + newVar4 = 0
- c9[UMass_Southwest,28,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,28,1]: newVar5 + 13 newVar6 <= 13
  R7888: y[UMass_Southwest,27,2] - y[UMass_Southwest,28,2] + newVar3 = 0
  R7889: x[UMass_Southwest,27,2] - x[UMass_Southwest,28,2] + newVar4 = 0
- c9[UMass_Southwest,28,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,28,2]: newVar5 + 13 newVar6 <= 13
  R7891: y[UMass_Southwest,28,0] - y[UMass_Southwest,29,0] + newVar3 = 0
  R7892: x[UMass_Southwest,28,0] - x[UMass_Southwest,29,0] + newVar4 = 0
- c9[UMass_Southwest,29,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,29,0]: newVar5 + 13 newVar6 <= 13
  R7894: y[UMass_Southwest,28,1] - y[UMass_Southwest,29,1] + newVar3 = 0
  R7895: x[UMass_Southwest,28,1] - x[UMass_Southwest,29,1] + newVar4 = 0
- c9[UMass_Southwest,29,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,29,1]: newVar5 + 13 newVar6 <= 13
  R7897: y[UMass_Southwest,28,2] - y[UMass_Southwest,29,2] + newVar3 = 0
  R7898: x[UMass_Southwest,28,2] - x[UMass_Southwest,29,2] + newVar4 = 0
- c9[UMass_Southwest,29,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,29,2]: newVar5 + 13 newVar6 <= 13
  R7900: y[UMass_Southwest,29,0] - y[UMass_Southwest,30,0] + newVar3 = 0
  R7901: x[UMass_Southwest,29,0] - x[UMass_Southwest,30,0] + newVar4 = 0
- c9[UMass_Southwest,30,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,30,0]: newVar5 + 13 newVar6 <= 13
  R7903: y[UMass_Southwest,29,1] - y[UMass_Southwest,30,1] + newVar3 = 0
  R7904: x[UMass_Southwest,29,1] - x[UMass_Southwest,30,1] + newVar4 = 0
- c9[UMass_Southwest,30,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,30,1]: newVar5 + 13 newVar6 <= 13
  R7906: y[UMass_Southwest,29,2] - y[UMass_Southwest,30,2] + newVar3 = 0
  R7907: x[UMass_Southwest,29,2] - x[UMass_Southwest,30,2] + newVar4 = 0
- c9[UMass_Southwest,30,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,30,2]: newVar5 + 13 newVar6 <= 13
  R7909: y[UMass_Southwest,30,0] - y[UMass_Southwest,31,0] + newVar3 = 0
  R7910: x[UMass_Southwest,30,0] - x[UMass_Southwest,31,0] + newVar4 = 0
- c9[UMass_Southwest,31,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,31,0]: newVar5 + 13 newVar6 <= 13
  R7912: y[UMass_Southwest,30,1] - y[UMass_Southwest,31,1] + newVar3 = 0
  R7913: x[UMass_Southwest,30,1] - x[UMass_Southwest,31,1] + newVar4 = 0
- c9[UMass_Southwest,31,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,31,1]: newVar5 + 13 newVar6 <= 13
  R7915: y[UMass_Southwest,30,2] - y[UMass_Southwest,31,2] + newVar3 = 0
  R7916: x[UMass_Southwest,30,2] - x[UMass_Southwest,31,2] + newVar4 = 0
- c9[UMass_Southwest,31,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,31,2]: newVar5 + 13 newVar6 <= 13
  R7918: y[UMass_Southwest,31,0] - y[UMass_Southwest,32,0] + newVar3 = 0
  R7919: x[UMass_Southwest,31,0] - x[UMass_Southwest,32,0] + newVar4 = 0
- c9[UMass_Southwest,32,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,32,0]: newVar5 + 13 newVar6 <= 13
  R7921: y[UMass_Southwest,31,1] - y[UMass_Southwest,32,1] + newVar3 = 0
  R7922: x[UMass_Southwest,31,1] - x[UMass_Southwest,32,1] + newVar4 = 0
- c9[UMass_Southwest,32,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,32,1]: newVar5 + 13 newVar6 <= 13
  R7924: y[UMass_Southwest,31,2] - y[UMass_Southwest,32,2] + newVar3 = 0
  R7925: x[UMass_Southwest,31,2] - x[UMass_Southwest,32,2] + newVar4 = 0
- c9[UMass_Southwest,32,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,32,2]: newVar5 + 13 newVar6 <= 13
  R7927: y[UMass_Southwest,32,0] - y[UMass_Southwest,33,0] + newVar3 = 0
  R7928: x[UMass_Southwest,32,0] - x[UMass_Southwest,33,0] + newVar4 = 0
- c9[UMass_Southwest,33,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,33,0]: newVar5 + 13 newVar6 <= 13
  R7930: y[UMass_Southwest,32,1] - y[UMass_Southwest,33,1] + newVar3 = 0
  R7931: x[UMass_Southwest,32,1] - x[UMass_Southwest,33,1] + newVar4 = 0
- c9[UMass_Southwest,33,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,33,1]: newVar5 + 13 newVar6 <= 13
  R7933: y[UMass_Southwest,32,2] - y[UMass_Southwest,33,2] + newVar3 = 0
  R7934: x[UMass_Southwest,32,2] - x[UMass_Southwest,33,2] + newVar4 = 0
- c9[UMass_Southwest,33,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,33,2]: newVar5 + 13 newVar6 <= 13
  R7936: y[UMass_Southwest,33,0] - y[UMass_Southwest,34,0] + newVar3 = 0
  R7937: x[UMass_Southwest,33,0] - x[UMass_Southwest,34,0] + newVar4 = 0
- c9[UMass_Southwest,34,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,34,0]: newVar5 + 13 newVar6 <= 13
  R7939: y[UMass_Southwest,33,1] - y[UMass_Southwest,34,1] + newVar3 = 0
  R7940: x[UMass_Southwest,33,1] - x[UMass_Southwest,34,1] + newVar4 = 0
- c9[UMass_Southwest,34,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,34,1]: newVar5 + 13 newVar6 <= 13
  R7942: y[UMass_Southwest,33,2] - y[UMass_Southwest,34,2] + newVar3 = 0
  R7943: x[UMass_Southwest,33,2] - x[UMass_Southwest,34,2] + newVar4 = 0
- c9[UMass_Southwest,34,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,34,2]: newVar5 + 13 newVar6 <= 13
  R7945: y[UMass_Southwest,34,0] - y[UMass_Southwest,35,0] + newVar3 = 0
  R7946: x[UMass_Southwest,34,0] - x[UMass_Southwest,35,0] + newVar4 = 0
- c9[UMass_Southwest,35,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,35,0]: newVar5 + 13 newVar6 <= 13
  R7948: y[UMass_Southwest,34,1] - y[UMass_Southwest,35,1] + newVar3 = 0
  R7949: x[UMass_Southwest,34,1] - x[UMass_Southwest,35,1] + newVar4 = 0
- c9[UMass_Southwest,35,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,35,1]: newVar5 + 13 newVar6 <= 13
  R7951: y[UMass_Southwest,34,2] - y[UMass_Southwest,35,2] + newVar3 = 0
  R7952: x[UMass_Southwest,34,2] - x[UMass_Southwest,35,2] + newVar4 = 0
- c9[UMass_Southwest,35,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,35,2]: newVar5 + 13 newVar6 <= 13
  R7954: y[UMass_Southwest,35,0] - y[UMass_Southwest,36,0] + newVar3 = 0
  R7955: x[UMass_Southwest,35,0] - x[UMass_Southwest,36,0] + newVar4 = 0
- c9[UMass_Southwest,36,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,36,0]: newVar5 + 13 newVar6 <= 13
  R7957: y[UMass_Southwest,35,1] - y[UMass_Southwest,36,1] + newVar3 = 0
  R7958: x[UMass_Southwest,35,1] - x[UMass_Southwest,36,1] + newVar4 = 0
- c9[UMass_Southwest,36,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,36,1]: newVar5 + 13 newVar6 <= 13
  R7960: y[UMass_Southwest,35,2] - y[UMass_Southwest,36,2] + newVar3 = 0
  R7961: x[UMass_Southwest,35,2] - x[UMass_Southwest,36,2] + newVar4 = 0
- c9[UMass_Southwest,36,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,36,2]: newVar5 + 13 newVar6 <= 13
  R7963: y[UMass_Southwest,36,0] - y[UMass_Southwest,37,0] + newVar3 = 0
  R7964: x[UMass_Southwest,36,0] - x[UMass_Southwest,37,0] + newVar4 = 0
- c9[UMass_Southwest,37,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,37,0]: newVar5 + 13 newVar6 <= 13
  R7966: y[UMass_Southwest,36,1] - y[UMass_Southwest,37,1] + newVar3 = 0
  R7967: x[UMass_Southwest,36,1] - x[UMass_Southwest,37,1] + newVar4 = 0
- c9[UMass_Southwest,37,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,37,1]: newVar5 + 13 newVar6 <= 13
  R7969: y[UMass_Southwest,36,2] - y[UMass_Southwest,37,2] + newVar3 = 0
  R7970: x[UMass_Southwest,36,2] - x[UMass_Southwest,37,2] + newVar4 = 0
- c9[UMass_Southwest,37,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,37,2]: newVar5 + 13 newVar6 <= 13
  R7972: y[UMass_Southwest,37,0] - y[UMass_Southwest,38,0] + newVar3 = 0
  R7973: x[UMass_Southwest,37,0] - x[UMass_Southwest,38,0] + newVar4 = 0
- c9[UMass_Southwest,38,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,38,0]: newVar5 + 13 newVar6 <= 13
  R7975: y[UMass_Southwest,37,1] - y[UMass_Southwest,38,1] + newVar3 = 0
  R7976: x[UMass_Southwest,37,1] - x[UMass_Southwest,38,1] + newVar4 = 0
- c9[UMass_Southwest,38,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,38,1]: newVar5 + 13 newVar6 <= 13
  R7978: y[UMass_Southwest,37,2] - y[UMass_Southwest,38,2] + newVar3 = 0
  R7979: x[UMass_Southwest,37,2] - x[UMass_Southwest,38,2] + newVar4 = 0
- c9[UMass_Southwest,38,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,38,2]: newVar5 + 13 newVar6 <= 13
  R7981: y[UMass_Southwest,38,0] - y[UMass_Southwest,39,0] + newVar3 = 0
  R7982: x[UMass_Southwest,38,0] - x[UMass_Southwest,39,0] + newVar4 = 0
- c9[UMass_Southwest,39,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,39,0]: newVar5 + 13 newVar6 <= 13
  R7984: y[UMass_Southwest,38,1] - y[UMass_Southwest,39,1] + newVar3 = 0
  R7985: x[UMass_Southwest,38,1] - x[UMass_Southwest,39,1] + newVar4 = 0
- c9[UMass_Southwest,39,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,39,1]: newVar5 + 13 newVar6 <= 13
  R7987: y[UMass_Southwest,38,2] - y[UMass_Southwest,39,2] + newVar3 = 0
  R7988: x[UMass_Southwest,38,2] - x[UMass_Southwest,39,2] + newVar4 = 0
- c9[UMass_Southwest,39,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,39,2]: newVar5 + 13 newVar6 <= 13
  R7990: y[UMass_Southwest,39,0] - y[UMass_Southwest,40,0] + newVar3 = 0
  R7991: x[UMass_Southwest,39,0] - x[UMass_Southwest,40,0] + newVar4 = 0
- c9[UMass_Southwest,40,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,40,0]: newVar5 + 13 newVar6 <= 13
  R7993: y[UMass_Southwest,39,1] - y[UMass_Southwest,40,1] + newVar3 = 0
  R7994: x[UMass_Southwest,39,1] - x[UMass_Southwest,40,1] + newVar4 = 0
- c9[UMass_Southwest,40,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,40,1]: newVar5 + 13 newVar6 <= 13
  R7996: y[UMass_Southwest,39,2] - y[UMass_Southwest,40,2] + newVar3 = 0
  R7997: x[UMass_Southwest,39,2] - x[UMass_Southwest,40,2] + newVar4 = 0
- c9[UMass_Southwest,40,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,40,2]: newVar5 + 13 newVar6 <= 13
  R7999: y[UMass_Southwest,40,0] - y[UMass_Southwest,41,0] + newVar3 = 0
  R8000: x[UMass_Southwest,40,0] - x[UMass_Southwest,41,0] + newVar4 = 0
- c9[UMass_Southwest,41,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,41,0]: newVar5 + 13 newVar6 <= 13
  R8002: y[UMass_Southwest,40,1] - y[UMass_Southwest,41,1] + newVar3 = 0
  R8003: x[UMass_Southwest,40,1] - x[UMass_Southwest,41,1] + newVar4 = 0
- c9[UMass_Southwest,41,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,41,1]: newVar5 + 13 newVar6 <= 13
  R8005: y[UMass_Southwest,40,2] - y[UMass_Southwest,41,2] + newVar3 = 0
  R8006: x[UMass_Southwest,40,2] - x[UMass_Southwest,41,2] + newVar4 = 0
- c9[UMass_Southwest,41,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,41,2]: newVar5 + 13 newVar6 <= 13
  R8008: y[UMass_Southwest,41,0] - y[UMass_Southwest,42,0] + newVar3 = 0
  R8009: x[UMass_Southwest,41,0] - x[UMass_Southwest,42,0] + newVar4 = 0
- c9[UMass_Southwest,42,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,42,0]: newVar5 + 13 newVar6 <= 13
  R8011: y[UMass_Southwest,41,1] - y[UMass_Southwest,42,1] + newVar3 = 0
  R8012: x[UMass_Southwest,41,1] - x[UMass_Southwest,42,1] + newVar4 = 0
- c9[UMass_Southwest,42,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,42,1]: newVar5 + 13 newVar6 <= 13
  R8014: y[UMass_Southwest,41,2] - y[UMass_Southwest,42,2] + newVar3 = 0
  R8015: x[UMass_Southwest,41,2] - x[UMass_Southwest,42,2] + newVar4 = 0
- c9[UMass_Southwest,42,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,42,2]: newVar5 + 13 newVar6 <= 13
  R8017: y[UMass_Southwest,42,0] - y[UMass_Southwest,43,0] + newVar3 = 0
  R8018: x[UMass_Southwest,42,0] - x[UMass_Southwest,43,0] + newVar4 = 0
- c9[UMass_Southwest,43,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,43,0]: newVar5 + 13 newVar6 <= 13
  R8020: y[UMass_Southwest,42,1] - y[UMass_Southwest,43,1] + newVar3 = 0
  R8021: x[UMass_Southwest,42,1] - x[UMass_Southwest,43,1] + newVar4 = 0
- c9[UMass_Southwest,43,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,43,1]: newVar5 + 13 newVar6 <= 13
  R8023: y[UMass_Southwest,42,2] - y[UMass_Southwest,43,2] + newVar3 = 0
  R8024: x[UMass_Southwest,42,2] - x[UMass_Southwest,43,2] + newVar4 = 0
- c9[UMass_Southwest,43,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,43,2]: newVar5 + 13 newVar6 <= 13
  R8026: y[UMass_Southwest,43,0] - y[UMass_Southwest,44,0] + newVar3 = 0
  R8027: x[UMass_Southwest,43,0] - x[UMass_Southwest,44,0] + newVar4 = 0
- c9[UMass_Southwest,44,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,44,0]: newVar5 + 13 newVar6 <= 13
  R8029: y[UMass_Southwest,43,1] - y[UMass_Southwest,44,1] + newVar3 = 0
  R8030: x[UMass_Southwest,43,1] - x[UMass_Southwest,44,1] + newVar4 = 0
- c9[UMass_Southwest,44,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,44,1]: newVar5 + 13 newVar6 <= 13
  R8032: y[UMass_Southwest,43,2] - y[UMass_Southwest,44,2] + newVar3 = 0
  R8033: x[UMass_Southwest,43,2] - x[UMass_Southwest,44,2] + newVar4 = 0
- c9[UMass_Southwest,44,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,44,2]: newVar5 + 13 newVar6 <= 13
  R8035: y[UMass_Southwest,44,0] - y[UMass_Southwest,45,0] + newVar3 = 0
  R8036: x[UMass_Southwest,44,0] - x[UMass_Southwest,45,0] + newVar4 = 0
- c9[UMass_Southwest,45,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,45,0]: newVar5 + 13 newVar6 <= 13
  R8038: y[UMass_Southwest,44,1] - y[UMass_Southwest,45,1] + newVar3 = 0
  R8039: x[UMass_Southwest,44,1] - x[UMass_Southwest,45,1] + newVar4 = 0
- c9[UMass_Southwest,45,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,45,1]: newVar5 + 13 newVar6 <= 13
  R8041: y[UMass_Southwest,44,2] - y[UMass_Southwest,45,2] + newVar3 = 0
  R8042: x[UMass_Southwest,44,2] - x[UMass_Southwest,45,2] + newVar4 = 0
- c9[UMass_Southwest,45,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,45,2]: newVar5 + 13 newVar6 <= 13
  R8044: y[UMass_Southwest,45,0] - y[UMass_Southwest,46,0] + newVar3 = 0
  R8045: x[UMass_Southwest,45,0] - x[UMass_Southwest,46,0] + newVar4 = 0
- c9[UMass_Southwest,46,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,46,0]: newVar5 + 13 newVar6 <= 13
  R8047: y[UMass_Southwest,45,1] - y[UMass_Southwest,46,1] + newVar3 = 0
  R8048: x[UMass_Southwest,45,1] - x[UMass_Southwest,46,1] + newVar4 = 0
- c9[UMass_Southwest,46,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,46,1]: newVar5 + 13 newVar6 <= 13
  R8050: y[UMass_Southwest,45,2] - y[UMass_Southwest,46,2] + newVar3 = 0
  R8051: x[UMass_Southwest,45,2] - x[UMass_Southwest,46,2] + newVar4 = 0
- c9[UMass_Southwest,46,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,46,2]: newVar5 + 13 newVar6 <= 13
  R8053: y[UMass_Southwest,46,0] - y[UMass_Southwest,47,0] + newVar3 = 0
  R8054: x[UMass_Southwest,46,0] - x[UMass_Southwest,47,0] + newVar4 = 0
- c9[UMass_Southwest,47,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,47,0]: newVar5 + 13 newVar6 <= 13
  R8056: y[UMass_Southwest,46,1] - y[UMass_Southwest,47,1] + newVar3 = 0
  R8057: x[UMass_Southwest,46,1] - x[UMass_Southwest,47,1] + newVar4 = 0
- c9[UMass_Southwest,47,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,47,1]: newVar5 + 13 newVar6 <= 13
  R8059: y[UMass_Southwest,46,2] - y[UMass_Southwest,47,2] + newVar3 = 0
  R8060: x[UMass_Southwest,46,2] - x[UMass_Southwest,47,2] + newVar4 = 0
- c9[UMass_Southwest,47,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Southwest,47,2]: newVar5 + 13 newVar6 <= 13
  R8062: - y[UMass_ILC,0,0] + newVar3 = 0
  R8063: - x[UMass_ILC,0,0] + newVar4 = 0
- c9[UMass_ILC,0,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,0,0]: newVar5 + 13 newVar6 <= 13
  R8065: - y[UMass_ILC,0,1] + newVar3 = 0
  R8066: - x[UMass_ILC,0,1] + newVar4 = 0
- c9[UMass_ILC,0,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,0,1]: newVar5 + 13 newVar6 <= 13
  R8068: - y[UMass_ILC,0,2] + newVar3 = 0
  R8069: - x[UMass_ILC,0,2] + newVar4 = 0
- c9[UMass_ILC,0,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,0,2]: newVar5 + 13 newVar6 <= 13
  R8071: y[UMass_ILC,0,0] - y[UMass_ILC,1,0] + newVar3 = 0
  R8072: x[UMass_ILC,0,0] - x[UMass_ILC,1,0] + newVar4 = 0
- c9[UMass_ILC,1,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,1,0]: newVar5 + 13 newVar6 <= 13
  R8074: y[UMass_ILC,0,1] - y[UMass_ILC,1,1] + newVar3 = 0
  R8075: x[UMass_ILC,0,1] - x[UMass_ILC,1,1] + newVar4 = 0
- c9[UMass_ILC,1,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,1,1]: newVar5 + 13 newVar6 <= 13
  R8077: y[UMass_ILC,0,2] - y[UMass_ILC,1,2] + newVar3 = 0
  R8078: x[UMass_ILC,0,2] - x[UMass_ILC,1,2] + newVar4 = 0
- c9[UMass_ILC,1,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,1,2]: newVar5 + 13 newVar6 <= 13
  R8080: y[UMass_ILC,1,0] - y[UMass_ILC,2,0] + newVar3 = 0
  R8081: x[UMass_ILC,1,0] - x[UMass_ILC,2,0] + newVar4 = 0
- c9[UMass_ILC,2,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,2,0]: newVar5 + 13 newVar6 <= 13
  R8083: y[UMass_ILC,1,1] - y[UMass_ILC,2,1] + newVar3 = 0
  R8084: x[UMass_ILC,1,1] - x[UMass_ILC,2,1] + newVar4 = 0
- c9[UMass_ILC,2,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,2,1]: newVar5 + 13 newVar6 <= 13
  R8086: y[UMass_ILC,1,2] - y[UMass_ILC,2,2] + newVar3 = 0
  R8087: x[UMass_ILC,1,2] - x[UMass_ILC,2,2] + newVar4 = 0
- c9[UMass_ILC,2,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,2,2]: newVar5 + 13 newVar6 <= 13
  R8089: y[UMass_ILC,2,0] - y[UMass_ILC,3,0] + newVar3 = 0
  R8090: x[UMass_ILC,2,0] - x[UMass_ILC,3,0] + newVar4 = 0
- c9[UMass_ILC,3,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,3,0]: newVar5 + 13 newVar6 <= 13
  R8092: y[UMass_ILC,2,1] - y[UMass_ILC,3,1] + newVar3 = 0
  R8093: x[UMass_ILC,2,1] - x[UMass_ILC,3,1] + newVar4 = 0
- c9[UMass_ILC,3,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,3,1]: newVar5 + 13 newVar6 <= 13
  R8095: y[UMass_ILC,2,2] - y[UMass_ILC,3,2] + newVar3 = 0
  R8096: x[UMass_ILC,2,2] - x[UMass_ILC,3,2] + newVar4 = 0
- c9[UMass_ILC,3,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,3,2]: newVar5 + 13 newVar6 <= 13
  R8098: y[UMass_ILC,3,0] - y[UMass_ILC,4,0] + newVar3 = 0
  R8099: x[UMass_ILC,3,0] - x[UMass_ILC,4,0] + newVar4 = 0
- c9[UMass_ILC,4,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,4,0]: newVar5 + 13 newVar6 <= 13
  R8101: y[UMass_ILC,3,1] - y[UMass_ILC,4,1] + newVar3 = 0
  R8102: x[UMass_ILC,3,1] - x[UMass_ILC,4,1] + newVar4 = 0
- c9[UMass_ILC,4,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,4,1]: newVar5 + 13 newVar6 <= 13
  R8104: y[UMass_ILC,3,2] - y[UMass_ILC,4,2] + newVar3 = 0
  R8105: x[UMass_ILC,3,2] - x[UMass_ILC,4,2] + newVar4 = 0
- c9[UMass_ILC,4,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,4,2]: newVar5 + 13 newVar6 <= 13
  R8107: y[UMass_ILC,4,0] - y[UMass_ILC,5,0] + newVar3 = 0
  R8108: x[UMass_ILC,4,0] - x[UMass_ILC,5,0] + newVar4 = 0
- c9[UMass_ILC,5,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,5,0]: newVar5 + 13 newVar6 <= 13
  R8110: y[UMass_ILC,4,1] - y[UMass_ILC,5,1] + newVar3 = 0
  R8111: x[UMass_ILC,4,1] - x[UMass_ILC,5,1] + newVar4 = 0
- c9[UMass_ILC,5,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,5,1]: newVar5 + 13 newVar6 <= 13
  R8113: y[UMass_ILC,4,2] - y[UMass_ILC,5,2] + newVar3 = 0
  R8114: x[UMass_ILC,4,2] - x[UMass_ILC,5,2] + newVar4 = 0
- c9[UMass_ILC,5,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,5,2]: newVar5 + 13 newVar6 <= 13
  R8116: y[UMass_ILC,5,0] - y[UMass_ILC,6,0] + newVar3 = 0
  R8117: x[UMass_ILC,5,0] - x[UMass_ILC,6,0] + newVar4 = 0
- c9[UMass_ILC,6,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,6,0]: newVar5 + 13 newVar6 <= 13
  R8119: y[UMass_ILC,5,1] - y[UMass_ILC,6,1] + newVar3 = 0
  R8120: x[UMass_ILC,5,1] - x[UMass_ILC,6,1] + newVar4 = 0
- c9[UMass_ILC,6,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,6,1]: newVar5 + 13 newVar6 <= 13
  R8122: y[UMass_ILC,5,2] - y[UMass_ILC,6,2] + newVar3 = 0
  R8123: x[UMass_ILC,5,2] - x[UMass_ILC,6,2] + newVar4 = 0
- c9[UMass_ILC,6,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,6,2]: newVar5 + 13 newVar6 <= 13
  R8125: y[UMass_ILC,6,0] - y[UMass_ILC,7,0] + newVar3 = 0
  R8126: x[UMass_ILC,6,0] - x[UMass_ILC,7,0] + newVar4 = 0
- c9[UMass_ILC,7,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,7,0]: newVar5 + 13 newVar6 <= 13
  R8128: y[UMass_ILC,6,1] - y[UMass_ILC,7,1] + newVar3 = 0
  R8129: x[UMass_ILC,6,1] - x[UMass_ILC,7,1] + newVar4 = 0
- c9[UMass_ILC,7,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,7,1]: newVar5 + 13 newVar6 <= 13
  R8131: y[UMass_ILC,6,2] - y[UMass_ILC,7,2] + newVar3 = 0
  R8132: x[UMass_ILC,6,2] - x[UMass_ILC,7,2] + newVar4 = 0
- c9[UMass_ILC,7,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,7,2]: newVar5 + 13 newVar6 <= 13
  R8134: y[UMass_ILC,7,0] - y[UMass_ILC,8,0] + newVar3 = 0
  R8135: x[UMass_ILC,7,0] - x[UMass_ILC,8,0] + newVar4 = 0
- c9[UMass_ILC,8,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,8,0]: newVar5 + 13 newVar6 <= 13
  R8137: y[UMass_ILC,7,1] - y[UMass_ILC,8,1] + newVar3 = 0
  R8138: x[UMass_ILC,7,1] - x[UMass_ILC,8,1] + newVar4 = 0
- c9[UMass_ILC,8,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,8,1]: newVar5 + 13 newVar6 <= 13
  R8140: y[UMass_ILC,7,2] - y[UMass_ILC,8,2] + newVar3 = 0
  R8141: x[UMass_ILC,7,2] - x[UMass_ILC,8,2] + newVar4 = 0
- c9[UMass_ILC,8,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,8,2]: newVar5 + 13 newVar6 <= 13
  R8143: y[UMass_ILC,8,0] - y[UMass_ILC,9,0] + newVar3 = 0
  R8144: x[UMass_ILC,8,0] - x[UMass_ILC,9,0] + newVar4 = 0
- c9[UMass_ILC,9,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,9,0]: newVar5 + 13 newVar6 <= 13
  R8146: y[UMass_ILC,8,1] - y[UMass_ILC,9,1] + newVar3 = 0
  R8147: x[UMass_ILC,8,1] - x[UMass_ILC,9,1] + newVar4 = 0
- c9[UMass_ILC,9,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,9,1]: newVar5 + 13 newVar6 <= 13
  R8149: y[UMass_ILC,8,2] - y[UMass_ILC,9,2] + newVar3 = 0
  R8150: x[UMass_ILC,8,2] - x[UMass_ILC,9,2] + newVar4 = 0
- c9[UMass_ILC,9,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,9,2]: newVar5 + 13 newVar6 <= 13
  R8152: y[UMass_ILC,9,0] - y[UMass_ILC,10,0] + newVar3 = 0
  R8153: x[UMass_ILC,9,0] - x[UMass_ILC,10,0] + newVar4 = 0
- c9[UMass_ILC,10,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,10,0]: newVar5 + 13 newVar6 <= 13
  R8155: y[UMass_ILC,9,1] - y[UMass_ILC,10,1] + newVar3 = 0
  R8156: x[UMass_ILC,9,1] - x[UMass_ILC,10,1] + newVar4 = 0
- c9[UMass_ILC,10,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,10,1]: newVar5 + 13 newVar6 <= 13
  R8158: y[UMass_ILC,9,2] - y[UMass_ILC,10,2] + newVar3 = 0
  R8159: x[UMass_ILC,9,2] - x[UMass_ILC,10,2] + newVar4 = 0
- c9[UMass_ILC,10,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,10,2]: newVar5 + 13 newVar6 <= 13
  R8161: y[UMass_ILC,10,0] - y[UMass_ILC,11,0] + newVar3 = 0
  R8162: x[UMass_ILC,10,0] - x[UMass_ILC,11,0] + newVar4 = 0
- c9[UMass_ILC,11,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,11,0]: newVar5 + 13 newVar6 <= 13
  R8164: y[UMass_ILC,10,1] - y[UMass_ILC,11,1] + newVar3 = 0
  R8165: x[UMass_ILC,10,1] - x[UMass_ILC,11,1] + newVar4 = 0
- c9[UMass_ILC,11,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,11,1]: newVar5 + 13 newVar6 <= 13
  R8167: y[UMass_ILC,10,2] - y[UMass_ILC,11,2] + newVar3 = 0
  R8168: x[UMass_ILC,10,2] - x[UMass_ILC,11,2] + newVar4 = 0
- c9[UMass_ILC,11,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,11,2]: newVar5 + 13 newVar6 <= 13
  R8170: y[UMass_ILC,11,0] - y[UMass_ILC,12,0] + newVar3 = 0
  R8171: x[UMass_ILC,11,0] - x[UMass_ILC,12,0] + newVar4 = 0
- c9[UMass_ILC,12,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,12,0]: newVar5 + 13 newVar6 <= 13
  R8173: y[UMass_ILC,11,1] - y[UMass_ILC,12,1] + newVar3 = 0
  R8174: x[UMass_ILC,11,1] - x[UMass_ILC,12,1] + newVar4 = 0
- c9[UMass_ILC,12,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,12,1]: newVar5 + 13 newVar6 <= 13
  R8176: y[UMass_ILC,11,2] - y[UMass_ILC,12,2] + newVar3 = 0
  R8177: x[UMass_ILC,11,2] - x[UMass_ILC,12,2] + newVar4 = 0
- c9[UMass_ILC,12,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,12,2]: newVar5 + 13 newVar6 <= 13
  R8179: y[UMass_ILC,12,0] - y[UMass_ILC,13,0] + newVar3 = 0
  R8180: x[UMass_ILC,12,0] - x[UMass_ILC,13,0] + newVar4 = 0
- c9[UMass_ILC,13,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,13,0]: newVar5 + 13 newVar6 <= 13
  R8182: y[UMass_ILC,12,1] - y[UMass_ILC,13,1] + newVar3 = 0
  R8183: x[UMass_ILC,12,1] - x[UMass_ILC,13,1] + newVar4 = 0
- c9[UMass_ILC,13,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,13,1]: newVar5 + 13 newVar6 <= 13
  R8185: y[UMass_ILC,12,2] - y[UMass_ILC,13,2] + newVar3 = 0
  R8186: x[UMass_ILC,12,2] - x[UMass_ILC,13,2] + newVar4 = 0
- c9[UMass_ILC,13,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,13,2]: newVar5 + 13 newVar6 <= 13
  R8188: y[UMass_ILC,13,0] - y[UMass_ILC,14,0] + newVar3 = 0
  R8189: x[UMass_ILC,13,0] - x[UMass_ILC,14,0] + newVar4 = 0
- c9[UMass_ILC,14,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,14,0]: newVar5 + 13 newVar6 <= 13
  R8191: y[UMass_ILC,13,1] - y[UMass_ILC,14,1] + newVar3 = 0
  R8192: x[UMass_ILC,13,1] - x[UMass_ILC,14,1] + newVar4 = 0
- c9[UMass_ILC,14,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,14,1]: newVar5 + 13 newVar6 <= 13
  R8194: y[UMass_ILC,13,2] - y[UMass_ILC,14,2] + newVar3 = 0
  R8195: x[UMass_ILC,13,2] - x[UMass_ILC,14,2] + newVar4 = 0
- c9[UMass_ILC,14,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,14,2]: newVar5 + 13 newVar6 <= 13
  R8197: y[UMass_ILC,14,0] - y[UMass_ILC,15,0] + newVar3 = 0
  R8198: x[UMass_ILC,14,0] - x[UMass_ILC,15,0] + newVar4 = 0
- c9[UMass_ILC,15,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,15,0]: newVar5 + 13 newVar6 <= 13
  R8200: y[UMass_ILC,14,1] - y[UMass_ILC,15,1] + newVar3 = 0
  R8201: x[UMass_ILC,14,1] - x[UMass_ILC,15,1] + newVar4 = 0
- c9[UMass_ILC,15,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,15,1]: newVar5 + 13 newVar6 <= 13
  R8203: y[UMass_ILC,14,2] - y[UMass_ILC,15,2] + newVar3 = 0
  R8204: x[UMass_ILC,14,2] - x[UMass_ILC,15,2] + newVar4 = 0
- c9[UMass_ILC,15,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,15,2]: newVar5 + 13 newVar6 <= 13
  R8206: y[UMass_ILC,15,0] - y[UMass_ILC,16,0] + newVar3 = 0
  R8207: x[UMass_ILC,15,0] - x[UMass_ILC,16,0] + newVar4 = 0
- c9[UMass_ILC,16,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,16,0]: newVar5 + 13 newVar6 <= 13
  R8209: y[UMass_ILC,15,1] - y[UMass_ILC,16,1] + newVar3 = 0
  R8210: x[UMass_ILC,15,1] - x[UMass_ILC,16,1] + newVar4 = 0
- c9[UMass_ILC,16,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,16,1]: newVar5 + 13 newVar6 <= 13
  R8212: y[UMass_ILC,15,2] - y[UMass_ILC,16,2] + newVar3 = 0
  R8213: x[UMass_ILC,15,2] - x[UMass_ILC,16,2] + newVar4 = 0
- c9[UMass_ILC,16,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,16,2]: newVar5 + 13 newVar6 <= 13
  R8215: y[UMass_ILC,16,0] - y[UMass_ILC,17,0] + newVar3 = 0
  R8216: x[UMass_ILC,16,0] - x[UMass_ILC,17,0] + newVar4 = 0
- c9[UMass_ILC,17,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,17,0]: newVar5 + 13 newVar6 <= 13
  R8218: y[UMass_ILC,16,1] - y[UMass_ILC,17,1] + newVar3 = 0
  R8219: x[UMass_ILC,16,1] - x[UMass_ILC,17,1] + newVar4 = 0
- c9[UMass_ILC,17,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,17,1]: newVar5 + 13 newVar6 <= 13
  R8221: y[UMass_ILC,16,2] - y[UMass_ILC,17,2] + newVar3 = 0
  R8222: x[UMass_ILC,16,2] - x[UMass_ILC,17,2] + newVar4 = 0
- c9[UMass_ILC,17,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,17,2]: newVar5 + 13 newVar6 <= 13
  R8224: y[UMass_ILC,17,0] - y[UMass_ILC,18,0] + newVar3 = 0
  R8225: x[UMass_ILC,17,0] - x[UMass_ILC,18,0] + newVar4 = 0
- c9[UMass_ILC,18,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,18,0]: newVar5 + 13 newVar6 <= 13
  R8227: y[UMass_ILC,17,1] - y[UMass_ILC,18,1] + newVar3 = 0
  R8228: x[UMass_ILC,17,1] - x[UMass_ILC,18,1] + newVar4 = 0
- c9[UMass_ILC,18,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,18,1]: newVar5 + 13 newVar6 <= 13
  R8230: y[UMass_ILC,17,2] - y[UMass_ILC,18,2] + newVar3 = 0
  R8231: x[UMass_ILC,17,2] - x[UMass_ILC,18,2] + newVar4 = 0
- c9[UMass_ILC,18,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,18,2]: newVar5 + 13 newVar6 <= 13
  R8233: y[UMass_ILC,18,0] - y[UMass_ILC,19,0] + newVar3 = 0
  R8234: x[UMass_ILC,18,0] - x[UMass_ILC,19,0] + newVar4 = 0
- c9[UMass_ILC,19,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,19,0]: newVar5 + 13 newVar6 <= 13
  R8236: y[UMass_ILC,18,1] - y[UMass_ILC,19,1] + newVar3 = 0
  R8237: x[UMass_ILC,18,1] - x[UMass_ILC,19,1] + newVar4 = 0
- c9[UMass_ILC,19,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,19,1]: newVar5 + 13 newVar6 <= 13
  R8239: y[UMass_ILC,18,2] - y[UMass_ILC,19,2] + newVar3 = 0
  R8240: x[UMass_ILC,18,2] - x[UMass_ILC,19,2] + newVar4 = 0
- c9[UMass_ILC,19,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,19,2]: newVar5 + 13 newVar6 <= 13
  R8242: y[UMass_ILC,19,0] - y[UMass_ILC,20,0] + newVar3 = 0
  R8243: x[UMass_ILC,19,0] - x[UMass_ILC,20,0] + newVar4 = 0
- c9[UMass_ILC,20,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,20,0]: newVar5 + 13 newVar6 <= 13
  R8245: y[UMass_ILC,19,1] - y[UMass_ILC,20,1] + newVar3 = 0
  R8246: x[UMass_ILC,19,1] - x[UMass_ILC,20,1] + newVar4 = 0
- c9[UMass_ILC,20,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,20,1]: newVar5 + 13 newVar6 <= 13
  R8248: y[UMass_ILC,19,2] - y[UMass_ILC,20,2] + newVar3 = 0
  R8249: x[UMass_ILC,19,2] - x[UMass_ILC,20,2] + newVar4 = 0
- c9[UMass_ILC,20,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,20,2]: newVar5 + 13 newVar6 <= 13
  R8251: y[UMass_ILC,20,0] - y[UMass_ILC,21,0] + newVar3 = 0
  R8252: x[UMass_ILC,20,0] - x[UMass_ILC,21,0] + newVar4 = 0
- c9[UMass_ILC,21,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,21,0]: newVar5 + 13 newVar6 <= 13
  R8254: y[UMass_ILC,20,1] - y[UMass_ILC,21,1] + newVar3 = 0
  R8255: x[UMass_ILC,20,1] - x[UMass_ILC,21,1] + newVar4 = 0
- c9[UMass_ILC,21,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,21,1]: newVar5 + 13 newVar6 <= 13
  R8257: y[UMass_ILC,20,2] - y[UMass_ILC,21,2] + newVar3 = 0
  R8258: x[UMass_ILC,20,2] - x[UMass_ILC,21,2] + newVar4 = 0
- c9[UMass_ILC,21,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,21,2]: newVar5 + 13 newVar6 <= 13
  R8260: y[UMass_ILC,21,0] - y[UMass_ILC,22,0] + newVar3 = 0
  R8261: x[UMass_ILC,21,0] - x[UMass_ILC,22,0] + newVar4 = 0
- c9[UMass_ILC,22,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,22,0]: newVar5 + 13 newVar6 <= 13
  R8263: y[UMass_ILC,21,1] - y[UMass_ILC,22,1] + newVar3 = 0
  R8264: x[UMass_ILC,21,1] - x[UMass_ILC,22,1] + newVar4 = 0
- c9[UMass_ILC,22,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,22,1]: newVar5 + 13 newVar6 <= 13
  R8266: y[UMass_ILC,21,2] - y[UMass_ILC,22,2] + newVar3 = 0
  R8267: x[UMass_ILC,21,2] - x[UMass_ILC,22,2] + newVar4 = 0
- c9[UMass_ILC,22,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,22,2]: newVar5 + 13 newVar6 <= 13
  R8269: y[UMass_ILC,22,0] - y[UMass_ILC,23,0] + newVar3 = 0
  R8270: x[UMass_ILC,22,0] - x[UMass_ILC,23,0] + newVar4 = 0
- c9[UMass_ILC,23,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,23,0]: newVar5 + 13 newVar6 <= 13
  R8272: y[UMass_ILC,22,1] - y[UMass_ILC,23,1] + newVar3 = 0
  R8273: x[UMass_ILC,22,1] - x[UMass_ILC,23,1] + newVar4 = 0
- c9[UMass_ILC,23,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,23,1]: newVar5 + 13 newVar6 <= 13
  R8275: y[UMass_ILC,22,2] - y[UMass_ILC,23,2] + newVar3 = 0
  R8276: x[UMass_ILC,22,2] - x[UMass_ILC,23,2] + newVar4 = 0
- c9[UMass_ILC,23,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,23,2]: newVar5 + 13 newVar6 <= 13
  R8278: y[UMass_ILC,23,0] - y[UMass_ILC,24,0] + newVar3 = 0
  R8279: x[UMass_ILC,23,0] - x[UMass_ILC,24,0] + newVar4 = 0
- c9[UMass_ILC,24,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,24,0]: newVar5 + 13 newVar6 <= 13
  R8281: y[UMass_ILC,23,1] - y[UMass_ILC,24,1] + newVar3 = 0
  R8282: x[UMass_ILC,23,1] - x[UMass_ILC,24,1] + newVar4 = 0
- c9[UMass_ILC,24,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,24,1]: newVar5 + 13 newVar6 <= 13
  R8284: y[UMass_ILC,23,2] - y[UMass_ILC,24,2] + newVar3 = 0
  R8285: x[UMass_ILC,23,2] - x[UMass_ILC,24,2] + newVar4 = 0
- c9[UMass_ILC,24,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,24,2]: newVar5 + 13 newVar6 <= 13
  R8287: y[UMass_ILC,24,0] - y[UMass_ILC,25,0] + newVar3 = 0
  R8288: x[UMass_ILC,24,0] - x[UMass_ILC,25,0] + newVar4 = 0
- c9[UMass_ILC,25,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,25,0]: newVar5 + 13 newVar6 <= 13
  R8290: y[UMass_ILC,24,1] - y[UMass_ILC,25,1] + newVar3 = 0
  R8291: x[UMass_ILC,24,1] - x[UMass_ILC,25,1] + newVar4 = 0
- c9[UMass_ILC,25,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,25,1]: newVar5 + 13 newVar6 <= 13
  R8293: y[UMass_ILC,24,2] - y[UMass_ILC,25,2] + newVar3 = 0
  R8294: x[UMass_ILC,24,2] - x[UMass_ILC,25,2] + newVar4 = 0
- c9[UMass_ILC,25,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,25,2]: newVar5 + 13 newVar6 <= 13
  R8296: y[UMass_ILC,25,0] - y[UMass_ILC,26,0] + newVar3 = 0
  R8297: x[UMass_ILC,25,0] - x[UMass_ILC,26,0] + newVar4 = 0
- c9[UMass_ILC,26,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,26,0]: newVar5 + 13 newVar6 <= 13
  R8299: y[UMass_ILC,25,1] - y[UMass_ILC,26,1] + newVar3 = 0
  R8300: x[UMass_ILC,25,1] - x[UMass_ILC,26,1] + newVar4 = 0
- c9[UMass_ILC,26,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,26,1]: newVar5 + 13 newVar6 <= 13
  R8302: y[UMass_ILC,25,2] - y[UMass_ILC,26,2] + newVar3 = 0
  R8303: x[UMass_ILC,25,2] - x[UMass_ILC,26,2] + newVar4 = 0
- c9[UMass_ILC,26,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,26,2]: newVar5 + 13 newVar6 <= 13
  R8305: y[UMass_ILC,26,0] - y[UMass_ILC,27,0] + newVar3 = 0
  R8306: x[UMass_ILC,26,0] - x[UMass_ILC,27,0] + newVar4 = 0
- c9[UMass_ILC,27,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,27,0]: newVar5 + 13 newVar6 <= 13
  R8308: y[UMass_ILC,26,1] - y[UMass_ILC,27,1] + newVar3 = 0
  R8309: x[UMass_ILC,26,1] - x[UMass_ILC,27,1] + newVar4 = 0
- c9[UMass_ILC,27,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,27,1]: newVar5 + 13 newVar6 <= 13
  R8311: y[UMass_ILC,26,2] - y[UMass_ILC,27,2] + newVar3 = 0
  R8312: x[UMass_ILC,26,2] - x[UMass_ILC,27,2] + newVar4 = 0
- c9[UMass_ILC,27,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,27,2]: newVar5 + 13 newVar6 <= 13
  R8314: y[UMass_ILC,27,0] - y[UMass_ILC,28,0] + newVar3 = 0
  R8315: x[UMass_ILC,27,0] - x[UMass_ILC,28,0] + newVar4 = 0
- c9[UMass_ILC,28,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,28,0]: newVar5 + 13 newVar6 <= 13
  R8317: y[UMass_ILC,27,1] - y[UMass_ILC,28,1] + newVar3 = 0
  R8318: x[UMass_ILC,27,1] - x[UMass_ILC,28,1] + newVar4 = 0
- c9[UMass_ILC,28,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,28,1]: newVar5 + 13 newVar6 <= 13
  R8320: y[UMass_ILC,27,2] - y[UMass_ILC,28,2] + newVar3 = 0
  R8321: x[UMass_ILC,27,2] - x[UMass_ILC,28,2] + newVar4 = 0
- c9[UMass_ILC,28,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,28,2]: newVar5 + 13 newVar6 <= 13
  R8323: y[UMass_ILC,28,0] - y[UMass_ILC,29,0] + newVar3 = 0
  R8324: x[UMass_ILC,28,0] - x[UMass_ILC,29,0] + newVar4 = 0
- c9[UMass_ILC,29,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,29,0]: newVar5 + 13 newVar6 <= 13
  R8326: y[UMass_ILC,28,1] - y[UMass_ILC,29,1] + newVar3 = 0
  R8327: x[UMass_ILC,28,1] - x[UMass_ILC,29,1] + newVar4 = 0
- c9[UMass_ILC,29,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,29,1]: newVar5 + 13 newVar6 <= 13
  R8329: y[UMass_ILC,28,2] - y[UMass_ILC,29,2] + newVar3 = 0
  R8330: x[UMass_ILC,28,2] - x[UMass_ILC,29,2] + newVar4 = 0
- c9[UMass_ILC,29,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,29,2]: newVar5 + 13 newVar6 <= 13
  R8332: y[UMass_ILC,29,0] - y[UMass_ILC,30,0] + newVar3 = 0
  R8333: x[UMass_ILC,29,0] - x[UMass_ILC,30,0] + newVar4 = 0
- c9[UMass_ILC,30,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,30,0]: newVar5 + 13 newVar6 <= 13
  R8335: y[UMass_ILC,29,1] - y[UMass_ILC,30,1] + newVar3 = 0
  R8336: x[UMass_ILC,29,1] - x[UMass_ILC,30,1] + newVar4 = 0
- c9[UMass_ILC,30,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,30,1]: newVar5 + 13 newVar6 <= 13
  R8338: y[UMass_ILC,29,2] - y[UMass_ILC,30,2] + newVar3 = 0
  R8339: x[UMass_ILC,29,2] - x[UMass_ILC,30,2] + newVar4 = 0
- c9[UMass_ILC,30,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,30,2]: newVar5 + 13 newVar6 <= 13
  R8341: y[UMass_ILC,30,0] - y[UMass_ILC,31,0] + newVar3 = 0
  R8342: x[UMass_ILC,30,0] - x[UMass_ILC,31,0] + newVar4 = 0
- c9[UMass_ILC,31,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,31,0]: newVar5 + 13 newVar6 <= 13
  R8344: y[UMass_ILC,30,1] - y[UMass_ILC,31,1] + newVar3 = 0
  R8345: x[UMass_ILC,30,1] - x[UMass_ILC,31,1] + newVar4 = 0
- c9[UMass_ILC,31,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,31,1]: newVar5 + 13 newVar6 <= 13
  R8347: y[UMass_ILC,30,2] - y[UMass_ILC,31,2] + newVar3 = 0
  R8348: x[UMass_ILC,30,2] - x[UMass_ILC,31,2] + newVar4 = 0
- c9[UMass_ILC,31,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,31,2]: newVar5 + 13 newVar6 <= 13
  R8350: y[UMass_ILC,31,0] - y[UMass_ILC,32,0] + newVar3 = 0
  R8351: x[UMass_ILC,31,0] - x[UMass_ILC,32,0] + newVar4 = 0
- c9[UMass_ILC,32,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,32,0]: newVar5 + 13 newVar6 <= 13
  R8353: y[UMass_ILC,31,1] - y[UMass_ILC,32,1] + newVar3 = 0
  R8354: x[UMass_ILC,31,1] - x[UMass_ILC,32,1] + newVar4 = 0
- c9[UMass_ILC,32,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,32,1]: newVar5 + 13 newVar6 <= 13
  R8356: y[UMass_ILC,31,2] - y[UMass_ILC,32,2] + newVar3 = 0
  R8357: x[UMass_ILC,31,2] - x[UMass_ILC,32,2] + newVar4 = 0
- c9[UMass_ILC,32,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,32,2]: newVar5 + 13 newVar6 <= 13
  R8359: y[UMass_ILC,32,0] - y[UMass_ILC,33,0] + newVar3 = 0
  R8360: x[UMass_ILC,32,0] - x[UMass_ILC,33,0] + newVar4 = 0
- c9[UMass_ILC,33,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,33,0]: newVar5 + 13 newVar6 <= 13
  R8362: y[UMass_ILC,32,1] - y[UMass_ILC,33,1] + newVar3 = 0
  R8363: x[UMass_ILC,32,1] - x[UMass_ILC,33,1] + newVar4 = 0
- c9[UMass_ILC,33,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,33,1]: newVar5 + 13 newVar6 <= 13
  R8365: y[UMass_ILC,32,2] - y[UMass_ILC,33,2] + newVar3 = 0
  R8366: x[UMass_ILC,32,2] - x[UMass_ILC,33,2] + newVar4 = 0
- c9[UMass_ILC,33,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,33,2]: newVar5 + 13 newVar6 <= 13
  R8368: y[UMass_ILC,33,0] - y[UMass_ILC,34,0] + newVar3 = 0
  R8369: x[UMass_ILC,33,0] - x[UMass_ILC,34,0] + newVar4 = 0
- c9[UMass_ILC,34,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,34,0]: newVar5 + 13 newVar6 <= 13
  R8371: y[UMass_ILC,33,1] - y[UMass_ILC,34,1] + newVar3 = 0
  R8372: x[UMass_ILC,33,1] - x[UMass_ILC,34,1] + newVar4 = 0
- c9[UMass_ILC,34,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,34,1]: newVar5 + 13 newVar6 <= 13
  R8374: y[UMass_ILC,33,2] - y[UMass_ILC,34,2] + newVar3 = 0
  R8375: x[UMass_ILC,33,2] - x[UMass_ILC,34,2] + newVar4 = 0
- c9[UMass_ILC,34,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,34,2]: newVar5 + 13 newVar6 <= 13
  R8377: y[UMass_ILC,34,0] - y[UMass_ILC,35,0] + newVar3 = 0
  R8378: x[UMass_ILC,34,0] - x[UMass_ILC,35,0] + newVar4 = 0
- c9[UMass_ILC,35,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,35,0]: newVar5 + 13 newVar6 <= 13
  R8380: y[UMass_ILC,34,1] - y[UMass_ILC,35,1] + newVar3 = 0
  R8381: x[UMass_ILC,34,1] - x[UMass_ILC,35,1] + newVar4 = 0
- c9[UMass_ILC,35,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,35,1]: newVar5 + 13 newVar6 <= 13
  R8383: y[UMass_ILC,34,2] - y[UMass_ILC,35,2] + newVar3 = 0
  R8384: x[UMass_ILC,34,2] - x[UMass_ILC,35,2] + newVar4 = 0
- c9[UMass_ILC,35,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,35,2]: newVar5 + 13 newVar6 <= 13
  R8386: y[UMass_ILC,35,0] - y[UMass_ILC,36,0] + newVar3 = 0
  R8387: x[UMass_ILC,35,0] - x[UMass_ILC,36,0] + newVar4 = 0
- c9[UMass_ILC,36,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,36,0]: newVar5 + 13 newVar6 <= 13
  R8389: y[UMass_ILC,35,1] - y[UMass_ILC,36,1] + newVar3 = 0
  R8390: x[UMass_ILC,35,1] - x[UMass_ILC,36,1] + newVar4 = 0
- c9[UMass_ILC,36,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,36,1]: newVar5 + 13 newVar6 <= 13
  R8392: y[UMass_ILC,35,2] - y[UMass_ILC,36,2] + newVar3 = 0
  R8393: x[UMass_ILC,35,2] - x[UMass_ILC,36,2] + newVar4 = 0
- c9[UMass_ILC,36,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,36,2]: newVar5 + 13 newVar6 <= 13
  R8395: y[UMass_ILC,36,0] - y[UMass_ILC,37,0] + newVar3 = 0
  R8396: x[UMass_ILC,36,0] - x[UMass_ILC,37,0] + newVar4 = 0
- c9[UMass_ILC,37,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,37,0]: newVar5 + 13 newVar6 <= 13
  R8398: y[UMass_ILC,36,1] - y[UMass_ILC,37,1] + newVar3 = 0
  R8399: x[UMass_ILC,36,1] - x[UMass_ILC,37,1] + newVar4 = 0
- c9[UMass_ILC,37,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,37,1]: newVar5 + 13 newVar6 <= 13
  R8401: y[UMass_ILC,36,2] - y[UMass_ILC,37,2] + newVar3 = 0
  R8402: x[UMass_ILC,36,2] - x[UMass_ILC,37,2] + newVar4 = 0
- c9[UMass_ILC,37,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,37,2]: newVar5 + 13 newVar6 <= 13
  R8404: y[UMass_ILC,37,0] - y[UMass_ILC,38,0] + newVar3 = 0
  R8405: x[UMass_ILC,37,0] - x[UMass_ILC,38,0] + newVar4 = 0
- c9[UMass_ILC,38,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,38,0]: newVar5 + 13 newVar6 <= 13
  R8407: y[UMass_ILC,37,1] - y[UMass_ILC,38,1] + newVar3 = 0
  R8408: x[UMass_ILC,37,1] - x[UMass_ILC,38,1] + newVar4 = 0
- c9[UMass_ILC,38,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,38,1]: newVar5 + 13 newVar6 <= 13
  R8410: y[UMass_ILC,37,2] - y[UMass_ILC,38,2] + newVar3 = 0
  R8411: x[UMass_ILC,37,2] - x[UMass_ILC,38,2] + newVar4 = 0
- c9[UMass_ILC,38,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,38,2]: newVar5 + 13 newVar6 <= 13
  R8413: y[UMass_ILC,38,0] - y[UMass_ILC,39,0] + newVar3 = 0
  R8414: x[UMass_ILC,38,0] - x[UMass_ILC,39,0] + newVar4 = 0
- c9[UMass_ILC,39,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,39,0]: newVar5 + 13 newVar6 <= 13
  R8416: y[UMass_ILC,38,1] - y[UMass_ILC,39,1] + newVar3 = 0
  R8417: x[UMass_ILC,38,1] - x[UMass_ILC,39,1] + newVar4 = 0
- c9[UMass_ILC,39,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,39,1]: newVar5 + 13 newVar6 <= 13
  R8419: y[UMass_ILC,38,2] - y[UMass_ILC,39,2] + newVar3 = 0
  R8420: x[UMass_ILC,38,2] - x[UMass_ILC,39,2] + newVar4 = 0
- c9[UMass_ILC,39,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,39,2]: newVar5 + 13 newVar6 <= 13
  R8422: y[UMass_ILC,39,0] - y[UMass_ILC,40,0] + newVar3 = 0
  R8423: x[UMass_ILC,39,0] - x[UMass_ILC,40,0] + newVar4 = 0
- c9[UMass_ILC,40,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,40,0]: newVar5 + 13 newVar6 <= 13
  R8425: y[UMass_ILC,39,1] - y[UMass_ILC,40,1] + newVar3 = 0
  R8426: x[UMass_ILC,39,1] - x[UMass_ILC,40,1] + newVar4 = 0
- c9[UMass_ILC,40,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,40,1]: newVar5 + 13 newVar6 <= 13
  R8428: y[UMass_ILC,39,2] - y[UMass_ILC,40,2] + newVar3 = 0
  R8429: x[UMass_ILC,39,2] - x[UMass_ILC,40,2] + newVar4 = 0
- c9[UMass_ILC,40,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,40,2]: newVar5 + 13 newVar6 <= 13
  R8431: y[UMass_ILC,40,0] - y[UMass_ILC,41,0] + newVar3 = 0
  R8432: x[UMass_ILC,40,0] - x[UMass_ILC,41,0] + newVar4 = 0
- c9[UMass_ILC,41,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,41,0]: newVar5 + 13 newVar6 <= 13
  R8434: y[UMass_ILC,40,1] - y[UMass_ILC,41,1] + newVar3 = 0
  R8435: x[UMass_ILC,40,1] - x[UMass_ILC,41,1] + newVar4 = 0
- c9[UMass_ILC,41,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,41,1]: newVar5 + 13 newVar6 <= 13
  R8437: y[UMass_ILC,40,2] - y[UMass_ILC,41,2] + newVar3 = 0
  R8438: x[UMass_ILC,40,2] - x[UMass_ILC,41,2] + newVar4 = 0
- c9[UMass_ILC,41,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,41,2]: newVar5 + 13 newVar6 <= 13
  R8440: y[UMass_ILC,41,0] - y[UMass_ILC,42,0] + newVar3 = 0
  R8441: x[UMass_ILC,41,0] - x[UMass_ILC,42,0] + newVar4 = 0
- c9[UMass_ILC,42,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,42,0]: newVar5 + 13 newVar6 <= 13
  R8443: y[UMass_ILC,41,1] - y[UMass_ILC,42,1] + newVar3 = 0
  R8444: x[UMass_ILC,41,1] - x[UMass_ILC,42,1] + newVar4 = 0
- c9[UMass_ILC,42,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,42,1]: newVar5 + 13 newVar6 <= 13
  R8446: y[UMass_ILC,41,2] - y[UMass_ILC,42,2] + newVar3 = 0
  R8447: x[UMass_ILC,41,2] - x[UMass_ILC,42,2] + newVar4 = 0
- c9[UMass_ILC,42,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,42,2]: newVar5 + 13 newVar6 <= 13
  R8449: y[UMass_ILC,42,0] - y[UMass_ILC,43,0] + newVar3 = 0
  R8450: x[UMass_ILC,42,0] - x[UMass_ILC,43,0] + newVar4 = 0
- c9[UMass_ILC,43,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,43,0]: newVar5 + 13 newVar6 <= 13
  R8452: y[UMass_ILC,42,1] - y[UMass_ILC,43,1] + newVar3 = 0
  R8453: x[UMass_ILC,42,1] - x[UMass_ILC,43,1] + newVar4 = 0
- c9[UMass_ILC,43,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,43,1]: newVar5 + 13 newVar6 <= 13
  R8455: y[UMass_ILC,42,2] - y[UMass_ILC,43,2] + newVar3 = 0
  R8456: x[UMass_ILC,42,2] - x[UMass_ILC,43,2] + newVar4 = 0
- c9[UMass_ILC,43,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,43,2]: newVar5 + 13 newVar6 <= 13
  R8458: y[UMass_ILC,43,0] - y[UMass_ILC,44,0] + newVar3 = 0
  R8459: x[UMass_ILC,43,0] - x[UMass_ILC,44,0] + newVar4 = 0
- c9[UMass_ILC,44,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,44,0]: newVar5 + 13 newVar6 <= 13
  R8461: y[UMass_ILC,43,1] - y[UMass_ILC,44,1] + newVar3 = 0
  R8462: x[UMass_ILC,43,1] - x[UMass_ILC,44,1] + newVar4 = 0
- c9[UMass_ILC,44,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,44,1]: newVar5 + 13 newVar6 <= 13
  R8464: y[UMass_ILC,43,2] - y[UMass_ILC,44,2] + newVar3 = 0
  R8465: x[UMass_ILC,43,2] - x[UMass_ILC,44,2] + newVar4 = 0
- c9[UMass_ILC,44,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,44,2]: newVar5 + 13 newVar6 <= 13
  R8467: y[UMass_ILC,44,0] - y[UMass_ILC,45,0] + newVar3 = 0
  R8468: x[UMass_ILC,44,0] - x[UMass_ILC,45,0] + newVar4 = 0
- c9[UMass_ILC,45,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,45,0]: newVar5 + 13 newVar6 <= 13
  R8470: y[UMass_ILC,44,1] - y[UMass_ILC,45,1] + newVar3 = 0
  R8471: x[UMass_ILC,44,1] - x[UMass_ILC,45,1] + newVar4 = 0
- c9[UMass_ILC,45,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,45,1]: newVar5 + 13 newVar6 <= 13
  R8473: y[UMass_ILC,44,2] - y[UMass_ILC,45,2] + newVar3 = 0
  R8474: x[UMass_ILC,44,2] - x[UMass_ILC,45,2] + newVar4 = 0
- c9[UMass_ILC,45,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,45,2]: newVar5 + 13 newVar6 <= 13
  R8476: y[UMass_ILC,45,0] - y[UMass_ILC,46,0] + newVar3 = 0
  R8477: x[UMass_ILC,45,0] - x[UMass_ILC,46,0] + newVar4 = 0
- c9[UMass_ILC,46,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,46,0]: newVar5 + 13 newVar6 <= 13
  R8479: y[UMass_ILC,45,1] - y[UMass_ILC,46,1] + newVar3 = 0
  R8480: x[UMass_ILC,45,1] - x[UMass_ILC,46,1] + newVar4 = 0
- c9[UMass_ILC,46,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,46,1]: newVar5 + 13 newVar6 <= 13
  R8482: y[UMass_ILC,45,2] - y[UMass_ILC,46,2] + newVar3 = 0
  R8483: x[UMass_ILC,45,2] - x[UMass_ILC,46,2] + newVar4 = 0
- c9[UMass_ILC,46,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,46,2]: newVar5 + 13 newVar6 <= 13
  R8485: y[UMass_ILC,46,0] - y[UMass_ILC,47,0] + newVar3 = 0
  R8486: x[UMass_ILC,46,0] - x[UMass_ILC,47,0] + newVar4 = 0
- c9[UMass_ILC,47,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,47,0]: newVar5 + 13 newVar6 <= 13
  R8488: y[UMass_ILC,46,1] - y[UMass_ILC,47,1] + newVar3 = 0
  R8489: x[UMass_ILC,46,1] - x[UMass_ILC,47,1] + newVar4 = 0
- c9[UMass_ILC,47,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,47,1]: newVar5 + 13 newVar6 <= 13
  R8491: y[UMass_ILC,46,2] - y[UMass_ILC,47,2] + newVar3 = 0
  R8492: x[UMass_ILC,46,2] - x[UMass_ILC,47,2] + newVar4 = 0
- c9[UMass_ILC,47,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_ILC,47,2]: newVar5 + 13 newVar6 <= 13
  R8494: - y[UMass_Knowlton,0,0] + newVar3 = 0
  R8495: - x[UMass_Knowlton,0,0] + newVar4 = 0
- c9[UMass_Knowlton,0,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,0,0]: newVar5 + 13 newVar6 <= 13
  R8497: - y[UMass_Knowlton,0,1] + newVar3 = 0
  R8498: - x[UMass_Knowlton,0,1] + newVar4 = 0
- c9[UMass_Knowlton,0,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,0,1]: newVar5 + 13 newVar6 <= 13
  R8500: - y[UMass_Knowlton,0,2] + newVar3 = 0
  R8501: - x[UMass_Knowlton,0,2] + newVar4 = 0
- c9[UMass_Knowlton,0,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,0,2]: newVar5 + 13 newVar6 <= 13
  R8503: y[UMass_Knowlton,0,0] - y[UMass_Knowlton,1,0] + newVar3 = 0
  R8504: x[UMass_Knowlton,0,0] - x[UMass_Knowlton,1,0] + newVar4 = 0
- c9[UMass_Knowlton,1,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,1,0]: newVar5 + 13 newVar6 <= 13
  R8506: y[UMass_Knowlton,0,1] - y[UMass_Knowlton,1,1] + newVar3 = 0
  R8507: x[UMass_Knowlton,0,1] - x[UMass_Knowlton,1,1] + newVar4 = 0
- c9[UMass_Knowlton,1,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,1,1]: newVar5 + 13 newVar6 <= 13
  R8509: y[UMass_Knowlton,0,2] - y[UMass_Knowlton,1,2] + newVar3 = 0
  R8510: x[UMass_Knowlton,0,2] - x[UMass_Knowlton,1,2] + newVar4 = 0
- c9[UMass_Knowlton,1,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,1,2]: newVar5 + 13 newVar6 <= 13
  R8512: y[UMass_Knowlton,1,0] - y[UMass_Knowlton,2,0] + newVar3 = 0
  R8513: x[UMass_Knowlton,1,0] - x[UMass_Knowlton,2,0] + newVar4 = 0
- c9[UMass_Knowlton,2,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,2,0]: newVar5 + 13 newVar6 <= 13
  R8515: y[UMass_Knowlton,1,1] - y[UMass_Knowlton,2,1] + newVar3 = 0
  R8516: x[UMass_Knowlton,1,1] - x[UMass_Knowlton,2,1] + newVar4 = 0
- c9[UMass_Knowlton,2,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,2,1]: newVar5 + 13 newVar6 <= 13
  R8518: y[UMass_Knowlton,1,2] - y[UMass_Knowlton,2,2] + newVar3 = 0
  R8519: x[UMass_Knowlton,1,2] - x[UMass_Knowlton,2,2] + newVar4 = 0
- c9[UMass_Knowlton,2,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,2,2]: newVar5 + 13 newVar6 <= 13
  R8521: y[UMass_Knowlton,2,0] - y[UMass_Knowlton,3,0] + newVar3 = 0
  R8522: x[UMass_Knowlton,2,0] - x[UMass_Knowlton,3,0] + newVar4 = 0
- c9[UMass_Knowlton,3,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,3,0]: newVar5 + 13 newVar6 <= 13
  R8524: y[UMass_Knowlton,2,1] - y[UMass_Knowlton,3,1] + newVar3 = 0
  R8525: x[UMass_Knowlton,2,1] - x[UMass_Knowlton,3,1] + newVar4 = 0
- c9[UMass_Knowlton,3,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,3,1]: newVar5 + 13 newVar6 <= 13
  R8527: y[UMass_Knowlton,2,2] - y[UMass_Knowlton,3,2] + newVar3 = 0
  R8528: x[UMass_Knowlton,2,2] - x[UMass_Knowlton,3,2] + newVar4 = 0
- c9[UMass_Knowlton,3,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,3,2]: newVar5 + 13 newVar6 <= 13
  R8530: y[UMass_Knowlton,3,0] - y[UMass_Knowlton,4,0] + newVar3 = 0
  R8531: x[UMass_Knowlton,3,0] - x[UMass_Knowlton,4,0] + newVar4 = 0
- c9[UMass_Knowlton,4,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,4,0]: newVar5 + 13 newVar6 <= 13
  R8533: y[UMass_Knowlton,3,1] - y[UMass_Knowlton,4,1] + newVar3 = 0
  R8534: x[UMass_Knowlton,3,1] - x[UMass_Knowlton,4,1] + newVar4 = 0
- c9[UMass_Knowlton,4,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,4,1]: newVar5 + 13 newVar6 <= 13
  R8536: y[UMass_Knowlton,3,2] - y[UMass_Knowlton,4,2] + newVar3 = 0
  R8537: x[UMass_Knowlton,3,2] - x[UMass_Knowlton,4,2] + newVar4 = 0
- c9[UMass_Knowlton,4,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,4,2]: newVar5 + 13 newVar6 <= 13
  R8539: y[UMass_Knowlton,4,0] - y[UMass_Knowlton,5,0] + newVar3 = 0
  R8540: x[UMass_Knowlton,4,0] - x[UMass_Knowlton,5,0] + newVar4 = 0
- c9[UMass_Knowlton,5,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,5,0]: newVar5 + 13 newVar6 <= 13
  R8542: y[UMass_Knowlton,4,1] - y[UMass_Knowlton,5,1] + newVar3 = 0
  R8543: x[UMass_Knowlton,4,1] - x[UMass_Knowlton,5,1] + newVar4 = 0
- c9[UMass_Knowlton,5,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,5,1]: newVar5 + 13 newVar6 <= 13
  R8545: y[UMass_Knowlton,4,2] - y[UMass_Knowlton,5,2] + newVar3 = 0
  R8546: x[UMass_Knowlton,4,2] - x[UMass_Knowlton,5,2] + newVar4 = 0
- c9[UMass_Knowlton,5,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,5,2]: newVar5 + 13 newVar6 <= 13
  R8548: y[UMass_Knowlton,5,0] - y[UMass_Knowlton,6,0] + newVar3 = 0
  R8549: x[UMass_Knowlton,5,0] - x[UMass_Knowlton,6,0] + newVar4 = 0
- c9[UMass_Knowlton,6,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,6,0]: newVar5 + 13 newVar6 <= 13
  R8551: y[UMass_Knowlton,5,1] - y[UMass_Knowlton,6,1] + newVar3 = 0
  R8552: x[UMass_Knowlton,5,1] - x[UMass_Knowlton,6,1] + newVar4 = 0
- c9[UMass_Knowlton,6,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,6,1]: newVar5 + 13 newVar6 <= 13
  R8554: y[UMass_Knowlton,5,2] - y[UMass_Knowlton,6,2] + newVar3 = 0
  R8555: x[UMass_Knowlton,5,2] - x[UMass_Knowlton,6,2] + newVar4 = 0
- c9[UMass_Knowlton,6,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,6,2]: newVar5 + 13 newVar6 <= 13
  R8557: y[UMass_Knowlton,6,0] - y[UMass_Knowlton,7,0] + newVar3 = 0
  R8558: x[UMass_Knowlton,6,0] - x[UMass_Knowlton,7,0] + newVar4 = 0
- c9[UMass_Knowlton,7,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,7,0]: newVar5 + 13 newVar6 <= 13
  R8560: y[UMass_Knowlton,6,1] - y[UMass_Knowlton,7,1] + newVar3 = 0
  R8561: x[UMass_Knowlton,6,1] - x[UMass_Knowlton,7,1] + newVar4 = 0
- c9[UMass_Knowlton,7,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,7,1]: newVar5 + 13 newVar6 <= 13
  R8563: y[UMass_Knowlton,6,2] - y[UMass_Knowlton,7,2] + newVar3 = 0
  R8564: x[UMass_Knowlton,6,2] - x[UMass_Knowlton,7,2] + newVar4 = 0
- c9[UMass_Knowlton,7,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,7,2]: newVar5 + 13 newVar6 <= 13
  R8566: y[UMass_Knowlton,7,0] - y[UMass_Knowlton,8,0] + newVar3 = 0
  R8567: x[UMass_Knowlton,7,0] - x[UMass_Knowlton,8,0] + newVar4 = 0
- c9[UMass_Knowlton,8,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,8,0]: newVar5 + 13 newVar6 <= 13
  R8569: y[UMass_Knowlton,7,1] - y[UMass_Knowlton,8,1] + newVar3 = 0
  R8570: x[UMass_Knowlton,7,1] - x[UMass_Knowlton,8,1] + newVar4 = 0
- c9[UMass_Knowlton,8,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,8,1]: newVar5 + 13 newVar6 <= 13
  R8572: y[UMass_Knowlton,7,2] - y[UMass_Knowlton,8,2] + newVar3 = 0
  R8573: x[UMass_Knowlton,7,2] - x[UMass_Knowlton,8,2] + newVar4 = 0
- c9[UMass_Knowlton,8,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,8,2]: newVar5 + 13 newVar6 <= 13
  R8575: y[UMass_Knowlton,8,0] - y[UMass_Knowlton,9,0] + newVar3 = 0
  R8576: x[UMass_Knowlton,8,0] - x[UMass_Knowlton,9,0] + newVar4 = 0
- c9[UMass_Knowlton,9,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,9,0]: newVar5 + 13 newVar6 <= 13
  R8578: y[UMass_Knowlton,8,1] - y[UMass_Knowlton,9,1] + newVar3 = 0
  R8579: x[UMass_Knowlton,8,1] - x[UMass_Knowlton,9,1] + newVar4 = 0
- c9[UMass_Knowlton,9,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,9,1]: newVar5 + 13 newVar6 <= 13
  R8581: y[UMass_Knowlton,8,2] - y[UMass_Knowlton,9,2] + newVar3 = 0
  R8582: x[UMass_Knowlton,8,2] - x[UMass_Knowlton,9,2] + newVar4 = 0
- c9[UMass_Knowlton,9,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,9,2]: newVar5 + 13 newVar6 <= 13
  R8584: y[UMass_Knowlton,9,0] - y[UMass_Knowlton,10,0] + newVar3 = 0
  R8585: x[UMass_Knowlton,9,0] - x[UMass_Knowlton,10,0] + newVar4 = 0
- c9[UMass_Knowlton,10,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,10,0]: newVar5 + 13 newVar6 <= 13
  R8587: y[UMass_Knowlton,9,1] - y[UMass_Knowlton,10,1] + newVar3 = 0
  R8588: x[UMass_Knowlton,9,1] - x[UMass_Knowlton,10,1] + newVar4 = 0
- c9[UMass_Knowlton,10,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,10,1]: newVar5 + 13 newVar6 <= 13
  R8590: y[UMass_Knowlton,9,2] - y[UMass_Knowlton,10,2] + newVar3 = 0
  R8591: x[UMass_Knowlton,9,2] - x[UMass_Knowlton,10,2] + newVar4 = 0
- c9[UMass_Knowlton,10,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,10,2]: newVar5 + 13 newVar6 <= 13
  R8593: y[UMass_Knowlton,10,0] - y[UMass_Knowlton,11,0] + newVar3 = 0
  R8594: x[UMass_Knowlton,10,0] - x[UMass_Knowlton,11,0] + newVar4 = 0
- c9[UMass_Knowlton,11,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,11,0]: newVar5 + 13 newVar6 <= 13
  R8596: y[UMass_Knowlton,10,1] - y[UMass_Knowlton,11,1] + newVar3 = 0
  R8597: x[UMass_Knowlton,10,1] - x[UMass_Knowlton,11,1] + newVar4 = 0
- c9[UMass_Knowlton,11,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,11,1]: newVar5 + 13 newVar6 <= 13
  R8599: y[UMass_Knowlton,10,2] - y[UMass_Knowlton,11,2] + newVar3 = 0
  R8600: x[UMass_Knowlton,10,2] - x[UMass_Knowlton,11,2] + newVar4 = 0
- c9[UMass_Knowlton,11,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,11,2]: newVar5 + 13 newVar6 <= 13
  R8602: y[UMass_Knowlton,11,0] - y[UMass_Knowlton,12,0] + newVar3 = 0
  R8603: x[UMass_Knowlton,11,0] - x[UMass_Knowlton,12,0] + newVar4 = 0
- c9[UMass_Knowlton,12,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,12,0]: newVar5 + 13 newVar6 <= 13
  R8605: y[UMass_Knowlton,11,1] - y[UMass_Knowlton,12,1] + newVar3 = 0
  R8606: x[UMass_Knowlton,11,1] - x[UMass_Knowlton,12,1] + newVar4 = 0
- c9[UMass_Knowlton,12,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,12,1]: newVar5 + 13 newVar6 <= 13
  R8608: y[UMass_Knowlton,11,2] - y[UMass_Knowlton,12,2] + newVar3 = 0
  R8609: x[UMass_Knowlton,11,2] - x[UMass_Knowlton,12,2] + newVar4 = 0
- c9[UMass_Knowlton,12,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,12,2]: newVar5 + 13 newVar6 <= 13
  R8611: y[UMass_Knowlton,12,0] - y[UMass_Knowlton,13,0] + newVar3 = 0
  R8612: x[UMass_Knowlton,12,0] - x[UMass_Knowlton,13,0] + newVar4 = 0
- c9[UMass_Knowlton,13,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,13,0]: newVar5 + 13 newVar6 <= 13
  R8614: y[UMass_Knowlton,12,1] - y[UMass_Knowlton,13,1] + newVar3 = 0
  R8615: x[UMass_Knowlton,12,1] - x[UMass_Knowlton,13,1] + newVar4 = 0
- c9[UMass_Knowlton,13,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,13,1]: newVar5 + 13 newVar6 <= 13
  R8617: y[UMass_Knowlton,12,2] - y[UMass_Knowlton,13,2] + newVar3 = 0
  R8618: x[UMass_Knowlton,12,2] - x[UMass_Knowlton,13,2] + newVar4 = 0
- c9[UMass_Knowlton,13,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,13,2]: newVar5 + 13 newVar6 <= 13
  R8620: y[UMass_Knowlton,13,0] - y[UMass_Knowlton,14,0] + newVar3 = 0
  R8621: x[UMass_Knowlton,13,0] - x[UMass_Knowlton,14,0] + newVar4 = 0
- c9[UMass_Knowlton,14,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,14,0]: newVar5 + 13 newVar6 <= 13
  R8623: y[UMass_Knowlton,13,1] - y[UMass_Knowlton,14,1] + newVar3 = 0
  R8624: x[UMass_Knowlton,13,1] - x[UMass_Knowlton,14,1] + newVar4 = 0
- c9[UMass_Knowlton,14,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,14,1]: newVar5 + 13 newVar6 <= 13
  R8626: y[UMass_Knowlton,13,2] - y[UMass_Knowlton,14,2] + newVar3 = 0
  R8627: x[UMass_Knowlton,13,2] - x[UMass_Knowlton,14,2] + newVar4 = 0
- c9[UMass_Knowlton,14,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,14,2]: newVar5 + 13 newVar6 <= 13
  R8629: y[UMass_Knowlton,14,0] - y[UMass_Knowlton,15,0] + newVar3 = 0
  R8630: x[UMass_Knowlton,14,0] - x[UMass_Knowlton,15,0] + newVar4 = 0
- c9[UMass_Knowlton,15,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,15,0]: newVar5 + 13 newVar6 <= 13
  R8632: y[UMass_Knowlton,14,1] - y[UMass_Knowlton,15,1] + newVar3 = 0
  R8633: x[UMass_Knowlton,14,1] - x[UMass_Knowlton,15,1] + newVar4 = 0
- c9[UMass_Knowlton,15,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,15,1]: newVar5 + 13 newVar6 <= 13
  R8635: y[UMass_Knowlton,14,2] - y[UMass_Knowlton,15,2] + newVar3 = 0
  R8636: x[UMass_Knowlton,14,2] - x[UMass_Knowlton,15,2] + newVar4 = 0
- c9[UMass_Knowlton,15,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,15,2]: newVar5 + 13 newVar6 <= 13
  R8638: y[UMass_Knowlton,15,0] - y[UMass_Knowlton,16,0] + newVar3 = 0
  R8639: x[UMass_Knowlton,15,0] - x[UMass_Knowlton,16,0] + newVar4 = 0
- c9[UMass_Knowlton,16,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,16,0]: newVar5 + 13 newVar6 <= 13
  R8641: y[UMass_Knowlton,15,1] - y[UMass_Knowlton,16,1] + newVar3 = 0
  R8642: x[UMass_Knowlton,15,1] - x[UMass_Knowlton,16,1] + newVar4 = 0
- c9[UMass_Knowlton,16,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,16,1]: newVar5 + 13 newVar6 <= 13
  R8644: y[UMass_Knowlton,15,2] - y[UMass_Knowlton,16,2] + newVar3 = 0
  R8645: x[UMass_Knowlton,15,2] - x[UMass_Knowlton,16,2] + newVar4 = 0
- c9[UMass_Knowlton,16,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,16,2]: newVar5 + 13 newVar6 <= 13
  R8647: y[UMass_Knowlton,16,0] - y[UMass_Knowlton,17,0] + newVar3 = 0
  R8648: x[UMass_Knowlton,16,0] - x[UMass_Knowlton,17,0] + newVar4 = 0
- c9[UMass_Knowlton,17,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,17,0]: newVar5 + 13 newVar6 <= 13
  R8650: y[UMass_Knowlton,16,1] - y[UMass_Knowlton,17,1] + newVar3 = 0
  R8651: x[UMass_Knowlton,16,1] - x[UMass_Knowlton,17,1] + newVar4 = 0
- c9[UMass_Knowlton,17,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,17,1]: newVar5 + 13 newVar6 <= 13
  R8653: y[UMass_Knowlton,16,2] - y[UMass_Knowlton,17,2] + newVar3 = 0
  R8654: x[UMass_Knowlton,16,2] - x[UMass_Knowlton,17,2] + newVar4 = 0
- c9[UMass_Knowlton,17,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,17,2]: newVar5 + 13 newVar6 <= 13
  R8656: y[UMass_Knowlton,17,0] - y[UMass_Knowlton,18,0] + newVar3 = 0
  R8657: x[UMass_Knowlton,17,0] - x[UMass_Knowlton,18,0] + newVar4 = 0
- c9[UMass_Knowlton,18,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,18,0]: newVar5 + 13 newVar6 <= 13
  R8659: y[UMass_Knowlton,17,1] - y[UMass_Knowlton,18,1] + newVar3 = 0
  R8660: x[UMass_Knowlton,17,1] - x[UMass_Knowlton,18,1] + newVar4 = 0
- c9[UMass_Knowlton,18,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,18,1]: newVar5 + 13 newVar6 <= 13
  R8662: y[UMass_Knowlton,17,2] - y[UMass_Knowlton,18,2] + newVar3 = 0
  R8663: x[UMass_Knowlton,17,2] - x[UMass_Knowlton,18,2] + newVar4 = 0
- c9[UMass_Knowlton,18,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,18,2]: newVar5 + 13 newVar6 <= 13
  R8665: y[UMass_Knowlton,18,0] - y[UMass_Knowlton,19,0] + newVar3 = 0
  R8666: x[UMass_Knowlton,18,0] - x[UMass_Knowlton,19,0] + newVar4 = 0
- c9[UMass_Knowlton,19,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,19,0]: newVar5 + 13 newVar6 <= 13
  R8668: y[UMass_Knowlton,18,1] - y[UMass_Knowlton,19,1] + newVar3 = 0
  R8669: x[UMass_Knowlton,18,1] - x[UMass_Knowlton,19,1] + newVar4 = 0
- c9[UMass_Knowlton,19,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,19,1]: newVar5 + 13 newVar6 <= 13
  R8671: y[UMass_Knowlton,18,2] - y[UMass_Knowlton,19,2] + newVar3 = 0
  R8672: x[UMass_Knowlton,18,2] - x[UMass_Knowlton,19,2] + newVar4 = 0
- c9[UMass_Knowlton,19,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,19,2]: newVar5 + 13 newVar6 <= 13
  R8674: y[UMass_Knowlton,19,0] - y[UMass_Knowlton,20,0] + newVar3 = 0
  R8675: x[UMass_Knowlton,19,0] - x[UMass_Knowlton,20,0] + newVar4 = 0
- c9[UMass_Knowlton,20,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,20,0]: newVar5 + 13 newVar6 <= 13
  R8677: y[UMass_Knowlton,19,1] - y[UMass_Knowlton,20,1] + newVar3 = 0
  R8678: x[UMass_Knowlton,19,1] - x[UMass_Knowlton,20,1] + newVar4 = 0
- c9[UMass_Knowlton,20,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,20,1]: newVar5 + 13 newVar6 <= 13
  R8680: y[UMass_Knowlton,19,2] - y[UMass_Knowlton,20,2] + newVar3 = 0
  R8681: x[UMass_Knowlton,19,2] - x[UMass_Knowlton,20,2] + newVar4 = 0
- c9[UMass_Knowlton,20,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,20,2]: newVar5 + 13 newVar6 <= 13
  R8683: y[UMass_Knowlton,20,0] - y[UMass_Knowlton,21,0] + newVar3 = 0
  R8684: x[UMass_Knowlton,20,0] - x[UMass_Knowlton,21,0] + newVar4 = 0
- c9[UMass_Knowlton,21,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,21,0]: newVar5 + 13 newVar6 <= 13
  R8686: y[UMass_Knowlton,20,1] - y[UMass_Knowlton,21,1] + newVar3 = 0
  R8687: x[UMass_Knowlton,20,1] - x[UMass_Knowlton,21,1] + newVar4 = 0
- c9[UMass_Knowlton,21,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,21,1]: newVar5 + 13 newVar6 <= 13
  R8689: y[UMass_Knowlton,20,2] - y[UMass_Knowlton,21,2] + newVar3 = 0
  R8690: x[UMass_Knowlton,20,2] - x[UMass_Knowlton,21,2] + newVar4 = 0
- c9[UMass_Knowlton,21,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,21,2]: newVar5 + 13 newVar6 <= 13
  R8692: y[UMass_Knowlton,21,0] - y[UMass_Knowlton,22,0] + newVar3 = 0
  R8693: x[UMass_Knowlton,21,0] - x[UMass_Knowlton,22,0] + newVar4 = 0
- c9[UMass_Knowlton,22,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,22,0]: newVar5 + 13 newVar6 <= 13
  R8695: y[UMass_Knowlton,21,1] - y[UMass_Knowlton,22,1] + newVar3 = 0
  R8696: x[UMass_Knowlton,21,1] - x[UMass_Knowlton,22,1] + newVar4 = 0
- c9[UMass_Knowlton,22,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,22,1]: newVar5 + 13 newVar6 <= 13
  R8698: y[UMass_Knowlton,21,2] - y[UMass_Knowlton,22,2] + newVar3 = 0
  R8699: x[UMass_Knowlton,21,2] - x[UMass_Knowlton,22,2] + newVar4 = 0
- c9[UMass_Knowlton,22,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,22,2]: newVar5 + 13 newVar6 <= 13
  R8701: y[UMass_Knowlton,22,0] - y[UMass_Knowlton,23,0] + newVar3 = 0
  R8702: x[UMass_Knowlton,22,0] - x[UMass_Knowlton,23,0] + newVar4 = 0
- c9[UMass_Knowlton,23,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,23,0]: newVar5 + 13 newVar6 <= 13
  R8704: y[UMass_Knowlton,22,1] - y[UMass_Knowlton,23,1] + newVar3 = 0
  R8705: x[UMass_Knowlton,22,1] - x[UMass_Knowlton,23,1] + newVar4 = 0
- c9[UMass_Knowlton,23,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,23,1]: newVar5 + 13 newVar6 <= 13
  R8707: y[UMass_Knowlton,22,2] - y[UMass_Knowlton,23,2] + newVar3 = 0
  R8708: x[UMass_Knowlton,22,2] - x[UMass_Knowlton,23,2] + newVar4 = 0
- c9[UMass_Knowlton,23,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,23,2]: newVar5 + 13 newVar6 <= 13
  R8710: y[UMass_Knowlton,23,0] - y[UMass_Knowlton,24,0] + newVar3 = 0
  R8711: x[UMass_Knowlton,23,0] - x[UMass_Knowlton,24,0] + newVar4 = 0
- c9[UMass_Knowlton,24,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,24,0]: newVar5 + 13 newVar6 <= 13
  R8713: y[UMass_Knowlton,23,1] - y[UMass_Knowlton,24,1] + newVar3 = 0
  R8714: x[UMass_Knowlton,23,1] - x[UMass_Knowlton,24,1] + newVar4 = 0
- c9[UMass_Knowlton,24,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,24,1]: newVar5 + 13 newVar6 <= 13
  R8716: y[UMass_Knowlton,23,2] - y[UMass_Knowlton,24,2] + newVar3 = 0
  R8717: x[UMass_Knowlton,23,2] - x[UMass_Knowlton,24,2] + newVar4 = 0
- c9[UMass_Knowlton,24,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,24,2]: newVar5 + 13 newVar6 <= 13
  R8719: y[UMass_Knowlton,24,0] - y[UMass_Knowlton,25,0] + newVar3 = 0
  R8720: x[UMass_Knowlton,24,0] - x[UMass_Knowlton,25,0] + newVar4 = 0
- c9[UMass_Knowlton,25,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,25,0]: newVar5 + 13 newVar6 <= 13
  R8722: y[UMass_Knowlton,24,1] - y[UMass_Knowlton,25,1] + newVar3 = 0
  R8723: x[UMass_Knowlton,24,1] - x[UMass_Knowlton,25,1] + newVar4 = 0
- c9[UMass_Knowlton,25,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,25,1]: newVar5 + 13 newVar6 <= 13
  R8725: y[UMass_Knowlton,24,2] - y[UMass_Knowlton,25,2] + newVar3 = 0
  R8726: x[UMass_Knowlton,24,2] - x[UMass_Knowlton,25,2] + newVar4 = 0
- c9[UMass_Knowlton,25,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,25,2]: newVar5 + 13 newVar6 <= 13
  R8728: y[UMass_Knowlton,25,0] - y[UMass_Knowlton,26,0] + newVar3 = 0
  R8729: x[UMass_Knowlton,25,0] - x[UMass_Knowlton,26,0] + newVar4 = 0
- c9[UMass_Knowlton,26,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,26,0]: newVar5 + 13 newVar6 <= 13
  R8731: y[UMass_Knowlton,25,1] - y[UMass_Knowlton,26,1] + newVar3 = 0
  R8732: x[UMass_Knowlton,25,1] - x[UMass_Knowlton,26,1] + newVar4 = 0
- c9[UMass_Knowlton,26,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,26,1]: newVar5 + 13 newVar6 <= 13
  R8734: y[UMass_Knowlton,25,2] - y[UMass_Knowlton,26,2] + newVar3 = 0
  R8735: x[UMass_Knowlton,25,2] - x[UMass_Knowlton,26,2] + newVar4 = 0
- c9[UMass_Knowlton,26,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,26,2]: newVar5 + 13 newVar6 <= 13
  R8737: y[UMass_Knowlton,26,0] - y[UMass_Knowlton,27,0] + newVar3 = 0
  R8738: x[UMass_Knowlton,26,0] - x[UMass_Knowlton,27,0] + newVar4 = 0
- c9[UMass_Knowlton,27,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,27,0]: newVar5 + 13 newVar6 <= 13
  R8740: y[UMass_Knowlton,26,1] - y[UMass_Knowlton,27,1] + newVar3 = 0
  R8741: x[UMass_Knowlton,26,1] - x[UMass_Knowlton,27,1] + newVar4 = 0
- c9[UMass_Knowlton,27,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,27,1]: newVar5 + 13 newVar6 <= 13
  R8743: y[UMass_Knowlton,26,2] - y[UMass_Knowlton,27,2] + newVar3 = 0
  R8744: x[UMass_Knowlton,26,2] - x[UMass_Knowlton,27,2] + newVar4 = 0
- c9[UMass_Knowlton,27,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,27,2]: newVar5 + 13 newVar6 <= 13
  R8746: y[UMass_Knowlton,27,0] - y[UMass_Knowlton,28,0] + newVar3 = 0
  R8747: x[UMass_Knowlton,27,0] - x[UMass_Knowlton,28,0] + newVar4 = 0
- c9[UMass_Knowlton,28,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,28,0]: newVar5 + 13 newVar6 <= 13
  R8749: y[UMass_Knowlton,27,1] - y[UMass_Knowlton,28,1] + newVar3 = 0
  R8750: x[UMass_Knowlton,27,1] - x[UMass_Knowlton,28,1] + newVar4 = 0
- c9[UMass_Knowlton,28,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,28,1]: newVar5 + 13 newVar6 <= 13
  R8752: y[UMass_Knowlton,27,2] - y[UMass_Knowlton,28,2] + newVar3 = 0
  R8753: x[UMass_Knowlton,27,2] - x[UMass_Knowlton,28,2] + newVar4 = 0
- c9[UMass_Knowlton,28,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,28,2]: newVar5 + 13 newVar6 <= 13
  R8755: y[UMass_Knowlton,28,0] - y[UMass_Knowlton,29,0] + newVar3 = 0
  R8756: x[UMass_Knowlton,28,0] - x[UMass_Knowlton,29,0] + newVar4 = 0
- c9[UMass_Knowlton,29,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,29,0]: newVar5 + 13 newVar6 <= 13
  R8758: y[UMass_Knowlton,28,1] - y[UMass_Knowlton,29,1] + newVar3 = 0
  R8759: x[UMass_Knowlton,28,1] - x[UMass_Knowlton,29,1] + newVar4 = 0
- c9[UMass_Knowlton,29,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,29,1]: newVar5 + 13 newVar6 <= 13
  R8761: y[UMass_Knowlton,28,2] - y[UMass_Knowlton,29,2] + newVar3 = 0
  R8762: x[UMass_Knowlton,28,2] - x[UMass_Knowlton,29,2] + newVar4 = 0
- c9[UMass_Knowlton,29,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,29,2]: newVar5 + 13 newVar6 <= 13
  R8764: y[UMass_Knowlton,29,0] - y[UMass_Knowlton,30,0] + newVar3 = 0
  R8765: x[UMass_Knowlton,29,0] - x[UMass_Knowlton,30,0] + newVar4 = 0
- c9[UMass_Knowlton,30,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,30,0]: newVar5 + 13 newVar6 <= 13
  R8767: y[UMass_Knowlton,29,1] - y[UMass_Knowlton,30,1] + newVar3 = 0
  R8768: x[UMass_Knowlton,29,1] - x[UMass_Knowlton,30,1] + newVar4 = 0
- c9[UMass_Knowlton,30,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,30,1]: newVar5 + 13 newVar6 <= 13
  R8770: y[UMass_Knowlton,29,2] - y[UMass_Knowlton,30,2] + newVar3 = 0
  R8771: x[UMass_Knowlton,29,2] - x[UMass_Knowlton,30,2] + newVar4 = 0
- c9[UMass_Knowlton,30,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,30,2]: newVar5 + 13 newVar6 <= 13
  R8773: y[UMass_Knowlton,30,0] - y[UMass_Knowlton,31,0] + newVar3 = 0
  R8774: x[UMass_Knowlton,30,0] - x[UMass_Knowlton,31,0] + newVar4 = 0
- c9[UMass_Knowlton,31,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,31,0]: newVar5 + 13 newVar6 <= 13
  R8776: y[UMass_Knowlton,30,1] - y[UMass_Knowlton,31,1] + newVar3 = 0
  R8777: x[UMass_Knowlton,30,1] - x[UMass_Knowlton,31,1] + newVar4 = 0
- c9[UMass_Knowlton,31,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,31,1]: newVar5 + 13 newVar6 <= 13
  R8779: y[UMass_Knowlton,30,2] - y[UMass_Knowlton,31,2] + newVar3 = 0
  R8780: x[UMass_Knowlton,30,2] - x[UMass_Knowlton,31,2] + newVar4 = 0
- c9[UMass_Knowlton,31,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,31,2]: newVar5 + 13 newVar6 <= 13
  R8782: y[UMass_Knowlton,31,0] - y[UMass_Knowlton,32,0] + newVar3 = 0
  R8783: x[UMass_Knowlton,31,0] - x[UMass_Knowlton,32,0] + newVar4 = 0
- c9[UMass_Knowlton,32,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,32,0]: newVar5 + 13 newVar6 <= 13
  R8785: y[UMass_Knowlton,31,1] - y[UMass_Knowlton,32,1] + newVar3 = 0
  R8786: x[UMass_Knowlton,31,1] - x[UMass_Knowlton,32,1] + newVar4 = 0
- c9[UMass_Knowlton,32,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,32,1]: newVar5 + 13 newVar6 <= 13
  R8788: y[UMass_Knowlton,31,2] - y[UMass_Knowlton,32,2] + newVar3 = 0
  R8789: x[UMass_Knowlton,31,2] - x[UMass_Knowlton,32,2] + newVar4 = 0
- c9[UMass_Knowlton,32,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,32,2]: newVar5 + 13 newVar6 <= 13
  R8791: y[UMass_Knowlton,32,0] - y[UMass_Knowlton,33,0] + newVar3 = 0
  R8792: x[UMass_Knowlton,32,0] - x[UMass_Knowlton,33,0] + newVar4 = 0
- c9[UMass_Knowlton,33,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,33,0]: newVar5 + 13 newVar6 <= 13
  R8794: y[UMass_Knowlton,32,1] - y[UMass_Knowlton,33,1] + newVar3 = 0
  R8795: x[UMass_Knowlton,32,1] - x[UMass_Knowlton,33,1] + newVar4 = 0
- c9[UMass_Knowlton,33,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,33,1]: newVar5 + 13 newVar6 <= 13
  R8797: y[UMass_Knowlton,32,2] - y[UMass_Knowlton,33,2] + newVar3 = 0
  R8798: x[UMass_Knowlton,32,2] - x[UMass_Knowlton,33,2] + newVar4 = 0
- c9[UMass_Knowlton,33,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,33,2]: newVar5 + 13 newVar6 <= 13
  R8800: y[UMass_Knowlton,33,0] - y[UMass_Knowlton,34,0] + newVar3 = 0
  R8801: x[UMass_Knowlton,33,0] - x[UMass_Knowlton,34,0] + newVar4 = 0
- c9[UMass_Knowlton,34,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,34,0]: newVar5 + 13 newVar6 <= 13
  R8803: y[UMass_Knowlton,33,1] - y[UMass_Knowlton,34,1] + newVar3 = 0
  R8804: x[UMass_Knowlton,33,1] - x[UMass_Knowlton,34,1] + newVar4 = 0
- c9[UMass_Knowlton,34,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,34,1]: newVar5 + 13 newVar6 <= 13
  R8806: y[UMass_Knowlton,33,2] - y[UMass_Knowlton,34,2] + newVar3 = 0
  R8807: x[UMass_Knowlton,33,2] - x[UMass_Knowlton,34,2] + newVar4 = 0
- c9[UMass_Knowlton,34,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,34,2]: newVar5 + 13 newVar6 <= 13
  R8809: y[UMass_Knowlton,34,0] - y[UMass_Knowlton,35,0] + newVar3 = 0
  R8810: x[UMass_Knowlton,34,0] - x[UMass_Knowlton,35,0] + newVar4 = 0
- c9[UMass_Knowlton,35,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,35,0]: newVar5 + 13 newVar6 <= 13
  R8812: y[UMass_Knowlton,34,1] - y[UMass_Knowlton,35,1] + newVar3 = 0
  R8813: x[UMass_Knowlton,34,1] - x[UMass_Knowlton,35,1] + newVar4 = 0
- c9[UMass_Knowlton,35,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,35,1]: newVar5 + 13 newVar6 <= 13
  R8815: y[UMass_Knowlton,34,2] - y[UMass_Knowlton,35,2] + newVar3 = 0
  R8816: x[UMass_Knowlton,34,2] - x[UMass_Knowlton,35,2] + newVar4 = 0
- c9[UMass_Knowlton,35,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,35,2]: newVar5 + 13 newVar6 <= 13
  R8818: y[UMass_Knowlton,35,0] - y[UMass_Knowlton,36,0] + newVar3 = 0
  R8819: x[UMass_Knowlton,35,0] - x[UMass_Knowlton,36,0] + newVar4 = 0
- c9[UMass_Knowlton,36,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,36,0]: newVar5 + 13 newVar6 <= 13
  R8821: y[UMass_Knowlton,35,1] - y[UMass_Knowlton,36,1] + newVar3 = 0
  R8822: x[UMass_Knowlton,35,1] - x[UMass_Knowlton,36,1] + newVar4 = 0
- c9[UMass_Knowlton,36,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,36,1]: newVar5 + 13 newVar6 <= 13
  R8824: y[UMass_Knowlton,35,2] - y[UMass_Knowlton,36,2] + newVar3 = 0
  R8825: x[UMass_Knowlton,35,2] - x[UMass_Knowlton,36,2] + newVar4 = 0
- c9[UMass_Knowlton,36,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,36,2]: newVar5 + 13 newVar6 <= 13
  R8827: y[UMass_Knowlton,36,0] - y[UMass_Knowlton,37,0] + newVar3 = 0
  R8828: x[UMass_Knowlton,36,0] - x[UMass_Knowlton,37,0] + newVar4 = 0
- c9[UMass_Knowlton,37,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,37,0]: newVar5 + 13 newVar6 <= 13
  R8830: y[UMass_Knowlton,36,1] - y[UMass_Knowlton,37,1] + newVar3 = 0
  R8831: x[UMass_Knowlton,36,1] - x[UMass_Knowlton,37,1] + newVar4 = 0
- c9[UMass_Knowlton,37,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,37,1]: newVar5 + 13 newVar6 <= 13
  R8833: y[UMass_Knowlton,36,2] - y[UMass_Knowlton,37,2] + newVar3 = 0
  R8834: x[UMass_Knowlton,36,2] - x[UMass_Knowlton,37,2] + newVar4 = 0
- c9[UMass_Knowlton,37,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,37,2]: newVar5 + 13 newVar6 <= 13
  R8836: y[UMass_Knowlton,37,0] - y[UMass_Knowlton,38,0] + newVar3 = 0
  R8837: x[UMass_Knowlton,37,0] - x[UMass_Knowlton,38,0] + newVar4 = 0
- c9[UMass_Knowlton,38,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,38,0]: newVar5 + 13 newVar6 <= 13
  R8839: y[UMass_Knowlton,37,1] - y[UMass_Knowlton,38,1] + newVar3 = 0
  R8840: x[UMass_Knowlton,37,1] - x[UMass_Knowlton,38,1] + newVar4 = 0
- c9[UMass_Knowlton,38,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,38,1]: newVar5 + 13 newVar6 <= 13
  R8842: y[UMass_Knowlton,37,2] - y[UMass_Knowlton,38,2] + newVar3 = 0
  R8843: x[UMass_Knowlton,37,2] - x[UMass_Knowlton,38,2] + newVar4 = 0
- c9[UMass_Knowlton,38,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,38,2]: newVar5 + 13 newVar6 <= 13
  R8845: y[UMass_Knowlton,38,0] - y[UMass_Knowlton,39,0] + newVar3 = 0
  R8846: x[UMass_Knowlton,38,0] - x[UMass_Knowlton,39,0] + newVar4 = 0
- c9[UMass_Knowlton,39,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,39,0]: newVar5 + 13 newVar6 <= 13
  R8848: y[UMass_Knowlton,38,1] - y[UMass_Knowlton,39,1] + newVar3 = 0
  R8849: x[UMass_Knowlton,38,1] - x[UMass_Knowlton,39,1] + newVar4 = 0
- c9[UMass_Knowlton,39,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,39,1]: newVar5 + 13 newVar6 <= 13
  R8851: y[UMass_Knowlton,38,2] - y[UMass_Knowlton,39,2] + newVar3 = 0
  R8852: x[UMass_Knowlton,38,2] - x[UMass_Knowlton,39,2] + newVar4 = 0
- c9[UMass_Knowlton,39,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,39,2]: newVar5 + 13 newVar6 <= 13
  R8854: y[UMass_Knowlton,39,0] - y[UMass_Knowlton,40,0] + newVar3 = 0
  R8855: x[UMass_Knowlton,39,0] - x[UMass_Knowlton,40,0] + newVar4 = 0
- c9[UMass_Knowlton,40,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,40,0]: newVar5 + 13 newVar6 <= 13
  R8857: y[UMass_Knowlton,39,1] - y[UMass_Knowlton,40,1] + newVar3 = 0
  R8858: x[UMass_Knowlton,39,1] - x[UMass_Knowlton,40,1] + newVar4 = 0
- c9[UMass_Knowlton,40,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,40,1]: newVar5 + 13 newVar6 <= 13
  R8860: y[UMass_Knowlton,39,2] - y[UMass_Knowlton,40,2] + newVar3 = 0
  R8861: x[UMass_Knowlton,39,2] - x[UMass_Knowlton,40,2] + newVar4 = 0
- c9[UMass_Knowlton,40,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,40,2]: newVar5 + 13 newVar6 <= 13
  R8863: y[UMass_Knowlton,40,0] - y[UMass_Knowlton,41,0] + newVar3 = 0
  R8864: x[UMass_Knowlton,40,0] - x[UMass_Knowlton,41,0] + newVar4 = 0
- c9[UMass_Knowlton,41,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,41,0]: newVar5 + 13 newVar6 <= 13
  R8866: y[UMass_Knowlton,40,1] - y[UMass_Knowlton,41,1] + newVar3 = 0
  R8867: x[UMass_Knowlton,40,1] - x[UMass_Knowlton,41,1] + newVar4 = 0
- c9[UMass_Knowlton,41,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,41,1]: newVar5 + 13 newVar6 <= 13
  R8869: y[UMass_Knowlton,40,2] - y[UMass_Knowlton,41,2] + newVar3 = 0
  R8870: x[UMass_Knowlton,40,2] - x[UMass_Knowlton,41,2] + newVar4 = 0
- c9[UMass_Knowlton,41,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,41,2]: newVar5 + 13 newVar6 <= 13
  R8872: y[UMass_Knowlton,41,0] - y[UMass_Knowlton,42,0] + newVar3 = 0
  R8873: x[UMass_Knowlton,41,0] - x[UMass_Knowlton,42,0] + newVar4 = 0
- c9[UMass_Knowlton,42,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,42,0]: newVar5 + 13 newVar6 <= 13
  R8875: y[UMass_Knowlton,41,1] - y[UMass_Knowlton,42,1] + newVar3 = 0
  R8876: x[UMass_Knowlton,41,1] - x[UMass_Knowlton,42,1] + newVar4 = 0
- c9[UMass_Knowlton,42,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,42,1]: newVar5 + 13 newVar6 <= 13
  R8878: y[UMass_Knowlton,41,2] - y[UMass_Knowlton,42,2] + newVar3 = 0
  R8879: x[UMass_Knowlton,41,2] - x[UMass_Knowlton,42,2] + newVar4 = 0
- c9[UMass_Knowlton,42,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,42,2]: newVar5 + 13 newVar6 <= 13
  R8881: y[UMass_Knowlton,42,0] - y[UMass_Knowlton,43,0] + newVar3 = 0
  R8882: x[UMass_Knowlton,42,0] - x[UMass_Knowlton,43,0] + newVar4 = 0
- c9[UMass_Knowlton,43,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,43,0]: newVar5 + 13 newVar6 <= 13
  R8884: y[UMass_Knowlton,42,1] - y[UMass_Knowlton,43,1] + newVar3 = 0
  R8885: x[UMass_Knowlton,42,1] - x[UMass_Knowlton,43,1] + newVar4 = 0
- c9[UMass_Knowlton,43,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,43,1]: newVar5 + 13 newVar6 <= 13
  R8887: y[UMass_Knowlton,42,2] - y[UMass_Knowlton,43,2] + newVar3 = 0
  R8888: x[UMass_Knowlton,42,2] - x[UMass_Knowlton,43,2] + newVar4 = 0
- c9[UMass_Knowlton,43,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,43,2]: newVar5 + 13 newVar6 <= 13
  R8890: y[UMass_Knowlton,43,0] - y[UMass_Knowlton,44,0] + newVar3 = 0
  R8891: x[UMass_Knowlton,43,0] - x[UMass_Knowlton,44,0] + newVar4 = 0
- c9[UMass_Knowlton,44,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,44,0]: newVar5 + 13 newVar6 <= 13
  R8893: y[UMass_Knowlton,43,1] - y[UMass_Knowlton,44,1] + newVar3 = 0
  R8894: x[UMass_Knowlton,43,1] - x[UMass_Knowlton,44,1] + newVar4 = 0
- c9[UMass_Knowlton,44,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,44,1]: newVar5 + 13 newVar6 <= 13
  R8896: y[UMass_Knowlton,43,2] - y[UMass_Knowlton,44,2] + newVar3 = 0
  R8897: x[UMass_Knowlton,43,2] - x[UMass_Knowlton,44,2] + newVar4 = 0
- c9[UMass_Knowlton,44,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,44,2]: newVar5 + 13 newVar6 <= 13
  R8899: y[UMass_Knowlton,44,0] - y[UMass_Knowlton,45,0] + newVar3 = 0
  R8900: x[UMass_Knowlton,44,0] - x[UMass_Knowlton,45,0] + newVar4 = 0
- c9[UMass_Knowlton,45,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,45,0]: newVar5 + 13 newVar6 <= 13
  R8902: y[UMass_Knowlton,44,1] - y[UMass_Knowlton,45,1] + newVar3 = 0
  R8903: x[UMass_Knowlton,44,1] - x[UMass_Knowlton,45,1] + newVar4 = 0
- c9[UMass_Knowlton,45,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,45,1]: newVar5 + 13 newVar6 <= 13
  R8905: y[UMass_Knowlton,44,2] - y[UMass_Knowlton,45,2] + newVar3 = 0
  R8906: x[UMass_Knowlton,44,2] - x[UMass_Knowlton,45,2] + newVar4 = 0
- c9[UMass_Knowlton,45,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,45,2]: newVar5 + 13 newVar6 <= 13
  R8908: y[UMass_Knowlton,45,0] - y[UMass_Knowlton,46,0] + newVar3 = 0
  R8909: x[UMass_Knowlton,45,0] - x[UMass_Knowlton,46,0] + newVar4 = 0
- c9[UMass_Knowlton,46,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,46,0]: newVar5 + 13 newVar6 <= 13
  R8911: y[UMass_Knowlton,45,1] - y[UMass_Knowlton,46,1] + newVar3 = 0
  R8912: x[UMass_Knowlton,45,1] - x[UMass_Knowlton,46,1] + newVar4 = 0
- c9[UMass_Knowlton,46,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,46,1]: newVar5 + 13 newVar6 <= 13
  R8914: y[UMass_Knowlton,45,2] - y[UMass_Knowlton,46,2] + newVar3 = 0
  R8915: x[UMass_Knowlton,45,2] - x[UMass_Knowlton,46,2] + newVar4 = 0
- c9[UMass_Knowlton,46,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,46,2]: newVar5 + 13 newVar6 <= 13
  R8917: y[UMass_Knowlton,46,0] - y[UMass_Knowlton,47,0] + newVar3 = 0
  R8918: x[UMass_Knowlton,46,0] - x[UMass_Knowlton,47,0] + newVar4 = 0
- c9[UMass_Knowlton,47,0]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,47,0]: newVar5 + 13 newVar6 <= 13
  R8920: y[UMass_Knowlton,46,1] - y[UMass_Knowlton,47,1] + newVar3 = 0
  R8921: x[UMass_Knowlton,46,1] - x[UMass_Knowlton,47,1] + newVar4 = 0
- c9[UMass_Knowlton,47,1]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,47,1]: newVar5 + 13 newVar6 <= 13
  R8923: y[UMass_Knowlton,46,2] - y[UMass_Knowlton,47,2] + newVar3 = 0
  R8924: x[UMass_Knowlton,46,2] - x[UMass_Knowlton,47,2] + newVar4 = 0
- c9[UMass_Knowlton,47,2]: - slack_variable_1 + newVar5 + 13 newVar6 <= 13
+ c9[UMass_Knowlton,47,2]: newVar5 + 13 newVar6 <= 13
  R8926: - y[UMass_Central_Residential_Area,0,0] + newVar3 = 0
  R8927: - x[UMass_Central_Residential_Area,0,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,0,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,0,0]: newVar5 + 13 newVar6 <= 13
  R8929: - y[UMass_Central_Residential_Area,0,1] + newVar3 = 0
  R8930: - x[UMass_Central_Residential_Area,0,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,0,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,0,1]: newVar5 + 13 newVar6 <= 13
  R8932: - y[UMass_Central_Residential_Area,0,2] + newVar3 = 0
  R8933: - x[UMass_Central_Residential_Area,0,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,0,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,0,2]: newVar5 + 13 newVar6 <= 13
  R8935: y[UMass_Central_Residential_Area,0,0]
    - y[UMass_Central_Residential_Area,1,0] + newVar3 = 0
  R8936: x[UMass_Central_Residential_Area,0,0]
    - x[UMass_Central_Residential_Area,1,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,1,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,1,0]: newVar5 + 13 newVar6 <= 13
  R8938: y[UMass_Central_Residential_Area,0,1]
    - y[UMass_Central_Residential_Area,1,1] + newVar3 = 0
  R8939: x[UMass_Central_Residential_Area,0,1]
    - x[UMass_Central_Residential_Area,1,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,1,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,1,1]: newVar5 + 13 newVar6 <= 13
  R8941: y[UMass_Central_Residential_Area,0,2]
    - y[UMass_Central_Residential_Area,1,2] + newVar3 = 0
  R8942: x[UMass_Central_Residential_Area,0,2]
    - x[UMass_Central_Residential_Area,1,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,1,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,1,2]: newVar5 + 13 newVar6 <= 13
  R8944: y[UMass_Central_Residential_Area,1,0]
    - y[UMass_Central_Residential_Area,2,0] + newVar3 = 0
  R8945: x[UMass_Central_Residential_Area,1,0]
    - x[UMass_Central_Residential_Area,2,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,2,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,2,0]: newVar5 + 13 newVar6 <= 13
  R8947: y[UMass_Central_Residential_Area,1,1]
    - y[UMass_Central_Residential_Area,2,1] + newVar3 = 0
  R8948: x[UMass_Central_Residential_Area,1,1]
    - x[UMass_Central_Residential_Area,2,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,2,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,2,1]: newVar5 + 13 newVar6 <= 13
  R8950: y[UMass_Central_Residential_Area,1,2]
    - y[UMass_Central_Residential_Area,2,2] + newVar3 = 0
  R8951: x[UMass_Central_Residential_Area,1,2]
    - x[UMass_Central_Residential_Area,2,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,2,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,2,2]: newVar5 + 13 newVar6 <= 13
  R8953: y[UMass_Central_Residential_Area,2,0]
    - y[UMass_Central_Residential_Area,3,0] + newVar3 = 0
  R8954: x[UMass_Central_Residential_Area,2,0]
    - x[UMass_Central_Residential_Area,3,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,3,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,3,0]: newVar5 + 13 newVar6 <= 13
  R8956: y[UMass_Central_Residential_Area,2,1]
    - y[UMass_Central_Residential_Area,3,1] + newVar3 = 0
  R8957: x[UMass_Central_Residential_Area,2,1]
    - x[UMass_Central_Residential_Area,3,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,3,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,3,1]: newVar5 + 13 newVar6 <= 13
  R8959: y[UMass_Central_Residential_Area,2,2]
    - y[UMass_Central_Residential_Area,3,2] + newVar3 = 0
  R8960: x[UMass_Central_Residential_Area,2,2]
    - x[UMass_Central_Residential_Area,3,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,3,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,3,2]: newVar5 + 13 newVar6 <= 13
  R8962: y[UMass_Central_Residential_Area,3,0]
    - y[UMass_Central_Residential_Area,4,0] + newVar3 = 0
  R8963: x[UMass_Central_Residential_Area,3,0]
    - x[UMass_Central_Residential_Area,4,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,4,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,4,0]: newVar5 + 13 newVar6 <= 13
  R8965: y[UMass_Central_Residential_Area,3,1]
    - y[UMass_Central_Residential_Area,4,1] + newVar3 = 0
  R8966: x[UMass_Central_Residential_Area,3,1]
    - x[UMass_Central_Residential_Area,4,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,4,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,4,1]: newVar5 + 13 newVar6 <= 13
  R8968: y[UMass_Central_Residential_Area,3,2]
    - y[UMass_Central_Residential_Area,4,2] + newVar3 = 0
  R8969: x[UMass_Central_Residential_Area,3,2]
    - x[UMass_Central_Residential_Area,4,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,4,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,4,2]: newVar5 + 13 newVar6 <= 13
  R8971: y[UMass_Central_Residential_Area,4,0]
    - y[UMass_Central_Residential_Area,5,0] + newVar3 = 0
  R8972: x[UMass_Central_Residential_Area,4,0]
    - x[UMass_Central_Residential_Area,5,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,5,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,5,0]: newVar5 + 13 newVar6 <= 13
  R8974: y[UMass_Central_Residential_Area,4,1]
    - y[UMass_Central_Residential_Area,5,1] + newVar3 = 0
  R8975: x[UMass_Central_Residential_Area,4,1]
    - x[UMass_Central_Residential_Area,5,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,5,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,5,1]: newVar5 + 13 newVar6 <= 13
  R8977: y[UMass_Central_Residential_Area,4,2]
    - y[UMass_Central_Residential_Area,5,2] + newVar3 = 0
  R8978: x[UMass_Central_Residential_Area,4,2]
    - x[UMass_Central_Residential_Area,5,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,5,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,5,2]: newVar5 + 13 newVar6 <= 13
  R8980: y[UMass_Central_Residential_Area,5,0]
    - y[UMass_Central_Residential_Area,6,0] + newVar3 = 0
  R8981: x[UMass_Central_Residential_Area,5,0]
    - x[UMass_Central_Residential_Area,6,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,6,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,6,0]: newVar5 + 13 newVar6 <= 13
  R8983: y[UMass_Central_Residential_Area,5,1]
    - y[UMass_Central_Residential_Area,6,1] + newVar3 = 0
  R8984: x[UMass_Central_Residential_Area,5,1]
    - x[UMass_Central_Residential_Area,6,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,6,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,6,1]: newVar5 + 13 newVar6 <= 13
  R8986: y[UMass_Central_Residential_Area,5,2]
    - y[UMass_Central_Residential_Area,6,2] + newVar3 = 0
  R8987: x[UMass_Central_Residential_Area,5,2]
    - x[UMass_Central_Residential_Area,6,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,6,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,6,2]: newVar5 + 13 newVar6 <= 13
  R8989: y[UMass_Central_Residential_Area,6,0]
    - y[UMass_Central_Residential_Area,7,0] + newVar3 = 0
  R8990: x[UMass_Central_Residential_Area,6,0]
    - x[UMass_Central_Residential_Area,7,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,7,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,7,0]: newVar5 + 13 newVar6 <= 13
  R8992: y[UMass_Central_Residential_Area,6,1]
    - y[UMass_Central_Residential_Area,7,1] + newVar3 = 0
  R8993: x[UMass_Central_Residential_Area,6,1]
    - x[UMass_Central_Residential_Area,7,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,7,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,7,1]: newVar5 + 13 newVar6 <= 13
  R8995: y[UMass_Central_Residential_Area,6,2]
    - y[UMass_Central_Residential_Area,7,2] + newVar3 = 0
  R8996: x[UMass_Central_Residential_Area,6,2]
    - x[UMass_Central_Residential_Area,7,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,7,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,7,2]: newVar5 + 13 newVar6 <= 13
  R8998: y[UMass_Central_Residential_Area,7,0]
    - y[UMass_Central_Residential_Area,8,0] + newVar3 = 0
  R8999: x[UMass_Central_Residential_Area,7,0]
    - x[UMass_Central_Residential_Area,8,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,8,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,8,0]: newVar5 + 13 newVar6 <= 13
  R9001: y[UMass_Central_Residential_Area,7,1]
    - y[UMass_Central_Residential_Area,8,1] + newVar3 = 0
  R9002: x[UMass_Central_Residential_Area,7,1]
    - x[UMass_Central_Residential_Area,8,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,8,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,8,1]: newVar5 + 13 newVar6 <= 13
  R9004: y[UMass_Central_Residential_Area,7,2]
    - y[UMass_Central_Residential_Area,8,2] + newVar3 = 0
  R9005: x[UMass_Central_Residential_Area,7,2]
    - x[UMass_Central_Residential_Area,8,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,8,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,8,2]: newVar5 + 13 newVar6 <= 13
  R9007: y[UMass_Central_Residential_Area,8,0]
    - y[UMass_Central_Residential_Area,9,0] + newVar3 = 0
  R9008: x[UMass_Central_Residential_Area,8,0]
    - x[UMass_Central_Residential_Area,9,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,9,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,9,0]: newVar5 + 13 newVar6 <= 13
  R9010: y[UMass_Central_Residential_Area,8,1]
    - y[UMass_Central_Residential_Area,9,1] + newVar3 = 0
  R9011: x[UMass_Central_Residential_Area,8,1]
    - x[UMass_Central_Residential_Area,9,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,9,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,9,1]: newVar5 + 13 newVar6 <= 13
  R9013: y[UMass_Central_Residential_Area,8,2]
    - y[UMass_Central_Residential_Area,9,2] + newVar3 = 0
  R9014: x[UMass_Central_Residential_Area,8,2]
    - x[UMass_Central_Residential_Area,9,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,9,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,9,2]: newVar5 + 13 newVar6 <= 13
  R9016: y[UMass_Central_Residential_Area,9,0]
    - y[UMass_Central_Residential_Area,10,0] + newVar3 = 0
  R9017: x[UMass_Central_Residential_Area,9,0]
    - x[UMass_Central_Residential_Area,10,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,10,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,10,0]: newVar5 + 13 newVar6 <= 13
  R9019: y[UMass_Central_Residential_Area,9,1]
    - y[UMass_Central_Residential_Area,10,1] + newVar3 = 0
  R9020: x[UMass_Central_Residential_Area,9,1]
    - x[UMass_Central_Residential_Area,10,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,10,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,10,1]: newVar5 + 13 newVar6 <= 13
  R9022: y[UMass_Central_Residential_Area,9,2]
    - y[UMass_Central_Residential_Area,10,2] + newVar3 = 0
  R9023: x[UMass_Central_Residential_Area,9,2]
    - x[UMass_Central_Residential_Area,10,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,10,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,10,2]: newVar5 + 13 newVar6 <= 13
  R9025: y[UMass_Central_Residential_Area,10,0]
    - y[UMass_Central_Residential_Area,11,0] + newVar3 = 0
  R9026: x[UMass_Central_Residential_Area,10,0]
    - x[UMass_Central_Residential_Area,11,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,11,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,11,0]: newVar5 + 13 newVar6 <= 13
  R9028: y[UMass_Central_Residential_Area,10,1]
    - y[UMass_Central_Residential_Area,11,1] + newVar3 = 0
  R9029: x[UMass_Central_Residential_Area,10,1]
    - x[UMass_Central_Residential_Area,11,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,11,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,11,1]: newVar5 + 13 newVar6 <= 13
  R9031: y[UMass_Central_Residential_Area,10,2]
    - y[UMass_Central_Residential_Area,11,2] + newVar3 = 0
  R9032: x[UMass_Central_Residential_Area,10,2]
    - x[UMass_Central_Residential_Area,11,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,11,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,11,2]: newVar5 + 13 newVar6 <= 13
  R9034: y[UMass_Central_Residential_Area,11,0]
    - y[UMass_Central_Residential_Area,12,0] + newVar3 = 0
  R9035: x[UMass_Central_Residential_Area,11,0]
    - x[UMass_Central_Residential_Area,12,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,12,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,12,0]: newVar5 + 13 newVar6 <= 13
  R9037: y[UMass_Central_Residential_Area,11,1]
    - y[UMass_Central_Residential_Area,12,1] + newVar3 = 0
  R9038: x[UMass_Central_Residential_Area,11,1]
    - x[UMass_Central_Residential_Area,12,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,12,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,12,1]: newVar5 + 13 newVar6 <= 13
  R9040: y[UMass_Central_Residential_Area,11,2]
    - y[UMass_Central_Residential_Area,12,2] + newVar3 = 0
  R9041: x[UMass_Central_Residential_Area,11,2]
    - x[UMass_Central_Residential_Area,12,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,12,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,12,2]: newVar5 + 13 newVar6 <= 13
  R9043: y[UMass_Central_Residential_Area,12,0]
    - y[UMass_Central_Residential_Area,13,0] + newVar3 = 0
  R9044: x[UMass_Central_Residential_Area,12,0]
    - x[UMass_Central_Residential_Area,13,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,13,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,13,0]: newVar5 + 13 newVar6 <= 13
  R9046: y[UMass_Central_Residential_Area,12,1]
    - y[UMass_Central_Residential_Area,13,1] + newVar3 = 0
  R9047: x[UMass_Central_Residential_Area,12,1]
    - x[UMass_Central_Residential_Area,13,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,13,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,13,1]: newVar5 + 13 newVar6 <= 13
  R9049: y[UMass_Central_Residential_Area,12,2]
    - y[UMass_Central_Residential_Area,13,2] + newVar3 = 0
  R9050: x[UMass_Central_Residential_Area,12,2]
    - x[UMass_Central_Residential_Area,13,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,13,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,13,2]: newVar5 + 13 newVar6 <= 13
  R9052: y[UMass_Central_Residential_Area,13,0]
    - y[UMass_Central_Residential_Area,14,0] + newVar3 = 0
  R9053: x[UMass_Central_Residential_Area,13,0]
    - x[UMass_Central_Residential_Area,14,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,14,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,14,0]: newVar5 + 13 newVar6 <= 13
  R9055: y[UMass_Central_Residential_Area,13,1]
    - y[UMass_Central_Residential_Area,14,1] + newVar3 = 0
  R9056: x[UMass_Central_Residential_Area,13,1]
    - x[UMass_Central_Residential_Area,14,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,14,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,14,1]: newVar5 + 13 newVar6 <= 13
  R9058: y[UMass_Central_Residential_Area,13,2]
    - y[UMass_Central_Residential_Area,14,2] + newVar3 = 0
  R9059: x[UMass_Central_Residential_Area,13,2]
    - x[UMass_Central_Residential_Area,14,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,14,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,14,2]: newVar5 + 13 newVar6 <= 13
  R9061: y[UMass_Central_Residential_Area,14,0]
    - y[UMass_Central_Residential_Area,15,0] + newVar3 = 0
  R9062: x[UMass_Central_Residential_Area,14,0]
    - x[UMass_Central_Residential_Area,15,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,15,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,15,0]: newVar5 + 13 newVar6 <= 13
  R9064: y[UMass_Central_Residential_Area,14,1]
    - y[UMass_Central_Residential_Area,15,1] + newVar3 = 0
  R9065: x[UMass_Central_Residential_Area,14,1]
    - x[UMass_Central_Residential_Area,15,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,15,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,15,1]: newVar5 + 13 newVar6 <= 13
  R9067: y[UMass_Central_Residential_Area,14,2]
    - y[UMass_Central_Residential_Area,15,2] + newVar3 = 0
  R9068: x[UMass_Central_Residential_Area,14,2]
    - x[UMass_Central_Residential_Area,15,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,15,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,15,2]: newVar5 + 13 newVar6 <= 13
  R9070: y[UMass_Central_Residential_Area,15,0]
    - y[UMass_Central_Residential_Area,16,0] + newVar3 = 0
  R9071: x[UMass_Central_Residential_Area,15,0]
    - x[UMass_Central_Residential_Area,16,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,16,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,16,0]: newVar5 + 13 newVar6 <= 13
  R9073: y[UMass_Central_Residential_Area,15,1]
    - y[UMass_Central_Residential_Area,16,1] + newVar3 = 0
  R9074: x[UMass_Central_Residential_Area,15,1]
    - x[UMass_Central_Residential_Area,16,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,16,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,16,1]: newVar5 + 13 newVar6 <= 13
  R9076: y[UMass_Central_Residential_Area,15,2]
    - y[UMass_Central_Residential_Area,16,2] + newVar3 = 0
  R9077: x[UMass_Central_Residential_Area,15,2]
    - x[UMass_Central_Residential_Area,16,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,16,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,16,2]: newVar5 + 13 newVar6 <= 13
  R9079: y[UMass_Central_Residential_Area,16,0]
    - y[UMass_Central_Residential_Area,17,0] + newVar3 = 0
  R9080: x[UMass_Central_Residential_Area,16,0]
    - x[UMass_Central_Residential_Area,17,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,17,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,17,0]: newVar5 + 13 newVar6 <= 13
  R9082: y[UMass_Central_Residential_Area,16,1]
    - y[UMass_Central_Residential_Area,17,1] + newVar3 = 0
  R9083: x[UMass_Central_Residential_Area,16,1]
    - x[UMass_Central_Residential_Area,17,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,17,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,17,1]: newVar5 + 13 newVar6 <= 13
  R9085: y[UMass_Central_Residential_Area,16,2]
    - y[UMass_Central_Residential_Area,17,2] + newVar3 = 0
  R9086: x[UMass_Central_Residential_Area,16,2]
    - x[UMass_Central_Residential_Area,17,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,17,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,17,2]: newVar5 + 13 newVar6 <= 13
  R9088: y[UMass_Central_Residential_Area,17,0]
    - y[UMass_Central_Residential_Area,18,0] + newVar3 = 0
  R9089: x[UMass_Central_Residential_Area,17,0]
    - x[UMass_Central_Residential_Area,18,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,18,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,18,0]: newVar5 + 13 newVar6 <= 13
  R9091: y[UMass_Central_Residential_Area,17,1]
    - y[UMass_Central_Residential_Area,18,1] + newVar3 = 0
  R9092: x[UMass_Central_Residential_Area,17,1]
    - x[UMass_Central_Residential_Area,18,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,18,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,18,1]: newVar5 + 13 newVar6 <= 13
  R9094: y[UMass_Central_Residential_Area,17,2]
    - y[UMass_Central_Residential_Area,18,2] + newVar3 = 0
  R9095: x[UMass_Central_Residential_Area,17,2]
    - x[UMass_Central_Residential_Area,18,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,18,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,18,2]: newVar5 + 13 newVar6 <= 13
  R9097: y[UMass_Central_Residential_Area,18,0]
    - y[UMass_Central_Residential_Area,19,0] + newVar3 = 0
  R9098: x[UMass_Central_Residential_Area,18,0]
    - x[UMass_Central_Residential_Area,19,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,19,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,19,0]: newVar5 + 13 newVar6 <= 13
  R9100: y[UMass_Central_Residential_Area,18,1]
    - y[UMass_Central_Residential_Area,19,1] + newVar3 = 0
  R9101: x[UMass_Central_Residential_Area,18,1]
    - x[UMass_Central_Residential_Area,19,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,19,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,19,1]: newVar5 + 13 newVar6 <= 13
  R9103: y[UMass_Central_Residential_Area,18,2]
    - y[UMass_Central_Residential_Area,19,2] + newVar3 = 0
  R9104: x[UMass_Central_Residential_Area,18,2]
    - x[UMass_Central_Residential_Area,19,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,19,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,19,2]: newVar5 + 13 newVar6 <= 13
  R9106: y[UMass_Central_Residential_Area,19,0]
    - y[UMass_Central_Residential_Area,20,0] + newVar3 = 0
  R9107: x[UMass_Central_Residential_Area,19,0]
    - x[UMass_Central_Residential_Area,20,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,20,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,20,0]: newVar5 + 13 newVar6 <= 13
  R9109: y[UMass_Central_Residential_Area,19,1]
    - y[UMass_Central_Residential_Area,20,1] + newVar3 = 0
  R9110: x[UMass_Central_Residential_Area,19,1]
    - x[UMass_Central_Residential_Area,20,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,20,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,20,1]: newVar5 + 13 newVar6 <= 13
  R9112: y[UMass_Central_Residential_Area,19,2]
    - y[UMass_Central_Residential_Area,20,2] + newVar3 = 0
  R9113: x[UMass_Central_Residential_Area,19,2]
    - x[UMass_Central_Residential_Area,20,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,20,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,20,2]: newVar5 + 13 newVar6 <= 13
  R9115: y[UMass_Central_Residential_Area,20,0]
    - y[UMass_Central_Residential_Area,21,0] + newVar3 = 0
  R9116: x[UMass_Central_Residential_Area,20,0]
    - x[UMass_Central_Residential_Area,21,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,21,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,21,0]: newVar5 + 13 newVar6 <= 13
  R9118: y[UMass_Central_Residential_Area,20,1]
    - y[UMass_Central_Residential_Area,21,1] + newVar3 = 0
  R9119: x[UMass_Central_Residential_Area,20,1]
    - x[UMass_Central_Residential_Area,21,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,21,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,21,1]: newVar5 + 13 newVar6 <= 13
  R9121: y[UMass_Central_Residential_Area,20,2]
    - y[UMass_Central_Residential_Area,21,2] + newVar3 = 0
  R9122: x[UMass_Central_Residential_Area,20,2]
    - x[UMass_Central_Residential_Area,21,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,21,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,21,2]: newVar5 + 13 newVar6 <= 13
  R9124: y[UMass_Central_Residential_Area,21,0]
    - y[UMass_Central_Residential_Area,22,0] + newVar3 = 0
  R9125: x[UMass_Central_Residential_Area,21,0]
    - x[UMass_Central_Residential_Area,22,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,22,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,22,0]: newVar5 + 13 newVar6 <= 13
  R9127: y[UMass_Central_Residential_Area,21,1]
    - y[UMass_Central_Residential_Area,22,1] + newVar3 = 0
  R9128: x[UMass_Central_Residential_Area,21,1]
    - x[UMass_Central_Residential_Area,22,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,22,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,22,1]: newVar5 + 13 newVar6 <= 13
  R9130: y[UMass_Central_Residential_Area,21,2]
    - y[UMass_Central_Residential_Area,22,2] + newVar3 = 0
  R9131: x[UMass_Central_Residential_Area,21,2]
    - x[UMass_Central_Residential_Area,22,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,22,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,22,2]: newVar5 + 13 newVar6 <= 13
  R9133: y[UMass_Central_Residential_Area,22,0]
    - y[UMass_Central_Residential_Area,23,0] + newVar3 = 0
  R9134: x[UMass_Central_Residential_Area,22,0]
    - x[UMass_Central_Residential_Area,23,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,23,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,23,0]: newVar5 + 13 newVar6 <= 13
  R9136: y[UMass_Central_Residential_Area,22,1]
    - y[UMass_Central_Residential_Area,23,1] + newVar3 = 0
  R9137: x[UMass_Central_Residential_Area,22,1]
    - x[UMass_Central_Residential_Area,23,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,23,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,23,1]: newVar5 + 13 newVar6 <= 13
  R9139: y[UMass_Central_Residential_Area,22,2]
    - y[UMass_Central_Residential_Area,23,2] + newVar3 = 0
  R9140: x[UMass_Central_Residential_Area,22,2]
    - x[UMass_Central_Residential_Area,23,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,23,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,23,2]: newVar5 + 13 newVar6 <= 13
  R9142: y[UMass_Central_Residential_Area,23,0]
    - y[UMass_Central_Residential_Area,24,0] + newVar3 = 0
  R9143: x[UMass_Central_Residential_Area,23,0]
    - x[UMass_Central_Residential_Area,24,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,24,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,24,0]: newVar5 + 13 newVar6 <= 13
  R9145: y[UMass_Central_Residential_Area,23,1]
    - y[UMass_Central_Residential_Area,24,1] + newVar3 = 0
  R9146: x[UMass_Central_Residential_Area,23,1]
    - x[UMass_Central_Residential_Area,24,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,24,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,24,1]: newVar5 + 13 newVar6 <= 13
  R9148: y[UMass_Central_Residential_Area,23,2]
    - y[UMass_Central_Residential_Area,24,2] + newVar3 = 0
  R9149: x[UMass_Central_Residential_Area,23,2]
    - x[UMass_Central_Residential_Area,24,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,24,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,24,2]: newVar5 + 13 newVar6 <= 13
  R9151: y[UMass_Central_Residential_Area,24,0]
    - y[UMass_Central_Residential_Area,25,0] + newVar3 = 0
  R9152: x[UMass_Central_Residential_Area,24,0]
    - x[UMass_Central_Residential_Area,25,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,25,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,25,0]: newVar5 + 13 newVar6 <= 13
  R9154: y[UMass_Central_Residential_Area,24,1]
    - y[UMass_Central_Residential_Area,25,1] + newVar3 = 0
  R9155: x[UMass_Central_Residential_Area,24,1]
    - x[UMass_Central_Residential_Area,25,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,25,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,25,1]: newVar5 + 13 newVar6 <= 13
  R9157: y[UMass_Central_Residential_Area,24,2]
    - y[UMass_Central_Residential_Area,25,2] + newVar3 = 0
  R9158: x[UMass_Central_Residential_Area,24,2]
    - x[UMass_Central_Residential_Area,25,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,25,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,25,2]: newVar5 + 13 newVar6 <= 13
  R9160: y[UMass_Central_Residential_Area,25,0]
    - y[UMass_Central_Residential_Area,26,0] + newVar3 = 0
  R9161: x[UMass_Central_Residential_Area,25,0]
    - x[UMass_Central_Residential_Area,26,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,26,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,26,0]: newVar5 + 13 newVar6 <= 13
  R9163: y[UMass_Central_Residential_Area,25,1]
    - y[UMass_Central_Residential_Area,26,1] + newVar3 = 0
  R9164: x[UMass_Central_Residential_Area,25,1]
    - x[UMass_Central_Residential_Area,26,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,26,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,26,1]: newVar5 + 13 newVar6 <= 13
  R9166: y[UMass_Central_Residential_Area,25,2]
    - y[UMass_Central_Residential_Area,26,2] + newVar3 = 0
  R9167: x[UMass_Central_Residential_Area,25,2]
    - x[UMass_Central_Residential_Area,26,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,26,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,26,2]: newVar5 + 13 newVar6 <= 13
  R9169: y[UMass_Central_Residential_Area,26,0]
    - y[UMass_Central_Residential_Area,27,0] + newVar3 = 0
  R9170: x[UMass_Central_Residential_Area,26,0]
    - x[UMass_Central_Residential_Area,27,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,27,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,27,0]: newVar5 + 13 newVar6 <= 13
  R9172: y[UMass_Central_Residential_Area,26,1]
    - y[UMass_Central_Residential_Area,27,1] + newVar3 = 0
  R9173: x[UMass_Central_Residential_Area,26,1]
    - x[UMass_Central_Residential_Area,27,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,27,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,27,1]: newVar5 + 13 newVar6 <= 13
  R9175: y[UMass_Central_Residential_Area,26,2]
    - y[UMass_Central_Residential_Area,27,2] + newVar3 = 0
  R9176: x[UMass_Central_Residential_Area,26,2]
    - x[UMass_Central_Residential_Area,27,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,27,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,27,2]: newVar5 + 13 newVar6 <= 13
  R9178: y[UMass_Central_Residential_Area,27,0]
    - y[UMass_Central_Residential_Area,28,0] + newVar3 = 0
  R9179: x[UMass_Central_Residential_Area,27,0]
    - x[UMass_Central_Residential_Area,28,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,28,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,28,0]: newVar5 + 13 newVar6 <= 13
  R9181: y[UMass_Central_Residential_Area,27,1]
    - y[UMass_Central_Residential_Area,28,1] + newVar3 = 0
  R9182: x[UMass_Central_Residential_Area,27,1]
    - x[UMass_Central_Residential_Area,28,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,28,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,28,1]: newVar5 + 13 newVar6 <= 13
  R9184: y[UMass_Central_Residential_Area,27,2]
    - y[UMass_Central_Residential_Area,28,2] + newVar3 = 0
  R9185: x[UMass_Central_Residential_Area,27,2]
    - x[UMass_Central_Residential_Area,28,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,28,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,28,2]: newVar5 + 13 newVar6 <= 13
  R9187: y[UMass_Central_Residential_Area,28,0]
    - y[UMass_Central_Residential_Area,29,0] + newVar3 = 0
  R9188: x[UMass_Central_Residential_Area,28,0]
    - x[UMass_Central_Residential_Area,29,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,29,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,29,0]: newVar5 + 13 newVar6 <= 13
  R9190: y[UMass_Central_Residential_Area,28,1]
    - y[UMass_Central_Residential_Area,29,1] + newVar3 = 0
  R9191: x[UMass_Central_Residential_Area,28,1]
    - x[UMass_Central_Residential_Area,29,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,29,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,29,1]: newVar5 + 13 newVar6 <= 13
  R9193: y[UMass_Central_Residential_Area,28,2]
    - y[UMass_Central_Residential_Area,29,2] + newVar3 = 0
  R9194: x[UMass_Central_Residential_Area,28,2]
    - x[UMass_Central_Residential_Area,29,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,29,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,29,2]: newVar5 + 13 newVar6 <= 13
  R9196: y[UMass_Central_Residential_Area,29,0]
    - y[UMass_Central_Residential_Area,30,0] + newVar3 = 0
  R9197: x[UMass_Central_Residential_Area,29,0]
    - x[UMass_Central_Residential_Area,30,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,30,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,30,0]: newVar5 + 13 newVar6 <= 13
  R9199: y[UMass_Central_Residential_Area,29,1]
    - y[UMass_Central_Residential_Area,30,1] + newVar3 = 0
  R9200: x[UMass_Central_Residential_Area,29,1]
    - x[UMass_Central_Residential_Area,30,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,30,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,30,1]: newVar5 + 13 newVar6 <= 13
  R9202: y[UMass_Central_Residential_Area,29,2]
    - y[UMass_Central_Residential_Area,30,2] + newVar3 = 0
  R9203: x[UMass_Central_Residential_Area,29,2]
    - x[UMass_Central_Residential_Area,30,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,30,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,30,2]: newVar5 + 13 newVar6 <= 13
  R9205: y[UMass_Central_Residential_Area,30,0]
    - y[UMass_Central_Residential_Area,31,0] + newVar3 = 0
  R9206: x[UMass_Central_Residential_Area,30,0]
    - x[UMass_Central_Residential_Area,31,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,31,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,31,0]: newVar5 + 13 newVar6 <= 13
  R9208: y[UMass_Central_Residential_Area,30,1]
    - y[UMass_Central_Residential_Area,31,1] + newVar3 = 0
  R9209: x[UMass_Central_Residential_Area,30,1]
    - x[UMass_Central_Residential_Area,31,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,31,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,31,1]: newVar5 + 13 newVar6 <= 13
  R9211: y[UMass_Central_Residential_Area,30,2]
    - y[UMass_Central_Residential_Area,31,2] + newVar3 = 0
  R9212: x[UMass_Central_Residential_Area,30,2]
    - x[UMass_Central_Residential_Area,31,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,31,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,31,2]: newVar5 + 13 newVar6 <= 13
  R9214: y[UMass_Central_Residential_Area,31,0]
    - y[UMass_Central_Residential_Area,32,0] + newVar3 = 0
  R9215: x[UMass_Central_Residential_Area,31,0]
    - x[UMass_Central_Residential_Area,32,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,32,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,32,0]: newVar5 + 13 newVar6 <= 13
  R9217: y[UMass_Central_Residential_Area,31,1]
    - y[UMass_Central_Residential_Area,32,1] + newVar3 = 0
  R9218: x[UMass_Central_Residential_Area,31,1]
    - x[UMass_Central_Residential_Area,32,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,32,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,32,1]: newVar5 + 13 newVar6 <= 13
  R9220: y[UMass_Central_Residential_Area,31,2]
    - y[UMass_Central_Residential_Area,32,2] + newVar3 = 0
  R9221: x[UMass_Central_Residential_Area,31,2]
    - x[UMass_Central_Residential_Area,32,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,32,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,32,2]: newVar5 + 13 newVar6 <= 13
  R9223: y[UMass_Central_Residential_Area,32,0]
    - y[UMass_Central_Residential_Area,33,0] + newVar3 = 0
  R9224: x[UMass_Central_Residential_Area,32,0]
    - x[UMass_Central_Residential_Area,33,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,33,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,33,0]: newVar5 + 13 newVar6 <= 13
  R9226: y[UMass_Central_Residential_Area,32,1]
    - y[UMass_Central_Residential_Area,33,1] + newVar3 = 0
  R9227: x[UMass_Central_Residential_Area,32,1]
    - x[UMass_Central_Residential_Area,33,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,33,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,33,1]: newVar5 + 13 newVar6 <= 13
  R9229: y[UMass_Central_Residential_Area,32,2]
    - y[UMass_Central_Residential_Area,33,2] + newVar3 = 0
  R9230: x[UMass_Central_Residential_Area,32,2]
    - x[UMass_Central_Residential_Area,33,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,33,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,33,2]: newVar5 + 13 newVar6 <= 13
  R9232: y[UMass_Central_Residential_Area,33,0]
    - y[UMass_Central_Residential_Area,34,0] + newVar3 = 0
  R9233: x[UMass_Central_Residential_Area,33,0]
    - x[UMass_Central_Residential_Area,34,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,34,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,34,0]: newVar5 + 13 newVar6 <= 13
  R9235: y[UMass_Central_Residential_Area,33,1]
    - y[UMass_Central_Residential_Area,34,1] + newVar3 = 0
  R9236: x[UMass_Central_Residential_Area,33,1]
    - x[UMass_Central_Residential_Area,34,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,34,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,34,1]: newVar5 + 13 newVar6 <= 13
  R9238: y[UMass_Central_Residential_Area,33,2]
    - y[UMass_Central_Residential_Area,34,2] + newVar3 = 0
  R9239: x[UMass_Central_Residential_Area,33,2]
    - x[UMass_Central_Residential_Area,34,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,34,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,34,2]: newVar5 + 13 newVar6 <= 13
  R9241: y[UMass_Central_Residential_Area,34,0]
    - y[UMass_Central_Residential_Area,35,0] + newVar3 = 0
  R9242: x[UMass_Central_Residential_Area,34,0]
    - x[UMass_Central_Residential_Area,35,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,35,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,35,0]: newVar5 + 13 newVar6 <= 13
  R9244: y[UMass_Central_Residential_Area,34,1]
    - y[UMass_Central_Residential_Area,35,1] + newVar3 = 0
  R9245: x[UMass_Central_Residential_Area,34,1]
    - x[UMass_Central_Residential_Area,35,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,35,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,35,1]: newVar5 + 13 newVar6 <= 13
  R9247: y[UMass_Central_Residential_Area,34,2]
    - y[UMass_Central_Residential_Area,35,2] + newVar3 = 0
  R9248: x[UMass_Central_Residential_Area,34,2]
    - x[UMass_Central_Residential_Area,35,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,35,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,35,2]: newVar5 + 13 newVar6 <= 13
  R9250: y[UMass_Central_Residential_Area,35,0]
    - y[UMass_Central_Residential_Area,36,0] + newVar3 = 0
  R9251: x[UMass_Central_Residential_Area,35,0]
    - x[UMass_Central_Residential_Area,36,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,36,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,36,0]: newVar5 + 13 newVar6 <= 13
  R9253: y[UMass_Central_Residential_Area,35,1]
    - y[UMass_Central_Residential_Area,36,1] + newVar3 = 0
  R9254: x[UMass_Central_Residential_Area,35,1]
    - x[UMass_Central_Residential_Area,36,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,36,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,36,1]: newVar5 + 13 newVar6 <= 13
  R9256: y[UMass_Central_Residential_Area,35,2]
    - y[UMass_Central_Residential_Area,36,2] + newVar3 = 0
  R9257: x[UMass_Central_Residential_Area,35,2]
    - x[UMass_Central_Residential_Area,36,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,36,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,36,2]: newVar5 + 13 newVar6 <= 13
  R9259: y[UMass_Central_Residential_Area,36,0]
    - y[UMass_Central_Residential_Area,37,0] + newVar3 = 0
  R9260: x[UMass_Central_Residential_Area,36,0]
    - x[UMass_Central_Residential_Area,37,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,37,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,37,0]: newVar5 + 13 newVar6 <= 13
  R9262: y[UMass_Central_Residential_Area,36,1]
    - y[UMass_Central_Residential_Area,37,1] + newVar3 = 0
  R9263: x[UMass_Central_Residential_Area,36,1]
    - x[UMass_Central_Residential_Area,37,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,37,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,37,1]: newVar5 + 13 newVar6 <= 13
  R9265: y[UMass_Central_Residential_Area,36,2]
    - y[UMass_Central_Residential_Area,37,2] + newVar3 = 0
  R9266: x[UMass_Central_Residential_Area,36,2]
    - x[UMass_Central_Residential_Area,37,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,37,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,37,2]: newVar5 + 13 newVar6 <= 13
  R9268: y[UMass_Central_Residential_Area,37,0]
    - y[UMass_Central_Residential_Area,38,0] + newVar3 = 0
  R9269: x[UMass_Central_Residential_Area,37,0]
    - x[UMass_Central_Residential_Area,38,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,38,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,38,0]: newVar5 + 13 newVar6 <= 13
  R9271: y[UMass_Central_Residential_Area,37,1]
    - y[UMass_Central_Residential_Area,38,1] + newVar3 = 0
  R9272: x[UMass_Central_Residential_Area,37,1]
    - x[UMass_Central_Residential_Area,38,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,38,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,38,1]: newVar5 + 13 newVar6 <= 13
  R9274: y[UMass_Central_Residential_Area,37,2]
    - y[UMass_Central_Residential_Area,38,2] + newVar3 = 0
  R9275: x[UMass_Central_Residential_Area,37,2]
    - x[UMass_Central_Residential_Area,38,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,38,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,38,2]: newVar5 + 13 newVar6 <= 13
  R9277: y[UMass_Central_Residential_Area,38,0]
    - y[UMass_Central_Residential_Area,39,0] + newVar3 = 0
  R9278: x[UMass_Central_Residential_Area,38,0]
    - x[UMass_Central_Residential_Area,39,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,39,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,39,0]: newVar5 + 13 newVar6 <= 13
  R9280: y[UMass_Central_Residential_Area,38,1]
    - y[UMass_Central_Residential_Area,39,1] + newVar3 = 0
  R9281: x[UMass_Central_Residential_Area,38,1]
    - x[UMass_Central_Residential_Area,39,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,39,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,39,1]: newVar5 + 13 newVar6 <= 13
  R9283: y[UMass_Central_Residential_Area,38,2]
    - y[UMass_Central_Residential_Area,39,2] + newVar3 = 0
  R9284: x[UMass_Central_Residential_Area,38,2]
    - x[UMass_Central_Residential_Area,39,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,39,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,39,2]: newVar5 + 13 newVar6 <= 13
  R9286: y[UMass_Central_Residential_Area,39,0]
    - y[UMass_Central_Residential_Area,40,0] + newVar3 = 0
  R9287: x[UMass_Central_Residential_Area,39,0]
    - x[UMass_Central_Residential_Area,40,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,40,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,40,0]: newVar5 + 13 newVar6 <= 13
  R9289: y[UMass_Central_Residential_Area,39,1]
    - y[UMass_Central_Residential_Area,40,1] + newVar3 = 0
  R9290: x[UMass_Central_Residential_Area,39,1]
    - x[UMass_Central_Residential_Area,40,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,40,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,40,1]: newVar5 + 13 newVar6 <= 13
  R9292: y[UMass_Central_Residential_Area,39,2]
    - y[UMass_Central_Residential_Area,40,2] + newVar3 = 0
  R9293: x[UMass_Central_Residential_Area,39,2]
    - x[UMass_Central_Residential_Area,40,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,40,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,40,2]: newVar5 + 13 newVar6 <= 13
  R9295: y[UMass_Central_Residential_Area,40,0]
    - y[UMass_Central_Residential_Area,41,0] + newVar3 = 0
  R9296: x[UMass_Central_Residential_Area,40,0]
    - x[UMass_Central_Residential_Area,41,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,41,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,41,0]: newVar5 + 13 newVar6 <= 13
  R9298: y[UMass_Central_Residential_Area,40,1]
    - y[UMass_Central_Residential_Area,41,1] + newVar3 = 0
  R9299: x[UMass_Central_Residential_Area,40,1]
    - x[UMass_Central_Residential_Area,41,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,41,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,41,1]: newVar5 + 13 newVar6 <= 13
  R9301: y[UMass_Central_Residential_Area,40,2]
    - y[UMass_Central_Residential_Area,41,2] + newVar3 = 0
  R9302: x[UMass_Central_Residential_Area,40,2]
    - x[UMass_Central_Residential_Area,41,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,41,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,41,2]: newVar5 + 13 newVar6 <= 13
  R9304: y[UMass_Central_Residential_Area,41,0]
    - y[UMass_Central_Residential_Area,42,0] + newVar3 = 0
  R9305: x[UMass_Central_Residential_Area,41,0]
    - x[UMass_Central_Residential_Area,42,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,42,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,42,0]: newVar5 + 13 newVar6 <= 13
  R9307: y[UMass_Central_Residential_Area,41,1]
    - y[UMass_Central_Residential_Area,42,1] + newVar3 = 0
  R9308: x[UMass_Central_Residential_Area,41,1]
    - x[UMass_Central_Residential_Area,42,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,42,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,42,1]: newVar5 + 13 newVar6 <= 13
  R9310: y[UMass_Central_Residential_Area,41,2]
    - y[UMass_Central_Residential_Area,42,2] + newVar3 = 0
  R9311: x[UMass_Central_Residential_Area,41,2]
    - x[UMass_Central_Residential_Area,42,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,42,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,42,2]: newVar5 + 13 newVar6 <= 13
  R9313: y[UMass_Central_Residential_Area,42,0]
    - y[UMass_Central_Residential_Area,43,0] + newVar3 = 0
  R9314: x[UMass_Central_Residential_Area,42,0]
    - x[UMass_Central_Residential_Area,43,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,43,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,43,0]: newVar5 + 13 newVar6 <= 13
  R9316: y[UMass_Central_Residential_Area,42,1]
    - y[UMass_Central_Residential_Area,43,1] + newVar3 = 0
  R9317: x[UMass_Central_Residential_Area,42,1]
    - x[UMass_Central_Residential_Area,43,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,43,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,43,1]: newVar5 + 13 newVar6 <= 13
  R9319: y[UMass_Central_Residential_Area,42,2]
    - y[UMass_Central_Residential_Area,43,2] + newVar3 = 0
  R9320: x[UMass_Central_Residential_Area,42,2]
    - x[UMass_Central_Residential_Area,43,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,43,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,43,2]: newVar5 + 13 newVar6 <= 13
  R9322: y[UMass_Central_Residential_Area,43,0]
    - y[UMass_Central_Residential_Area,44,0] + newVar3 = 0
  R9323: x[UMass_Central_Residential_Area,43,0]
    - x[UMass_Central_Residential_Area,44,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,44,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,44,0]: newVar5 + 13 newVar6 <= 13
  R9325: y[UMass_Central_Residential_Area,43,1]
    - y[UMass_Central_Residential_Area,44,1] + newVar3 = 0
  R9326: x[UMass_Central_Residential_Area,43,1]
    - x[UMass_Central_Residential_Area,44,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,44,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,44,1]: newVar5 + 13 newVar6 <= 13
  R9328: y[UMass_Central_Residential_Area,43,2]
    - y[UMass_Central_Residential_Area,44,2] + newVar3 = 0
  R9329: x[UMass_Central_Residential_Area,43,2]
    - x[UMass_Central_Residential_Area,44,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,44,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,44,2]: newVar5 + 13 newVar6 <= 13
  R9331: y[UMass_Central_Residential_Area,44,0]
    - y[UMass_Central_Residential_Area,45,0] + newVar3 = 0
  R9332: x[UMass_Central_Residential_Area,44,0]
    - x[UMass_Central_Residential_Area,45,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,45,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,45,0]: newVar5 + 13 newVar6 <= 13
  R9334: y[UMass_Central_Residential_Area,44,1]
    - y[UMass_Central_Residential_Area,45,1] + newVar3 = 0
  R9335: x[UMass_Central_Residential_Area,44,1]
    - x[UMass_Central_Residential_Area,45,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,45,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,45,1]: newVar5 + 13 newVar6 <= 13
  R9337: y[UMass_Central_Residential_Area,44,2]
    - y[UMass_Central_Residential_Area,45,2] + newVar3 = 0
  R9338: x[UMass_Central_Residential_Area,44,2]
    - x[UMass_Central_Residential_Area,45,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,45,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,45,2]: newVar5 + 13 newVar6 <= 13
  R9340: y[UMass_Central_Residential_Area,45,0]
    - y[UMass_Central_Residential_Area,46,0] + newVar3 = 0
  R9341: x[UMass_Central_Residential_Area,45,0]
    - x[UMass_Central_Residential_Area,46,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,46,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,46,0]: newVar5 + 13 newVar6 <= 13
  R9343: y[UMass_Central_Residential_Area,45,1]
    - y[UMass_Central_Residential_Area,46,1] + newVar3 = 0
  R9344: x[UMass_Central_Residential_Area,45,1]
    - x[UMass_Central_Residential_Area,46,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,46,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,46,1]: newVar5 + 13 newVar6 <= 13
  R9346: y[UMass_Central_Residential_Area,45,2]
    - y[UMass_Central_Residential_Area,46,2] + newVar3 = 0
  R9347: x[UMass_Central_Residential_Area,45,2]
    - x[UMass_Central_Residential_Area,46,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,46,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,46,2]: newVar5 + 13 newVar6 <= 13
  R9349: y[UMass_Central_Residential_Area,46,0]
    - y[UMass_Central_Residential_Area,47,0] + newVar3 = 0
  R9350: x[UMass_Central_Residential_Area,46,0]
    - x[UMass_Central_Residential_Area,47,0] + newVar4 = 0
- c9[UMass_Central_Residential_Area,47,0]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,47,0]: newVar5 + 13 newVar6 <= 13
  R9352: y[UMass_Central_Residential_Area,46,1]
    - y[UMass_Central_Residential_Area,47,1] + newVar3 = 0
  R9353: x[UMass_Central_Residential_Area,46,1]
    - x[UMass_Central_Residential_Area,47,1] + newVar4 = 0
- c9[UMass_Central_Residential_Area,47,1]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,47,1]: newVar5 + 13 newVar6 <= 13
  R9355: y[UMass_Central_Residential_Area,46,2]
    - y[UMass_Central_Residential_Area,47,2] + newVar3 = 0
  R9356: x[UMass_Central_Residential_Area,46,2]
    - x[UMass_Central_Residential_Area,47,2] + newVar4 = 0
- c9[UMass_Central_Residential_Area,47,2]: - slack_variable_1 + newVar5
-   + 13 newVar6 <= 13
+ c9[UMass_Central_Residential_Area,47,2]: newVar5 + 13 newVar6 <= 13
 Bounds
 Binaries
  x[Amherst_Town_Hall,0,0] x[Amherst_Town_Hall,0,1] x[Amherst_Town_Hall,0,2]
