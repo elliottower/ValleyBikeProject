@@ -1,0 +1,27 @@
+\ Model mip1_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ c2[0,0]: x[Amherst_Town_Hall,0,0] <= 0
+ c2[0,0]: x[Kendrick_Park,0,0] <= 0
+ c2[0,0]: x[North_Pleasant_Street,0,0] <= 0
+ c2[0,0]: x[East_Hadley_Road,0,0] <= 0
+ c2[0,0]: x[University_Drive,0,0] <= 0
+ c2[0,0]: x[UMass_Haigis_Mall,0,0] <= 0
+ c2[0,0]: x[UMass_Southwest,0,0] <= 0
+ c2[0,0]: x[UMass_ILC,0,0] <= 0
+ c2[0,0]: x[UMass_Knowlton,0,0] <= 0
+ c2[0,0]: x[UMass_Central_Residential_Area,0,0] <= 0
+ c3[0,0]: x[Amherst_Town_Hall,0,0] + x[Kendrick_Park,0,0]
+   + x[North_Pleasant_Street,0,0] + x[East_Hadley_Road,0,0]
+   + x[University_Drive,0,0] + x[UMass_Haigis_Mall,0,0]
+   + x[UMass_Southwest,0,0] + x[UMass_ILC,0,0] + x[UMass_Knowlton,0,0]
+   + x[UMass_Central_Residential_Area,0,0] = 1
+Bounds
+Binaries
+ x[Amherst_Town_Hall,0,0] x[Kendrick_Park,0,0] x[North_Pleasant_Street,0,0]
+ x[East_Hadley_Road,0,0] x[University_Drive,0,0] x[UMass_Haigis_Mall,0,0]
+ x[UMass_Southwest,0,0] x[UMass_ILC,0,0] x[UMass_Knowlton,0,0]
+ x[UMass_Central_Residential_Area,0,0]
+End
