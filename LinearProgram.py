@@ -11,7 +11,7 @@ try:
     m = Model("mip1")
 
     # Import spreadsheet
-    df = pd.read_csv("AmherstBikeStations.csv",
+    df = pd.read_csv("AmherstBikeStations2.csv",
                      sep=",",
                      header=0)
     # Import distances spreadsheet
@@ -24,17 +24,17 @@ try:
     ''' T = num of time steps '''
     # Each time step is 10 minutes
     # 8 hours work day
-    T = [i for i in range(48)]
+    T = [i for i in range(3)] #should be 48
     print "Timesteps: ", T
 
     ''' K = num of trucks'''
-    K = [i for i in range(3)]
+    K = [i for i in range(1)] # should be 3 but testing with 1
 
     ''' S = Set of Stations '''
     S = []  # can do it as a list too but counters are nice and make things easier
     # S = Counter()
-    for i in range(len(df['Station Name'])):
-        S.append(df.iloc[i, 1])
+    for i in range(len(df['Station Name'])): # should be
+        S.append(df.iloc[i, 0])
         # S[i] = df.iloc[i, 1]
         # print(S[i])
 
@@ -55,8 +55,7 @@ try:
 
     min = Counter()
     for i in range(len(df['Station Name'])):
-        min[S[i]] = df.iloc[
-                        i, 3] - 1  # min and start are the same on a few stations (PROB WRONG DATA), so we divide by 0
+        min[S[i]] = df.iloc[i, 3] - 1  # min and start are the same on a few stations (PROB WRONG DATA), so we divide by 0
         print "min[%s]" % i, min[S[i]]
         # min[i] = 10  # Just to test
     # just arbitrarily say it's 2 so there's at least
@@ -118,11 +117,11 @@ try:
 
     # East Hadley road is farther away but the traffic isn't as bad as on campus
     # so, we manually add it's closest neighbors
-    N[S[3]].append(S[0])
-    N[S[3]].append(S[1])
-    N[S[3]].append(S[4])
+    #N[S[3]].append(S[0])
+    #N[S[3]].append(S[1])
+    #N[S[3]].append(S[4])
 
-    print "New Neighborhood of ", S[3], N[S[3]]  #
+    #print "New Neighborhood of ", S[3], N[S[3]]  #
 
     ''' Splus '''
     # Splus = subset of S where start(s) > min(s)
@@ -179,55 +178,54 @@ try:
     # Variable T is simply the number of timesteps
     # print len(T)
 
-    #add slack variables for soft constraint
-    slack1 = m.addVar(vtype=GRB.INTEGER, lb=0, name="slack variable 1")
-
-
-    # Set objective
-    m.setObjective(quicksum((y[s, 1, k] - y[s, len(T), k]) * c[s] - slack1
-                            for s in S for k in K), GRB.MINIMIZE)
-    print "Set objective function"
-
     # This constraint holds for ALL S, ALL t, and ALL K
 
     # Add Constraint (2)
     for s in S:
-        # print s
-        # print N[s]
         for t in T:
-            for k in K:
-                m.addConstr(x[s, t, k] <= x[s, t - 1, k] + quicksum(x[sprime, t - 1, k] for sprime in N[s]), "c2")
+            if t > 0:
+                for k in K:
+                    m.addConstr(x[s, t, k] <= x[s, t - 1, k] + quicksum(x[sprime, t - 1, k] for sprime in N[s]), "c2[%s,%s,%s]" % (s, t, k))
 
     # Add Constraint (3)
     for t in T:
         for k in K:
             #continue
-            m.addConstr(quicksum(x[s, t, k] for s in S) == 1, "c3")
+            m.addConstr(quicksum(x[s, t, k] for s in S) == 1, "c3[%s,%s]" % (t, k))
 
     # Add Constraint (4)
     for s in S:
         #continue
-        m.addConstr(quicksum(y[s, 1, k] for k in K) == start[s], "c4")
+        m.addConstr(quicksum(y[s, 1, k] for k in K) == start[s], "c4[%s]" % s)
 
     # Add Constraint (5)
     for s in Sminus:
         for t in T:
             #continue
-            m.addConstr(start[s] <= quicksum(y[s, t, k] for k in K) <= min[s], "c5")
+            m.addConstr(start[s] <= quicksum(y[s, t, k] for k in K) <= min[s], "c5[%s,%s]" % (s, t))
 
     # Add Constraint (6)
 
     for s in Splus:
         for t in T:
             #continue
-            m.addConstr(min[s] <= quicksum(y[s, t, k] for k in K) <= start[s], "c6")
+            m.addConstr(min[s] <= quicksum(y[s, t, k] for k in K) <= start[s], "c6[%s,%s]" % (s,t))
 
     # Add Constraint (7)
     for t in T:
         for k in K:
             #continue
-            m.addConstr(quicksum(y[s, t, k] for s in S) + b[t, k] == quicksum(y[s, 1, k] for s in S) + b[1, k], "c7")
+            m.addConstr(quicksum(y[s, t, k] for s in S) + b[t, k] == quicksum(y[s, 1, k] for s in S) + b[1, k], "c7[%s,%s]" % (t, k))
     print "Added Constraint 7"
+
+    # We are indexing each newvar & slack so they are different in each for loop, if they're the same it doesn't work
+    newVar1 = Counter()
+    newVar2 = Counter()
+    newVar3 = Counter()
+    newVar4 = Counter()
+    newVar5 = Counter()
+    newVar6 = Counter()
+    slack1 = Counter()
 
     # Add Constraint (8)
     for s in S:
@@ -235,46 +233,57 @@ try:
             for k in K:
                 # print "t: ", t
                 if t != 0:  # t-1 doesn't work if t=0
-                    newVar1 = m.addVar(vtype=GRB.INTEGER, name="newVar1")
-                    newVar2 = m.addVar(vtype=GRB.INTEGER, name="newVar2")
+                    newVar1[s, t, k] = m.addVar(vtype=GRB.INTEGER, name="newVar1[%s,%s,%s]" % (s,t,k))
+                    newVar2[s, t, k] = m.addVar(vtype=GRB.INTEGER, name="newVar2[%s,%s,%s]" % (s,t,k))
                     # print "created newVar1 & newVar2"
-                    m.addConstr(newVar1 == (y[s, t, k] - y[s, t, k]))  # dummy variable 1
-                    m.addGenConstrAbs(newVar2, newVar1)  # newVar2 == abs(newVar1)
+                    m.addConstr(newVar1[s, t, k] == (y[s, t, k] - y[s, t-1, k]))  # dummy variable 1
+                    m.addGenConstrAbs(newVar2[s, t, k], newVar1[s, t, k])  # newVar2 == abs(newVar1)
 
                     #continue
-                    m.addConstr(newVar2 <= (gamma * x[s, t, k]), "c8")
+                    m.addConstr(newVar2[s, t, k] <= (gamma * x[s, t, k]), "c8[%s,%s,%s]" % (s, t, k))
     print "Added Constraint 8"
 
     # Add Constraint (9)
     for s in S:
         for t in T:
             for k in K:
-                newVar3 = m.addVar(vtype=GRB.INTEGER, name="newVar3")
-                newVar4 = m.addVar(vtype=GRB.INTEGER, name="newVar4")
-                newVar5 = m.addVar(vtype=GRB.INTEGER, name="newVar5")
-                newVar6 = m.addVar(vtype=GRB.INTEGER, name="newVar6")
-                m.addConstr(newVar3 == y[s, t, k] - y[s, t - 1, k])  # dummy variable 1
-                m.addConstr(newVar4 == x[s, t, k] - x[s, t - 1, k])  # dummy variable 2
-                m.addGenConstrAbs(newVar5, newVar3)  # newVar5 == abs(newVar3)
-                m.addGenConstrAbs(newVar6, newVar4)  # newVar6 == abs(newVar4)
+                newVar3[s, t, k] = m.addVar(vtype=GRB.INTEGER, name="newVar3[%s,%s,%s]" % (s,t,k))
+                newVar4[s, t, k] = m.addVar(vtype=GRB.INTEGER, name="newVar4[%s,%s,%s]" % (s,t,k))
+                newVar5[s, t, k] = m.addVar(vtype=GRB.INTEGER, name="newVar5[%s,%s,%s]" % (s,t,k))
+                newVar6[s, t, k] = m.addVar(vtype=GRB.INTEGER, name="newVar6[%s,%s,%s]" % (s,t,k))
+                m.addConstr(newVar3[s, t, k] == y[s, t, k] - y[s, t - 1, k])  # dummy variable 1
+                m.addConstr(newVar4[s, t, k] == x[s, t, k] - x[s, t - 1, k])  # dummy variable 2
+                m.addGenConstrAbs(newVar5[s, t, k], newVar3[s, t, k])  # newVar5 == abs(newVar3)
+                m.addGenConstrAbs(newVar6[s, t, k], newVar4[s, t, k])  # newVar6 == abs(newVar4)
 
                 #continue
-                m.addConstr(newVar5 + gamma * newVar6 <= gamma + slack1, "c9")
+                slack1[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=0, name="slack1[%s,%s,%s]" % (s,t,k))
+                m.addConstr(newVar5[s, t, k] + gamma * newVar6[s, t, k] <= gamma + slack1[s, t, k], "c9[%s,%s,%s]" % (s,t, k))
     print "Added Constraint 9"
 
     print "Added all constraints \n"
     # Optimize model
-    m.optimize()
 
-    m.write('linearprogram.lp')
+    # Set objective
+    m.setObjective(quicksum((y[s, 1, k] - y[s, len(T), k]) * c[s] + slack1[s, t, k]
+                            for s in S for t in T for k in K), GRB.MINIMIZE)
+    print "Set objective function"
+
+    m.optimize()
     # print "Optimized model"
 
+
+    m.write('linearprogram.lp')
+
+    #m.computeIIS()
+    #m.write('linearprogram.ilp')
+
     # WAY too many vars to print them all (from example code)
-    # for v in m.getVars():
-    #    print('%s %g' % (v.varName, v.x))
+    for v in m.getVars():
+        print('%s %g' % (v.varName, v.x))
 
     # Print Objective Model
-    # print('Obj: %g' % m.objVal)
+    print('Obj: %g' % m.objVal)
 
 except GurobiError as e:
     print('Error code ' + str(e.errno) + ": " + str(e))
