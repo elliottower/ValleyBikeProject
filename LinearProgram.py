@@ -3,6 +3,8 @@
 from gurobipy import *
 from collections import Counter
 import pandas as pd
+import math
+import UDF
 
 # noinspection PyInterpreter,PyInterpreter
 try:
@@ -11,11 +13,11 @@ try:
     m = Model("mip1")
 
     # Import spreadsheet
-    df = pd.read_csv("AmherstBikeStations2.csv",
+    df = pd.read_csv("AmherstBikeStationsTest.csv",
                      sep=",",
                      header=0)
     # Import distances spreadsheet
-    distances = pd.read_csv("StationDistances.csv",
+    distances = pd.read_csv("StationDistancesTest.csv",
                             sep=",",
                             header=0)
 
@@ -24,19 +26,22 @@ try:
     ''' T = num of time steps '''
     # Each time step is 10 minutes
     # 8 hours work day
-    T = [i for i in range(3)] #should be 48
+
+    NUM_TIME_STEPS = 4
+    T = [i for i in range(NUM_TIME_STEPS)] #should be 48
     print "Timesteps: ", T
 
+    NUM_TRUCKS = 1
     ''' K = num of trucks'''
-    K = [i for i in range(1)] # should be 3 but testing with 1
+    K = [i for i in range(NUM_TRUCKS)] # should be 3 but testing with 1
 
     ''' S = Set of Stations '''
     S = []  # can do it as a list too but counters are nice and make things easier
     # S = Counter()
     for i in range(len(df['Station Name'])): # should be
-        S.append(df.iloc[i, 0])
+        S.append(df.iloc[i, 0]) # need to have actual names for UDF to work
         # S[i] = df.iloc[i, 1]
-        # print(S[i])
+        print "Station %s:" % i, (S[i])
 
     ''' gamma '''
     # gamma - num of bikes that can be picked up or dropped off in one time step - (given by data)
@@ -47,24 +52,24 @@ try:
     # start(s) = num bikes in station s at time = 1 - (given by data)
     start = Counter()  # keys are station names
     for i in range(len(df['Station Name'])):
-        start[S[i]] = df.iloc[i, 4]  # 4 th col in our spreadsheet
-        print "Start:", start[S[i]], "| ", S[i], "(Station %s" % i, ")"
+        start[S[i]] = df.iloc[i, 5]  # 4 th col in our spreadsheet
+        print "start[%s]" % S[i], start[S[i]]
 
     # min(s) = num of bikes at station s that minimizes the number of dissatisfied customers - (given by data)
     # '''****TO DO****'''
 
     min = Counter()
     for i in range(len(df['Station Name'])):
-        min[S[i]] = df.iloc[i, 3] - 1  # min and start are the same on a few stations (PROB WRONG DATA), so we divide by 0
-        print "min[%s]" % i, min[S[i]]
+        min[S[i]] = df.iloc[i, 2]  # min and start are the same on a few stations (PROB WRONG DATA), so we divide by 0
+        print "min[%s]" % S[i], min[S[i]]
         # min[i] = 10  # Just to test
     # just arbitrarily say it's 2 so there's at least
 
     # max(s) = max number of bikes that fit in a station- (given by data)
     max = Counter()
     for i in range(len(df['Station Name'])):
-        max[S[i]] = df.iloc[i, 2]
-        print "max[%s]" % i, max[S[i]]
+        max[S[i]] = df.iloc[i, 3]
+        print "max[%s]" % S[i], max[S[i]]
         # min[i] = 10  # Just to test
     # just arbitrarily say it's 2 so there's at least
 
@@ -76,13 +81,18 @@ try:
     # F(s) is bounded by the min(s) < F(s) < max(s)
     # So to approximate why not just take the average
     F = Counter()
-    for s in S:
-        print max[s]
-        print min[s]
-        print "avg: ", (min[s] + max[s]) / 2
-        print "difference: ", max[s] - min[s]
+    #for s in S:
+        #print max[s]
+        #print min[s]
+        #print "avg: ", (min[s] + max[s]) / 2
+        #print "difference: ", max[s] - min[s]
         #F[s] = (min[s] + max[s]) / 2
-        F[s] = max[s] - min[s]
+        #F[s] = 1.5
+        #F[s] = max[s] - min[s]
+    #F = UDF.getUDF()
+    #print F
+    #for s in S:
+        #print "F[%s]:" % s, F[s]
 
     ''' c(s) '''
     # c(s) = slope of F(s) and provides the improvement per bike moved at station s  (calculate from F(s)
@@ -93,12 +103,18 @@ try:
 
     # Exact c[s] values
     c = Counter()
+
+    c[S[0]] = -1
+    c[S[1]] = 1
+
+
     for s in S:
-        print "F[s]", F[s]
-        print "start[s]", start[s]
-        print "min[s]", min[s]
-        c[s] = ((F[s] * start[s] - F[s] * min[s]) / abs(start[s] - min[s]))
-        print "c[s]", c[s]
+        #print "F[s]", F[s]
+        #print "start[s]", start[s]
+        #print "min[s]", min[s]
+        #c[s] = ((F[s][start[s]] - F[s][min[s]]) / abs(start[s] - min[s] + 0.01)) #c an divide by zero
+        #c[s] = min[s] - start[s]
+        print "c[%s]" % s, c[s]
 
 
     ''' N(S) '''
@@ -164,7 +180,7 @@ try:
     for s in S:
         for t in T:
             for k in K:
-                y[s, t, k] = m.addVar(vtype=GRB.INTEGER, name="y[%s,%s,%s]" % (str(s), str(t), str(k)))
+                y[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb = 0, name="y[%s,%s,%s]" % (str(s), str(t), str(k)))
     print "Added y variable"
 
     ''' b[t, k] = number of bikes in truck k at time t '''
@@ -172,7 +188,7 @@ try:
     b = Counter()
     for t in T:
         for k in K:
-            b[t, k] = m.addVar(vtype=GRB.INTEGER, name="b[%s,%s]" % (str(t), str(k)))
+            b[t, k] = m.addVar(vtype=GRB.INTEGER, lb=0, name="b[%s,%s]" % (str(t), str(k)))
     print "Added b variable"
 
     # Variable T is simply the number of timesteps
@@ -180,42 +196,49 @@ try:
 
     # This constraint holds for ALL S, ALL t, and ALL K
 
-    # Add Constraint (2)
+    # Add Constraint (2) (allows trucks only to move to a station adjacent to current one)
     for s in S:
         for t in T:
             if t > 0:
                 for k in K:
                     m.addConstr(x[s, t, k] <= x[s, t - 1, k] + quicksum(x[sprime, t - 1, k] for sprime in N[s]), "c2[%s,%s,%s]" % (s, t, k))
 
-    # Add Constraint (3)
+    # Add Constraint (3) (a truck can be in only one station in a given time step)
     for t in T:
         for k in K:
             #continue
             m.addConstr(quicksum(x[s, t, k] for s in S) == 1, "c3[%s,%s]" % (t, k))
 
-    # Add Constraint (4)
+    # Add Constraint (4) (initiates the number of bikes at every station)
     for s in S:
         #continue
         m.addConstr(quicksum(y[s, 1, k] for k in K) == start[s], "c4[%s]" % s)
 
-    # Add Constraint (5)
+
+    # Add Constraint (5) (in S- set, makes sure that there are less bikes than originally)
     for s in Sminus:
         for t in T:
             #continue
-            m.addConstr(start[s] <= quicksum(y[s, t, k] for k in K) <= min[s], "c5[%s,%s]" % (s, t))
+            m.addConstr(quicksum(y[s, t, k] for k in K) - start[s] >= 0, "c5pt1[%s,%s]" % (s, t))
+            m.addConstr(quicksum(y[s, t, k] for k in K) <= min[s], "c5pt2[%s,%s]" % (s, t))
 
-    # Add Constraint (6)
+            #m.addConstr(start[s] <= quicksum(y[s, t, k] for k in K), "c5pt1[%s,%s]" % (s, t))
+            #m.addConstr(quicksum(y[s, t, k] for k in K) <= min[s], "c5pt2[%s,%s]" % (s, t))
+
+
+    # Add Constraint (6) (in S+ set, makes sure there are more bikes than originally, or equal)
 
     for s in Splus:
         for t in T:
             #continue
-            m.addConstr(min[s] <= quicksum(y[s, t, k] for k in K) <= start[s], "c6[%s,%s]" % (s,t))
+            m.addConstr(0 <= quicksum(y[s, t, k] for k in K) - min[s], "c6pt1[%s,%s]" % (s,t))
+            m.addConstr(quicksum(y[s, t, k] for k in K) <= start[s], "c6pt2[%s,%s]" % (s,t))
 
-    # Add Constraint (7)
+    # Add Constraint (7) (total bikes does not change over time)
     for t in T:
         for k in K:
             #continue
-            m.addConstr(quicksum(y[s, t, k] for s in S) + b[t, k] == quicksum(y[s, 1, k] for s in S) + b[1, k], "c7[%s,%s]" % (t, k))
+            m.addConstr(quicksum(y[s, t, k] for s in S) + b[t, k] == quicksum(y[s, 0, k] for s in S) + b[0, k], "c7[%s,%s]" % (t, k))
     print "Added Constraint 7"
 
     # We are indexing each newvar & slack so they are different in each for loop, if they're the same it doesn't work
@@ -227,7 +250,8 @@ try:
     newVar6 = Counter()
     slack1 = Counter()
 
-    # Add Constraint (8)
+
+    # Add Constraint (8) (constraint that we can only move so many bikes at a time)
     for s in S:
         for t in T:
             for k in K:
@@ -243,7 +267,9 @@ try:
                     m.addConstr(newVar2[s, t, k] <= (gamma * x[s, t, k]), "c8[%s,%s,%s]" % (s, t, k))
     print "Added Constraint 8"
 
-    # Add Constraint (9)
+
+
+    # Add Constraint (9) (truck either moves, or picks up/drops off bikes in one time step NOT both)
     for s in S:
         for t in T:
             for k in K:
@@ -259,14 +285,41 @@ try:
                 #continue
                 slack1[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=0, name="slack1[%s,%s,%s]" % (s,t,k))
                 m.addConstr(newVar5[s, t, k] + gamma * newVar6[s, t, k] <= gamma + slack1[s, t, k], "c9[%s,%s,%s]" % (s,t, k))
+                #m.addConstr(newVar5[s, t, k] + gamma * newVar6[s, t, k] <= gamma, "c9[%s,%s,%s]" % (s,t, k))
+
+                #print "min[s]: ", min[s]
+                #print "y[s, NUM_TIME_STEPS -1, k]:", y[s, NUM_TIME_STEPS -1, k]
+                #print "b[t, k]:", b[t, k]
+
     print "Added Constraint 9"
+
+
+
+    '''
+    # prevent it from taking stuff out in the first time step, needed for c[s] objective func
+    for s in S:
+        for k in K:
+            m.addConstr(y[s, 0, k] == start[s], "c10[%s,%s]" % (s, k))
+    '''
+
+    # initialize truck to have zero bikes, end with zero too
+    for k in K:
+        #m.addConstr(b[0, k] == 0, "c11[%s]" % k)
+        m.addConstr(b[NUM_TIME_STEPS-1, k] == 0, "c12[%s]" % k)
+
+    print "Added constraint 10"
 
     print "Added all constraints \n"
     # Optimize model
 
     # Set objective
-    m.setObjective(quicksum((y[s, 1, k] - y[s, len(T), k]) * c[s] + slack1[s, t, k]
-                            for s in S for t in T for k in K), GRB.MINIMIZE)
+    #m.setObjective(quicksum((- y[s, NUM_TIME_STEPS, k] + min[s]) for s in S for k in K), GRB.MINIMIZE)
+    m.setObjective(y[1,NUM_TIME_STEPS-1, 0], GRB.MAXIMIZE)
+    #m.setObjective(y[2,NUM_TIME_STEPS-1, 0], GRB.MINIMIZE)
+
+
+    #m.setObjective(quicksum((y[s, 0, k] - y[s, NUM_TIME_STEPS, k]) * c[s] - slack1[s, t, k]
+    #                       for s in S for t in T for k in K), GRB.MAXIMIZE)
     print "Set objective function"
 
     m.optimize()
@@ -278,12 +331,16 @@ try:
     #m.computeIIS()
     #m.write('linearprogram.ilp')
 
-    # WAY too many vars to print them all (from example code)
     for v in m.getVars():
         print('%s %g' % (v.varName, v.x))
 
+
     # Print Objective Model
     print('Obj: %g' % m.objVal)
+
+    for s in S:
+        #print "start[%s]: " % s, start[s]
+        print "min[%s]: " % s, min[s]
 
 except GurobiError as e:
     print('Error code ' + str(e.errno) + ": " + str(e))
