@@ -13,11 +13,11 @@ try:
     m = Model("mip1")
 
     # Import spreadsheet
-    df = pd.read_csv("AmherstBikeStationsTest.csv",
+    df = pd.read_csv("AmherstBikeStations.csv",
                      sep=",",
                      header=0)
     # Import distances spreadsheet
-    distances = pd.read_csv("StationDistancesTest.csv",
+    distances = pd.read_csv("StationDistances.csv",
                             sep=",",
                             header=0)
 
@@ -27,7 +27,7 @@ try:
     # Each time step is 10 minutes
     # 8 hours work day
 
-    NUM_TIME_STEPS = 4
+    NUM_TIME_STEPS = 48
     T = [i for i in range(NUM_TIME_STEPS)] #should be 48
     print "Timesteps: ", T
 
@@ -52,7 +52,7 @@ try:
     # start(s) = num bikes in station s at time = 1 - (given by data)
     start = Counter()  # keys are station names
     for i in range(len(df['Station Name'])):
-        start[S[i]] = df.iloc[i, 5]  # 4 th col in our spreadsheet
+        start[S[i]] = df.iloc[i, 4]  # 4 th col in our spreadsheet
         print "start[%s]" % S[i], start[S[i]]
 
     # min(s) = num of bikes at station s that minimizes the number of dissatisfied customers - (given by data)
@@ -60,7 +60,7 @@ try:
 
     min = Counter()
     for i in range(len(df['Station Name'])):
-        min[S[i]] = df.iloc[i, 2]  # min and start are the same on a few stations (PROB WRONG DATA), so we divide by 0
+        min[S[i]] = df.iloc[i, 3]  # min and start are the same on a few stations (PROB WRONG DATA), so we divide by 0
         print "min[%s]" % S[i], min[S[i]]
         # min[i] = 10  # Just to test
     # just arbitrarily say it's 2 so there's at least
@@ -68,7 +68,7 @@ try:
     # max(s) = max number of bikes that fit in a station- (given by data)
     max = Counter()
     for i in range(len(df['Station Name'])):
-        max[S[i]] = df.iloc[i, 3]
+        max[S[i]] = df.iloc[i, 2]
         print "max[%s]" % S[i], max[S[i]]
         # min[i] = 10  # Just to test
     # just arbitrarily say it's 2 so there's at least
@@ -103,10 +103,6 @@ try:
 
     # Exact c[s] values
     c = Counter()
-
-    c[S[0]] = -1
-    c[S[1]] = 1
-
 
     for s in S:
         #print "F[s]", F[s]
@@ -212,7 +208,7 @@ try:
     # Add Constraint (4) (initiates the number of bikes at every station)
     for s in S:
         #continue
-        m.addConstr(quicksum(y[s, 1, k] for k in K) == start[s], "c4[%s]" % s)
+        m.addConstr(quicksum(y[s, 0, k] for k in K) == start[s], "c4[%s]" % s)
 
 
     # Add Constraint (5) (in S- set, makes sure that there are less bikes than originally)
@@ -250,15 +246,14 @@ try:
     newVar6 = Counter()
     slack1 = Counter()
 
-
     # Add Constraint (8) (constraint that we can only move so many bikes at a time)
     for s in S:
         for t in T:
             for k in K:
                 # print "t: ", t
                 if t != 0:  # t-1 doesn't work if t=0
-                    newVar1[s, t, k] = m.addVar(vtype=GRB.INTEGER, name="newVar1[%s,%s,%s]" % (s,t,k))
-                    newVar2[s, t, k] = m.addVar(vtype=GRB.INTEGER, name="newVar2[%s,%s,%s]" % (s,t,k))
+                    newVar1[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar1[%s,%s,%s]" % (s,t,k))
+                    newVar2[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000,name="newVar2[%s,%s,%s]" % (s,t,k))
                     # print "created newVar1 & newVar2"
                     m.addConstr(newVar1[s, t, k] == (y[s, t, k] - y[s, t-1, k]))  # dummy variable 1
                     m.addGenConstrAbs(newVar2[s, t, k], newVar1[s, t, k])  # newVar2 == abs(newVar1)
@@ -273,10 +268,10 @@ try:
     for s in S:
         for t in T:
             for k in K:
-                newVar3[s, t, k] = m.addVar(vtype=GRB.INTEGER, name="newVar3[%s,%s,%s]" % (s,t,k))
-                newVar4[s, t, k] = m.addVar(vtype=GRB.INTEGER, name="newVar4[%s,%s,%s]" % (s,t,k))
-                newVar5[s, t, k] = m.addVar(vtype=GRB.INTEGER, name="newVar5[%s,%s,%s]" % (s,t,k))
-                newVar6[s, t, k] = m.addVar(vtype=GRB.INTEGER, name="newVar6[%s,%s,%s]" % (s,t,k))
+                newVar3[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar3[%s,%s,%s]" % (s,t,k))
+                newVar4[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar4[%s,%s,%s]" % (s,t,k))
+                newVar5[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar5[%s,%s,%s]" % (s,t,k))
+                newVar6[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar6[%s,%s,%s]" % (s,t,k))
                 m.addConstr(newVar3[s, t, k] == y[s, t, k] - y[s, t - 1, k])  # dummy variable 1
                 m.addConstr(newVar4[s, t, k] == x[s, t, k] - x[s, t - 1, k])  # dummy variable 2
                 m.addGenConstrAbs(newVar5[s, t, k], newVar3[s, t, k])  # newVar5 == abs(newVar3)
@@ -293,33 +288,54 @@ try:
 
     print "Added Constraint 9"
 
-
-
-    '''
     # prevent it from taking stuff out in the first time step, needed for c[s] objective func
     for s in S:
         for k in K:
             m.addConstr(y[s, 0, k] == start[s], "c10[%s,%s]" % (s, k))
-    '''
-
-    # initialize truck to have zero bikes, end with zero too
-    for k in K:
-        #m.addConstr(b[0, k] == 0, "c11[%s]" % k)
-        m.addConstr(b[NUM_TIME_STEPS-1, k] == 0, "c12[%s]" % k)
 
     print "Added constraint 10"
 
+    # initialize truck to have zero bikes, end with zero too
+    for k in K:
+        m.addConstr(b[0, k] == 0, "c11[%s]" % k)
+        m.addConstr(b[NUM_TIME_STEPS-1, k] == 0, "c12[%s]" % k)
+
+    # Arbitrarily force it to move bikes, not needed now that we can maximize/minimize
+    #m.addConstr(y[1, NUM_TIME_STEPS-1, 0] == 7, "c11")
+    print "Added constraint 11"
+
     print "Added all constraints \n"
-    # Optimize model
+
+    # Arbitrarily test out C(s) values
+    c[S[0]] = -2
+    c[S[1]] = -4
+
+    # Add constraint to give absolute value of y[s,NUM_TIME_STEPS-1, k] - min[s]
+    newVar7 = Counter()
+    newVar8 = Counter()
+    for s in S:
+        for k in K:
+            newVar7[s, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar7[%s,%s]" % (s, k))
+            newVar8[s, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar8[%s,%s]" % (s, k))
+            #m.addConstr(newVar7[s, k] == min[s] - y[s, NUM_TIME_STEPS-1, k])
+            #m.addConstr(newVar8[s, k] == newVar7[s, k])
+            m.addConstr(newVar7[s, k] == y[s, NUM_TIME_STEPS - 1, k] - min[s])
+            m.addGenConstrAbs(newVar8[s, k], newVar7[s, k])
+
+
+            # Optimize model
 
     # Set objective
-    #m.setObjective(quicksum((- y[s, NUM_TIME_STEPS, k] + min[s]) for s in S for k in K), GRB.MINIMIZE)
-    m.setObjective(y[1,NUM_TIME_STEPS-1, 0], GRB.MAXIMIZE)
-    #m.setObjective(y[2,NUM_TIME_STEPS-1, 0], GRB.MINIMIZE)
+    m.setObjective(quicksum(newVar8[s, k] + slack1[s, t, k] for s in S for t in T for k in K), GRB.MINIMIZE)
+    #m.setObjective(quicksum(newVar8[s, k] for s in S for k in K), GRB.MINIMIZE)
+
+    #m.setObjective(y[1,NUM_TIME_STEPS-1, 0] - quicksum(slack1[s,t,k] for s in S for t in T for k in K), GRB.MAXIMIZE)
+    #m.setObjective(-y[2,NUM_TIME_STEPS-1, 0] - quicksum(slack1[s,t,k] for s in S for t in T for k in K), GRB.MAXIMIZE)
 
 
-    #m.setObjective(quicksum((y[s, 0, k] - y[s, NUM_TIME_STEPS, k]) * c[s] - slack1[s, t, k]
-    #                       for s in S for t in T for k in K), GRB.MAXIMIZE)
+    '''m.setObjective(quicksum((y[s, 0, k] - y[s, NUM_TIME_STEPS, k]) * c[s] - slack1[s, t, k]
+                           for s in S for t in T for k in K), GRB.MAXIMIZE)'''
+
     print "Set objective function"
 
     m.optimize()
@@ -334,13 +350,19 @@ try:
     for v in m.getVars():
         print('%s %g' % (v.varName, v.x))
 
-
     # Print Objective Model
     print('Obj: %g' % m.objVal)
 
+    totalError = 0
     for s in S:
         #print "start[%s]: " % s, start[s]
+        print "y[%s]: " % s, y[s, NUM_TIME_STEPS - 1, k].X
         print "min[%s]: " % s, min[s]
+        totalError += abs(y[s, NUM_TIME_STEPS - 1, k].X - min[s])
+
+    print "b:", b[NUM_TIME_STEPS - 1, 0].X
+    print "total error: ", totalError
+
 
 except GurobiError as e:
     print('Error code ' + str(e.errno) + ": " + str(e))
