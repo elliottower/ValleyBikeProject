@@ -1,27 +1,254 @@
 \ Model mip1_copy
 \ LP format - for model browsing. Use MPS format to capture full model detail.
-Maximize
+Minimize
  
 Subject To
- c4[1]: y[1,0,0] = 6
- c7[3,0]: - y[1,0,0] + y[1,3,0] - y[2,0,0] + y[2,3,0] - b[0,0] + b[3,0]
-   = 0
- R59: y[2,0,0] - y[2,1,0] + newVar3[2,1,0] = 0
- R62: y[2,1,0] - y[2,2,0] + newVar3[2,2,0] = 0
- R65: y[2,2,0] - y[2,3,0] + newVar3[2,3,0] = 0
+ c3[0,0]: x[1,0,0] + x[2,0,0] + x[3,0,0] + x[4,0,0] + x[5,0,0] + x[6,0,0]
+   + x[7,0,0] + x[8,0,0] + x[9,0,0] + x[10,0,0] = 1
+ c3[1,0]: x[1,1,0] + x[2,1,0] + x[3,1,0] + x[4,1,0] + x[5,1,0] + x[6,1,0]
+   + x[7,1,0] + x[8,1,0] + x[9,1,0] + x[10,1,0] = 1
+ c4[2]: y[2,0,0] = 7
+ c4[5]: y[5,0,0] = 5
+ c4[6]: y[6,0,0] = 8
+ c4[7]: y[7,0,0] = 6
+ c4[9]: y[9,0,0] = 10
+ c4[10]: y[10,0,0] = 4
+ c5pt1[4,0]: y[4,0,0] >= 5
+ c5pt2[4,0]: y[4,0,0] <= 6
+ c5pt1[4,2]: y[4,2,0] >= 5
+ c5pt1[5,2]: y[5,2,0] >= 5
+ c5pt1[7,2]: y[7,2,0] >= 6
+ c5pt1[8,2]: y[8,2,0] >= 6
+ c5pt1[10,2]: y[10,2,0] >= 4
+ c6pt1[1,0]: y[1,0,0] >= 8
+ c6pt1[3,0]: y[3,0,0] >= 6
+ c6pt2[3,0]: y[3,0,0] <= 9
+ c6pt1[3,2]: y[3,2,0] >= 6
+ c6pt1[6,2]: y[6,2,0] >= 7
+ c7[2,0]: - y[1,0,0] + y[1,2,0] - y[2,0,0] + y[2,2,0] - y[3,0,0] + y[3,2,0]
+   - y[4,0,0] + y[4,2,0] - y[5,0,0] + y[5,2,0] - y[6,0,0] + y[6,2,0]
+   - y[7,0,0] + y[7,2,0] - y[8,0,0] + y[8,2,0] - y[9,0,0] + y[9,2,0]
+   - y[10,0,0] + y[10,2,0] - b[0,0] + b[2,0] = 0
+ R1536: y[1,0,0] - y[1,1,0] + newVar1[1,1,0] = 0
+ c8[1,1,0]: - 13 x[1,1,0] + newVar2[1,1,0] <= 0
+ R1538: y[1,1,0] - y[1,2,0] + newVar1[1,2,0] = 0
+ c8[1,2,0]: - 13 x[1,2,0] + newVar2[1,2,0] <= 0
+ R1630: y[2,0,0] - y[2,1,0] + newVar1[2,1,0] = 0
+ c8[2,1,0]: - 13 x[2,1,0] + newVar2[2,1,0] <= 0
+ R1632: y[2,1,0] - y[2,2,0] + newVar1[2,2,0] = 0
+ c8[2,2,0]: - 13 x[2,2,0] + newVar2[2,2,0] <= 0
+ R2196: y[8,1,0] - y[8,2,0] + newVar1[8,2,0] = 0
+ c8[8,2,0]: - 13 x[8,2,0] + newVar2[8,2,0] <= 0
+ R2288: y[9,0,0] - y[9,1,0] + newVar1[9,1,0] = 0
+ c8[9,1,0]: - 13 x[9,1,0] + newVar2[9,1,0] <= 0
+ R2290: y[9,1,0] - y[9,2,0] + newVar1[9,2,0] = 0
+ c8[9,2,0]: - 13 x[9,2,0] + newVar2[9,2,0] <= 0
+ R2476: - y[1,0,0] + newVar3[1,0,0] = 0
+ R2477: - x[1,0,0] + newVar4[1,0,0] = 0
+ c9[1,0,0]: newVar5[1,0,0] + 13 newVar6[1,0,0] <= 13
+ R2482: y[1,1,0] - y[1,2,0] + newVar3[1,2,0] = 0
+ R2483: x[1,1,0] - x[1,2,0] + newVar4[1,2,0] = 0
+ c9[1,2,0]: newVar5[1,2,0] + 13 newVar6[1,2,0] <= 13
+ R2620: - y[2,0,0] + newVar3[2,0,0] = 0
+ R2621: - x[2,0,0] + newVar4[2,0,0] = 0
+ c9[2,0,0]: newVar5[2,0,0] + 13 newVar6[2,0,0] <= 13
+ R2626: y[2,1,0] - y[2,2,0] + newVar3[2,2,0] = 0
+ R2627: x[2,1,0] - x[2,2,0] + newVar4[2,2,0] = 0
+ c9[2,2,0]: newVar5[2,2,0] + 13 newVar6[2,2,0] <= 13
+ R2764: - y[3,0,0] + newVar3[3,0,0] = 0
+ R2765: - x[3,0,0] + newVar4[3,0,0] = 0
+ c9[3,0,0]: newVar5[3,0,0] + 13 newVar6[3,0,0] <= 13
+ R2908: - y[4,0,0] + newVar3[4,0,0] = 0
+ R2909: - x[4,0,0] + newVar4[4,0,0] = 0
+ c9[4,0,0]: newVar5[4,0,0] + 13 newVar6[4,0,0] <= 13
+ R3052: - y[5,0,0] + newVar3[5,0,0] = 0
+ R3053: - x[5,0,0] + newVar4[5,0,0] = 0
+ c9[5,0,0]: newVar5[5,0,0] + 13 newVar6[5,0,0] <= 13
+ R3196: - y[6,0,0] + newVar3[6,0,0] = 0
+ R3197: - x[6,0,0] + newVar4[6,0,0] = 0
+ c9[6,0,0]: newVar5[6,0,0] + 13 newVar6[6,0,0] <= 13
+ R3340: - y[7,0,0] + newVar3[7,0,0] = 0
+ R3341: - x[7,0,0] + newVar4[7,0,0] = 0
+ c9[7,0,0]: newVar5[7,0,0] + 13 newVar6[7,0,0] <= 13
+ R3484: - y[8,0,0] + newVar3[8,0,0] = 0
+ R3485: - x[8,0,0] + newVar4[8,0,0] = 0
+ c9[8,0,0]: newVar5[8,0,0] + 13 newVar6[8,0,0] <= 13
+ R3487: y[8,0,0] - y[8,1,0] + newVar3[8,1,0] = 0
+ R3488: x[8,0,0] - x[8,1,0] + newVar4[8,1,0] = 0
+ c9[8,1,0]: newVar5[8,1,0] + 13 newVar6[8,1,0] <= 13
+ R3490: y[8,1,0] - y[8,2,0] + newVar3[8,2,0] = 0
+ R3491: x[8,1,0] - x[8,2,0] + newVar4[8,2,0] = 0
+ c9[8,2,0]: newVar5[8,2,0] + 13 newVar6[8,2,0] <= 13
+ R3628: - y[9,0,0] + newVar3[9,0,0] = 0
+ R3629: - x[9,0,0] + newVar4[9,0,0] = 0
+ c9[9,0,0]: newVar5[9,0,0] + 13 newVar6[9,0,0] <= 13
+ R3634: y[9,1,0] - y[9,2,0] + newVar3[9,2,0] = 0
+ R3635: x[9,1,0] - x[9,2,0] + newVar4[9,2,0] = 0
+ c9[9,2,0]: newVar5[9,2,0] + 13 newVar6[9,2,0] <= 13
+ R3772: - y[10,0,0] + newVar3[10,0,0] = 0
+ R3773: - x[10,0,0] + newVar4[10,0,0] = 0
+ c9[10,0,0]: newVar5[10,0,0] + 13 newVar6[10,0,0] <= 13
  c11[0]: b[0,0] = 0
- c12[0]: b[3,0] = 0
- c11: y[1,3,0] = 7
 Bounds
  y[1,0,0] free
- y[1,3,0] free
+ y[1,1,0] free
+ y[1,2,0] free
  y[2,0,0] free
  y[2,1,0] free
  y[2,2,0] free
- y[2,3,0] free
+ y[3,0,0] free
+ y[3,2,0] free
+ y[4,0,0] free
+ y[4,2,0] free
+ y[5,0,0] free
+ y[5,2,0] free
+ y[6,0,0] free
+ y[6,2,0] free
+ y[7,0,0] free
+ y[7,2,0] free
+ y[8,0,0] free
+ y[8,1,0] free
+ y[8,2,0] free
+ y[9,0,0] free
+ y[9,1,0] free
+ y[9,2,0] free
+ y[10,0,0] free
+ y[10,2,0] free
  b[0,0] free
- b[3,0] free
+ newVar1[1,1,0] free
+ newVar2[1,1,0] free
+ newVar1[1,2,0] free
+ newVar2[1,2,0] free
+ newVar1[2,1,0] free
+ newVar2[2,1,0] free
+ newVar1[2,2,0] free
+ newVar2[2,2,0] free
+ newVar1[8,2,0] free
+ newVar2[8,2,0] free
+ newVar1[9,1,0] free
+ newVar2[9,1,0] free
+ newVar1[9,2,0] free
+ newVar2[9,2,0] free
+ newVar3[1,0,0] free
+ newVar4[1,0,0] free
+ newVar5[1,0,0] free
+ newVar6[1,0,0] free
+ newVar3[1,2,0] free
+ newVar4[1,2,0] free
+ newVar5[1,2,0] free
+ newVar6[1,2,0] free
+ newVar3[2,0,0] free
+ newVar4[2,0,0] free
+ newVar5[2,0,0] free
+ newVar6[2,0,0] free
+ newVar3[2,2,0] free
+ newVar4[2,2,0] free
+ newVar5[2,2,0] free
+ newVar6[2,2,0] free
+ newVar3[3,0,0] free
+ newVar4[3,0,0] free
+ newVar5[3,0,0] free
+ newVar6[3,0,0] free
+ newVar3[4,0,0] free
+ newVar4[4,0,0] free
+ newVar5[4,0,0] free
+ newVar6[4,0,0] free
+ newVar3[5,0,0] free
+ newVar4[5,0,0] free
+ newVar5[5,0,0] free
+ newVar6[5,0,0] free
+ newVar3[6,0,0] free
+ newVar4[6,0,0] free
+ newVar5[6,0,0] free
+ newVar6[6,0,0] free
+ newVar3[7,0,0] free
+ newVar4[7,0,0] free
+ newVar5[7,0,0] free
+ newVar6[7,0,0] free
+ newVar3[8,0,0] free
+ newVar4[8,0,0] free
+ newVar5[8,0,0] free
+ newVar6[8,0,0] free
+ newVar3[8,1,0] free
+ newVar4[8,1,0] free
+ newVar5[8,1,0] free
+ newVar6[8,1,0] free
+ newVar3[8,2,0] free
+ newVar4[8,2,0] free
+ newVar5[8,2,0] free
+ newVar6[8,2,0] free
+ newVar3[9,0,0] free
+ newVar4[9,0,0] free
+ newVar5[9,0,0] free
+ newVar6[9,0,0] free
+ newVar3[9,2,0] free
+ newVar4[9,2,0] free
+ newVar5[9,2,0] free
+ newVar6[9,2,0] free
+ newVar3[10,0,0] free
+ newVar4[10,0,0] free
+ newVar5[10,0,0] free
+ newVar6[10,0,0] free
+Binaries
+ x[1,0,0] x[1,1,0] x[1,2,0] x[2,0,0] x[2,1,0] x[2,2,0] x[3,0,0] x[3,1,0]
+ x[4,0,0] x[4,1,0] x[5,0,0] x[5,1,0] x[6,0,0] x[6,1,0] x[7,0,0] x[7,1,0]
+ x[8,0,0] x[8,1,0] x[8,2,0] x[9,0,0] x[9,1,0] x[9,2,0] x[10,0,0] x[10,1,0]
 Generals
- y[1,0,0] y[1,3,0] y[2,0,0] y[2,1,0] y[2,2,0] y[2,3,0] b[0,0] b[3,0]
- newVar3[2,1,0] newVar3[2,2,0] newVar3[2,3,0]
+ y[1,0,0] y[1,1,0] y[1,2,0] y[2,0,0] y[2,1,0] y[2,2,0] y[3,0,0] y[3,2,0]
+ y[4,0,0] y[4,2,0] y[5,0,0] y[5,2,0] y[6,0,0] y[6,2,0] y[7,0,0] y[7,2,0]
+ y[8,0,0] y[8,1,0] y[8,2,0] y[9,0,0] y[9,1,0] y[9,2,0] y[10,0,0] y[10,2,0]
+ b[0,0] b[2,0] newVar1[1,1,0] newVar2[1,1,0] newVar1[1,2,0] newVar2[1,2,0]
+ newVar1[2,1,0] newVar2[2,1,0] newVar1[2,2,0] newVar2[2,2,0] newVar1[8,2,0]
+ newVar2[8,2,0] newVar1[9,1,0] newVar2[9,1,0] newVar1[9,2,0] newVar2[9,2,0]
+ newVar3[1,0,0] newVar4[1,0,0] newVar5[1,0,0] newVar6[1,0,0] newVar3[1,2,0]
+ newVar4[1,2,0] newVar5[1,2,0] newVar6[1,2,0] newVar3[2,0,0] newVar4[2,0,0]
+ newVar5[2,0,0] newVar6[2,0,0] newVar3[2,2,0] newVar4[2,2,0] newVar5[2,2,0]
+ newVar6[2,2,0] newVar3[3,0,0] newVar4[3,0,0] newVar5[3,0,0] newVar6[3,0,0]
+ newVar3[4,0,0] newVar4[4,0,0] newVar5[4,0,0] newVar6[4,0,0] newVar3[5,0,0]
+ newVar4[5,0,0] newVar5[5,0,0] newVar6[5,0,0] newVar3[6,0,0] newVar4[6,0,0]
+ newVar5[6,0,0] newVar6[6,0,0] newVar3[7,0,0] newVar4[7,0,0] newVar5[7,0,0]
+ newVar6[7,0,0] newVar3[8,0,0] newVar4[8,0,0] newVar5[8,0,0] newVar6[8,0,0]
+ newVar3[8,1,0] newVar4[8,1,0] newVar5[8,1,0] newVar6[8,1,0] newVar3[8,2,0]
+ newVar4[8,2,0] newVar5[8,2,0] newVar6[8,2,0] newVar3[9,0,0] newVar4[9,0,0]
+ newVar5[9,0,0] newVar6[9,0,0] newVar3[9,2,0] newVar4[9,2,0] newVar5[9,2,0]
+ newVar6[9,2,0] newVar3[10,0,0] newVar4[10,0,0] newVar5[10,0,0]
+ newVar6[10,0,0]
+General Constraints
+ GC0: newVar2[1,1,0] = ABS ( newVar1[1,1,0] )
+ GC1: newVar2[1,2,0] = ABS ( newVar1[1,2,0] )
+ GC47: newVar2[2,1,0] = ABS ( newVar1[2,1,0] )
+ GC48: newVar2[2,2,0] = ABS ( newVar1[2,2,0] )
+ GC330: newVar2[8,2,0] = ABS ( newVar1[8,2,0] )
+ GC376: newVar2[9,1,0] = ABS ( newVar1[9,1,0] )
+ GC377: newVar2[9,2,0] = ABS ( newVar1[9,2,0] )
+ GC470: newVar5[1,0,0] = ABS ( newVar3[1,0,0] )
+ GC471: newVar6[1,0,0] = ABS ( newVar4[1,0,0] )
+ GC474: newVar5[1,2,0] = ABS ( newVar3[1,2,0] )
+ GC475: newVar6[1,2,0] = ABS ( newVar4[1,2,0] )
+ GC566: newVar5[2,0,0] = ABS ( newVar3[2,0,0] )
+ GC567: newVar6[2,0,0] = ABS ( newVar4[2,0,0] )
+ GC570: newVar5[2,2,0] = ABS ( newVar3[2,2,0] )
+ GC571: newVar6[2,2,0] = ABS ( newVar4[2,2,0] )
+ GC662: newVar5[3,0,0] = ABS ( newVar3[3,0,0] )
+ GC663: newVar6[3,0,0] = ABS ( newVar4[3,0,0] )
+ GC758: newVar5[4,0,0] = ABS ( newVar3[4,0,0] )
+ GC759: newVar6[4,0,0] = ABS ( newVar4[4,0,0] )
+ GC854: newVar5[5,0,0] = ABS ( newVar3[5,0,0] )
+ GC855: newVar6[5,0,0] = ABS ( newVar4[5,0,0] )
+ GC950: newVar5[6,0,0] = ABS ( newVar3[6,0,0] )
+ GC951: newVar6[6,0,0] = ABS ( newVar4[6,0,0] )
+ GC1046: newVar5[7,0,0] = ABS ( newVar3[7,0,0] )
+ GC1047: newVar6[7,0,0] = ABS ( newVar4[7,0,0] )
+ GC1142: newVar5[8,0,0] = ABS ( newVar3[8,0,0] )
+ GC1143: newVar6[8,0,0] = ABS ( newVar4[8,0,0] )
+ GC1144: newVar5[8,1,0] = ABS ( newVar3[8,1,0] )
+ GC1145: newVar6[8,1,0] = ABS ( newVar4[8,1,0] )
+ GC1146: newVar5[8,2,0] = ABS ( newVar3[8,2,0] )
+ GC1147: newVar6[8,2,0] = ABS ( newVar4[8,2,0] )
+ GC1238: newVar5[9,0,0] = ABS ( newVar3[9,0,0] )
+ GC1239: newVar6[9,0,0] = ABS ( newVar4[9,0,0] )
+ GC1242: newVar5[9,2,0] = ABS ( newVar3[9,2,0] )
+ GC1243: newVar6[9,2,0] = ABS ( newVar4[9,2,0] )
+ GC1334: newVar5[10,0,0] = ABS ( newVar3[10,0,0] )
+ GC1335: newVar6[10,0,0] = ABS ( newVar4[10,0,0] )
 End

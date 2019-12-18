@@ -1,11 +1,11 @@
-Station Number,Station Name,Number of Docks,Min(s) on Saturday,Avg Starting Docks,Free Docks (Wed),Starting Docks (Wed),Free Docks (Thurs),Starting Docks (Thurs),Free Docks (Fri),Starting Docks (Fri),Starting Docks (Tues),Free Docks (Saturday),Starting Docks (Saturday),Starting Docks (Sunday),,,,,Address,Cross Street,Latitude,Longitude
-1,Amherst Town Hall,16,8,9,5,11,5,11,9,7,8,10,6,11,,,,,1 S. Pleasant St.,,42.375548,-72.519507
-2,Kendrick Park,16,6,7,8,8,8,8,8,8,6,10,6,6,,,,,274 E. Pleasant St.,,42.380184,-72.519671
-3,North Pleasant Street,16,6,9,8,8,4,12,4,12,7,8,8,9,,,,,950 N. Pleasant St.,,42.403663,-72.529301
-4,East Hadley Road,13,6,6,5,8,8,5,7,6,5,7,6,8,,,,,166 East Hadley Rd,,42.351504,-72.526342
-5,University Drive,13,6,6,5,8,7,6,9,4,8,5,8,4,,,,,Northampton Rd,Amity,42.368884,-72.533026
-6,UMass Haigis Mall,16,7,8,9,7,11,5,4,12,14,6,10,1,,,,,Haigis Mall,,42.387168,-72.52663
-7,UMass Southwest,20,10,6,18,2,19,1,12,8,7,15,5,10,,,,,Southwest Residential Hall,,42.384902,-72.530937
-8,UMass ILC,16,7,6,9,7,8,8,14,2,6,8,8,5,,,,,Integrated Learning Center,,42.391502,-72.525491
-9,UMass Knowlton,17,7,7,6,11,13,4,11,6,10,5,12,15,,,,,Knowlton Hall,,42.393721,-72.526008
-10,UMass Central Residential Area,13,6,4,11,2,5,8,12,1,6,10,3,2,,,,,Central Residential Hall,,42.389856,-72.519378
+Station Number,Station Name,Number of Docks,Min(s) on Saturday,Avg Starting Docks,Starting Docks (Wed),Starting Docks (Thurs),Starting Docks (Fri),Starting Docks (Tues),Saturday,Sun,Avg,Total Min,Total Start,,,Address,Cross Street,Latitude,Longitude
+1,Amherst Town Hall,16,8,9,11,11,7,8,6,11,8,,,,,1 S. Pleasant St.,,42.375548,-72.519507
+2,Kendrick Park,16,6,7,8,8,8,6,6,6,6,,,,,274 E. Pleasant St.,,42.380184,-72.519671
+3,North Pleasant Street,16,6,9,8,12,12,7,8,9,8,,,,,950 N. Pleasant St.,,42.403663,-72.529301
+4,East Hadley Road,13,6,5,8,5,6,5,6,8,6,,,,,166 East Hadley Rd,,42.351504,-72.526342
+5,University Drive,13,6,5,8,6,4,8,8,4,6,,,,,Northampton Rd,Amity,42.368884,-72.533026
+6,UMass Haigis Mall,16,7,8,7,5,12,14,10,1,8,,,,,Haigis Mall,,42.387168,-72.52663
+7,UMass Southwest,20,10,6,2,1,8,7,5,10,6,,,,,Southwest Residential Hall,,42.384902,-72.530937
+8,UMass ILC,16,7,6,7,8,2,6,8,5,6,,,,,Integrated Learning Center,,42.391502,-72.525491
+9,UMass Knowlton,17,7,10,11,4,6,10,12,15,9,,,,,Knowlton Hall,,42.393721,-72.526008
+10,UMass Central Residential Area,13,6,4,2,8,1,6,3,2,4,69,69,,,Central Residential Hall,,42.389856,-72.519378

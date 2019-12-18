@@ -13,11 +13,11 @@ try:
     m = Model("mip1")
 
     # Import spreadsheet
-    df = pd.read_csv("AmherstBikeStationsTest3.csv",
+    df = pd.read_csv("AmherstBikeStations.csv", #test3
                      sep=",",
                      header=0)
     # Import distances spreadsheet
-    distances = pd.read_csv("StationDistancesTest4.csv",
+    distances = pd.read_csv("StationDistances.csv", #test4
                             sep=",",
                             header=0)
 
@@ -27,7 +27,7 @@ try:
     # Each time step is 10 minutes
     # 8 hours work day
 
-    NUM_TIME_STEPS = 4
+    NUM_TIME_STEPS = 15
     T = [i for i in range(NUM_TIME_STEPS)] #should be 48
     print "Timesteps: ", T
 
@@ -52,7 +52,7 @@ try:
     # start(s) = num bikes in station s at time = 1 - (given by data)
     start = Counter()  # keys are station names
     for i in range(len(df['Station Name'])):
-        start[S[i]] = df.iloc[i, 4]  # 4 th col in our spreadsheet
+        start[S[i]] = df.iloc[i, 4]  # 4 th col in our spreadsheet, 11 is real avg
         print "start[%s]" % S[i], start[S[i]]
 
     # min(s) = num of bikes at station s that minimizes the number of dissatisfied customers - (given by data)
@@ -129,9 +129,9 @@ try:
 
     # East Hadley road is farther away but the traffic isn't as bad as on campus
     # so, we manually add it's closest neighbors
-    #N[S[3]].append(S[0])
-    #N[S[3]].append(S[1])
-    #N[S[3]].append(S[4])
+    N[S[3]].append(S[0])
+    N[S[3]].append(S[1])
+    N[S[3]].append(S[4])
 
     #print "New Neighborhood of ", S[3], N[S[3]]  #
 
@@ -176,7 +176,7 @@ try:
     for s in S:
         for t in T:
             for k in K:
-                y[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb = 0, name="y[%s,%s,%s]" % (str(s), str(t), str(k)))
+                y[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=0, name="y[%s,%s,%s]" % (str(s), str(t), str(k)))
     print "Added y variable"
 
     ''' b[t, k] = number of bikes in truck k at time t '''
@@ -268,41 +268,42 @@ try:
     for s in S:
         for t in T:
             for k in K:
-                newVar3[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar3[%s,%s,%s]" % (s,t,k))
-                newVar4[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar4[%s,%s,%s]" % (s,t,k))
-                newVar5[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar5[%s,%s,%s]" % (s,t,k))
-                newVar6[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar6[%s,%s,%s]" % (s,t,k))
-                m.addConstr(newVar3[s, t, k] == y[s, t, k] - y[s, t - 1, k])  # dummy variable 1
-                m.addConstr(newVar4[s, t, k] == x[s, t, k] - x[s, t - 1, k])  # dummy variable 2
-                m.addGenConstrAbs(newVar5[s, t, k], newVar3[s, t, k])  # newVar5 == abs(newVar3)
-                m.addGenConstrAbs(newVar6[s, t, k], newVar4[s, t, k])  # newVar6 == abs(newVar4)
+            	if t > 1:
+	                newVar3[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar3[%s,%s,%s]" % (s,t,k))
+	                newVar4[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar4[%s,%s,%s]" % (s,t,k))
+	                newVar5[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar5[%s,%s,%s]" % (s,t,k))
+	                newVar6[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar6[%s,%s,%s]" % (s,t,k))
+	                m.addConstr(newVar3[s, t, k] == y[s, t, k] - y[s, t - 1, k])  # dummy variable 1
+	                m.addConstr(newVar4[s, t, k] == x[s, t, k] - x[s, t - 1, k])  # dummy variable 2
+	                m.addGenConstrAbs(newVar5[s, t, k], newVar3[s, t, k])  # newVar5 == abs(newVar3)
+	                m.addGenConstrAbs(newVar6[s, t, k], newVar4[s, t, k])  # newVar6 == abs(newVar4)
 
-                #continue
-                slack1[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=0, name="slack1[%s,%s,%s]" % (s,t,k))
-                m.addConstr(newVar5[s, t, k] + gamma * newVar6[s, t, k] <= gamma + slack1[s, t, k], "c9[%s,%s,%s]" % (s,t, k))
-                #m.addConstr(newVar5[s, t, k] + gamma * newVar6[s, t, k] <= gamma, "c9[%s,%s,%s]" % (s,t, k))
+	                #continue
+	                slack1[s, t, k] = m.addVar(vtype=GRB.INTEGER, lb=0, name="slack1[%s,%s,%s]" % (s,t,k))
+	                m.addConstr(newVar5[s, t, k] + gamma * newVar6[s, t, k] <= gamma + slack1[s, t, k], "c9[%s,%s,%s]" % (s,t, k))
+	                #m.addConstr(newVar5[s, t, k] + gamma * newVar6[s, t, k] <= gamma, "c9[%s,%s,%s]" % (s,t, k))
 
-                #print "min[s]: ", min[s]
-                #print "y[s, NUM_TIME_STEPS -1, k]:", y[s, NUM_TIME_STEPS -1, k]
-                #print "b[t, k]:", b[t, k]
+	                #print "min[s]: ", min[s]
+	                #print "y[s, NUM_TIME_STEPS -1, k]:", y[s, NUM_TIME_STEPS -1, k]
+	                #print "b[t, k]:", b[t, k]
 
     print "Added Constraint 9"
 
     # prevent it from taking stuff out in the first time step, needed for c[s] objective func
-    for s in S:
+    '''for s in S:
         for k in K:
-            m.addConstr(y[s, 0, k] == start[s], "c10[%s,%s]" % (s, k))
+            m.addConstr(y[s, 0, k] == start[s], "c10[%s,%s]" % (s, k))'''
 
     print "Added constraint 10"
 
     # initialize truck to have zero bikes, end with zero too
     for k in K:
-        m.addConstr(b[0, k] == 0, "c11[%s]" % k)
+        #m.addConstr(b[0, k] == 0, "c11[%s]" % k)
         m.addConstr(b[NUM_TIME_STEPS-1, k] == 0, "c12[%s]" % k)
 
     # Arbitrarily force it to move bikes, not needed now that we can maximize/minimize
-    #m.addConstr(y[1, NUM_TIME_STEPS-1, 0] == 7, "c11")
-    print "Added constraint 11"
+    #m.addConstr(y[4, NUM_TIME_STEPS-1, 0] == 6, "c11")
+    #print "Added constraint 11"
 
     print "Added all constraints \n"
 
@@ -313,21 +314,25 @@ try:
     # Add constraint to give absolute value of y[s,NUM_TIME_STEPS-1, k] - min[s]
     newVar7 = Counter()
     newVar8 = Counter()
+    newVar9 = Counter()
     for s in S:
         for k in K:
             newVar7[s, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar7[%s,%s]" % (s, k))
             newVar8[s, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar8[%s,%s]" % (s, k))
+            newVar9[s, k] = m.addVar(vtype=GRB.INTEGER, lb=-1000, name="newVar9[%s,%s]" % (s, k))
+
             #m.addConstr(newVar7[s, k] == min[s] - y[s, NUM_TIME_STEPS-1, k])
-            #m.addConstr(newVar8[s, k] == newVar7[s, k])
-            m.addConstr(newVar7[s, k] == y[s, NUM_TIME_STEPS - 1, k] - min[s])
+            m.addConstr(newVar7[s, k] == min[s] - y[s, NUM_TIME_STEPS - 1, k])
             m.addGenConstrAbs(newVar8[s, k], newVar7[s, k])
+            m.addConstr(newVar9[s, k] == newVar8[s, k] + newVar7[s, k])
+
 
 
             # Optimize model
 
     # Set objective
-    m.setObjective(quicksum(newVar8[s, k] + slack1[s, t, k] for s in S for t in T for k in K), GRB.MINIMIZE)
-    #m.setObjective(quicksum(newVar8[s, k] for s in S for k in K), GRB.MINIMIZE)
+    #m.setObjective(quicksum(newVar8[s, k] + slack1[s, t, k] for s in S for t in T for k in K), GRB.MINIMIZE)
+    m.setObjective(quicksum(newVar9[s, k] for s in S for k in K), GRB.MINIMIZE)
 
     #m.setObjective(y[1,NUM_TIME_STEPS-1, 0] - quicksum(slack1[s,t,k] for s in S for t in T for k in K), GRB.MAXIMIZE)
     #m.setObjective(-y[2,NUM_TIME_STEPS-1, 0] - quicksum(slack1[s,t,k] for s in S for t in T for k in K), GRB.MAXIMIZE)
@@ -344,8 +349,9 @@ try:
 
     m.write('linearprogram.lp')
 
-    #m.computeIIS()
-    #m.write('linearprogram.ilp')
+    if m.status == GRB.INFEASIBLE:
+        m.computeIIS()
+        m.write('linearprogram.ilp')
 
     for v in m.getVars():
         print('%s %g' % (v.varName, v.x))
@@ -355,14 +361,31 @@ try:
 
     totalError = 0
     for s in S:
-        #print "start[%s]: " % s, start[s]
+        print "start[%s]: " % s, start[s]
         print "y[%s]: " % s, y[s, NUM_TIME_STEPS - 1, k].X
         print "min[%s]: " % s, min[s]
         totalError += abs(y[s, NUM_TIME_STEPS - 1, k].X - min[s])
+    
+    print "Splus"
+    for s in Splus:
+        print s
+
+    print "Sminus"
+    for s in Sminus:
+        print s
 
     print "b:", b[NUM_TIME_STEPS - 1, 0].X
     print "total error: ", totalError
 
+    totalSlack = 0
+    for s in S:
+    	for t in T:
+    		for k in K:
+    			totalSlack += slack1[s, t, k].X
+    print "totalSlack: "
+    print totalSlack
+
+    print "Program finished."
 
 except GurobiError as e:
     print('Error code ' + str(e.errno) + ": " + str(e))
